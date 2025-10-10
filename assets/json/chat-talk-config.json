@@ -1,0 +1,72 @@
+{
+  "chatbot": {
+    "name": "스토어 챗봇",
+    "description": "Store 전용 고객 상담 챗봇입니다.",
+    "welcomeMessage": "안녕하세요! 무엇을 도와드릴까요?",
+    "avatar": "/assets/images/chatbot-avatar.png",
+    "defaultResponses": {
+      "notFound": "죄송합니다. 정확한 답변을 찾기 어려워요. 상담원 연결을 원하시면 '상담원'이라고 말씀해 주세요.",
+      "error": "일시적인 오류가 발생했습니다. 잠시 후 다시 시도해주세요.",
+      "transferToAgent": "상담원에게 연결해드리겠습니다. 잠시만 기다려주세요."
+    }
+  },
+  "quickReplies": [
+    "상품 문의",
+    "주문 조회",
+    "배송 문의",
+    "교환/반품",
+    "상담원 연결"
+  ],
+  "responses": {
+    "greeting": {
+      "keywords": ["안녕", "안녕하세요", "처음", "시작", "hello", "hi", "헬로", "하이"],
+      "message": "안녕하세요! 스토어입니다. 어떤 도움이 필요하신가요?"
+    },
+    "product_inquiry": {
+      "keywords": ["상품", "제품", "선물", "추천", "가격", "종류", "뭐가있어", "어떤거", "물건", "아이템", "뭐팔아", "뭐있나", "쇼핑", "구매"],
+      "message": "저희 스토어에서는 다양한 상품을 판매하고 있어요.\n\n구체적으로 어떤 상품이 궁금하신가요?"
+    },
+    "order_status": {
+      "keywords": ["주문", "조회", "확인", "주문번호", "배송조회", "샀는데", "구매했는데", "시켰는데", "언제와", "언제오나"],
+      "message": "주문 조회를 도와드릴게요.\n주문번호를 알려주시면 배송 상황을 확인해드릴 수 있어요.\n\n또는 '상담원 연결'을 요청해주시면 더 자세한 도움을 받으실 수 있습니다."
+    },
+    "delivery": {
+      "keywords": ["배송", "택배", "빨리", "당일", "무료배송", "배송비", "언제와", "언제오", "언제받", "발송", "도착"],
+      "message": "배송 안내해드릴게요.\n\n• 무료배송: 3만원 이상 주문시\n• 일반배송: 1-2일 소요\n• 당일배송: 오후 2시 이전 주문시\n\n더 자세한 배송 문의는 상담원에게 문의해주세요."
+    },
+    "return_exchange": {
+      "keywords": ["교환", "반품", "환불", "불량", "잘못", "바꾸고싶어", "취소", "변경", "교체", "문제", "고장"],
+      "message": "교환/반품 안내해드릴게요.\n\n• 교환/반품 기간: 수령 후 7일 이내\n• 상품 택/라벨 보존 필수\n• 포장재 훼손 없어야 함\n\n구체적인 교환/반품 신청은 상담원에게 연결해드릴게요."
+    },
+    "human_agent": {
+      "keywords": ["상담원", "상담사", "사람", "직원", "연결", "도움", "문의", "담당자"],
+      "message": "상담원에게 연결해드리겠습니다. 잠시만 기다려주세요.",
+      "action": "connectAgent"
+    },
+    "payment": {
+      "keywords": ["결제", "카드", "계좌이체", "무통장", "할인", "쿠폰", "결제방법", "신용카드", "체크카드", "페이"],
+      "message": "결제 방법 안내해드릴게요.\n\n• 신용/체크카드\n• 무통장입금\n• 간편결제\n• 휴대폰 결제\n\n할인 쿠폰이나 적립금도 사용 가능해요!"
+    }
+  },
+  "chatFlow": {
+    "triggers": {
+      "keywords": ["상담원", "상담사", "사람", "직원", "연결", "복잡해", "어려워", "모르겠어"],
+      "failureCount": 3,
+      "noMatchCount": 2
+    },
+    "humanHandoff": {
+      "message": "상담원에게 연결해드리겠습니다. 잠시만 기다려주세요.",
+      "action": "connectAgent",
+      "endpoint": "/api/chat-talk/transfer-to-human"
+    }
+  },
+  "settings": {
+    "saveAllInteractions": true,
+    "responseDelay": 1000,
+    "typingIndicator": true,
+    "maxRetries": 3,
+    "sessionTimeout": 1800000,
+    "apiEndpoint": "/api/chat-talk/chatbot",
+    "enableAnalytics": true
+  }
+}
