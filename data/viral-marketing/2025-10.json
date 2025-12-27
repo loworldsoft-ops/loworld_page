@@ -1,0 +1,289 @@
+{
+  "month": "2025-10",
+  "client": "리즈인여성의원",
+  "summary": {
+    "totalPosts": 15,
+    "totalViews": 125000,
+    "totalLikes": 8500,
+    "totalComments": 450,
+    "totalShares": 320,
+    "platformBreakdown": {
+      "youtube": 4,
+      "instagram": 6,
+      "threads": 3,
+      "naverBlog": 2
+    }
+  },
+  "contents": [
+    {
+      "id": "yt_001",
+      "platform": "youtube",
+      "title": "리즈인여성의원 산부인과 진료 후기 | 친절하고 전문적인 진료",
+      "url": "https://youtube.com/watch?v=example1",
+      "publishedDate": "2025-10-05",
+      "thumbnail": "https://img.youtube.com/vi/example1/maxresdefault.jpg",
+      "metrics": {
+        "views": 25000,
+        "likes": 1800,
+        "comments": 85,
+        "shares": 45
+      },
+      "tags": ["산부인과", "여성건강", "진료후기"],
+      "campaign": "10월 건강검진 캠페인",
+      "description": "리즈인여성의원의 친절한 진료 과정과 첨단 시설을 소개합니다."
+    },
+    {
+      "id": "yt_002",
+      "platform": "youtube",
+      "title": "여성 건강검진 전 알아야 할 5가지 | 리즈인여성의원",
+      "url": "https://youtube.com/watch?v=example2",
+      "publishedDate": "2025-10-12",
+      "thumbnail": "https://img.youtube.com/vi/example2/maxresdefault.jpg",
+      "metrics": {
+        "views": 18000,
+        "likes": 1200,
+        "comments": 65,
+        "shares": 38
+      },
+      "tags": ["건강검진", "여성건강", "의료정보"],
+      "campaign": "10월 건강검진 캠페인"
+    },
+    {
+      "id": "yt_003",
+      "platform": "youtube",
+      "title": "리즈인여성의원 원장님 인터뷰 | 여성 건강 관리의 중요성",
+      "url": "https://youtube.com/watch?v=example3",
+      "publishedDate": "2025-10-19",
+      "thumbnail": "https://img.youtube.com/vi/example3/maxresdefault.jpg",
+      "metrics": {
+        "views": 15000,
+        "likes": 980,
+        "comments": 42,
+        "shares": 28
+      },
+      "tags": ["의사인터뷰", "전문가의견", "여성건강"],
+      "campaign": "전문가 시리즈"
+    },
+    {
+      "id": "yt_004",
+      "platform": "youtube",
+      "title": "리즈인여성의원 시설 투어 | 최신 의료장비 소개",
+      "url": "https://youtube.com/watch?v=example4",
+      "publishedDate": "2025-10-26",
+      "thumbnail": "https://img.youtube.com/vi/example4/maxresdefault.jpg",
+      "metrics": {
+        "views": 12000,
+        "likes": 850,
+        "comments": 35,
+        "shares": 22
+      },
+      "tags": ["시설투어", "의료장비", "병원소개"],
+      "campaign": "시설 홍보"
+    },
+    {
+      "id": "ig_001",
+      "platform": "instagram",
+      "title": "🌸 리즈인여성의원과 함께하는 건강한 가을 🍂",
+      "url": "https://instagram.com/p/example1",
+      "publishedDate": "2025-10-03",
+      "thumbnail": "/images/viral/instagram_001.jpg",
+      "metrics": {
+        "views": 8500,
+        "likes": 1250,
+        "comments": 68,
+        "shares": 42
+      },
+      "tags": ["여성의원", "건강관리", "가을건강"],
+      "campaign": "계절 캠페인"
+    },
+    {
+      "id": "ig_002",
+      "platform": "instagram",
+      "title": "💖 리즈인여성의원 환자분들의 따뜻한 후기",
+      "url": "https://instagram.com/p/example2",
+      "publishedDate": "2025-10-07",
+      "thumbnail": "/images/viral/instagram_002.jpg",
+      "metrics": {
+        "views": 9200,
+        "likes": 1380,
+        "comments": 75,
+        "shares": 48
+      },
+      "tags": ["후기", "환자후기", "감사인사"],
+      "campaign": "후기 시리즈"
+    },
+    {
+      "id": "ig_003",
+      "platform": "instagram",
+      "title": "✨ 10월 건강검진 이벤트 안내",
+      "url": "https://instagram.com/p/example3",
+      "publishedDate": "2025-10-10",
+      "thumbnail": "/images/viral/instagram_003.jpg",
+      "metrics": {
+        "views": 11000,
+        "likes": 1520,
+        "comments": 92,
+        "shares": 65
+      },
+      "tags": ["이벤트", "건강검진", "할인"],
+      "campaign": "10월 건강검진 캠페인"
+    },
+    {
+      "id": "ig_004",
+      "platform": "instagram",
+      "title": "🏥 리즈인여성의원 의료진 소개",
+      "url": "https://instagram.com/p/example4",
+      "publishedDate": "2025-10-15",
+      "thumbnail": "/images/viral/instagram_004.jpg",
+      "metrics": {
+        "views": 7800,
+        "likes": 980,
+        "comments": 45,
+        "shares": 28
+      },
+      "tags": ["의료진", "전문의", "병원소개"],
+      "campaign": "의료진 소개"
+    },
+    {
+      "id": "ig_005",
+      "platform": "instagram",
+      "title": "🌟 여성 건강 관리 팁 5가지",
+      "url": "https://instagram.com/p/example5",
+      "publishedDate": "2025-10-22",
+      "thumbnail": "/images/viral/instagram_005.jpg",
+      "metrics": {
+        "views": 9500,
+        "likes": 1150,
+        "comments": 58,
+        "shares": 35
+      },
+      "tags": ["건강팁", "여성건강", "생활정보"],
+      "campaign": "건강 정보 시리즈"
+    },
+    {
+      "id": "ig_006",
+      "platform": "instagram",
+      "title": "💐 리즈인여성의원 10주년 감사 이벤트",
+      "url": "https://instagram.com/p/example6",
+      "publishedDate": "2025-10-28",
+      "thumbnail": "/images/viral/instagram_006.jpg",
+      "metrics": {
+        "views": 13000,
+        "likes": 1820,
+        "comments": 105,
+        "shares": 78
+      },
+      "tags": ["10주년", "감사이벤트", "기념"],
+      "campaign": "10주년 기념"
+    },
+    {
+      "id": "th_001",
+      "platform": "threads",
+      "title": "리즈인여성의원에서 알려드리는 여성 건강 관리 꿀팁",
+      "url": "https://threads.net/@example/post/1",
+      "publishedDate": "2025-10-08",
+      "thumbnail": null,
+      "metrics": {
+        "views": 3200,
+        "likes": 285,
+        "comments": 18,
+        "shares": 12
+      },
+      "tags": ["건강팁", "여성건강"],
+      "campaign": "건강 정보 시리즈"
+    },
+    {
+      "id": "th_002",
+      "platform": "threads",
+      "title": "산부인과 진료, 부담없이 편하게 받으세요! 리즈인여성의원",
+      "url": "https://threads.net/@example/post/2",
+      "publishedDate": "2025-10-16",
+      "thumbnail": null,
+      "metrics": {
+        "views": 2800,
+        "likes": 220,
+        "comments": 15,
+        "shares": 8
+      },
+      "tags": ["산부인과", "진료안내"],
+      "campaign": "진료 홍보"
+    },
+    {
+      "id": "th_003",
+      "platform": "threads",
+      "title": "리즈인여성의원 10월 이벤트 마감 임박! 서두르세요!",
+      "url": "https://threads.net/@example/post/3",
+      "publishedDate": "2025-10-25",
+      "thumbnail": null,
+      "metrics": {
+        "views": 4500,
+        "likes": 380,
+        "comments": 28,
+        "shares": 22
+      },
+      "tags": ["이벤트", "마감임박"],
+      "campaign": "10월 건강검진 캠페인"
+    },
+    {
+      "id": "nb_001",
+      "platform": "naverBlog",
+      "title": "리즈인여성의원 건강검진 후기 | 꼼꼼하고 친절한 진료",
+      "url": "https://blog.naver.com/example1",
+      "publishedDate": "2025-10-11",
+      "thumbnail": "/images/viral/naver_blog_001.jpg",
+      "metrics": {
+        "views": 5200,
+        "likes": 125,
+        "comments": 32,
+        "shares": 18
+      },
+      "tags": ["후기", "건강검진", "네이버블로그"],
+      "campaign": "후기 시리즈"
+    },
+    {
+      "id": "nb_002",
+      "platform": "naverBlog",
+      "title": "여성 건강 지키는 방법, 리즈인여성의원 전문의가 알려드립니다",
+      "url": "https://blog.naver.com/example2",
+      "publishedDate": "2025-10-20",
+      "thumbnail": "/images/viral/naver_blog_002.jpg",
+      "metrics": {
+        "views": 6300,
+        "likes": 168,
+        "comments": 45,
+        "shares": 25
+      },
+      "tags": ["건강정보", "전문가의견", "여성건강"],
+      "campaign": "전문가 시리즈"
+    }
+  ],
+  "topPerformers": [
+    {
+      "id": "yt_001",
+      "reason": "최다 조회수",
+      "rank": 1
+    },
+    {
+      "id": "ig_006",
+      "reason": "최다 참여도",
+      "rank": 2
+    },
+    {
+      "id": "yt_002",
+      "reason": "높은 공유율",
+      "rank": 3
+    }
+  ],
+  "insights": {
+    "bestPerformingPlatform": "youtube",
+    "bestPerformingDay": "토요일",
+    "avgEngagementRate": 6.8,
+    "growthFromLastMonth": 15.3,
+    "recommendations": [
+      "유튜브 콘텐츠가 가장 높은 참여도를 보이므로 주 2회 업로드 권장",
+      "인스타그램 릴스 형식의 짧은 영상 콘텐츠 추가 제작 필요",
+      "토요일 오전 10시 게시물이 가장 높은 조회수 기록",
+      "환자 후기 콘텐츠의 반응이 좋으므로 시리즈화 권장"
+    ]
+  }
+}
