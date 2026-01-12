@@ -1,0 +1,650 @@
+{
+  "calendar": {
+    "name": "이지캘린더",
+    "displayName": "EZ Calendar",
+    "description": "통합 캘린더 및 일정 관리 시스템",
+    "overview": {
+      "projectName": "이지캘린더 (EZ Calendar)",
+      "objective": "사용자 친화적인 웹 기반 캘린더 및 일정 관리 플랫폼 개발",
+      "targetUsers": "개인, 팀, 기업 사용자",
+      "developmentPeriod": "2026년 1월 ~ 3월",
+      "status": "진행중",
+      "version": "1.0.0"
+    },
+    "specifications": [
+      {
+        "id": "EZCAL-001",
+        "title": "다중 뷰 지원 (월간/주간/일간)",
+        "description": "사용자가 선호하는 형식으로 캘린더 조회 가능",
+        "priority": "높음",
+        "status": "진행중",
+        "details": "월간 뷰에서는 전체 일정 개요, 주간 뷰에서는 상세 일정, 일간 뷰에서는 시간별 일정 표시"
+      },
+      {
+        "id": "EZCAL-002",
+        "title": "이벤트 생성 및 관리",
+        "description": "새로운 이벤트 생성, 수정, 삭제 기능",
+        "priority": "높음",
+        "status": "진행중",
+        "details": "제목, 시간, 장소, 설명, 반복 설정, 참석자 초대 기능 포함"
+      },
+      {
+        "id": "EZCAL-003",
+        "title": "반복 일정 설정",
+        "description": "매일, 매주, 매월, 매년 반복 일정 설정",
+        "priority": "높음",
+        "status": "진행중",
+        "details": "복잡한 반복 규칙(예: 매월 첫 번째 월요일) 지원"
+      },
+      {
+        "id": "EZCAL-004",
+        "title": "알림 및 공지",
+        "description": "예정된 이벤트에 대한 사전 알림 설정",
+        "priority": "중간",
+        "status": "진행중",
+        "details": "이메일, 푸시 알림, 인앱 알림 채널 지원"
+      },
+      {
+        "id": "EZCAL-005",
+        "title": "캘린더 공유 및 협업",
+        "description": "팀 멤버 간 캘린더 공유 및 실시간 협업",
+        "priority": "중간",
+        "status": "계획",
+        "details": "공유 권한 설정(보기 전용, 편집 가능, 관리자)"
+      },
+      {
+        "id": "EZCAL-006",
+        "title": "외부 캘린더 동기화",
+        "description": "Google Calendar, Outlook 등 외부 캘린더 연동",
+        "priority": "중간",
+        "status": "계획",
+        "details": "양방향 동기화로 데이터 일관성 유지"
+      }
+    ],
+    "systemArchitecture": {
+      "frontend": "Angular 18+, TypeScript, SCSS, Angular CDK",
+      "backend": "Node.js/Express 또는 필요에 따라 선택",
+      "database": "MongoDB 또는 PostgreSQL",
+      "deployment": "Docker, Kubernetes",
+      "apis": "REST API / GraphQL"
+    },
+    "requirements": [
+      {
+        "category": "기능 요구사항",
+        "items": [
+          "월/주/일 뷰에서 이벤트 표시",
+          "드래그 앤 드롭으로 이벤트 이동",
+          "이벤트 일괄 처리",
+          "캘린더 필터링 (카테고리별, 색상별)",
+          "검색 기능"
+        ]
+      },
+      {
+        "category": "비기능 요구사항",
+        "items": [
+          "응답 시간: 500ms 이하",
+          "동시 사용자: 1,000명 이상 지원",
+          "99.9% 가용성",
+          "데이터 암호화 (전송 중, 저장 중)",
+          "GDPR 준수"
+        ]
+      },
+      {
+        "category": "UI/UX 요구사항",
+        "items": [
+          "반응형 디자인 (모바일/태블릿/데스크톱)",
+          "어두운 모드 지원",
+          "접근성 표준 준수 (WCAG 2.1)",
+          "다국어 지원 (한영일중)"
+        ]
+      }
+    ],
+    "wbs": {
+      "tasks": [
+        {
+          "id": "EZCAL-WBS-1",
+          "name": "프로젝트 계획 및 설계",
+          "startDate": "2026-01-01",
+          "endDate": "2026-01-15",
+          "progress": 100,
+          "responsible": "기획팀",
+          "subtasks": [
+            {
+              "id": "EZCAL-WBS-1.1",
+              "name": "요구사항 분석",
+              "progress": 100,
+              "responsible": "분석팀"
+            },
+            {
+              "id": "EZCAL-WBS-1.2",
+              "name": "UI/UX 디자인",
+              "progress": 100,
+              "responsible": "디자인팀"
+            }
+          ]
+        },
+        {
+          "id": "EZCAL-WBS-2",
+          "name": "프론트엔드 개발",
+          "startDate": "2026-01-16",
+          "endDate": "2026-02-15",
+          "progress": 60,
+          "responsible": "FE팀",
+          "subtasks": [
+            {
+              "id": "EZCAL-WBS-2.1",
+              "name": "캘린더 뷰 컴포넌트 개발",
+              "progress": 100,
+              "responsible": "FE 개발자 1"
+            },
+            {
+              "id": "EZCAL-WBS-2.2",
+              "name": "이벤트 관리 UI 개발",
+              "progress": 40,
+              "responsible": "FE 개발자 2"
+            }
+          ]
+        },
+        {
+          "id": "EZCAL-WBS-3",
+          "name": "백엔드 개발",
+          "startDate": "2026-01-16",
+          "endDate": "2026-02-20",
+          "progress": 45,
+          "responsible": "BE팀",
+          "subtasks": [
+            {
+              "id": "EZCAL-WBS-3.1",
+              "name": "API 설계 및 구현",
+              "progress": 70,
+              "responsible": "BE 개발자 1"
+            },
+            {
+              "id": "EZCAL-WBS-3.2",
+              "name": "데이터베이스 설계",
+              "progress": 100,
+              "responsible": "DB 관리자"
+            }
+          ]
+        },
+        {
+          "id": "EZCAL-WBS-4",
+          "name": "통합 및 테스트",
+          "startDate": "2026-02-21",
+          "endDate": "2026-03-10",
+          "progress": 0,
+          "responsible": "QA팀",
+          "subtasks": [
+            {
+              "id": "EZCAL-WBS-4.1",
+              "name": "단위 테스트",
+              "progress": 0,
+              "responsible": "개발팀"
+            },
+            {
+              "id": "EZCAL-WBS-4.2",
+              "name": "통합 테스트",
+              "progress": 0,
+              "responsible": "QA팀"
+            }
+          ]
+        },
+        {
+          "id": "EZCAL-WBS-5",
+          "name": "배포 및 출시",
+          "startDate": "2026-03-11",
+          "endDate": "2026-03-31",
+          "progress": 0,
+          "responsible": "Ops팀",
+          "subtasks": [
+            {
+              "id": "EZCAL-WBS-5.1",
+              "name": "프로덕션 배포",
+              "progress": 0,
+              "responsible": "DevOps"
+            }
+          ]
+        }
+      ]
+    },
+    "ia": {
+      "pages": [
+        {
+          "id": "EZCAL-IA-1",
+          "name": "로그인/가입",
+          "description": "사용자 인증 및 계정 관리",
+          "components": ["로그인 폼", "회원가입 폼", "비밀번호 재설정"]
+        },
+        {
+          "id": "EZCAL-IA-2",
+          "name": "대시보드",
+          "description": "캘린더 메인 화면",
+          "components": ["캘린더 뷰 선택", "이벤트 목록", "검색 바", "필터"]
+        },
+        {
+          "id": "EZCAL-IA-3",
+          "name": "캘린더 뷰",
+          "description": "월간/주간/일간 캘린더 표시",
+          "components": ["달력 그리드", "이벤트 셀", "이벤트 상세 팝업", "드래그 앤 드롭"]
+        },
+        {
+          "id": "EZCAL-IA-4",
+          "name": "이벤트 상세",
+          "description": "이벤트 생성/편집/삭제",
+          "components": ["이벤트 폼", "반복 설정", "알림 설정", "참석자 초대"]
+        },
+        {
+          "id": "EZCAL-IA-5",
+          "name": "공유 및 협업",
+          "description": "캘린더 공유 관리",
+          "components": ["공유 사용자 목록", "권한 설정", "공유 링크"]
+        },
+        {
+          "id": "EZCAL-IA-6",
+          "name": "설정",
+          "description": "사용자 설정 및 환경설정",
+          "components": ["프로필 설정", "알림 설정", "언어/테마 설정"]
+        }
+      ],
+      "userFlows": [
+        {
+          "name": "이벤트 생성 플로우",
+          "steps": [
+            "로그인",
+            "캘린더 뷰 선택",
+            "빈 공간 클릭 또는 '+' 버튼",
+            "이벤트 상세 입력",
+            "반복/알림 설정",
+            "저장"
+          ]
+        },
+        {
+          "name": "캘린더 공유 플로우",
+          "steps": [
+            "로그인",
+            "캘린더 설정",
+            "공유 옵션 선택",
+            "공유할 사용자/이메일 입력",
+            "권한 설정",
+            "초대"
+          ]
+        },
+        {
+          "name": "뷰 변경 플로우",
+          "steps": [
+            "캘린더 화면",
+            "뷰 선택 버튼 (월/주/일)",
+            "해당 뷰로 전환 및 이벤트 표시"
+          ]
+        }
+      ]
+    }
+  },
+  "note": {
+    "name": "이지노트",
+    "displayName": "EZ Note",
+    "description": "AI 기반 노트 작성 및 관리 플랫폼",
+    "overview": {
+      "projectName": "이지노트 (EZ Note)",
+      "objective": "AI 기반 지능형 노트 작성 및 자동 분류/정리 플랫폼 개발",
+      "targetUsers": "학생, 직장인, 연구자, 창작자",
+      "developmentPeriod": "2026년 1월 ~ 4월",
+      "status": "진행중",
+      "version": "1.0.0"
+    },
+    "specifications": [
+      {
+        "id": "EZNOTE-001",
+        "title": "리치 텍스트 에디터",
+        "description": "고급 텍스트 편집 기능 제공",
+        "priority": "높음",
+        "status": "진행중",
+        "details": "마크다운 지원, 서식 지정, 하이라이트, 체크리스트 등"
+      },
+      {
+        "id": "EZNOTE-002",
+        "title": "AI 기반 요약 및 분류",
+        "description": "작성한 노트를 AI가 자동으로 요약하고 분류",
+        "priority": "높음",
+        "status": "진행중",
+        "details": "NLP 기술을 활용한 자동 태그 생성, 중요도 판단, 카테고리 분류"
+      },
+      {
+        "id": "EZNOTE-003",
+        "title": "노트 폴더 및 태그 관리",
+        "description": "계층적 폴더 구조와 유연한 태그 시스템",
+        "priority": "높음",
+        "status": "진행중",
+        "details": "무제한 폴더 생성, 다중 태그 지정, 스마트 폴더(검색 기반)"
+      },
+      {
+        "id": "EZNOTE-004",
+        "title": "미디어 임베드",
+        "description": "이미지, 비디오, 오디오 등 멀티미디어 삽입",
+        "priority": "중간",
+        "status": "진행중",
+        "details": "드래그 앤 드롭 업로드, 자동 최적화, 미리보기"
+      },
+      {
+        "id": "EZNOTE-005",
+        "title": "공유 및 협업",
+        "description": "팀 멤버와 노트 공유 및 실시간 협업",
+        "priority": "중간",
+        "status": "계획",
+        "details": "공유 권한(보기/편집), 댓글 및 언급 기능"
+      },
+      {
+        "id": "EZNOTE-006",
+        "title": "버전 관리 및 백업",
+        "description": "노트 버전 히스토리 및 자동 백업",
+        "priority": "중간",
+        "status": "계획",
+        "details": "변경 이력 추적, 이전 버전 복구, 클라우드 백업"
+      },
+      {
+        "id": "EZNOTE-007",
+        "title": "전체 텍스트 검색",
+        "description": "모든 노트에서 빠른 검색",
+        "priority": "높음",
+        "status": "진행중",
+        "details": "인덱싱 기술로 빠른 검색, 고급 필터링 옵션"
+      },
+      {
+        "id": "EZNOTE-008",
+        "title": "내보내기 및 동기화",
+        "description": "다양한 형식으로 내보내기 및 외부 서비스 연동",
+        "priority": "낮음",
+        "status": "계획",
+        "details": "PDF, Word, Markdown 형식 지원, Dropbox/OneDrive 동기화"
+      }
+    ],
+    "systemArchitecture": {
+      "frontend": "Angular 18+, TypeScript, SCSS, Angular CDK",
+      "backend": "Node.js/Express + Python (AI 모듈)",
+      "aiEngine": "OpenAI API 또는 자체 NLP 모델",
+      "database": "MongoDB (노트), Redis (캐시)",
+      "fileStorage": "AWS S3 또는 Google Cloud Storage",
+      "deployment": "Docker, Kubernetes"
+    },
+    "requirements": [
+      {
+        "category": "기능 요구사항",
+        "items": [
+          "실시간 텍스트 편집",
+          "자동 저장 (3초 주기)",
+          "태그 자동 생성 (AI)",
+          "노트 검색 (전문 검색)",
+          "드래그 앤 드롭 파일 업로드",
+          "마크다운 미리보기"
+        ]
+      },
+      {
+        "category": "비기능 요구사항",
+        "items": [
+          "응답 시간: 300ms 이하",
+          "동시 사용자: 5,000명 이상 지원",
+          "99.95% 가용성",
+          "저장 용량: 사용자당 100GB",
+          "AI 처리 지연: 5초 이하",
+          "데이터 암호화 및 GDPR 준수"
+        ]
+      },
+      {
+        "category": "보안 요구사항",
+        "items": [
+          "엔드-투-엔드 암호화 옵션",
+          "2FA 인증 지원",
+          "접근 제어 및 권한 관리",
+          "감사 로깅",
+          "정기적 보안 감사"
+        ]
+      }
+    ],
+    "wbs": {
+      "tasks": [
+        {
+          "id": "EZNOTE-WBS-1",
+          "name": "프로젝트 계획 및 설계",
+          "startDate": "2026-01-01",
+          "endDate": "2026-01-20",
+          "progress": 100,
+          "responsible": "기획팀",
+          "subtasks": [
+            {
+              "id": "EZNOTE-WBS-1.1",
+              "name": "AI 기능 요구사항 분석",
+              "progress": 100,
+              "responsible": "AI 담당자"
+            },
+            {
+              "id": "EZNOTE-WBS-1.2",
+              "name": "아키텍처 설계",
+              "progress": 100,
+              "responsible": "솔루션 아키텍트"
+            }
+          ]
+        },
+        {
+          "id": "EZNOTE-WBS-2",
+          "name": "프론트엔드 개발",
+          "startDate": "2026-01-21",
+          "endDate": "2026-02-28",
+          "progress": 50,
+          "responsible": "FE팀",
+          "subtasks": [
+            {
+              "id": "EZNOTE-WBS-2.1",
+              "name": "에디터 컴포넌트 개발",
+              "progress": 80,
+              "responsible": "FE 개발자 1"
+            },
+            {
+              "id": "EZNOTE-WBS-2.2",
+              "name": "폴더/태그 관리 UI",
+              "progress": 50,
+              "responsible": "FE 개발자 2"
+            },
+            {
+              "id": "EZNOTE-WBS-2.3",
+              "name": "검색 및 필터 UI",
+              "progress": 20,
+              "responsible": "FE 개발자 3"
+            }
+          ]
+        },
+        {
+          "id": "EZNOTE-WBS-3",
+          "name": "백엔드 개발",
+          "startDate": "2026-01-21",
+          "endDate": "2026-03-15",
+          "progress": 40,
+          "responsible": "BE팀",
+          "subtasks": [
+            {
+              "id": "EZNOTE-WBS-3.1",
+              "name": "노트 API 개발",
+              "progress": 70,
+              "responsible": "BE 개발자 1"
+            },
+            {
+              "id": "EZNOTE-WBS-3.2",
+              "name": "AI 엔진 통합",
+              "progress": 20,
+              "responsible": "AI 개발자"
+            },
+            {
+              "id": "EZNOTE-WBS-3.3",
+              "name": "검색 인덱싱",
+              "progress": 30,
+              "responsible": "BE 개발자 2"
+            }
+          ]
+        },
+        {
+          "id": "EZNOTE-WBS-4",
+          "name": "AI 모듈 개발",
+          "startDate": "2026-02-01",
+          "endDate": "2026-03-20",
+          "progress": 25,
+          "responsible": "AI팀",
+          "subtasks": [
+            {
+              "id": "EZNOTE-WBS-4.1",
+              "name": "요약 모델 개발",
+              "progress": 40,
+              "responsible": "데이터 사이언티스트 1"
+            },
+            {
+              "id": "EZNOTE-WBS-4.2",
+              "name": "분류 모델 개발",
+              "progress": 20,
+              "responsible": "데이터 사이언티스트 2"
+            },
+            {
+              "id": "EZNOTE-WBS-4.3",
+              "name": "모델 최적화 및 배포",
+              "progress": 10,
+              "responsible": "ML 엔지니어"
+            }
+          ]
+        },
+        {
+          "id": "EZNOTE-WBS-5",
+          "name": "통합 및 테스트",
+          "startDate": "2026-03-21",
+          "endDate": "2026-04-10",
+          "progress": 0,
+          "responsible": "QA팀",
+          "subtasks": [
+            {
+              "id": "EZNOTE-WBS-5.1",
+              "name": "통합 테스트",
+              "progress": 0,
+              "responsible": "QA 엔지니어 1"
+            },
+            {
+              "id": "EZNOTE-WBS-5.2",
+              "name": "AI 기능 테스트",
+              "progress": 0,
+              "responsible": "QA 엔지니어 2"
+            }
+          ]
+        },
+        {
+          "id": "EZNOTE-WBS-6",
+          "name": "배포 및 출시",
+          "startDate": "2026-04-11",
+          "endDate": "2026-04-30",
+          "progress": 0,
+          "responsible": "Ops팀",
+          "subtasks": [
+            {
+              "id": "EZNOTE-WBS-6.1",
+              "name": "프로덕션 배포",
+              "progress": 0,
+              "responsible": "DevOps"
+            }
+          ]
+        }
+      ]
+    },
+    "ia": {
+      "pages": [
+        {
+          "id": "EZNOTE-IA-1",
+          "name": "로그인/가입",
+          "description": "사용자 인증 및 계정 관리",
+          "components": ["로그인 폼", "회원가입 폼", "소셜 로그인", "2FA 설정"]
+        },
+        {
+          "id": "EZNOTE-IA-2",
+          "name": "메인 대시보드",
+          "description": "노트 목록 및 통계",
+          "components": ["최근 노트", "통계 위젯", "빠른 생성 버튼", "검색"]
+        },
+        {
+          "id": "EZNOTE-IA-3",
+          "name": "노트 에디터",
+          "description": "노트 작성 및 편집",
+          "components": ["리치 텍스트 에디터", "태그 입력", "미디어 업로드", "AI 요약", "자동 저장 표시"]
+        },
+        {
+          "id": "EZNOTE-IA-4",
+          "name": "폴더/라이브러리",
+          "description": "노트 구성 및 분류",
+          "components": ["폴더 트리", "노트 목록", "필터", "정렬 옵션"]
+        },
+        {
+          "id": "EZNOTE-IA-5",
+          "name": "검색",
+          "description": "전문 검색 및 고급 필터",
+          "components": ["검색 바", "필터 패널", "검색 결과", "저장된 검색"]
+        },
+        {
+          "id": "EZNOTE-IA-6",
+          "name": "공유 및 협업",
+          "description": "노트 공유 및 협업 관리",
+          "components": ["공유 대상 목록", "권한 설정", "댓글", "활동 로그"]
+        },
+        {
+          "id": "EZNOTE-IA-7",
+          "name": "AI 분석",
+          "description": "AI 기반 분석 및 제안",
+          "components": ["요약 패널", "키워드 추출", "추천 태그", "분석 결과"]
+        },
+        {
+          "id": "EZNOTE-IA-8",
+          "name": "설정",
+          "description": "사용자 설정 및 환경설정",
+          "components": ["프로필 설정", "에디터 설정", "알림 설정", "스토리지 관리"]
+        }
+      ],
+      "userFlows": [
+        {
+          "name": "노트 생성 및 AI 분류 플로우",
+          "steps": [
+            "로그인",
+            "대시보드 진입",
+            "'새 노트' 버튼 클릭",
+            "텍스트 작성",
+            "자동 저장",
+            "AI 요약/분류 실행",
+            "태그 검토 및 수정",
+            "저장"
+          ]
+        },
+        {
+          "name": "노트 검색 및 필터 플로우",
+          "steps": [
+            "검색 화면 진입",
+            "키워드 입력 또는 필터 선택",
+            "검색 실행",
+            "결과 표시",
+            "노트 클릭하여 상세 보기"
+          ]
+        },
+        {
+          "name": "협업 및 공유 플로우",
+          "steps": [
+            "노트 작성 완료",
+            "공유 버튼 클릭",
+            "팀 멤버 선택",
+            "권한 설정 (보기/편집)",
+            "공유 링크 생성",
+            "팀 멤버가 접근 가능"
+          ]
+        },
+        {
+          "name": "노트 정리 및 분류 플로우",
+          "steps": [
+            "라이브러리 진입",
+            "폴더 구조 확인",
+            "노트를 적절한 폴더로 드래그/이동",
+            "태그 추가",
+            "스마트 폴더로 필터 저장"
+          ]
+        }
+      ]
+    }
+  }
+}
