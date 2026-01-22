@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: red;
+        opacity: 0;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #222;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="btn_lnb_zoom__" data-name="btn_lnb_zoom_+" transform="translate(-1888 -1010)">
+    <rect id="사각형_4316" data-name="사각형 4316" class="cls-1" width="20" height="20" transform="translate(1888 1010)"/>
+    <g id="그룹_29" data-name="그룹 29" transform="translate(1891.433 1012.767)">
+      <g id="타원_2" data-name="타원 2" class="cls-2">
+        <circle class="cls-4" cx="5.556" cy="5.556" r="5.556"/>
+        <circle class="cls-5" cx="5.556" cy="5.556" r="6.306"/>
+      </g>
+      <path id="패스_7058" data-name="패스 7058" class="cls-2" d="M5702,966.24v6.574" transform="translate(-5696.444 -964.103)"/>
+      <path id="패스_7059" data-name="패스 7059" class="cls-2" d="M0,0V6.574" transform="translate(8.843 5.423) rotate(90)"/>
+      <path id="패스_7060" data-name="패스 7060" class="cls-3" d="M5706.072,973.183l4.018,4.018" transform="translate(-5695.746 -962.733)"/>
+    </g>
+  </g>
+</svg>

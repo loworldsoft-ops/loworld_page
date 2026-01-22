@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fa3d22;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #707070;
+        opacity: 0;
+      }
+
+      .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="ico_page" transform="translate(17427 -9097)">
+    <rect id="사각형_7377" data-name="사각형 7377" class="cls-1" width="20" height="20" transform="translate(-17427 9097)"/>
+    <g id="ico_page-2" data-name="ico_page" transform="translate(-17425.287 9097.852)">
+      <g id="사각형_4343" data-name="사각형 4343" class="cls-2" transform="translate(-1.713 -0.852)">
+        <rect class="cls-4" width="20" height="20"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="19" height="19"/>
+      </g>
+      <path id="패스_7070" data-name="패스 7070" class="cls-3" d="M11.443,3.78H5.131V17.547H15.824V7.894Z"/>
+      <path id="패스_7071" data-name="패스 7071" class="cls-3" d="M10.946,3.78V8.748h4.879"/>
+      <path id="패스_7072" data-name="패스 7072" class="cls-3" d="M8.71.75H.75V14.785H2.368"/>
+    </g>
+  </g>
+</svg>

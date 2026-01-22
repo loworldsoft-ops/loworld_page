@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: red;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #222;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="ico_crop" transform="translate(-1794 -676)">
+    <rect id="사각형_4391" data-name="사각형 4391" class="cls-1" width="18" height="18" transform="translate(1794 676)"/>
+    <path id="패스_7119" data-name="패스 7119" class="cls-2" d="M2.941,0V15.185H18.384" transform="translate(1793.616 676.246)"/>
+    <line id="선_439" data-name="선 439" class="cls-2" x2="11.66" transform="translate(1794 678.88)"/>
+    <line id="선_440" data-name="선 440" class="cls-2" y2="11.234" transform="translate(1809.263 682.521)"/>
+    <line id="선_441" data-name="선 441" class="cls-2" y1="14.216" x2="14.216" transform="translate(1796.557 677.214)"/>
+  </g>
+</svg>

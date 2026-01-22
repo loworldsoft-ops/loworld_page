@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" viewBox="0 0 32 22">
+    <defs>
+        <linearGradient id="gsx6lcuuaa" y1=".426" x2=".957" y2=".979" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fe1e3d"/>
+            <stop offset=".509" stop-color="#fa4c39"/>
+            <stop offset="1" stop-color="#efba2e"/>
+        </linearGradient>
+    </defs>
+    <path d="M8 0h24v14a8 8 0 0 1-8 8H0V8a8 8 0 0 1 8-8z" style="fill:url(#gsx6lcuuaa)"/>
+    <g data-name="ico_tag_ai">
+        <path data-name="패스 26095" d="M0 0v4.982" transform="translate(21.121 10.844)" style="stroke:#fff;stroke-linecap:round;stroke-width:1.5px;fill:#fff"/>
+        <path data-name="패스 26096" d="m6.024 13.576-.583.241a1.3 1.3 0 0 0-.707.66l-.33.745a.11.11 0 0 1-.068.058.125.125 0 0 1-.15-.058l-.33-.745a1.3 1.3 0 0 0-.707-.658l-.583-.241a.114.114 0 0 1-.054-.046.093.093 0 0 1 .054-.132l.583-.241a1.3 1.3 0 0 0 .707-.66l.33-.745a.113.113 0 0 1 .055-.047.133.133 0 0 1 .163.047l.33.744a1.3 1.3 0 0 0 .707.661l.583.24a.093.093 0 0 1 0 .177z" transform="translate(16.689 -6.197)" style="fill:#fff"/>
+        <path data-name="Icon" d="M9.885 12.729h4.655m-6.207 3.1 3.314-7.292c.18-.395.269-.592.394-.654a.388.388 0 0 1 .343 0c.124.061.214.259.394.654l3.314 7.292" transform="translate(1.886 -.29)" style="stroke-linejoin:round;fill:none;stroke:#fff;stroke-linecap:round;stroke-width:1.5px"/>
+    </g>
+</svg>

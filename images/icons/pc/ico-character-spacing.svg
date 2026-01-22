@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b18484;
+        opacity: 0;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #222;
+      }
+
+      .cls-2 {
+        stroke-linejoin: bevel;
+      }
+    </style>
+  </defs>
+  <g id="ico_character_spacing" transform="translate(-1629 -546)">
+    <g id="그룹_94" data-name="그룹 94" transform="translate(-1 40)">
+      <rect id="사각형_4361" data-name="사각형 4361" class="cls-1" width="18" height="18" transform="translate(1630 506)"/>
+      <g id="그룹_97" data-name="그룹 97" transform="translate(1630.181 506.691)">
+        <g id="그룹_96" data-name="그룹 96" transform="translate(0.359 0.17)">
+          <path id="패스_7107" data-name="패스 7107" class="cls-2" d="M.452,10.3,5.13.42l4.5,9.876" transform="translate(-0.452 -0.26)"/>
+          <path id="패스_7108" data-name="패스 7108" class="cls-2" d="M19.582.214,14.9,10.091,10.4.214" transform="translate(-2.662 -0.214)"/>
+        </g>
+        <line id="선_438" data-name="선 438" class="cls-2" x2="4.95" transform="translate(2.609 5.852)"/>
+      </g>
+    </g>
+    <g id="그룹_98" data-name="그룹 98" transform="translate(1645.637 559.142) rotate(90)">
+      <path id="패스_7103" data-name="패스 7103" class="cls-3" d="M7257.549,739.331v14.88" transform="translate(-7255.62 -739.133)"/>
+      <path id="패스_7104" data-name="패스 7104" class="cls-3" d="M7254.888,738.993l1.93-1.929,1.928,1.929" transform="translate(-7254.888 -737.064)"/>
+      <path id="패스_7105" data-name="패스 7105" class="cls-3" d="M0,1.929,1.929,0,3.858,1.929" transform="translate(3.858 15.275) rotate(180)"/>
+    </g>
+  </g>
+</svg>

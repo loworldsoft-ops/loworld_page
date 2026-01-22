@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <linearGradient id="lxrdjgd3ya" x1=".048" x2="1" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fe1e3d"/>
+            <stop offset=".498" stop-color="#fa4c39"/>
+            <stop offset="1" stop-color="#efba2e"/>
+        </linearGradient>
+    </defs>
+    <g data-name="그룹 51">
+        <g data-name="그룹 16490">
+            <path data-name="선 435" transform="translate(1.783 6.334)" style="fill:none;stroke:#222;stroke-linecap:round;stroke-width:1.5px" d="M0 0h14.588"/>
+            <path data-name="선 436" transform="translate(1.8 11.258)" style="fill:none;stroke:#222;stroke-linecap:round;stroke-width:1.5px" d="M0 0h8.699"/>
+            <path data-name="Ellipse 1" d="M17.066 8.908a8.158 8.158 0 1 0-8.158 8.158" transform="translate(.161 .607)" style="fill:none;stroke:#222;stroke-linecap:round;stroke-width:1.5px"/>
+            <g data-name="그룹 16521">
+                <path data-name="패스 7076" d="M7.965 13.631a15.027 15.027 0 0 1-.322-1.49 19.943 19.943 0 0 1 0-6.306 13.036 13.036 0 0 1 .714-2.672 5.527 5.527 0 0 1 1.07-1.786 1.778 1.778 0 0 1 1.26-.627 1.778 1.778 0 0 1 1.261.627 5.54 5.54 0 0 1 1.069 1.786 12.942 12.942 0 0 1 .714 2.672 19.221 19.221 0 0 1 .246 2.675" transform="translate(-1.61 1.249)" style="stroke-linejoin:round;fill:none;stroke:#222;stroke-linecap:round;stroke-width:1.5px"/>
+                <path data-name="패스 26125" d="M13.977 8.989a19.51 19.51 0 0 0-.251-3.153 13.036 13.036 0 0 0-.714-2.672 5.527 5.527 0 0 0-1.069-1.786A1.778 1.778 0 0 0 10.682.75a1.778 1.778 0 0 0-1.261.627 5.54 5.54 0 0 0-1.069 1.786 12.941 12.941 0 0 0-.714 2.672 19.221 19.221 0 0 0-.246 2.675" transform="translate(-1.61 1.249)" style="stroke-linejoin:round;fill:none;stroke:#222;stroke-linecap:round;stroke-width:1.5px"/>
+            </g>
+        </g>
+        <path data-name="패스 26137" d="m12.1 16.818-1.588.658a3.539 3.539 0 0 0-1.928 1.8l-.9 2.03a.3.3 0 0 1-.184.158.34.34 0 0 1-.41-.158l-.9-2.03a3.541 3.541 0 0 0-1.928-1.793l-1.588-.656a.31.31 0 0 1-.147-.125.254.254 0 0 1 .147-.361l1.588-.656a3.534 3.534 0 0 0 1.928-1.8l.9-2.03a.308.308 0 0 1 .151-.128.361.361 0 0 1 .443.128l.9 2.026a3.532 3.532 0 0 0 1.926 1.8l1.588.655a.252.252 0 0 1 0 .483z" transform="translate(7.281 -2.133)" style="fill:url(#lxrdjgd3ya)"/>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="60" viewBox="0 0 52 60">
+    <g data-name="그룹 22">
+        <path data-name="패스 7055" d="M0 0v60h52V16.464L34.877 0z" style="fill:#eee"/>
+        <path data-name="패스 7056" d="M55.872 0v16.633h17.049z" transform="translate(-20.941)" style="fill:#ccc"/>
+        <g data-name="그룹 16540" transform="translate(-143 -204.25)">
+            <path data-name="패스 26157" d="M38 107.9v10" transform="translate(131 119.096)" style="fill:none;stroke:#222;stroke-linecap:round;stroke-width:4px"/>
+            <circle data-name="타원 758" cx="2" cy="2" r="2" transform="translate(167 241.5)" style="fill:#222"/>
+        </g>
+    </g>
+</svg>

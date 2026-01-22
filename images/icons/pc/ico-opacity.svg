@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d1d1d1;
+      }
+
+      .cls-2 {
+        fill: #7b7b7b;
+      }
+
+      .cls-3 {
+        fill: #c1c1c1;
+      }
+
+      .cls-4 {
+        fill: #a2a2a2;
+      }
+
+      .cls-5 {
+        fill: #4a4a4a;
+      }
+    </style>
+  </defs>
+  <g id="ico_opacity" transform="translate(-1629 -305)">
+    <rect id="사각형_4400" data-name="사각형 4400" class="cls-1" width="8" height="8" transform="translate(1629 305)"/>
+    <rect id="사각형_4403" data-name="사각형 4403" class="cls-2" width="8" height="8" transform="translate(1645 305)"/>
+    <rect id="사각형_4401" data-name="사각형 4401" class="cls-3" width="8" height="8" transform="translate(1629 321)"/>
+    <rect id="사각형_4404" data-name="사각형 4404" class="cls-4" width="8" height="8" transform="translate(1637 313)"/>
+    <rect id="사각형_4402" data-name="사각형 4402" class="cls-5" width="8" height="8" transform="translate(1645 321)"/>
+  </g>
+</svg>

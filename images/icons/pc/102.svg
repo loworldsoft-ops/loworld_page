@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b18484;
+      }
+
+      .cls-1, .cls-2 {
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: red;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        stroke: #222;
+      }
+
+      .cls-5 {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <g id="그룹_102" data-name="그룹 102" transform="translate(-1749 -405)">
+    <rect id="사각형_4383" data-name="사각형 4383" class="cls-1" width="28" height="28" transform="translate(1749 405)"/>
+    <g id="ico_txt_line" transform="translate(120)">
+      <rect id="사각형_4384" data-name="사각형 4384" class="cls-2" width="18" height="18" transform="translate(1634 410)"/>
+      <path id="패스_7109" data-name="패스 7109" class="cls-3" d="M15.224,3.012V.976H.976V3.012" transform="translate(1634.899 410.9)"/>
+      <path id="패스_7110" data-name="패스 7110" class="cls-3" d="M8.386.976V15.224m0,0H6.35m2.035,0h2.035" transform="translate(1634.614 410.9)"/>
+      <path id="패스_7114" data-name="패스 7114" class="cls-4" d="M1635.875,419.83h14.761" transform="translate(0 -1)"/>
+      <path id="패스_7115" data-name="패스 7115" class="cls-5" d="M1635.875,419.83h14.761" transform="translate(0 -2)"/>
+    </g>
+  </g>
+</svg>

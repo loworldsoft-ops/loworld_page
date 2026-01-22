@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.357" viewBox="0 0 20 20.357">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: red;
+        opacity: 0;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="btn_gnb_image" transform="translate(-884 -92)">
+    <rect id="사각형_4274" data-name="사각형 4274" class="cls-1" width="20" height="20" transform="translate(884 92)"/>
+    <g id="그룹_191" data-name="그룹 191" transform="translate(882.057 91.057)">
+      <path id="패스_7161" data-name="패스 7161" class="cls-2" d="M19.945,11.473v6.59a1.883,1.883,0,0,1-1.883,1.883H4.883A1.883,1.883,0,0,1,3,18.062V4.883A1.883,1.883,0,0,1,4.883,3h6.59" transform="translate(0 -0.059)"/>
+      <path id="패스_7162" data-name="패스 7162" class="cls-3" d="M16,5h5.648" transform="translate(-0.762 -0.176)"/>
+      <path id="패스_7163" data-name="패스 7163" class="cls-3" d="M19,2V7.648" transform="translate(-0.938)"/>
+      <path id="패스_7164" data-name="패스 7164" class="cls-3" d="M7,8.883A1.883,1.883,0,1,0,8.883,7,1.883,1.883,0,0,0,7,8.883" transform="translate(-0.234 -0.293)"/>
+      <path id="패스_7165" data-name="패스 7165" class="cls-3" d="M20.121,14.785,17.216,11.88a1.883,1.883,0,0,0-2.662,0L6,20.433" transform="translate(-0.176 -0.547)"/>
+    </g>
+  </g>
+</svg>

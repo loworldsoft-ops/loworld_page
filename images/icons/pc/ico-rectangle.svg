@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #222;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="ico_rectangle" class="cls-1">
+    <rect class="cls-2" width="14" height="14"/>
+    <rect class="cls-3" x="0.75" y="0.75" width="12.5" height="12.5"/>
+  </g>
+</svg>

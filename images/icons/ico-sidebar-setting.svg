@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="i7al8luc9a">
+            <path data-name="사각형 7377" style="fill:none" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#i7al8luc9a)">
+        <path data-name="패스 26183" d="M19.679 13a6.24 6.24 0 0 0 0-2.072l1.148-.947a.945.945 0 0 0 .217-1.23L19.5 6.213a1.06 1.06 0 0 0-1.232-.437l-1.436.469a7.769 7.769 0 0 0-1.9-1.04l-.289-1.412A1.021 1.021 0 0 0 13.634 3h-3.085a1.021 1.021 0 0 0-1.015.793L9.245 5.2a7.773 7.773 0 0 0-1.9 1.04l-1.432-.464a1.06 1.06 0 0 0-1.232.437L3.139 8.747a.945.945 0 0 0 .217 1.23l1.148.947A6.24 6.24 0 0 0 4.5 13l-1.148.947a.945.945 0 0 0-.217 1.23l1.542 2.534a1.06 1.06 0 0 0 1.232.437l1.436-.469a7.773 7.773 0 0 0 1.9 1.04l.289 1.411a1.021 1.021 0 0 0 1.015.793h3.085a1.021 1.021 0 0 0 1.015-.793l.289-1.411a7.773 7.773 0 0 0 1.9-1.04l1.436.469a1.06 1.06 0 0 0 1.232-.437l1.542-2.534a.945.945 0 0 0-.217-1.23z" transform="translate(-2.091 -1.959)" style="stroke:#222;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;fill:none"/>
+        <ellipse data-name="타원 772" cx="2.848" cy="2.749" rx="2.848" ry="2.749" transform="translate(7.151 7.252)" style="stroke:#222;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;fill:none"/>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+    <defs>
+        <linearGradient id="ayehyeve6a" x1=".048" x2="1" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fe1e3d"/>
+            <stop offset=".498" stop-color="#fa4c39"/>
+            <stop offset="1" stop-color="#efba2e"/>
+        </linearGradient>
+    </defs>
+    <g data-name="그룹 51">
+        <path data-name="패스 7073" d="M10.271 21.391H2.385A1.635 1.635 0 0 1 .75 19.756V2.385A1.635 1.635 0 0 1 2.385.75h17.371a1.635 1.635 0 0 1 1.635 1.635v7.539" transform="translate(1.394 1.394)" style="fill:none;stroke:#222;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <path data-name="패스 26093" d="m15.016 18.371-2.07.857a4.613 4.613 0 0 0-2.512 2.344l-1.173 2.647a.39.39 0 0 1-.24.206.443.443 0 0 1-.534-.206l-1.171-2.646A4.615 4.615 0 0 0 4.8 19.236l-2.07-.856a.4.4 0 0 1-.192-.163.33.33 0 0 1 .192-.47l2.07-.856a4.605 4.605 0 0 0 2.512-2.344L8.489 11.9a.4.4 0 0 1 .2-.167.471.471 0 0 1 .578.167l1.173 2.641a4.6 4.6 0 0 0 2.51 2.346l2.07.854a.329.329 0 0 1 0 .63z" transform="translate(10.247 .767)" style="fill:url(#ayehyeve6a)"/>
+        <path data-name="선 442" transform="translate(7.669 7.876)" style="fill:none;stroke:#222;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px" d="M0 0h9.59"/>
+        <path data-name="선 443" transform="translate(7.669 13.032)" style="fill:none;stroke:#222;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px" d="M0 0h5.253"/>
+    </g>
+</svg>

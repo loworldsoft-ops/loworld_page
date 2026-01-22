@@ -112,14 +112,6 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $mb (Number) - the PDF file size in megabytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } МБ ({ $b } байтів)
-# Variables:
-#   $size_kb (Number) - the PDF file size in kilobytes
-#   $size_b (Number) - the PDF file size in bytes
-pdfjs-document-properties-kb = { $size_kb } кБ ({ $size_b } байтів)
-# Variables:
-#   $size_mb (Number) - the PDF file size in megabytes
-#   $size_b (Number) - the PDF file size in bytes
-pdfjs-document-properties-mb = { $size_mb } МБ ({ $size_b } байтів)
 pdfjs-document-properties-title = Заголовок:
 pdfjs-document-properties-author = Автор:
 pdfjs-document-properties-subject = Тема:
@@ -129,10 +121,6 @@ pdfjs-document-properties-modification-date = Дата зміни:
 # Variables:
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
-# Variables:
-#   $date (Date) - the creation/modification date of the PDF file
-#   $time (Time) - the creation/modification time of the PDF file
-pdfjs-document-properties-date-string = { $date }, { $time }
 pdfjs-document-properties-creator = Створено:
 pdfjs-document-properties-producer = Виробник PDF:
 pdfjs-document-properties-version = Версія PDF:
@@ -277,10 +265,6 @@ pdfjs-rendering-error = Під час виведення сторінки ста
 
 ## Annotations
 
-# Variables:
-#   $date (Date) - the modification date of the annotation
-#   $time (Time) - the modification time of the annotation
-pdfjs-annotation-date-string = { $date }, { $time }
 # .alt: This is used as a tooltip.
 # Variables:
 #   $type (String) - an annotation type from a list defined in the PDF spec
@@ -318,6 +302,25 @@ pdfjs-highlight-floating-button1 =
     .title = Підсвітити
     .aria-label = Підсвітити
 pdfjs-highlight-floating-button-label = Підсвітити
+pdfjs-editor-signature-button =
+    .title = Додати підпис
+pdfjs-editor-signature-button-label = Додати підпис
+
+## Default editor aria labels
+
+# “Highlight” is a noun, the string is used on the editor for highlights.
+pdfjs-editor-highlight-editor =
+    .aria-label = Редактор підсвічень
+# “Drawing” is a noun, the string is used on the editor for drawings.
+pdfjs-editor-ink-editor =
+    .aria-label = Редактор малюнків
+# Used when a signature editor is selected/hovered.
+# Variables:
+#   $description (String) - a string describing/labeling the signature.
+pdfjs-editor-signature-editor1 =
+    .aria-description = Редактор підпису: { $description }
+pdfjs-editor-stamp-editor =
+    .aria-label = Редактор зображень
 
 ## Remove button for the various kind of editor.
 
@@ -328,7 +331,9 @@ pdfjs-editor-remove-freetext-button =
 pdfjs-editor-remove-stamp-button =
     .title = Вилучити зображення
 pdfjs-editor-remove-highlight-button =
-    .title = Вилучити підсвічування
+    .title = Вилучити підсвічення
+pdfjs-editor-remove-signature-button =
+    .title = Вилучити підпис
 
 ##
 
@@ -344,25 +349,27 @@ pdfjs-editor-stamp-add-image-button-label = Додати зображення
 # This refers to the thickness of the line used for free highlighting (not bound to text)
 pdfjs-editor-free-highlight-thickness-input = Товщина
 pdfjs-editor-free-highlight-thickness-title =
-    .title = Змінюйте товщину під час підсвічування елементів, крім тексту
+    .title = Змінюйте товщину під час підсвічення елементів, крім тексту
+pdfjs-editor-add-signature-container =
+    .aria-label = Елементи керування підписами та збережені підписи
+pdfjs-editor-signature-add-signature-button =
+    .title = Додати новий підпис
+pdfjs-editor-signature-add-signature-button-label = Додати новий підпис
+# Used on the button to use an already saved signature.
+# Variables:
+#   $description (String) - a string describing/labeling the signature.
+pdfjs-editor-add-saved-signature-button =
+    .title = Збережений підпис: { $description }
 # .default-content is used as a placeholder in an empty text editor.
 pdfjs-free-text2 =
     .aria-label = Текстовий редактор
     .default-content = Напишіть щось…
-pdfjs-free-text =
-    .aria-label = Текстовий редактор
-pdfjs-free-text-default-content = Почніть вводити…
-pdfjs-ink =
-    .aria-label = Графічний редактор
-pdfjs-ink-canvas =
-    .aria-label = Зображення, створене користувачем
 
 ## Alt-text dialog
 
 pdfjs-editor-alt-text-button-label = Альтернативний текст
 pdfjs-editor-alt-text-edit-button =
     .aria-label = Редагувати альтернативний текст
-pdfjs-editor-alt-text-edit-button-label = Змінити альтернативний текст
 pdfjs-editor-alt-text-dialog-label = Вибрати варіант
 pdfjs-editor-alt-text-dialog-description = Альтернативний текст допомагає, коли зображення не видно або коли воно не завантажується.
 pdfjs-editor-alt-text-add-description-label = Додати опис
@@ -382,14 +389,6 @@ pdfjs-editor-alt-text-button =
 ## Editor resizers
 ## This is used in an aria label to help to understand the role of the resizer.
 
-pdfjs-editor-resizer-label-top-left = Верхній лівий кут – зміна розміру
-pdfjs-editor-resizer-label-top-middle = Вгорі посередині – зміна розміру
-pdfjs-editor-resizer-label-top-right = Верхній правий кут – зміна розміру
-pdfjs-editor-resizer-label-middle-right = Праворуч посередині – зміна розміру
-pdfjs-editor-resizer-label-bottom-right = Нижній правий кут – зміна розміру
-pdfjs-editor-resizer-label-bottom-middle = Внизу посередині – зміна розміру
-pdfjs-editor-resizer-label-bottom-left = Нижній лівий кут – зміна розміру
-pdfjs-editor-resizer-label-middle-left = Ліворуч посередині – зміна розміру
 pdfjs-editor-resizer-top-left =
     .aria-label = Верхній лівий кут – зміна розміру
 pdfjs-editor-resizer-top-middle =
@@ -410,7 +409,7 @@ pdfjs-editor-resizer-middle-left =
 ## Color picker
 
 # This means "Color used to highlight text"
-pdfjs-editor-highlight-colorpicker-label = Колір підсвічування
+pdfjs-editor-highlight-colorpicker-label = Колір підсвічення
 pdfjs-editor-colorpicker-button =
     .title = Змінити колір
 pdfjs-editor-colorpicker-dropdown =
@@ -455,7 +454,6 @@ pdfjs-editor-new-alt-text-error-close-button = Закрити
 # Variables:
 #   $totalSize (Number) - the total size (in MB) of the AI model.
 #   $downloadedSize (Number) - the downloaded size (in MB) of the AI model.
-#   $percent (Number) - the percentage of the downloaded size.
 pdfjs-editor-new-alt-text-ai-model-downloading-progress = Завантаження моделі ШІ для альтернативного тексту ({ $downloadedSize } з { $totalSize } МБ)
     .aria-valuetext = Завантаження моделі ШІ для альтернативного тексту ({ $downloadedSize } з { $totalSize } МБ)
 # This is a button that users can click to edit the alt text they have already added.
@@ -502,6 +500,7 @@ pdfjs-editor-undo-bar-message-highlight = Підсвічення вилучен�
 pdfjs-editor-undo-bar-message-freetext = Текст вилучено
 pdfjs-editor-undo-bar-message-ink = Малюнок вилучено
 pdfjs-editor-undo-bar-message-stamp = Зображення вилучено
+pdfjs-editor-undo-bar-message-signature = Підпис вилучено
 # Variables:
 #   $count (Number) - the number of removed annotations.
 pdfjs-editor-undo-bar-message-multiple =
@@ -517,8 +516,129 @@ pdfjs-editor-undo-bar-close-button =
     .title = Закрити
 pdfjs-editor-undo-bar-close-button-label = Закрити
 
+## Add a signature dialog
+
+pdfjs-editor-add-signature-dialog-label = У цьому вікні користувач може створити підпис для додавання до PDF-документа. Користувач може відредагувати назву (яка також слугує альтернативним текстом) і, за бажання, зберегти підпис для повторного використання.
+pdfjs-editor-add-signature-dialog-title = Додати підпис
+
+## Tab names
+
+# Type is a verb (you can type your name as signature)
+pdfjs-editor-add-signature-type-button = Ввести
+    .title = Ввести
+# Draw is a verb (you can draw your signature)
+pdfjs-editor-add-signature-draw-button = Малювати
+    .title = Малювати
+pdfjs-editor-add-signature-image-button = Зображення
+    .title = Зображення
+
+## Tab panels
+
+pdfjs-editor-add-signature-type-input =
+    .aria-label = Введіть свій підпис
+    .placeholder = Введіть свій підпис
+pdfjs-editor-add-signature-draw-placeholder = Намалюйте свій підпис
+pdfjs-editor-add-signature-draw-thickness-range-label = Товщина
+# Variables:
+#   $thickness (Number) - the thickness (in pixels) of the line used to draw a signature.
+pdfjs-editor-add-signature-draw-thickness-range =
+    .title = Товщина лінії: { $thickness }
+pdfjs-editor-add-signature-image-placeholder = Перетягніть файл сюди, щоб вивантажити
+pdfjs-editor-add-signature-image-browse-link =
+    { PLATFORM() ->
+        [macos] Або виберіть файли зображень
+       *[other] Або перегляньте файли зображень
+    }
+
+## Controls
+
+pdfjs-editor-add-signature-description-label = Опис (альтернативний текст)
+pdfjs-editor-add-signature-description-input =
+    .title = Опис (альтернативний текст)
+pdfjs-editor-add-signature-description-default-when-drawing = Підпис
+pdfjs-editor-add-signature-clear-button-label = Очистити підпис
+pdfjs-editor-add-signature-clear-button =
+    .title = Очистити підпис
+pdfjs-editor-add-signature-save-checkbox = Зберегти підпис
+pdfjs-editor-add-signature-save-warning-message = Ви досягли ліміту в 5 збережених підписів. Вилучіть один, щоб зберегти інший.
+pdfjs-editor-add-signature-image-upload-error-title = Не вдалося вивантажити зображення
+pdfjs-editor-add-signature-image-upload-error-description = Перевірте мережеве з'єднання або спробуйте інше зображення.
+pdfjs-editor-add-signature-error-close-button = Закрити
+
+## Dialog buttons
+
+pdfjs-editor-add-signature-cancel-button = Скасувати
+pdfjs-editor-add-signature-add-button = Додати
+pdfjs-editor-edit-signature-update-button = Оновити
+
+## Main menu for adding/removing signatures
+
+pdfjs-editor-delete-signature-button1 =
+    .title = Видалити збережений підпис
+pdfjs-editor-delete-signature-button-label1 = Видалити збережений підпис
+
+## Editor toolbar
+
+pdfjs-editor-add-signature-edit-button-label = Редагувати опис
+
+## Edit signature description dialog
+
+pdfjs-editor-edit-signature-dialog-title = Редагувати опис
+
+# Additional translations for ngx-extended-pdf-viewer (uk)
+unverified-signature-warning = Цей PDF файл містить цифровий підпис. Переглядач PDF не може перевірити, чи є підпис дійсним. Будь ласка, завантажте файл і відкрийте його в Acrobat Reader, щоб перевірити дійсність підпису.
+pdfjs-infinite-scroll-button-label = Нескінченне прокручування
+pdfjs-find-multiple-checkbox-label = Знайти кожне слово
+pdfjs-find-regexp-checkbox-label = Регулярний вираз
+pdfjs-editor-movePageUp-button = Перемістити сторінку вгору
+pdfjs-editor-movePageUp-button-label = Перемістити сторінку вгору
+pdfjs-editor-movePageDown-button = Перемістити сторінку вниз
+pdfjs-editor-movePageDown-button-label = Перемістити сторінку вниз
 # Translations for ngx-extended-pdf-viewer additions only available in en-US
-unverified-signature-warning = This PDF file contains a digital signature. The PDF viewer can't verify if the signature is valid. Please download the file and open it in Acrobat Reader to verify the signature is valid.
-pdfjs-infinite-scroll-button-label = Infinite scroll
-pdfjs-find-multiple-checkbox-label = Match Each Word
-pdfjs-find-regexp-checkbox-label = Regular Expression
+pdfjs-editor-color-picker-free-text-input =
+    .title = Change text color
+pdfjs-editor-color-picker-ink-input =
+    .title = Change drawing color
+pdfjs-comment-floating-button =
+    .title = Comment
+    .aria-label = Comment
+pdfjs-comment-floating-button-label = Comment
+pdfjs-editor-comment-button =
+    .title = Comment
+    .aria-label = Comment
+pdfjs-editor-comment-button-label = Comment
+pdfjs-editor-comments-sidebar-title =
+    { $count ->
+        [one] Comment
+       *[other] Comments
+    }
+pdfjs-editor-comments-sidebar-close-button =
+    .title = Close the sidebar
+    .aria-label = Close the sidebar
+pdfjs-editor-comments-sidebar-close-button-label = Close the sidebar
+pdfjs-editor-comments-sidebar-no-comments1 = See something noteworthy? Highlight it and leave a comment.
+pdfjs-editor-comments-sidebar-no-comments-link = Learn more
+pdfjs-editor-highlight-added-alert = Highlight added
+pdfjs-editor-freetext-added-alert = Text added
+pdfjs-editor-ink-added-alert = Drawing added
+pdfjs-editor-stamp-added-alert = Image added
+pdfjs-editor-signature-added-alert = Signature added
+pdfjs-editor-add-signature-image-no-data-error-title = Can’t convert this image into a signature
+pdfjs-editor-add-signature-image-no-data-error-description = Please try uploading a different image.
+pdfjs-show-comment-button =
+    .title = Show comment
+pdfjs-editor-edit-comment-popup-button-label = Edit comment
+pdfjs-editor-edit-comment-popup-button =
+    .title = Edit comment
+pdfjs-editor-delete-comment-popup-button-label = Remove comment
+pdfjs-editor-delete-comment-popup-button =
+    .title = Remove comment
+pdfjs-editor-edit-comment-dialog-title-when-editing = Edit comment
+pdfjs-editor-edit-comment-dialog-save-button-when-editing = Update
+pdfjs-editor-edit-comment-dialog-title-when-adding = Add comment
+pdfjs-editor-edit-comment-dialog-save-button-when-adding = Add
+pdfjs-editor-edit-comment-dialog-text-input =
+    .placeholder = Start typing…
+pdfjs-editor-edit-comment-dialog-cancel-button = Cancel
+pdfjs-editor-edit-comment-button =
+    .title = Edit comment

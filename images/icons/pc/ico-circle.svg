@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a5a5a5;
+        opacity: 0;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #222;
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="ico_circle" transform="translate(-976 -253)">
+    <rect id="사각형_4453" data-name="사각형 4453" class="cls-1" width="14" height="14" transform="translate(976 253)"/>
+    <g id="타원_10" data-name="타원 10" class="cls-2" transform="translate(976 253)">
+      <circle class="cls-3" cx="7" cy="7" r="7"/>
+      <circle class="cls-4" cx="7" cy="7" r="6.25"/>
+    </g>
+  </g>
+</svg>

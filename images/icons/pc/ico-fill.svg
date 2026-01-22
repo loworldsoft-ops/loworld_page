@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffee36;
+        stroke: #ddd;
+      }
+
+      .cls-1, .cls-3 {
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #222;
+        stroke: #bbb;
+      }
+
+      .cls-3 {
+        fill: #ff9b9b;
+      }
+
+      .cls-4 {
+        fill: #555;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="ico_fill" transform="translate(-1629 -345)">
+    <g id="사각형_4414" data-name="사각형 4414" class="cls-1" transform="translate(1629 345)">
+      <rect class="cls-5" width="24" height="24" rx="2"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="23" height="23" rx="1.5"/>
+    </g>
+    <g id="그룹_147" data-name="그룹 147" transform="translate(2)">
+      <g id="사각형_4412" data-name="사각형 4412" class="cls-2" transform="translate(1629 364)">
+        <rect class="cls-5" width="20" height="5"/>
+        <rect class="cls-6" x="0.5" y="0.5" width="19" height="4"/>
+      </g>
+      <g id="그룹_155" data-name="그룹 155">
+        <rect id="사각형_4413" data-name="사각형 4413" class="cls-3" width="16" height="16" transform="translate(1631 345)"/>
+        <path id="패스_7133" data-name="패스 7133" class="cls-4" d="M13.9,13.569l1.287-1.287,1.287,1.287a1.82,1.82,0,1,1-2.573,0ZM6.37.72,14.6,8.955a.728.728,0,0,1,0,1.029L8.429,16.161a.728.728,0,0,1-1.029,0L1.223,9.984a.728.728,0,0,1,0-1.029L6.885,3.293,5.341,1.749,6.37.72Zm1.544,3.6L2.767,9.47H13.061L7.914,4.323Z" transform="translate(1629.99 344.302)"/>
+      </g>
+    </g>
+  </g>
+</svg>

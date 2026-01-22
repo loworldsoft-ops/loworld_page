@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <linearGradient id="jp1ejt6b2a" x1=".048" x2="1" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fe1e3d"/>
+            <stop offset=".498" stop-color="#fa4c39"/>
+            <stop offset="1" stop-color="#efba2e"/>
+        </linearGradient>
+    </defs>
+    <g data-name="그룹 51">
+        <path data-name="패스 7073" d="M8.055 16.587H2a1.254 1.254 0 0 1-1.25-1.254V2A1.254 1.254 0 0 1 2 .75h13.333A1.254 1.254 0 0 1 16.587 2v5.789" transform="translate(.895 .895)" style="fill:none;stroke:#222;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <path data-name="선 442" transform="translate(5.885 6.043)" style="fill:none;stroke:#222;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px" d="M0 0h7.359"/>
+        <path data-name="선 443" transform="translate(5.885 9.999)" style="fill:none;stroke:#222;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px" d="M0 0h4.031"/>
+        <path data-name="패스 26093" d="m12.1 16.818-1.588.658a3.539 3.539 0 0 0-1.928 1.8l-.9 2.03a.3.3 0 0 1-.184.158.34.34 0 0 1-.41-.158l-.9-2.03a3.541 3.541 0 0 0-1.928-1.793l-1.588-.656a.31.31 0 0 1-.147-.125.254.254 0 0 1 .147-.361l1.588-.656a3.534 3.534 0 0 0 1.928-1.8l.9-2.03a.308.308 0 0 1 .151-.128.361.361 0 0 1 .443.128l.9 2.026a3.532 3.532 0 0 0 1.926 1.8l1.588.655a.252.252 0 0 1 0 .483z" transform="translate(7.281 -2.133)" style="fill:url(#jp1ejt6b2a)"/>
+    </g>
+</svg>

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ezReader - Android OAuth 테스트</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+            color: #667eea;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px 24px;
+            font-size: 16px;
+            margin: 8px 0;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #f3f4f6;
+            color: #4b5563;
+        }
+
+        .btn-secondary:hover:not(:disabled) {
+            background: #e5e7eb;
+        }
+
+        .btn-danger {
+            background: #ef4444;
+            color: white;
+        }
+
+        .btn-danger:hover:not(:disabled) {
+            background: #dc2626;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .status {
+            padding: 16px;
+            margin: 20px 0;
+            border-radius: 8px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .status-info {
+            background: #dbeafe;
+            color: #1e40af;
+            border-left: 4px solid #3b82f6;
+        }
+
+        .status-success {
+            background: #d1fae5;
+            color: #065f46;
+            border-left: 4px solid #10b981;
+        }
+
+        .status-error {
+            background: #fee2e2;
+            color: #991b1b;
+            border-left: 4px solid #ef4444;
+        }
+
+        .status-warning {
+            background: #fef3c7;
+            color: #92400e;
+            border-left: 4px solid #f59e0b;
+        }
+
+        .result {
+            margin-top: 16px;
+        }
+
+        .result h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #374151;
+        }
+
+        .result-item {
+            background: #f9fafb;
+            padding: 12px;
+            border-radius: 6px;
+            margin: 8px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            word-break: break-all;
+        }
+
+        .result-item strong {
+            color: #667eea;
+            display: block;
+            margin-bottom: 4px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .divider {
+            height: 1px;
+            background: #e5e7eb;
+            margin: 24px 0;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 24px 0 12px 0;
+            color: #374151;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+
+        .badge-success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .badge-error {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .footer {
+            margin-top: 24px;
+            text-align: center;
+            color: white;
+            font-size: 12px;
+            opacity: 0.8;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .spinner {
+            display: inline-block;
+            animation: spin 1s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            🚀 ezReader Android OAuth
+        </h1>
+        <div class="subtitle">Gemini API 인증 테스트</div>
+        
+        <div id="status" class="status status-info">
+            <div id="statusText">상태 확인 중...</div>
+        </div>
+        
+        <div class="section-title">🔐 인증</div>
+        <button id="loginBtn" class="btn-primary" onclick="requestAuth()">
+            <span>🔑</span>
+            <span>Google 로그인</span>
+        </button>
+        
+        <button id="checkBtn" class="btn-secondary" onclick="checkLoginStatus()">
+            <span>✓</span>
+            <span>로그인 상태 확인</span>
+        </button>
+        
+        <button id="logoutBtn" class="btn-danger" onclick="logout()">
+            <span>🚪</span>
+            <span>로그아웃</span>
+        </button>
+        
+        <div class="divider"></div>
+        
+        <div id="result"></div>
+    </div>
+
+    <div class="footer">
+        ezReader Mobile v1.0 | 2025.12.03
+    </div>
+
+    <script>
+        // ============================================
+        // 1. 환경 감지
+        // ============================================
+        
+        function isAndroidApp() {
+            return typeof window.Android !== 'undefined';
+        }
+        
+        // 페이지 로드 시 자동 확인
+        window.addEventListener('DOMContentLoaded', function() {
+            console.log('🔍 환경 감지 중...');
+            console.log('User Agent:', navigator.userAgent);
+            console.log('window.Android:', window.Android);
+            
+            if (isAndroidApp()) {
+                updateStatus('success', '✅ Android 앱 환경 감지됨');
+                
+                // 사용 가능한 메서드 확인
+                const methods = ['requestGeminiAuth', 'isGeminiAuthAvailable', 'signOut'];
+                const available = methods.filter(m => typeof window.Android[m] === 'function');
+                
+                console.log('✅ 사용 가능한 메서드:', available);
+                
+                // 자동으로 로그인 상태 확인
+                setTimeout(checkLoginStatus, 500);
+            } else {
+                updateStatus('error', '❌ Android 앱이 아닙니다. 웹 브라우저에서는 작동하지 않습니다.');
+                document.getElementById('loginBtn').disabled = true;
+                document.getElementById('checkBtn').disabled = true;
+                document.getElementById('logoutBtn').disabled = true;
+            }
+        });
+        
+        // ============================================
+        // 2. Gemini 인증 요청
+        // ============================================
+        
+        function requestAuth() {
+            if (!isAndroidApp()) {
+                alert('Android 앱에서만 사용 가능합니다.');
+                return;
+            }
+            
+            updateStatus('info', '🔄 인증 진행 중... <span class="spinner">⏳</span>');
+            clearResult();
+            
+            try {
+                console.log('🔐 [Android] requestGeminiAuth() 호출');
+                window.Android.requestGeminiAuth();
+            } catch (error) {
+                console.error('❌ 인증 요청 실패:', error);
+                updateStatus('error', '❌ 인증 요청 실패: ' + error.message);
+            }
+        }
+        
+        // ============================================
+        // 3. 로그인 상태 확인
+        // ============================================
+        
+        function checkLoginStatus() {
+            if (!isAndroidApp()) {
+                alert('Android 앱에서만 사용 가능합니다.');
+                return;
+            }
+            
+            try {
+                console.log('🔍 [Android] isGeminiAuthAvailable() 호출');
+                const isLoggedIn = window.Android.isGeminiAuthAvailable();
+                
+                console.log('로그인 상태:', isLoggedIn);
+                
+                if (isLoggedIn) {
+                    updateStatus('success', '✅ 로그인되어 있습니다 <span class="badge badge-success">활성</span>');
+                } else {
+                    updateStatus('info', 'ℹ️ 로그인이 필요합니다');
+                }
+            } catch (error) {
+                console.error('❌ 상태 확인 실패:', error);
+                updateStatus('error', '❌ 상태 확인 실패: ' + error.message);
+            }
+        }
+        
+        // ============================================
+        // 4. 로그아웃
+        // ============================================
+        
+        function logout() {
+            if (!isAndroidApp()) {
+                alert('Android 앱에서만 사용 가능합니다.');
+                return;
+            }
+            
+            if (!confirm('정말 로그아웃 하시겠습니까?')) {
+                return;
+            }
+            
+            try {
+                console.log('🚪 [Android] signOut() 호출');
+                window.Android.signOut();
+                updateStatus('success', '✅ 로그아웃되었습니다');
+                clearResult();
+            } catch (error) {
+                console.error('❌ 로그아웃 실패:', error);
+                updateStatus('error', '❌ 로그아웃 실패: ' + error.message);
+            }
+        }
+        
+        // ============================================
+        // 5. 인증 성공 콜백
+        // ============================================
+        
+        window.onGeminiAuthSuccess = function(result) {
+            console.log('✅ [Callback] 인증 성공!', result);
+            
+            const token = result.token || '';
+            const tokenPreview = token.length > 30 
+                ? token.substring(0, 30) + '...' 
+                : token;
+            
+            updateStatus('success', '✅ 인증 성공! 토큰을 받았습니다.');
+            
+            // 결과 표시
+            const html = `
+                <div class="section-title">📋 인증 결과</div>
+                <div class="result-item">
+                    <strong>토큰:</strong>
+                    ${tokenPreview}
+                </div>
+                <div class="result-item">
+                    <strong>토큰 길이:</strong>
+                    ${token.length} 문자
+                </div>
+                ${result.tokenType ? `
+                <div class="result-item">
+                    <strong>토큰 타입:</strong>
+                    ${result.tokenType}
+                </div>
+                ` : ''}
+                ${result.expiresIn ? `
+                <div class="result-item">
+                    <strong>만료 시간:</strong>
+                    ${result.expiresIn}초 (${Math.floor(result.expiresIn / 60)}분)
+                </div>
+                ` : ''}
+                ${result.userInfo ? `
+                <div class="section-title">👤 사용자 정보</div>
+                ${result.userInfo.email ? `
+                <div class="result-item">
+                    <strong>이메일:</strong>
+                    ${result.userInfo.email}
+                </div>
+                ` : ''}
+                ${result.userInfo.name ? `
+                <div class="result-item">
+                    <strong>이름:</strong>
+                    ${result.userInfo.name}
+                </div>
+                ` : ''}
+                ${result.userInfo.picture ? `
+                <div class="result-item">
+                    <strong>프로필 사진:</strong>
+                    <img src="${result.userInfo.picture}" style="width: 48px; height: 48px; border-radius: 50%; margin-top: 8px;">
+                </div>
+                ` : ''}
+                ` : ''}
+                <button class="btn-secondary" onclick="testGeminiAPI('${token}')">
+                    <span>🤖</span>
+                    <span>Gemini API 테스트</span>
+                </button>
+            `;
+            
+            document.getElementById('result').innerHTML = html;
+        };
+        
+        // ============================================
+        // 6. 인증 실패 콜백
+        // ============================================
+        
+        window.onGeminiAuthError = function(result) {
+            console.error('❌ [Callback] 인증 실패:', result);
+            
+            updateStatus('error', '❌ 인증 실패: ' + (result.error || '알 수 없는 오류'));
+            
+            const html = `
+                <div class="section-title">❌ 에러 정보</div>
+                <div class="result-item">
+                    <strong>에러 메시지:</strong>
+                    ${result.error || '알 수 없는 오류'}
+                </div>
+                ${result.errorCode ? `
+                <div class="result-item">
+                    <strong>에러 코드:</strong>
+                    ${result.errorCode}
+                </div>
+                ` : ''}
+                ${result.details ? `
+                <div class="result-item">
+                    <strong>상세 정보:</strong>
+                    ${result.details}
+                </div>
+                ` : ''}
+            `;
+            
+            document.getElementById('result').innerHTML = html;
+        };
+        
+        // ============================================
+        // 7. Gemini API 테스트
+        // ============================================
+        
+        async function testGeminiAPI(token) {
+            updateStatus('info', '🔄 Gemini API 호출 중... <span class="spinner">⏳</span>');
+            
+            try {
+                const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+                
+                console.log('API 응답 상태:', response.status);
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    console.log('✅ API 응답:', data);
+                    
+                    updateStatus('success', '✅ Gemini API 호출 성공!');
+                    
+                    const models = data.models || [];
+                    const modelList = models.slice(0, 5).map(m => 
+                        `<div class="result-item"><strong>•</strong> ${m.name || m.displayName || 'Unknown'}</div>`
+                    ).join('');
+                    
+                    const html = `
+                        <div class="section-title">🤖 API 응답</div>
+                        <div class="result-item">
+                            <strong>사용 가능한 모델 (상위 5개):</strong>
+                        </div>
+                        ${modelList || '<div class="result-item">모델 정보 없음</div>'}
+                        <div class="result-item">
+                            <strong>총 모델 수:</strong>
+                            ${models.length}개
+                        </div>
+                    `;
+                    
+                    document.getElementById('result').innerHTML += html;
+                } else {
+                    const errorText = await response.text();
+                    console.error('❌ API 오류:', response.status, errorText);
+                    
+                    updateStatus('error', `❌ API 호출 실패: ${response.status}`);
+                    
+                    const html = `
+                        <div class="section-title">❌ API 오류</div>
+                        <div class="result-item">
+                            <strong>상태 코드:</strong>
+                            ${response.status}
+                        </div>
+                        <div class="result-item">
+                            <strong>메시지:</strong>
+                            ${errorText.substring(0, 200)}
+                        </div>
+                    `;
+                    
+                    document.getElementById('result').innerHTML += html;
+                }
+            } catch (error) {
+                console.error('❌ 네트워크 오류:', error);
+                updateStatus('error', '❌ 네트워크 오류: ' + error.message);
+            }
+        }
+        
+        // ============================================
+        // 8. UI 업데이트 헬퍼
+        // ============================================
+        
+        function updateStatus(type, message) {
+            const statusDiv = document.getElementById('status');
+            const statusText = document.getElementById('statusText');
+            
+            statusDiv.className = `status status-${type}`;
+            statusText.innerHTML = message;
+        }
+        
+        function clearResult() {
+            document.getElementById('result').innerHTML = '';
+        }
+        
+        // ============================================
+        // 9. 디버그 정보
+        // ============================================
+        
+        console.log('='.repeat(50));
+        console.log('ezReader Android OAuth 테스트 페이지');
+        console.log('='.repeat(50));
+        console.log('User Agent:', navigator.userAgent);
+        console.log('window.Android:', window.Android);
+        console.log('='.repeat(50));
+    </script>
+</body>
+</html>

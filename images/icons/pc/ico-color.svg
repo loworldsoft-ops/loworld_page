@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffee36;
+        stroke: #ddd;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #222;
+        stroke: #bbb;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke: #555;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="ico_color" transform="translate(-1629 -345)">
+    <g id="사각형_4414" data-name="사각형 4414" class="cls-1" transform="translate(1629 345)">
+      <rect class="cls-4" width="24" height="24" rx="2"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="23" height="23" rx="1.5"/>
+    </g>
+    <g id="그룹_147" data-name="그룹 147" transform="translate(2)">
+      <g id="사각형_4412" data-name="사각형 4412" class="cls-2" transform="translate(1629 364)">
+        <rect class="cls-4" width="20" height="5"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="19" height="4"/>
+      </g>
+      <g id="사각형_4413" data-name="사각형 4413" class="cls-3" transform="translate(1631 345)">
+        <rect class="cls-4" width="16" height="16" rx="2"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="15" height="15" rx="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

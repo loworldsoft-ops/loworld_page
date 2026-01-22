@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a5a5a5;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: #222;
+      }
+    </style>
+  </defs>
+  <g id="ico_triangle" transform="translate(-976 -397)">
+    <rect id="사각형_4457" data-name="사각형 4457" class="cls-1" width="14" height="14" transform="translate(976 397)"/>
+    <g id="다각형_6" data-name="다각형 6" class="cls-2" transform="translate(976 398)">
+      <path class="cls-3" d="M7,0l7,12H0Z"/>
+      <path class="cls-4" d="M 7 2.976958274841309 L 2.61155891418457 10.5 L 11.38844108581543 10.5 L 7 2.976958274841309 M 7 0 L 14 12 L 0 12 L 7 0 Z"/>
+    </g>
+  </g>
+</svg>

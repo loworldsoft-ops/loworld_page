@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: red;
+        opacity: 0;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #222;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="btn_gnb_merge" transform="translate(-1887.553 -146.553)">
+    <rect id="사각형_4306" data-name="사각형 4306" class="cls-1" width="20" height="20" transform="translate(1887.553 146.553)"/>
+    <g id="그룹_16447" data-name="그룹 16447" transform="translate(1047.958 54.958)">
+      <rect id="사각형_4273" data-name="사각형 4273" class="cls-1" width="20" height="20" transform="translate(839.594 91.594)"/>
+      <path id="Vector" class="cls-2" d="M12.42,1.951V5.877h3.926a1.309,1.309,0,0,1,1.309,1.309v9.16a1.309,1.309,0,0,1-1.309,1.309H7.186a1.309,1.309,0,0,1-1.309-1.309V12.42H1.951A1.309,1.309,0,0,1,.643,11.111V1.951A1.309,1.309,0,0,1,1.951.643h9.16A1.309,1.309,0,0,1,12.42,1.951Z" transform="translate(840.446 92.446)"/>
+      <g id="사각형_4589" data-name="사각형 4589" class="cls-3" transform="translate(845.469 97.277)">
+        <rect class="cls-4" width="8.155" height="8.155" rx="2"/>
+        <rect class="cls-5" x="1" y="1" width="6.155" height="6.155" rx="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
