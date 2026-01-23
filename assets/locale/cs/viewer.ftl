@@ -112,6 +112,14 @@ pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) }
 #   $mb (Number) - the PDF file size in megabytes
 #   $b (Number) - the PDF file size in bytes
 pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bajtů)
+# Variables:
+#   $size_kb (Number) - the PDF file size in kilobytes
+#   $size_b (Number) - the PDF file size in bytes
+pdfjs-document-properties-kb = { $size_kb } KB ({ $size_b } bajtů)
+# Variables:
+#   $size_mb (Number) - the PDF file size in megabytes
+#   $size_b (Number) - the PDF file size in bytes
+pdfjs-document-properties-mb = { $size_mb } MB ({ $size_b } bajtů)
 pdfjs-document-properties-title = Název stránky:
 pdfjs-document-properties-author = Autor:
 pdfjs-document-properties-subject = Předmět:
@@ -121,6 +129,10 @@ pdfjs-document-properties-modification-date = Datum úpravy:
 # Variables:
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+#   $date (Date) - the creation/modification date of the PDF file
+#   $time (Time) - the creation/modification time of the PDF file
+pdfjs-document-properties-date-string = { $date }, { $time }
 pdfjs-document-properties-creator = Vytvořil:
 pdfjs-document-properties-producer = Tvůrce PDF:
 pdfjs-document-properties-version = Verze PDF:
@@ -243,7 +255,7 @@ pdfjs-find-not-found = Hledaný text nenalezen
 ## Predefined zoom values
 
 pdfjs-page-scale-width = Podle šířky
-pdfjs-page-scale-fit = Podle stránky
+pdfjs-page-scale-fit = Podle výšky
 pdfjs-page-scale-auto = Automatická velikost
 pdfjs-page-scale-actual = Skutečná velikost
 # Variables:
@@ -267,6 +279,10 @@ pdfjs-rendering-error = Při vykreslování stránky nastala chyba.
 
 ## Annotations
 
+# Variables:
+#   $date (Date) - the modification date of the annotation
+#   $time (Time) - the modification time of the annotation
+pdfjs-annotation-date-string = { $date }, { $time }
 # .alt: This is used as a tooltip.
 # Variables:
 #   $type (String) - an annotation type from a list defined in the PDF spec
@@ -290,13 +306,9 @@ pdfjs-web-fonts-disabled = Webová písma jsou zakázána, proto není možné p
 
 pdfjs-editor-free-text-button =
     .title = Text
-pdfjs-editor-color-picker-free-text-input =
-    .title = Změna barvy textu
 pdfjs-editor-free-text-button-label = Text
 pdfjs-editor-ink-button =
     .title = Kreslení
-pdfjs-editor-color-picker-ink-input =
-    .title = Změna barvy kresby
 pdfjs-editor-ink-button-label = Kreslení
 pdfjs-editor-stamp-button =
     .title = Přidání či úprava obrázků
@@ -308,29 +320,6 @@ pdfjs-highlight-floating-button1 =
     .title = Zvýraznit
     .aria-label = Zvýraznit
 pdfjs-highlight-floating-button-label = Zvýraznit
-pdfjs-comment-floating-button =
-    .title = Komentář
-    .aria-label = Komentář
-pdfjs-comment-floating-button-label = Komentář
-pdfjs-editor-signature-button =
-    .title = Přidat podpis
-pdfjs-editor-signature-button-label = Přidat podpis
-
-## Default editor aria labels
-
-# “Highlight” is a noun, the string is used on the editor for highlights.
-pdfjs-editor-highlight-editor =
-    .aria-label = Editor zvýraznění
-# “Drawing” is a noun, the string is used on the editor for drawings.
-pdfjs-editor-ink-editor =
-    .aria-label = Editor kresby
-# Used when a signature editor is selected/hovered.
-# Variables:
-#   $description (String) - a string describing/labeling the signature.
-pdfjs-editor-signature-editor1 =
-    .aria-description = Editor podpisu: { $description }
-pdfjs-editor-stamp-editor =
-    .aria-label = Editor obrázků
 
 ## Remove button for the various kind of editor.
 
@@ -342,8 +331,6 @@ pdfjs-editor-remove-stamp-button =
     .title = Odebrat obrázek
 pdfjs-editor-remove-highlight-button =
     .title = Odebrat zvýraznění
-pdfjs-editor-remove-signature-button =
-    .title = Odebrat podpis
 
 ##
 
@@ -360,26 +347,24 @@ pdfjs-editor-stamp-add-image-button-label = Přidat obrázek
 pdfjs-editor-free-highlight-thickness-input = Tloušťka
 pdfjs-editor-free-highlight-thickness-title =
     .title = Změna tloušťky při zvýrazňování jiných položek než textu
-pdfjs-editor-add-signature-container =
-    .aria-label = Ovládací prvky pro podpisy a uložené podpisy
-pdfjs-editor-signature-add-signature-button =
-    .title = Přidat nový podpis
-pdfjs-editor-signature-add-signature-button-label = Přidat nový podpis
-# Used on the button to use an already saved signature.
-# Variables:
-#   $description (String) - a string describing/labeling the signature.
-pdfjs-editor-add-saved-signature-button =
-    .title = Uložený podpis: { $description }
 # .default-content is used as a placeholder in an empty text editor.
 pdfjs-free-text2 =
     .aria-label = Textový editor
     .default-content = Začněte psát...
+pdfjs-free-text =
+    .aria-label = Textový editor
+pdfjs-free-text-default-content = Začněte psát…
+pdfjs-ink =
+    .aria-label = Editor kreslení
+pdfjs-ink-canvas =
+    .aria-label = Uživatelem vytvořený obrázek
 
 ## Alt-text dialog
 
 pdfjs-editor-alt-text-button-label = Náhradní popis
 pdfjs-editor-alt-text-edit-button =
     .aria-label = Upravit alternativní text
+pdfjs-editor-alt-text-edit-button-label = Upravit náhradní popis
 pdfjs-editor-alt-text-dialog-label = Vyberte možnost
 pdfjs-editor-alt-text-dialog-description = Náhradní popis pomáhá, když lidé obrázek nevidí nebo když se nenačítá.
 pdfjs-editor-alt-text-add-description-label = Přidat popis
@@ -399,6 +384,14 @@ pdfjs-editor-alt-text-button =
 ## Editor resizers
 ## This is used in an aria label to help to understand the role of the resizer.
 
+pdfjs-editor-resizer-label-top-left = Levý horní roh — změna velikosti
+pdfjs-editor-resizer-label-top-middle = Horní střed — změna velikosti
+pdfjs-editor-resizer-label-top-right = Pravý horní roh — změna velikosti
+pdfjs-editor-resizer-label-middle-right = Vpravo uprostřed — změna velikosti
+pdfjs-editor-resizer-label-bottom-right = Pravý dolní roh — změna velikosti
+pdfjs-editor-resizer-label-bottom-middle = Střed dole — změna velikosti
+pdfjs-editor-resizer-label-bottom-left = Levý dolní roh — změna velikosti
+pdfjs-editor-resizer-label-middle-left = Vlevo uprostřed — změna velikosti
 pdfjs-editor-resizer-top-left =
     .aria-label = Levý horní roh — změna velikosti
 pdfjs-editor-resizer-top-middle =
@@ -464,6 +457,7 @@ pdfjs-editor-new-alt-text-error-close-button = Zavřít
 # Variables:
 #   $totalSize (Number) - the total size (in MB) of the AI model.
 #   $downloadedSize (Number) - the downloaded size (in MB) of the AI model.
+#   $percent (Number) - the percentage of the downloaded size.
 pdfjs-editor-new-alt-text-ai-model-downloading-progress = Stahuje se model AI pro alternativní texty ({ $downloadedSize } z { $totalSize } MB)
     .aria-valuetext = Stahuje se model AI pro alternativní texty ({ $downloadedSize } z { $totalSize } MB)
 # This is a button that users can click to edit the alt text they have already added.
@@ -504,21 +498,12 @@ pdfjs-editor-alt-text-settings-show-dialog-button-label = Při přidávání obr
 pdfjs-editor-alt-text-settings-show-dialog-description = Pomůže vám zajistit, aby všechny vaše obrázky obsahovaly alternativní text.
 pdfjs-editor-alt-text-settings-close-button = Zavřít
 
-## Accessibility labels (announced by screen readers) for objects added to the editor.
-
-pdfjs-editor-highlight-added-alert = Přidáno zvýraznění
-pdfjs-editor-freetext-added-alert = Text přidán
-pdfjs-editor-ink-added-alert = Kresba byla přidána
-pdfjs-editor-stamp-added-alert = Obrázek byl přidán
-pdfjs-editor-signature-added-alert = Byl přidán podpis
-
 ## "Annotations removed" bar
 
 pdfjs-editor-undo-bar-message-highlight = Zvýraznění odebráno
 pdfjs-editor-undo-bar-message-freetext = Text odstraněn
 pdfjs-editor-undo-bar-message-ink = Kresba odstraněna
 pdfjs-editor-undo-bar-message-stamp = Obrázek odebrán
-pdfjs-editor-undo-bar-message-signature = Podpis odebrán
 # Variables:
 #   $count (Number) - the number of removed annotations.
 pdfjs-editor-undo-bar-message-multiple =
@@ -535,134 +520,8 @@ pdfjs-editor-undo-bar-close-button =
     .title = Zavřít
 pdfjs-editor-undo-bar-close-button-label = Zavřít
 
-## Add a signature dialog
-
-pdfjs-editor-add-signature-dialog-label = Tento způsob umožňuje uživateli vytvořit podpis, který se přidá do dokumentu PDF. Uživatel může upravit jméno (které slouží zároveň jako alternativní text) a podpis uložit pro pozdější použití.
-pdfjs-editor-add-signature-dialog-title = Přidat podpis
-
-## Tab names
-
-# Type is a verb (you can type your name as signature)
-pdfjs-editor-add-signature-type-button = Typ
-    .title = Typ
-# Draw is a verb (you can draw your signature)
-pdfjs-editor-add-signature-draw-button = Kreslit
-    .title = Kreslit
-pdfjs-editor-add-signature-image-button = Obrázek
-    .title = Obrázek
-
-## Tab panels
-
-pdfjs-editor-add-signature-type-input =
-    .aria-label = Zadejte svůj podpis
-    .placeholder = Zadejte svůj podpis
-pdfjs-editor-add-signature-draw-placeholder = Nakreslete svůj podpis
-pdfjs-editor-add-signature-draw-thickness-range-label = Tloušťka
-# Variables:
-#   $thickness (Number) - the thickness (in pixels) of the line used to draw a signature.
-pdfjs-editor-add-signature-draw-thickness-range =
-    .title = Tloušťka kresby: { $thickness }
-pdfjs-editor-add-signature-image-placeholder = Pro nahrání přetáhněte soubor sem
-pdfjs-editor-add-signature-image-browse-link =
-    { PLATFORM() ->
-        [macos] Nebo vyberte soubory s obrázky
-       *[other] Nebo vyberte soubory s obrázky
-    }
-
-## Controls
-
-pdfjs-editor-add-signature-description-label = Popis (alternativní text)
-pdfjs-editor-add-signature-description-input =
-    .title = Popis (alternativní text)
-pdfjs-editor-add-signature-description-default-when-drawing = Podpis
-pdfjs-editor-add-signature-clear-button-label = Vymazání podpisu
-pdfjs-editor-add-signature-clear-button =
-    .title = Vymazání podpisu
-pdfjs-editor-add-signature-save-checkbox = Uložit podpis
-pdfjs-editor-add-signature-save-warning-message = Dosáhli jste limitu 5 uložených podpisů. Odstraňte jeden a uložte další.
-pdfjs-editor-add-signature-image-upload-error-title = Obrázek se nepodařilo nahrát
-pdfjs-editor-add-signature-image-upload-error-description = Zkontrolujte připojení k síti nebo zkuste jiný obrázek.
-pdfjs-editor-add-signature-image-no-data-error-title = Nelze převést tento obrázek na podpis
-pdfjs-editor-add-signature-image-no-data-error-description = Zkuste nahrát jiný obrázek.
-pdfjs-editor-add-signature-error-close-button = Zavřít
-
-## Dialog buttons
-
-pdfjs-editor-add-signature-cancel-button = Zrušit
-pdfjs-editor-add-signature-add-button = Přidat
-pdfjs-editor-edit-signature-update-button = Aktualizovat
-
-##  Edit a comment dialog
-
-pdfjs-editor-edit-comment-actions-button-label = Akce
-pdfjs-editor-edit-comment-actions-button =
-    .title = Akce
-pdfjs-editor-edit-comment-close-button-label = Zavřít
-pdfjs-editor-edit-comment-close-button =
-    .title = Zavřít
-pdfjs-editor-edit-comment-actions-edit-button-label = Upravit
-pdfjs-editor-edit-comment-actions-delete-button-label = Smazat
-pdfjs-editor-edit-comment-manager-text-input =
-    .placeholder = Zadejte komentář
-pdfjs-editor-edit-comment-manager-cancel-button = Zrušit
-pdfjs-editor-edit-comment-manager-save-button = Uložit
-
-## Edit a comment button in the editor toolbar
-
-pdfjs-editor-edit-comment-button =
-    .title = Upravit komentář
-
-## Main menu for adding/removing signatures
-
-pdfjs-editor-delete-signature-button1 =
-    .title = Odebrat uložený podpis
-pdfjs-editor-delete-signature-button-label1 = Odebrat uložený podpis
-
-## Editor toolbar
-
-pdfjs-editor-add-signature-edit-button-label = Upravit popis
-
-## Edit signature description dialog
-
-pdfjs-editor-edit-signature-dialog-title = Upravit popis
-
-# Additional translations for ngx-extended-pdf-viewer (cs)
-unverified-signature-warning = Tento PDF soubor obsahuje digitální podpis. PDF prohlížeč nemůže ověřit, zda je podpis platný. Stáhněte si soubor a otevřete jej v Acrobat Reader pro ověření platnosti podpisu.
-pdfjs-infinite-scroll-button-label = Nekonečné posouvání
-pdfjs-find-multiple-checkbox-label = Najít každé slovo
-pdfjs-find-regexp-checkbox-label = Regulární výraz
-pdfjs-editor-movePageUp-button = Přesunout stránku nahoru
-pdfjs-editor-movePageUp-button-label = Přesunout stránku nahoru
-pdfjs-editor-movePageDown-button = Přesunout stránku dolů
-pdfjs-editor-movePageDown-button-label = Přesunout stránku dolů
 # Translations for ngx-extended-pdf-viewer additions only available in en-US
-pdfjs-editor-comment-button =
-    .title = Comment
-    .aria-label = Comment
-pdfjs-editor-comment-button-label = Comment
-pdfjs-editor-comments-sidebar-title =
-    { $count ->
-        [one] Comment
-       *[other] Comments
-    }
-pdfjs-editor-comments-sidebar-close-button =
-    .title = Close the sidebar
-    .aria-label = Close the sidebar
-pdfjs-editor-comments-sidebar-close-button-label = Close the sidebar
-pdfjs-editor-comments-sidebar-no-comments1 = See something noteworthy? Highlight it and leave a comment.
-pdfjs-editor-comments-sidebar-no-comments-link = Learn more
-pdfjs-show-comment-button =
-    .title = Show comment
-pdfjs-editor-edit-comment-popup-button-label = Edit comment
-pdfjs-editor-edit-comment-popup-button =
-    .title = Edit comment
-pdfjs-editor-delete-comment-popup-button-label = Remove comment
-pdfjs-editor-delete-comment-popup-button =
-    .title = Remove comment
-pdfjs-editor-edit-comment-dialog-title-when-editing = Edit comment
-pdfjs-editor-edit-comment-dialog-save-button-when-editing = Update
-pdfjs-editor-edit-comment-dialog-title-when-adding = Add comment
-pdfjs-editor-edit-comment-dialog-save-button-when-adding = Add
-pdfjs-editor-edit-comment-dialog-text-input =
-    .placeholder = Start typing…
-pdfjs-editor-edit-comment-dialog-cancel-button = Cancel
+unverified-signature-warning = This PDF file contains a digital signature. The PDF viewer can't verify if the signature is valid. Please download the file and open it in Acrobat Reader to verify the signature is valid.
+pdfjs-infinite-scroll-button-label = Infinite scroll
+pdfjs-find-multiple-checkbox-label = Match Each Word
+pdfjs-find-regexp-checkbox-label = Regular Expression

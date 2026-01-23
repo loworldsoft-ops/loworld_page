@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리즈인 여성의원 - 홈페이지 시안 포트폴리오</title>
+    <style>
+        :root {
+            --primary-color: #2c2c2c;
+            --secondary-color: #4a4a4a;
+            --accent-color: #e8e8e8;
+            --text-dark: #1a1a1a;
+            --text-light: #666666;
+            --white: #ffffff;
+            --background: #fafafa;
+            --gradient-primary: linear-gradient(135deg, #2c2c2c 0%, #4a4a4a 100%);
+            --gradient-hero: linear-gradient(135deg, #f8f8f8 0%, #e8e8e8 100%);
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: var(--white);
+            padding: 30px 0;
+            border-bottom: 3px solid var(--primary-color);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-content {
+            text-align: center;
+            border-bottom: 1px solid #d0d0d0;
+            padding-bottom: 20px;
+        }
+
+        .document-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .document-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 15px;
+        }
+
+        .report-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .report-date {
+            display: flex;
+            gap: 20px;
+        }
+
+        .report-status {
+            background: var(--primary-color);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-weight: 600;
+            font-size: 0.8rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: var(--gradient-hero);
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: var(--text-light);
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+        /* Portfolio Grid */
+        .portfolio {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--text-dark);
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 60px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .portfolio-card {
+            background: var(--white);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .portfolio-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-preview {
+            position: relative;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* 각 시안별 배경 이미지 */
+        .lizin0-preview {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                             url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%23f8f9fa" width="400" height="300"/><rect fill="%23ffffff" x="20" y="20" width="360" height="60" rx="5"/><rect fill="%23e9ecef" x="30" y="30" width="80" height="40" rx="3"/><rect fill="%23dee2e6" x="320" y="30" width="50" height="40" rx="3"/><rect fill="%23ffffff" x="20" y="100" width="360" height="180" rx="5"/><circle fill="%236c757d" cx="100" cy="140" r="20"/><rect fill="%23adb5bd" x="130" y="130" width="200" height="20" rx="10"/><rect fill="%23ced4da" x="130" y="160" width="160" height="15" rx="7"/><rect fill="%23e9ecef" x="30" y="200" width="100" height="60" rx="5"/><rect fill="%23e9ecef" x="150" y="200" width="100" height="60" rx="5"/><rect fill="%23e9ecef" x="270" y="200" width="100" height="60" rx="5"/></svg>');
+        }
+
+        .lizin1-preview {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                             url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%23ffffff" width="400" height="300"/><rect fill="%23f8f9fa" x="0" y="0" width="400" height="80"/><rect fill="%23e9ecef" x="20" y="20" width="60" height="40" rx="3"/><rect fill="%23dee2e6" x="320" y="20" width="60" height="40" rx="3"/><rect fill="%23ffffff" x="50" y="100" width="300" height="120" rx="10"/><circle fill="%236c757d" cx="200" cy="130" r="15"/><rect fill="%23adb5bd" x="120" y="155" width="160" height="15" rx="7"/><rect fill="%23ced4da" x="150" y="180" width="100" height="10" rx="5"/><rect fill="%23f8f9fa" x="60" y="240" width="80" height="40" rx="5"/><rect fill="%23f8f9fa" x="160" y="240" width="80" height="40" rx="5"/><rect fill="%23f8f9fa" x="260" y="240" width="80" height="40" rx="5"/></svg>');
+        }
+
+        .lizin2-preview {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                             url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%23fefefe" width="400" height="300"/><rect fill="%23f1f3f4" x="0" y="0" width="400" height="100"/><circle fill="%23e8eaed" cx="80" cy="50" r="25"/><rect fill="%23dadce0" x="120" y="35" width="150" height="30" rx="15"/><rect fill="%23ffffff" x="30" y="120" width="340" height="160" rx="15"/><rect fill="%23f8f9fa" x="50" y="140" width="100" height="120" rx="10"/><rect fill="%23f8f9fa" x="170" y="140" width="100" height="120" rx="10"/><rect fill="%23f8f9fa" x="290" y="140" width="100" height="120" rx="10"/><circle fill="%23dadce0" cx="100" cy="170" r="20"/><circle fill="%23dadce0" cx="220" cy="170" r="20"/><circle fill="%23dadce0" cx="340" cy="170" r="20"/></svg>');
+        }
+
+        .lizin3-preview {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                             url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%23faf9f7" width="400" height="300"/><rect fill="%23f5f3f0" x="0" y="0" width="400" height="90"/><rect fill="%23e8e5e0" x="30" y="25" width="340" height="40" rx="20"/><rect fill="%23ffffff" x="20" y="110" width="360" height="170" rx="20"/><circle fill="%23d4cfc7" cx="200" cy="150" r="30"/><rect fill="%23e8e5e0" x="100" y="190" width="200" height="20" rx="10"/><rect fill="%23f0ede8" x="120" y="220" width="160" height="15" rx="7"/><rect fill="%23f5f3f0" x="50" y="250" width="80" height="20" rx="10"/><rect fill="%23f5f3f0" x="160" y="250" width="80" height="20" rx="10"/><rect fill="%23f5f3f0" x="270" y="250" width="80" height="20" rx="10"/></svg>');
+        }
+
+        .lizin4-preview {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                             url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%23f0f8ff" width="400" height="300"/><rect fill="%23e6f3ff" x="0" y="0" width="400" height="80"/><rect fill="%23cce7ff" x="30" y="20" width="340" height="40" rx="20"/><rect fill="%23ffffff" x="20" y="100" width="360" height="180" rx="15"/><circle fill="%2387ceeb" cx="200" cy="140" r="25"/><rect fill="%23b3d9ff" x="120" y="175" width="160" height="18" rx="9"/><rect fill="%23d9ecff" x="140" y="200" width="120" height="12" rx="6"/><rect fill="%23f0f8ff" x="60" y="230" width="90" height="35" rx="17"/><rect fill="%23f0f8ff" x="170" y="230" width="90" height="35" rx="17"/><rect fill="%23f0f8ff" x="280" y="230" width="90" height="35" rx="17"/></svg>');
+        }
+
+        .lizin5-preview {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                             url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%23fff5f5" width="400" height="300"/><rect fill="%23ffe0e6" x="0" y="0" width="400" height="85"/><rect fill="%23ffb3ba" x="40" y="25" width="320" height="35" rx="17"/><rect fill="%23ffffff" x="25" y="105" width="350" height="175" rx="18"/><circle fill="%23ff69b4" cx="200" cy="145" r="22"/><rect fill="%23ffccdd" x="130" y="175" width="140" height="16" rx="8"/><rect fill="%23ffe0e6" x="145" y="200" width="110" height="12" rx="6"/><rect fill="%23fff0f5" x="70" y="235" width="80" height="30" rx="15"/><rect fill="%23fff0f5" x="170" y="235" width="80" height="30" rx="15"/><rect fill="%23fff0f5" x="270" y="235" width="80" height="30" rx="15"/></svg>');
+        }
+
+        .lizin6-preview {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                             url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%23f8f6f0" width="400" height="300"/><rect fill="%23f0e6d2" x="0" y="0" width="400" height="90"/><rect fill="%23d4af37" x="50" y="30" width="300" height="30" rx="15"/><rect fill="%23ffffff" x="30" y="110" width="340" height="170" rx="20"/><circle fill="%23f4e4bc" cx="200" cy="150" r="28"/><rect fill="%23e6d7a3" x="110" y="185" width="180" height="18" rx="9"/><rect fill="%23f0e6d2" x="130" y="210" width="140" height="12" rx="6"/><rect fill="%23f8f6f0" x="60" y="240" width="85" height="32" rx="16"/><rect fill="%23f8f6f0" x="160" y="240" width="85" height="32" rx="16"/><rect fill="%23f8f6f0" x="260" y="240" width="85" height="32" rx="16"/></svg>');
+        }
+
+        .lizin7-preview {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                             url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%23f9f7f7" width="400" height="300"/><rect fill="%23f0ebe2" x="0" y="0" width="400" height="85"/><rect fill="%23c49b61" x="45" y="28" width="310" height="30" rx="15"/><rect fill="%23ffffff" x="25" y="105" width="350" height="175" rx="18"/><circle fill="%23d4af75" cx="200" cy="145" r="26"/><rect fill="%23e6d2b3" x="115" y="180" width="170" height="17" rx="8"/><rect fill="%23f0ebe2" x="135" y="205" width="130" height="11" rx="5"/><rect fill="%23f9f7f7" x="65" y="235" width="82" height="31" rx="15"/><rect fill="%23f9f7f7" x="165" y="235" width="82" height="31" rx="15"/><rect fill="%23f9f7f7" x="265" y="235" width="82" height="31" rx="15"/></svg>');
+        }
+
+        .lizin8-preview {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                             url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%23fafafa" width="400" height="300"/><rect fill="%23f0f0f0" x="0" y="0" width="400" height="80"/><rect fill="%23d4af37" x="50" y="25" width="300" height="30" rx="15"/><rect fill="%23ffffff" x="30" y="100" width="340" height="180" rx="15"/><circle fill="%23f4e4bc" cx="200" cy="140" r="25"/><rect fill="%23e6d7a3" x="120" y="175" width="160" height="16" rx="8"/><rect fill="%23f0f0f0" x="140" y="200" width="120" height="10" rx="5"/><rect fill="%23fafafa" x="70" y="230" width="80" height="30" rx="15"/><rect fill="%23fafafa" x="170" y="230" width="80" height="30" rx="15"/><rect fill="%23fafafa" x="270" y="230" width="80" height="30" rx="15"/></svg>');
+        }
+
+        .lizin9-preview {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                             url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%230a0a0a" width="400" height="300"/><rect fill="%231a1a1a" x="0" y="0" width="400" height="80"/><rect fill="%2300f5ff" x="50" y="25" width="300" height="30" rx="15"/><rect fill="%23111111" x="30" y="100" width="340" height="180" rx="15"/><circle fill="%238b5cf6" cx="200" cy="140" r="25"/><rect fill="%2300ff88" x="120" y="175" width="160" height="16" rx="8"/><rect fill="%23ff0080" x="140" y="200" width="120" height="10" rx="5"/><rect fill="%23222222" x="70" y="230" width="80" height="30" rx="15"/><rect fill="%23222222" x="170" y="230" width="80" height="30" rx="15"/><rect fill="%23222222" x="270" y="230" width="80" height="30" rx="15"/></svg>');
+        }
+
+        .lizin10-preview {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                             url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%23ffffff" width="400" height="300"/><rect fill="%23f8f6f0" x="0" y="0" width="400" height="85"/><rect fill="%23d4af37" x="45" y="27" width="310" height="31" rx="15"/><rect fill="%23ffffff" x="25" y="105" width="350" height="175" rx="20"/><circle fill="%23f4e4bc" cx="200" cy="145" r="27"/><rect fill="%23e6d7a3" x="115" y="180" width="170" height="17" rx="8"/><rect fill="%23f0ede8" x="135" y="205" width="130" height="11" rx="5"/><rect fill="%23f5f5f5" x="65" y="235" width="82" height="31" rx="15"/><rect fill="%23f5f5f5" x="165" y="235" width="82" height="31" rx="15"/><rect fill="%23f5f5f5" x="265" y="235" width="82" height="31" rx="15"/></svg>');
+        }
+
+        .card-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, rgba(44, 44, 44, 0.9), rgba(74, 74, 74, 0.9));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .portfolio-card:hover .card-overlay {
+            opacity: 1;
+        }
+
+        .overlay-text {
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .card-content {
+            padding: 25px;
+        }
+
+        .card-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--text-dark);
+        }
+
+        .card-description {
+            color: var(--text-light);
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .card-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .feature-tag {
+            background: var(--accent-color);
+            color: var(--text-dark);
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .card-action {
+            display: inline-flex;
+            align-items: center;
+            background: var(--gradient-primary);
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .card-action:hover {
+            background: linear-gradient(135deg, #1a1a1a 0%, #333333 100%);
+            transform: translateY(-2px);
+        }
+
+        /* Summary Section */
+        .summary {
+            background: var(--white);
+            padding: 60px 0;
+            margin-top: 40px;
+            border-radius: 30px;
+            box-shadow: var(--shadow);
+        }
+
+        .summary-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .summary-text h2 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--text-dark);
+        }
+
+        .summary-text p {
+            color: var(--text-light);
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+
+        .summary-features {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .feature-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--gradient-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .feature-text {
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--text-dark);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .footer p {
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* Service Link Hover Effect */
+        .service-link a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .header {
+                padding: 20px 0;
+            }
+
+            .document-title {
+                font-size: 1.8rem;
+            }
+
+            .hero h1 {
+                font-size: 3rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+                padding: 0 20px;
+            }
+
+            .portfolio-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 25px;
+            }
+
+            .card-preview {
+                height: 200px;
+            }
+
+            .summary-content {
+                gap: 40px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 15px 0;
+            }
+
+            .header-content {
+                padding-bottom: 15px;
+            }
+
+            .document-title {
+                font-size: 1.5rem;
+                line-height: 1.3;
+            }
+
+            .document-subtitle {
+                font-size: 1rem;
+                margin-bottom: 10px;
+            }
+
+            .report-info {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+
+            .report-date {
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            .hero {
+                padding: 60px 0;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+                line-height: 1.2;
+            }
+
+            .hero p {
+                font-size: 1rem;
+                margin-bottom: 30px;
+                padding: 0 10px;
+            }
+
+            .badge {
+                font-size: 0.8rem;
+                padding: 6px 16px;
+                margin-bottom: 20px;
+            }
+
+            .portfolio {
+                padding: 60px 0;
+            }
+
+            .section-title {
+                font-size: 2rem;
+                margin-bottom: 15px;
+            }
+
+            .section-subtitle {
+                font-size: 1rem;
+                margin-bottom: 40px;
+                padding: 0 10px;
+            }
+
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .card-preview {
+                height: 180px;
+            }
+
+            .card-content {
+                padding: 20px;
+            }
+
+            .card-title {
+                font-size: 1.2rem;
+                margin-bottom: 8px;
+            }
+
+            .card-description {
+                font-size: 0.9rem;
+                line-height: 1.5;
+                margin-bottom: 15px;
+            }
+
+            .feature-tag {
+                font-size: 0.75rem;
+                padding: 3px 10px;
+            }
+
+            .card-action {
+                padding: 8px 16px;
+                font-size: 0.9rem;
+            }
+
+            .summary {
+                padding: 40px 0;
+                margin-top: 30px;
+            }
+
+            .summary-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+                text-align: center;
+            }
+
+            .service-link a:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            }
+        }            .summary-text h2 {
+                font-size: 1.8rem;
+                margin-bottom: 15px;
+            }
+
+            .summary-text p {
+                font-size: 0.95rem;
+                margin-bottom: 15px;
+            }
+
+            .feature-item {
+                gap: 12px;
+            }
+
+            .feature-icon {
+                width: 35px;
+                height: 35px;
+                font-size: 0.9rem;
+            }
+
+            .feature-text {
+                font-size: 0.95rem;
+            }
+
+            .footer {
+                padding: 30px 0;
+            }
+
+            .footer p {
+                font-size: 0.9rem;
+                margin-bottom: 8px;
+            }
+
+            .container {
+                padding: 0 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                padding: 12px 0;
+            }
+
+            .document-title {
+                font-size: 1.3rem;
+                margin-bottom: 6px;
+            }
+
+            .document-subtitle {
+                font-size: 0.9rem;
+            }
+
+            .report-info {
+                font-size: 0.8rem;
+            }
+
+            .report-status {
+                font-size: 0.75rem;
+                padding: 3px 10px;
+            }
+
+            .hero {
+                padding: 40px 0;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+                margin-bottom: 15px;
+            }
+
+            .hero p {
+                font-size: 0.9rem;
+                line-height: 1.5;
+            }
+
+            .badge {
+                font-size: 0.75rem;
+                padding: 5px 12px;
+            }
+
+            .portfolio {
+                padding: 40px 0;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+                margin-bottom: 12px;
+            }
+
+            .section-subtitle {
+                font-size: 0.9rem;
+                margin-bottom: 30px;
+            }
+
+            .portfolio-grid {
+                gap: 15px;
+            }
+
+            .card-preview {
+                height: 150px;
+            }
+
+            .card-content {
+                padding: 15px;
+            }
+
+            .card-title {
+                font-size: 1.1rem;
+                margin-bottom: 6px;
+            }
+
+            .card-description {
+                font-size: 0.85rem;
+                margin-bottom: 12px;
+            }
+
+            .card-features {
+                gap: 6px;
+                margin-bottom: 15px;
+            }
+
+            .feature-tag {
+                font-size: 0.7rem;
+                padding: 2px 8px;
+            }
+
+            .card-action {
+                padding: 6px 14px;
+                font-size: 0.85rem;
+            }
+
+            .summary {
+                padding: 30px 0;
+                margin-top: 20px;
+            }
+
+            .summary-text h2 {
+                font-size: 1.5rem;
+                margin-bottom: 12px;
+            }
+
+            .summary-text p {
+                font-size: 0.9rem;
+                margin-bottom: 12px;
+            }
+
+            .summary-features {
+                gap: 12px;
+            }
+
+            .feature-item {
+                gap: 10px;
+            }
+
+            .feature-icon {
+                width: 30px;
+                height: 30px;
+                font-size: 0.8rem;
+            }
+
+            .feature-text {
+                font-size: 0.9rem;
+            }
+
+            .footer {
+                padding: 25px 0;
+            }
+
+            .footer p {
+                font-size: 0.85rem;
+                margin-bottom: 6px;
+            }
+
+            .container {
+                padding: 0 12px;
+            }
+
+            .overlay-text {
+                font-size: 1rem;
+            }
+        }
+
+        /* Modal Responsive */
+        @media (max-width: 768px) {
+            .modal-content {
+                margin: 1% auto;
+                width: 98%;
+                height: 95%;
+            }
+
+            .modal-header {
+                padding: 15px;
+            }
+
+            .modal-title {
+                font-size: 1.1rem;
+            }
+
+            .close {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .modal-content {
+            position: relative;
+            margin: 2% auto;
+            width: 95%;
+            height: 90%;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .modal-header {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+
+        .close {
+            font-size: 2rem;
+            cursor: pointer;
+            background: none;
+            border: none;
+            color: white;
+        }
+
+        .modal-iframe {
+            width: 100%;
+            height: calc(100% - 80px);
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="document-title">홈페이지 시안 작업 보고서</h1>
+                <p class="document-subtitle">리즈인 여성의원 웹사이트 디자인 제안서</p>
+                <div class="report-info">
+                    <div class="report-date">
+                        <span>작성일: 2025년 9월 13일</span>
+                        <span>제출처: 리즈인 여성의원</span>
+                    </div>
+                    <div class="report-status">PC 버전 작업중</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Executive Summary -->
+    <section class="hero">
+        <div class="container">
+            <div class="badge">업무 보고서</div>
+            <h1>프로젝트 개요</h1>
+            <p><strong>리즈인 여성의원</strong> 홈페이지 디자인 11종 시안 작업을 완료하였습니다.<br>
+            현재 <strong>PC 기반 디자인</strong>으로 작업 중이며, 원장님의 <strong>피드백을 반영하여 개선</strong>하도록 하겠습니다.</p>
+        </div>
+    </section>
+
+    <!-- Design Proposals -->
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="section-title">제안 디자인 시안 (총 11종)</h2>
+            <p class="section-subtitle">
+                서로 다른 컨셉과 타겟 고객층을 고려한 11가지 홈페이지 디자인 시안을 제시드립니다.<br>
+                각 시안의 특징과 장점을 비교 검토하신 후 선택해 주시기 바랍니다.
+            </p>
+
+            <div class="portfolio-grid">
+                <!-- Lizin 10 -->
+                <div class="portfolio-card">
+                    <div class="card-preview lizin10-preview">
+                        <div class="card-overlay">
+                            <div class="overlay-text">클릭하여 새창에서 보기</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LIZIN 10 - 엘레간트 럭셔리</h3>
+                        <p class="card-description">
+                            미니멀하고 우아한 골드 톤의 럭셔리 디자인으로, 품격 있는 프리미엄 난임센터의 이미지를 완성합니다.
+                        </p>
+                        <div class="card-features">
+                            <span class="feature-tag">엘레간트</span>
+                            <span class="feature-tag">미니멀</span>
+                            <span class="feature-tag">품격</span>
+                        </div>
+                        <a href="lizin10.html" target="_blank" class="card-action">새창에서 보기 →</a>
+                    </div>
+                </div>
+
+                <!-- Lizin 9 -->
+                <div class="portfolio-card">
+                    <div class="card-preview lizin9-preview">
+                        <div class="card-overlay">
+                            <div class="overlay-text">클릭하여 새창에서 보기</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LIZIN 9 - 사이버틱 미래형</h3>
+                        <p class="card-description">
+                            네온 효과와 사이버틱 디자인으로, 첨단 의료 기술과 미래형 생명공학 센터의 이미지를 구현합니다.
+                        </p>
+                        <div class="card-features">
+                            <span class="feature-tag">사이버틱</span>
+                            <span class="feature-tag">미래형</span>
+                            <span class="feature-tag">첨단 기술</span>
+                        </div>
+                        <a href="lizin9.html" target="_blank" class="card-action">새창에서 보기 →</a>
+                    </div>
+                </div>
+
+                <!-- Lizin 8 -->
+                <div class="portfolio-card">
+                    <div class="card-preview lizin8-preview">
+                        <div class="card-overlay">
+                            <div class="overlay-text">클릭하여 새창에서 보기</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LIZIN 8 - 프리미엄 글래스</h3>
+                        <p class="card-description">
+                            글래스모피즘과 골드 톤이 조화된 프리미엄 디자인으로, 고급스럽고 현대적인 의료 서비스를 표현합니다.
+                        </p>
+                        <div class="card-features">
+                            <span class="feature-tag">프리미엄</span>
+                            <span class="feature-tag">글래스</span>
+                            <span class="feature-tag">고급스러움</span>
+                        </div>
+                        <a href="lizin8.html" target="_blank" class="card-action">새창에서 보기 →</a>
+                    </div>
+                </div>
+
+                <!-- Lizin 7 -->
+                <div class="portfolio-card">
+                    <div class="card-preview lizin7-preview">
+                        <div class="card-overlay">
+                            <div class="overlay-text">클릭하여 새창에서 보기</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LIZIN 7 - 하이브리드 조합</h3>
+                        <p class="card-description">
+                            통계적 요소와 현대적 스타일을 조합한 하이브리드 디자인으로, 데이터 기반의 전문성을 강조합니다.
+                        </p>
+                        <div class="card-features">
+                            <span class="feature-tag">하이브리드</span>
+                            <span class="feature-tag">데이터 중심</span>
+                            <span class="feature-tag">전문적</span>
+                        </div>
+                        <a href="lizin7.html" target="_blank" class="card-action">새창에서 보기 →</a>
+                    </div>
+                </div>
+
+                <!-- Lizin 6 -->
+                <div class="portfolio-card">
+                    <div class="card-preview lizin6-preview">
+                        <div class="card-overlay">
+                            <div class="overlay-text">클릭하여 새창에서 보기</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LIZIN 6 - 글래스모피즘 모던</h3>
+                        <p class="card-description">
+                            투명감과 블러 효과를 활용한 글래스모피즘 디자인으로, 현대적이고 세련된 의료 서비스를 표현합니다.
+                        </p>
+                        <div class="card-features">
+                            <span class="feature-tag">글래스모피즘</span>
+                            <span class="feature-tag">모던</span>
+                            <span class="feature-tag">세련됨</span>
+                        </div>
+                        <a href="lizin6.html" target="_blank" class="card-action">새창에서 보기 →</a>
+                    </div>
+                </div>
+
+                <!-- Lizin 5 -->
+                <div class="portfolio-card">
+                    <div class="card-preview lizin5-preview">
+                        <div class="card-overlay">
+                            <div class="overlay-text">클릭하여 새창에서 보기</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LIZIN 5 - 로맨틱 핑크</h3>
+                        <p class="card-description">
+                            여성스럽고 부드러운 핑크 컬러로, 난임센터의 따뜻하고 세심한 배려를 표현한 로맨틱한 디자인입니다.
+                        </p>
+                        <div class="card-features">
+                            <span class="feature-tag">로맨틱</span>
+                            <span class="feature-tag">여성적</span>
+                            <span class="feature-tag">부드러움</span>
+                        </div>
+                        <a href="lizin5.html" target="_blank" class="card-action">새창에서 보기 →</a>
+                    </div>
+                </div>
+
+                <!-- Lizin 4 -->
+                <div class="portfolio-card">
+                    <div class="card-preview lizin4-preview">
+                        <div class="card-overlay">
+                            <div class="overlay-text">클릭하여 새창에서 보기</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LIZIN 4 - 청량 블루</h3>
+                        <p class="card-description">
+                            시원하고 깔끔한 블루 톤의 디자인으로, 신뢰감과 전문성을 강조하는 의료진의 전문 이미지를 구현합니다.
+                        </p>
+                        <div class="card-features">
+                            <span class="feature-tag">청량감</span>
+                            <span class="feature-tag">전문성</span>
+                            <span class="feature-tag">신뢰</span>
+                        </div>
+                        <a href="lizin4.html" target="_blank" class="card-action">새창에서 보기 →</a>
+                    </div>
+                </div>
+
+                <!-- Lizin 3 -->
+                <div class="portfolio-card">
+                    <div class="card-preview lizin3-preview">
+                        <div class="card-overlay">
+                            <div class="overlay-text">클릭하여 새창에서 보기</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LIZIN 3 - 따뜻한 케어</h3>
+                        <p class="card-description">
+                            부드럽고 따뜻한 느낌의 디자인으로, 환자의 마음을 편안하게 하는 친근하고 아늑한 분위기를 연출합니다.
+                        </p>
+                        <div class="card-features">
+                            <span class="feature-tag">따뜻함</span>
+                            <span class="feature-tag">친근함</span>
+                            <span class="feature-tag">편안함</span>
+                        </div>
+                        <a href="lizin3.html" target="_blank" class="card-action">새창에서 보기 →</a>
+                    </div>
+                </div>
+
+                <!-- Lizin 2 -->
+                <div class="portfolio-card">
+                    <div class="card-preview lizin2-preview">
+                        <div class="card-overlay">
+                            <div class="overlay-text">클릭하여 새창에서 보기</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LIZIN 2 - 프리미엄 럭셔리</h3>
+                        <p class="card-description">
+                            고급스럽고 세련된 프리미엄 디자인으로, 특별한 케어와 최상의 서비스를 강조한 럭셔리 컨셉입니다.
+                        </p>
+                        <div class="card-features">
+                            <span class="feature-tag">프리미엄</span>
+                            <span class="feature-tag">럭셔리</span>
+                            <span class="feature-tag">세련됨</span>
+                        </div>
+                        <a href="lizin2.html" target="_blank" class="card-action">새창에서 보기 →</a>
+                    </div>
+                </div>
+
+                <!-- Lizin 1 -->
+                <div class="portfolio-card">
+                    <div class="card-preview lizin1-preview">
+                        <div class="card-overlay">
+                            <div class="overlay-text">클릭하여 새창에서 보기</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LIZIN 1 - 모던 미니멀</h3>
+                        <p class="card-description">
+                            깔끔하고 현대적인 미니멀 디자인으로, 젊은 층과 모던함을 선호하는 환자들에게 어필하는 스타일입니다.
+                        </p>
+                        <div class="card-features">
+                            <span class="feature-tag">모던</span>
+                            <span class="feature-tag">미니멀</span>
+                            <span class="feature-tag">트렌디</span>
+                        </div>
+                        <a href="lizin1.html" target="_blank" class="card-action">새창에서 보기 →</a>
+                    </div>
+                </div>
+
+                <!-- Lizin 0 -->
+                <div class="portfolio-card">
+                    <div class="card-preview lizin0-preview">
+                        <div class="card-overlay">
+                            <div class="overlay-text">클릭하여 새창에서 보기</div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">LIZIN 0 - 클래식 엘레간트</h3>
+                        <p class="card-description">
+                            차분하고 신뢰감 있는 클래식한 디자인으로, 전문의료진의 안정감을 강조한 레이아웃입니다.
+                        </p>
+                        <div class="card-features">
+                            <span class="feature-tag">클래식</span>
+                            <span class="feature-tag">신뢰감</span>
+                            <span class="feature-tag">전문성</span>
+                        </div>
+                        <a href="lizin0.html" target="_blank" class="card-action">새창에서 보기 →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Summary Section -->
+    <section class="summary">
+        <div class="container">
+            <div class="summary-content">
+                <div class="summary-text">
+                    <h2>현재 작업 진행 사항</h2>
+                    <p>리즈인 여성의원의 브랜드 아이덴티티와 전문성을 고려하여 4가지 다른 컨셉의 홈페이지 디자인을 작업하고 있습니다.</p>
+                    <p>각 시안은 서로 다른 타겟과 분위기를 가지고 있어, 원장님의 선호도와 병원의 방향성에 맞춰 선택하실 수 있습니다.</p>
+                </div>
+                <div class="summary-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">4</div>
+                        <div class="feature-text">4가지 다른 컨셉의 디자인</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">✓</div>
+                        <div class="feature-text">실제 병원 정보 반영</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">PC</div>
+                        <div class="feature-text">PC 기반 디자인 작업중</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">📱</div>
+                        <div class="feature-text">모바일 반응형 준비중</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🎨</div>
+                        <div class="feature-text">브랜드 맞춤 색상 적용중</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">💬</div>
+                        <div class="feature-text">피드백 반영 대기중</div>
+                    </div>
+                </div>
+
+                <!-- Service Link Section -->
+                <div class="service-link" style="margin-top: 40px; padding: 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; text-align: center;">
+                    <h3 style="color: white; margin-bottom: 15px; font-size: 1.4rem; font-weight: 700;">전문 홈페이지 개발 서비스</h3>
+                    <p style="color: rgba(255,255,255,0.9); margin-bottom: 20px; line-height: 1.5;">
+                        이런 퀄리티의 홈페이지를 원하신다면? 맞춤형 홈페이지 개발 서비스를 확인해보세요!
+                    </p>
+                    <a href="../homepage_development_landing.html" target="_blank" 
+                       style="display: inline-block; background: white; color: #667eea; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; transform: translateY(0);">
+                        서비스 소개 페이지 보기 →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="previewModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modalTitle">홈페이지 미리보기</h3>
+                <button class="close" onclick="closeModal()">&times;</button>
+            </div>
+            <iframe id="modalIframe" class="modal-iframe"></iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p><strong>리즈인 여성의원 홈페이지 디자인 제안서</strong></p>
+            <p>문서번호: LIZIN-WEB-2025-001 | 작성일: 2025년 9월 13일</p>
+            <p class="contact-info">※ 본 보고서에 대한 피드백을 주시면 즉시 반영하여 개선하도록 하겠습니다.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Modal functionality
+        function openModal(url, title) {
+            document.getElementById('previewModal').style.display = 'block';
+            document.getElementById('modalIframe').src = url;
+            document.getElementById('modalTitle').textContent = title;
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('previewModal').style.display = 'none';
+            document.getElementById('modalIframe').src = '';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('previewModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+
+        // ESC key to close modal
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add loading animation
+        window.addEventListener('load', function() {
+            document.querySelectorAll('.portfolio-card').forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    card.style.transition = 'all 0.6s ease';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, index * 200);
+            });
+        });
+
+        // Add click event to portfolio cards for new window opening
+        document.querySelectorAll('.portfolio-card').forEach(card => {
+            card.addEventListener('click', function(e) {
+                // 버튼 클릭이 아닌 경우에만 새창 열기
+                if (!e.target.classList.contains('card-action')) {
+                    const cardTitle = this.querySelector('.card-title').textContent;
+                    let url = '';
+                    
+                    if (cardTitle.includes('LIZIN 10')) {
+                        url = 'lizin10.html';
+                    } else if (cardTitle.includes('LIZIN 0')) {
+                        url = 'lizin0.html';
+                    } else if (cardTitle.includes('LIZIN 1')) {
+                        url = 'lizin1.html';
+                    } else if (cardTitle.includes('LIZIN 2')) {
+                        url = 'lizin2.html';
+                    } else if (cardTitle.includes('LIZIN 3')) {
+                        url = 'lizin3.html';
+                    } else if (cardTitle.includes('LIZIN 4')) {
+                        url = 'lizin4.html';
+                    } else if (cardTitle.includes('LIZIN 5')) {
+                        url = 'lizin5.html';
+                    } else if (cardTitle.includes('LIZIN 6')) {
+                        url = 'lizin6.html';
+                    } else if (cardTitle.includes('LIZIN 7')) {
+                        url = 'lizin7.html';
+                    } else if (cardTitle.includes('LIZIN 8')) {
+                        url = 'lizin8.html';
+                    } else if (cardTitle.includes('LIZIN 9')) {
+                        url = 'lizin9.html';
+                    }
+                    
+                    if (url) {
+                        window.open(url, '_blank');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

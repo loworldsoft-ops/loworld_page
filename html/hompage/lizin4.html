@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리즈인 여성의원 - 난임 전문병원</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Primary Colors - Elegant Dermatology Palette */
+            --primary-teal: #0d9488;
+            --primary-sage: #059669;
+            --primary-emerald: #10b981;
+            --primary-mint: #6ee7b7;
+            --primary-pearl: #f0fdfa;
+            
+            /* Secondary Colors */
+            --accent-gold: #d4af37;
+            --accent-rose: #f43f5e;
+            --accent-violet: #8b5cf6;
+            --accent-cream: #fef7cd;
+            
+            /* Neutrals */
+            --gray-50: #f8fafc;
+            --gray-100: #f1f5f9;
+            --gray-200: #e2e8f0;
+            --gray-300: #cbd5e1;
+            --gray-400: #94a3b8;
+            --gray-500: #64748b;
+            --gray-600: #475569;
+            --gray-700: #334155;
+            --gray-800: #1e293b;
+            --gray-900: #0f172a;
+            
+            /* Soft pastels for medical aesthetics */
+            --soft-blue: #dbeafe;
+            --soft-green: #dcfce7;
+            --soft-pink: #fce7f3;
+            --soft-lavender: #f3e8ff;
+            --soft-peach: #fed7aa;
+            
+            /* Medical white */
+            --medical-white: #ffffff;
+            --warm-white: #fefefe;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--gray-800);
+            background-color: var(--medical-white);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Typography */
+        .text-massive {
+            font-size: clamp(4rem, 10vw, 8rem);
+            font-weight: 900;
+            letter-spacing: -0.02em;
+        }
+
+        .text-huge {
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        .text-big {
+            font-size: clamp(2rem, 5vw, 4rem);
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+
+        .text-medium {
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            font-weight: 600;
+        }
+
+        .text-small {
+            font-size: clamp(1rem, 2vw, 1.5rem);
+            font-weight: 500;
+        }
+
+        /* Navigation */
+        .navigation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            padding: 1rem 0;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary-teal);
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-link {
+            color: var(--gray-700);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--primary-teal);
+        }
+
+        .nav-cta {
+            background: linear-gradient(135deg, rgba(13, 148, 136, 0.8), rgba(5, 150, 105, 0.8));
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 32px rgba(13, 148, 136, 0.3);
+        }
+
+        .nav-cta:hover {
+            transform: translateY(-2px);
+            background: linear-gradient(135deg, rgba(13, 148, 136, 0.9), rgba(5, 150, 105, 0.9));
+            box-shadow: 0 12px 40px rgba(13, 148, 136, 0.4);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            background: linear-gradient(135deg, 
+                var(--primary-pearl) 0%, 
+                var(--soft-blue) 25%, 
+                var(--soft-green) 50%, 
+                var(--medical-white) 75%, 
+                var(--primary-pearl) 100%);
+            padding-top: 80px;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .hero-text {
+            max-width: 600px;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(139, 92, 246, 0.1);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(139, 92, 246, 0.2);
+            color: var(--accent-violet);
+            padding: 0.6rem 1.2rem;
+            border-radius: 25px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 32px rgba(139, 92, 246, 0.1);
+        }
+
+        .hero-title {
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, var(--primary-teal) 0%, var(--primary-sage) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--gray-600);
+            margin-bottom: 3rem;
+            line-height: 1.6;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, rgba(13, 148, 136, 0.8), rgba(5, 150, 105, 0.8));
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1.125rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 32px rgba(13, 148, 136, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            background: linear-gradient(135deg, rgba(13, 148, 136, 0.9), rgba(5, 150, 105, 0.9));
+            box-shadow: 0 12px 40px rgba(13, 148, 136, 0.4);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(13, 148, 136, 0.3);
+            color: var(--primary-teal);
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1.125rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 32px rgba(13, 148, 136, 0.1);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(13, 148, 136, 0.8);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 12px 40px rgba(13, 148, 136, 0.3);
+        }
+
+        .hero-stats {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .stat-item {
+            text-align: center;
+            backdrop-filter: blur(20px);
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .stat-item:hover {
+            background: rgba(255, 255, 255, 0.12);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary-teal);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--gray-500);
+            font-weight: 500;
+        }
+
+        .hero-visual {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .hero-image {
+            position: relative;
+            width: 400px;
+            height: 500px;
+            border-radius: 25px;
+            overflow: hidden;
+            backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 40px rgba(13, 148, 136, 0.2), 
+                        0 8px 32px rgba(255, 255, 255, 0.1) inset;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Signature Section */
+        .signature-section {
+            padding: 8rem 0;
+            background: var(--medical-white);
+            backdrop-filter: blur(30px);
+            background: rgba(255, 255, 255, 0.9);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .signature-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-badge {
+            display: inline-block;
+            background: rgba(212, 175, 55, 0.1);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            color: var(--accent-gold);
+            padding: 0.6rem 1.2rem;
+            border-radius: 25px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            box-shadow: 0 8px 32px rgba(212, 175, 55, 0.1);
+        }
+
+        .section-title {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: var(--gray-800);
+        }
+
+        .section-subtitle {
+            font-size: 1.25rem;
+            color: var(--gray-600);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .signature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .signature-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            padding: 3rem 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .signature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(135deg, var(--primary-teal), var(--primary-sage));
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .signature-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .signature-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 20px 40px rgba(13, 148, 136, 0.2);
+            border-color: rgba(13, 148, 136, 0.3);
+        }
+
+        .card-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.5rem;
+            background: linear-gradient(135deg, var(--soft-blue), var(--soft-green));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        .signature-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--gray-800);
+        }
+
+        .signature-card p {
+            color: var(--gray-600);
+            line-height: 1.6;
+        }
+
+        /* Equipment Section */
+        .equipment-section {
+            padding: 8rem 0;
+            backdrop-filter: blur(30px);
+            background: rgba(243, 250, 255, 0.8);
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .equipment-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .equipment-text h2 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 800;
+            margin-bottom: 2rem;
+            color: var(--gray-800);
+        }
+
+        .equipment-text p {
+            font-size: 1.125rem;
+            color: var(--gray-600);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .equipment-features {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            background: rgba(255, 255, 255, 0.6);
+            padding: 1rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary-teal), var(--primary-sage));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+        }
+
+        .feature-text {
+            flex: 1;
+        }
+
+        .feature-title {
+            font-weight: 700;
+            color: var(--gray-800);
+            margin-bottom: 0.25rem;
+        }
+
+        .feature-desc {
+            font-size: 0.875rem;
+            color: var(--gray-600);
+        }
+
+        .equipment-visual {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .equipment-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .equipment-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 12px 40px rgba(13, 148, 136, 0.15);
+            border-color: rgba(13, 148, 136, 0.3);
+        }
+
+        .equipment-card.large {
+            grid-column: span 2;
+        }
+
+        .equipment-card h4 {
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--gray-800);
+        }
+
+        .equipment-card p {
+            font-size: 0.875rem;
+            color: var(--gray-600);
+        }
+
+        /* Review Section */
+        .review-section {
+            padding: 8rem 0;
+            backdrop-filter: blur(30px);
+            background: rgba(255, 255, 255, 0.85);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .review-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .rating-display {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            padding: 2rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .rating-stars {
+            color: var(--accent-gold);
+            font-size: 2rem;
+            backdrop-filter: blur(15px);
+            background: rgba(255, 215, 0, 0.1);
+            border-radius: 12px;
+            padding: 0.5rem 1rem;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            display: inline-block;
+        }
+
+        .rating-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--primary-teal);
+        }
+
+        .rating-text {
+            color: var(--gray-600);
+            font-weight: 500;
+        }
+
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .review-card {
+            background: rgba(139, 92, 246, 0.05);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid rgba(139, 92, 246, 0.1);
+            border-radius: 25px;
+            padding: 2.5rem;
+            position: relative;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 32px rgba(139, 92, 246, 0.1);
+        }
+
+        .review-card:hover {
+            transform: translateY(-10px);
+            background: rgba(139, 92, 246, 0.1);
+            box-shadow: 0 20px 40px rgba(139, 92, 246, 0.2);
+            border-color: rgba(139, 92, 246, 0.2);
+        }
+
+        .review-category {
+            background: rgba(139, 92, 246, 0.8);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 0.6rem 1.2rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 16px rgba(139, 92, 246, 0.3);
+        }
+
+        .review-text {
+            font-size: 1.125rem;
+            line-height: 1.6;
+            color: var(--gray-700);
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+
+        .review-meta {
+            font-size: 0.875rem;
+            color: var(--gray-500);
+        }
+
+        /* Experience Section */
+        .experience-section {
+            padding: 8rem 0;
+            backdrop-filter: blur(30px);
+            background: rgba(13, 148, 136, 0.85);
+            color: white;
+            position: relative;
+            overflow: hidden;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .experience-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.1;
+        }
+
+        .floating-shapes {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .shape {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            animation: float 20s linear infinite;
+        }
+
+        .shape-1 { width: 100px; height: 100px; top: 20%; left: 10%; animation-delay: 0s; }
+        .shape-2 { width: 150px; height: 150px; top: 60%; right: 15%; animation-delay: 5s; }
+        .shape-3 { width: 80px; height: 80px; top: 80%; left: 60%; animation-delay: 10s; }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-30px) rotate(180deg); }
+        }
+
+        .experience-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .experience-text h2 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 800;
+            margin-bottom: 2rem;
+        }
+
+        .experience-text p {
+            font-size: 1.25rem;
+            margin-bottom: 3rem;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+        .experience-features {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .exp-feature {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .exp-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .exp-text {
+            font-weight: 600;
+            font-size: 1.125rem;
+        }
+
+        .experience-visual {
+            text-align: center;
+        }
+
+        .exp-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 25px;
+            padding: 3rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .exp-card:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(13, 148, 136, 0.15);
+        }
+
+        .exp-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .exp-card p {
+            opacity: 0.9;
+        }
+
+        /* Location Section */
+        .location-section {
+            padding: 8rem 0;
+            backdrop-filter: blur(30px);
+            background: rgba(249, 250, 251, 0.9);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .location-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .location-info h2 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 800;
+            margin-bottom: 2rem;
+            color: var(--gray-800);
+        }
+
+        .info-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .info-item {
+            background: var(--medical-white);
+            border-radius: 15px;
+            padding: 2rem;
+            border-left: 4px solid var(--primary-teal);
+        }
+
+        .info-label {
+            font-weight: 700;
+            color: var(--primary-teal);
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .info-value {
+            color: var(--gray-700);
+            font-size: 1.125rem;
+            line-height: 1.5;
+        }
+
+        .map-container {
+            background: var(--medical-white);
+            border-radius: 25px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .map-placeholder {
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(135deg, var(--soft-green), var(--soft-blue));
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray-700);
+            font-weight: 600;
+        }
+
+        /* Consultation Section */
+        .consultation-section {
+            padding: 8rem 0;
+            backdrop-filter: blur(30px);
+            background: rgba(255, 244, 248, 0.8);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .consultation-container {
+            text-align: center;
+        }
+
+        .consultation-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+            border-radius: 30px;
+            padding: 4rem 3rem;
+            max-width: 600px;
+            margin: 0 auto;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .consultation-card h2 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: var(--gray-800);
+        }
+
+        .consultation-card p {
+            font-size: 1.125rem;
+            color: var(--gray-600);
+            margin-bottom: 3rem;
+        }
+
+        .consultation-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .form-input {
+            padding: 1rem;
+            border: 2px solid var(--gray-200);
+            border-radius: 15px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--primary-teal);
+        }
+
+        .form-submit {
+            background: linear-gradient(135deg, var(--primary-teal), var(--primary-sage));
+            color: white;
+            padding: 1.25rem;
+            border: none;
+            border-radius: 15px;
+            font-size: 1.125rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .form-submit:hover {
+            transform: translateY(-3px);
+        }
+
+        .privacy-notice {
+            font-size: 0.875rem;
+            color: var(--gray-500);
+            margin-top: 1rem;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--gray-900);
+            color: white;
+            padding: 4rem 0 2rem;
+            backdrop-filter: blur(30px);
+            background: rgba(17, 24, 39, 0.85);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-brand h3 {
+            font-size: 2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary-teal), var(--primary-sage));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+        .footer-description {
+            color: var(--gray-400);
+            font-size: 1.125rem;
+            line-height: 1.6;
+        }
+
+        .footer-contact .contact-item {
+            margin-bottom: 1.5rem;
+            backdrop-filter: blur(20px);
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .footer-contact .contact-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-label {
+            display: block;
+            font-size: 0.75rem;
+            color: var(--gray-500);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-value {
+            color: var(--gray-300);
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--gray-800);
+            padding-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .footer-link {
+            color: var(--gray-400);
+            text-decoration: none;
+            font-size: 0.875rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-link:hover {
+            color: var(--primary-teal);
+        }
+
+        .footer-copyright {
+            color: var(--gray-500);
+            font-size: 0.875rem;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .container {
+                padding: 0 1.5rem;
+            }
+
+            .hero-content,
+            .equipment-content,
+            .experience-content,
+            .location-content {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+                text-align: center;
+            }
+
+            .hero-stats {
+                justify-content: center;
+            }
+
+            .nav-menu {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1rem;
+            }
+
+            .hero {
+                padding-top: 100px;
+            }
+
+            .hero-cta {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .signature-grid,
+            .review-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .equipment-visual {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+
+            .hero-image {
+                width: 300px;
+                height: 400px;
+            }
+
+            .consultation-card {
+                padding: 3rem 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-image {
+                width: 250px;
+                height: 350px;
+            }
+
+            .consultation-card {
+                padding: 2rem 1.5rem;
+            }
+
+            .signature-card,
+            .review-card {
+                padding: 2rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="container">
+            <div class="nav-container">
+                <div class="logo">리즈인 난임센터</div>
+                <ul class="nav-menu">
+                    <li><a href="#signature" class="nav-link">난임 치료</a></li>
+                    <li><a href="#equipment" class="nav-link">시설 안내</a></li>
+                    <li><a href="#reviews" class="nav-link">성공 사례</a></li>
+                    <li><a href="#location" class="nav-link">오시는 길</a></li>
+                </ul>
+                <button class="nav-cta">상담 예약</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-badge">난임 전문병원</span>
+                    <h1 class="hero-title">
+                        새로운 생명의<br>
+                        희망을 함께하세요
+                    </h1>
+                    <p class="hero-subtitle">
+                        부산에서 만나는 최고의 난임 치료 전문 센터.<br>
+                        개인별 맞춤 치료로 소중한 꿈을 현실로 만들어드립니다.
+                    </p>
+                    
+                    <div class="hero-cta">
+                        <button class="btn-primary">무료 상담 예약</button>
+                        <button class="btn-secondary">난임 검사 안내</button>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">95%</span>
+                            <span class="stat-label">성공률</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15년</span>
+                            <span class="stat-label">경력</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3,000+</span>
+                            <span class="stat-label">성공 사례</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="hero-image">
+                        <img src="woman.png" alt="난임 전문센터 진료실" style="width: 100%; height: 100%; object-fit: cover; border-radius: 25px;">
+                        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.3); border-radius: 25px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: 600; text-align: center;">
+                            난임 전문센터<br>
+                            진료실 모습
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Section -->
+    <section id="signature" class="signature-section">
+        <div class="container">
+            <div class="signature-header fade-in">
+                <span class="section-badge">THE SIGNATURE</span>
+                <h2 class="section-title">리즈인만의 특별함</h2>
+                <p class="section-subtitle">
+                    환자분의 소중한 꿈을 최우선으로 생각하며<br>
+                    최상의 난임 치료 서비스 제공이 목표입니다.
+                </p>
+            </div>
+
+            <div class="signature-grid">
+                <div class="signature-card fade-in">
+                    <div class="card-icon">🌟</div>
+                    <h3>1:1 맞춤 치료</h3>
+                    <p>개인별 난임 원인을 정밀하게 분석하여 최적의 치료 계획을 수립합니다.</p>
+                </div>
+
+                <div class="signature-card fade-in">
+                    <div class="card-icon">🔬</div>
+                    <h3>첨단 시설</h3>
+                    <p>최신 생식의학 장비로 안전하고 효과적인 난임 치료를 제공합니다.</p>
+                </div>
+
+                <div class="signature-card fade-in">
+                    <div class="card-icon">👩‍⚕️</div>
+                    <h3>전문의 직접 진료</h3>
+                    <p>풍부한 임상 경험을 가진 생식의학과 전문의가 직접 진료합니다.</p>
+                </div>
+
+                <div class="signature-card fade-in">
+                    <div class="card-icon">🏥</div>
+                    <h3>프라이빗 공간</h3>
+                    <p>안락하고 개인적인 진료 환경에서 편안한 치료를 받으실 수 있습니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment Section -->
+    <section id="equipment" class="equipment-section">
+        <div class="container">
+            <div class="equipment-content">
+                <div class="equipment-text fade-in">
+                    <h2>첨단 의료 장비</h2>
+                    <p>
+                        좋은 치료를 위해서는 의료진의 수준 높은 실력과 
+                        이를 뒷받침할 수 있는 장비의 성능도 중요합니다. 
+                        실력과 성능의 시너지로 보다 나은 치료 결과를 만들어갑니다.
+                    </p>
+
+                    <div class="equipment-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">💉</div>
+                            <div class="feature-text">
+                                <div class="feature-title">미라젯 포르테</div>
+                                <div class="feature-desc">Needle-free 방식으로 약물 전달, 적은 통증과 빠른 회복</div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">⚡</div>
+                            <div class="feature-text">
+                                <div class="feature-title">포텐자</div>
+                                <div class="feature-desc">RF 마이크로니들로 피부 전체에 균등한 에너지 전달</div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">🌊</div>
+                            <div class="feature-text">
+                                <div class="feature-title">울쎄라</div>
+                                <div class="feature-desc">초음파 에너지로 안전하고 효과적인 리프팅</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="equipment-visual fade-in">
+                    <div class="equipment-card large">
+                        <h4>첨단 난임 치료 장비</h4>
+                        <p>최신 생식의학 장비를 통한 안전하고 효과적인 치료</p>
+                    </div>
+                    <div class="equipment-card">
+                        <h4>체외수정 시설</h4>
+                        <p>무균 실험실과 최신 배양 시스템으로 성공률 향상</p>
+                    </div>
+                    <div class="equipment-card">
+                        <h4>호르몬 검사</h4>
+                        <p>정밀한 호르몬 분석을 통한 개인별 맞춤 치료</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review Section -->
+    <section id="reviews" class="review-section">
+        <div class="container">
+            <div class="review-header fade-in">
+                <span class="section-badge">SUCCESS STORY</span>
+                <h2 class="section-title">수많은 성공사례로 증명된 결과</h2>
+                
+                <div class="rating-display">
+                    <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                    <div class="rating-number">95%</div>
+                    <div class="rating-text">평균 성공률</div>
+                </div>
+            </div>
+
+            <div class="review-grid">
+                <div class="review-card fade-in">
+                    <div class="review-category">체외수정 성공 후기</div>
+                    <p class="review-text">
+                        "3년간 노력했던 임신이 드디어 성공했어요. 
+                        선생님께서 차근차근 설명해주시고 
+                        매번 세심하게 봐주셔서 감사합니다."
+                    </p>
+                    <div class="review-meta">2024.04.15 방문고객</div>
+                </div>
+
+                <div class="review-card fade-in">
+                    <div class="review-category">인공수정 성공 후기</div>
+                    <p class="review-text">
+                        "두 번째 인공수정에서 성공했어요. 
+                        과정이 힘들었지만 의료진분들이 
+                        정말 친절하시고 희망을 잃지 않게 해주셨어요."
+                    </p>
+                    <div class="review-meta">2024.03.28 방문고객</div>
+                </div>
+
+                <div class="review-card fade-in">
+                    <div class="review-category">난임 검사 후기</div>
+                    <p class="review-text">
+                        "정밀한 검사를 통해 원인을 찾을 수 있었어요. 
+                        무엇보다 개인별 맞춤 치료 계획이 
+                        정말 도움이 되었습니다."
+                    </p>
+                    <div class="review-meta">2024.03.10 방문고객</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section">
+        <div class="experience-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="experience-content">
+                <div class="experience-text fade-in">
+                    <h2>따뜻하고 특별한 경험</h2>
+                    <p>
+                        희망의 따스함과 신뢰가 가득하며<br>
+                        안락하고 프라이빗한 공간에서<br>
+                        최고의 난임 치료 서비스를 경험하세요.
+                    </p>
+
+                    <div class="experience-features">
+                        <div class="exp-feature">
+                            <div class="exp-icon">🌟</div>
+                            <div class="exp-text">맞춤형 솔루션 1:1 책임 진료</div>
+                        </div>
+                        <div class="exp-feature">
+                            <div class="exp-icon">🔒</div>
+                            <div class="exp-text">완전 개별 진료 시스템</div>
+                        </div>
+                        <div class="exp-feature">
+                            <div class="exp-icon">💎</div>
+                            <div class="exp-text">프리미엄 서비스 제공</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-visual fade-in">
+                    <div class="exp-card">
+                        <h3>새로운 희망을 만드는<br>리즈인 난임센터의 이야기</h3>
+                        <p>
+                            각 가정의 소중한 꿈과 희망을 경청하고,<br>
+                            맞춤형 치료로 그 꿈을 현실로 만들어드립니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location-section">
+        <div class="container">
+            <div class="location-content">
+                <div class="location-info fade-in">
+                    <h2>오시는 길</h2>
+                    
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="info-label">주소</div>
+                            <div class="info-value">
+                                부산광역시 부산진구 새싹로 22-1<br>
+                                라이프빌리지 7-9F 리즈인 난임센터
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-label">진료시간</div>
+                            <div class="info-value">
+                                월, 금: 오전 09:00 ~ 오후 18:00<br>
+                                화, 수, 목: 오전 09:00 ~ 오후 17:00<br>
+                                토요일: 오전 09:00 ~ 오후 15:00<br>
+                                점심시간: 오후 12:30 ~ 13:30
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-label">전화번호</div>
+                            <div class="info-value">051-815-3007</div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-label">교통편</div>
+                            <div class="info-value">
+                                지하철 1호선 서면역 도보 5분<br>
+                                다양한 버스 노선 이용 가능
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-container fade-in">
+                    <div class="map-placeholder">
+                        🗺️ 카카오맵 연동 예정
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Section -->
+    <section class="consultation-section">
+        <div class="container">
+            <div class="consultation-container fade-in">
+                <div class="consultation-card">
+                    <h2>빠른 상담 신청</h2>
+                    <p>전문의와의 1:1 맞춤 상담을 통해 최적의 치료 계획을 세워보세요.</p>
+                    
+                    <form class="consultation-form">
+                        <input type="text" class="form-input" placeholder="이름" required>
+                        <input type="tel" class="form-input" placeholder="연락처" required>
+                        <select class="form-input" required>
+                            <option value="">관심 있는 시술을 선택해주세요</option>
+                            <option value="anti-aging">안티에이징</option>
+                            <option value="acne">여드름 치료</option>
+                            <option value="pigmentation">색소침착 치료</option>
+                            <option value="scar">흉터 치료</option>
+                            <option value="lifting">리프팅</option>
+                            <option value="other">기타</option>
+                        </select>
+                        <button type="submit" class="form-submit">상담 신청하기</button>
+                    </form>
+                    
+                    <p class="privacy-notice">
+                        개인정보 수집 및 이용에 동의합니다.<br>
+                        ※ 상담 신청 후 24시간 내에 연락드립니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>리즈인 난임센터</h3>
+                    <p class="footer-description">
+                        가족의 소중한 꿈을 위한<br>
+                        전문적이고 신뢰할 수 있는 난임 치료 서비스
+                    </p>
+                </div>
+                
+                <div class="footer-contact">
+                    <div class="contact-item">
+                        <span class="contact-label">전화번호</span>
+                        <span class="contact-value">051-815-3007</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-label">주소</span>
+                        <span class="contact-value">
+                            부산광역시 부산진구 새싹로 22-1<br>
+                            라이프빌리지 7-9F 리즈인 난임센터
+                        </span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-label">사업자등록번호</span>
+                        <span class="contact-value">394-94-00447</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-label">대표자명</span>
+                        <span class="contact-value">염현식</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 리즈인 난임센터. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">개인정보처리방침</a>
+                    <a href="#" class="footer-link">이용약관</a>
+                    <a href="#" class="footer-link">비급여안내</a>
+                    <a href="#" class="footer-link">사이트맵</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all fade-in elements
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission
+        document.querySelector('.consultation-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('상담 신청이 완료되었습니다. 24시간 내에 연락드리겠습니다.');
+        });
+
+        // Navigation scroll effect
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('.navigation');
+            if (window.scrollY > 100) {
+                nav.style.background = 'rgba(255, 255, 255, 0.98)';
+            } else {
+                nav.style.background = 'rgba(255, 255, 255, 0.95)';
+            }
+        });
+    </script>
+</body>
+</html>

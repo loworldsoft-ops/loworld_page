@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIZIN 미래 생명공학센터 - Next Generation Fertility</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* lizin10 색상을 기반으로 한 미래형 팔레트 */
+            --primary-gold: #c9a961;
+            --futuristic-gold: #d4af37;
+            --cyber-accent: #8b7355;
+            --primary-cream: #faf8f5;
+            --primary-charcoal: #2c2c2c;
+            --primary-gray: #666666;
+            --dark-bg: #1a1a1a;
+            --darker-bg: #0f0f0f;
+            --light-gray: #2a2a2a;
+            --text-light: #e0e0e0;
+            
+            /* 글래스모피즘 효과 */
+            --glass-bg: rgba(201, 169, 97, 0.15);
+            --glass-border: rgba(201, 169, 97, 0.3);
+            --glass-shadow: rgba(201, 169, 97, 0.2);
+            
+            /* 고급 그라데이션 */
+            --luxury-gradient: linear-gradient(135deg, #c9a961 0%, #d4af37 50%, #c9a961 100%);
+            --futuristic-gradient: linear-gradient(45deg, #c9a961, #d4af37, #8b7355, #faf8f5);
+            --glass-gradient: linear-gradient(135deg, rgba(201, 169, 97, 0.2) 0%, rgba(212, 175, 55, 0.1) 100%);
+            
+            /* 고급 그림자 */
+            --luxury-shadow: 0 0 30px rgba(201, 169, 97, 0.6);
+            --glass-shadow-main: 0 8px 32px rgba(201, 169, 97, 0.3);
+            --card-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        body {
+            font-family: 'Rajdhani', 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            color: var(--text-light);
+            background: var(--dark-bg);
+            overflow-x: hidden;
+        }
+
+        /* 미래형 배경 효과 */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(201, 169, 97, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(212, 175, 55, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, rgba(139, 115, 85, 0.1) 0%, transparent 50%);
+            z-index: -1;
+            animation: luxuryPulse 10s ease-in-out infinite alternate;
+        }
+
+        @keyframes luxuryPulse {
+            0% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        /* 글래스모피즘 컨테이너 */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* 고급 글래스모피즘 헤더 */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--glass-border);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 0;
+        }
+
+        .logo {
+            font-family: 'Orbitron', monospace;
+            font-size: 2.2rem;
+            font-weight: 900;
+            background: var(--luxury-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 2px;
+            text-shadow: var(--luxury-shadow);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-light);
+            font-weight: 500;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-gold);
+            text-shadow: 0 0 10px var(--primary-gold);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--luxury-gradient);
+            transition: width 0.3s ease;
+            box-shadow: var(--luxury-shadow);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .cta-nav {
+            background: var(--glass-gradient);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            color: var(--primary-gold);
+            padding: 0.8rem 1.8rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+            box-shadow: var(--glass-shadow-main);
+        }
+
+        .cta-nav:hover {
+            background: var(--primary-gold);
+            color: var(--dark-bg);
+            transform: translateY(-3px);
+            box-shadow: var(--luxury-shadow);
+        }
+
+        /* 미래형 고급 히어로 섹션 */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding-top: 100px;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                linear-gradient(45deg, transparent 49%, rgba(201, 169, 97, 0.1) 50%, transparent 51%),
+                linear-gradient(-45deg, transparent 49%, rgba(212, 175, 55, 0.1) 50%, transparent 51%);
+            background-size: 60px 60px;
+            opacity: 0.3;
+            animation: luxuryGrid 20s linear infinite;
+        }
+
+        @keyframes luxuryGrid {
+            0% { transform: translateX(0) translateY(0); }
+            100% { transform: translateX(60px) translateY(60px); }
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-text {
+            max-width: 500px;
+        }
+
+        .hero-subtitle {
+            font-family: 'Orbitron', monospace;
+            font-size: 1rem;
+            color: var(--primary-gold);
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-shadow: 
+                0 0 10px rgba(201, 169, 97, 0.8),
+                1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-text h1 {
+            font-family: 'Orbitron', monospace;
+            font-size: 3.5rem;
+            font-weight: 900;
+            line-height: 1.2;
+            margin-bottom: 2rem;
+            color: #ffffff;
+            letter-spacing: -1px;
+            text-shadow: 
+                0 0 10px rgba(201, 169, 97, 0.8),
+                0 0 20px rgba(201, 169, 97, 0.6),
+                0 0 30px rgba(201, 169, 97, 0.4),
+                2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .hero-text h1 .highlight {
+            background: var(--luxury-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 
+                0 0 20px rgba(201, 169, 97, 1),
+                0 0 30px rgba(212, 175, 55, 0.8),
+                0 0 40px rgba(212, 175, 55, 0.6);
+            animation: luxuryGlow 3s ease-in-out infinite alternate;
+            position: relative;
+        }
+
+        .hero-text h1 .highlight::before {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: var(--primary-gold);
+            text-shadow: none;
+            z-index: -1;
+        }
+
+        @keyframes luxuryGlow {
+            0%, 100% { 
+                opacity: 1;
+                filter: brightness(1.2);
+            }
+            50% { 
+                opacity: 0.9;
+                filter: brightness(1.5);
+            }
+        }
+
+        .hero-description {
+            font-size: 1.2rem;
+            color: #ffffff;
+            margin-bottom: 3rem;
+            line-height: 1.8;
+            font-weight: 400;
+            opacity: 0.95;
+            text-shadow: 
+                1px 1px 2px rgba(0, 0, 0, 0.7),
+                0 0 5px rgba(201, 169, 97, 0.3);
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .btn-primary {
+            background: var(--cyber-gradient);
+            color: var(--dark-bg);
+            padding: 1.2rem 2.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: var(--neon-shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 40px var(--cyber-blue);
+        }
+
+        .btn-secondary {
+            background: var(--glass-gradient);
+            backdrop-filter: blur(15px);
+            border: 2px solid var(--cyber-blue);
+            color: var(--cyber-blue);
+            padding: 1.2rem 2.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            box-shadow: var(--glass-shadow-main);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(0, 245, 255, 0.2);
+            transform: translateY(-3px);
+            box-shadow: var(--neon-shadow);
+        }
+
+        /* 사이버 글래스 카드 */
+        .cyber-glass-card {
+            background: var(--glass-gradient);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: var(--glass-shadow-main);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cyber-glass-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 245, 255, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .cyber-glass-card:hover::before {
+            left: 100%;
+        }
+
+        .cyber-glass-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--cyber-blue);
+            box-shadow: 0 20px 50px rgba(0, 245, 255, 0.3);
+        }
+
+        /* 히어로 비주얼 */
+        .hero-visual {
+            position: relative;
+            height: 500px;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 2px solid var(--glass-border);
+        }
+
+        .hero-visual::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: var(--glass-gradient);
+            backdrop-filter: blur(10px);
+            z-index: 2;
+        }
+
+        .hero-visual-content {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 3;
+        }
+
+        .visual-text {
+            text-align: center;
+            color: var(--text-light);
+        }
+
+        .visual-text h3 {
+            font-family: 'Orbitron', monospace;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: var(--cyber-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: var(--neon-shadow);
+        }
+
+        .visual-text p {
+            font-size: 1.2rem;
+            color: var(--cyber-green);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* 서비스 섹션 */
+        .services {
+            padding: 8rem 0;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+
+        .section-subtitle {
+            font-family: 'Orbitron', monospace;
+            font-size: 1rem;
+            color: var(--cyber-pink);
+            margin-bottom: 1rem;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px var(--cyber-pink);
+        }
+
+        .section-title {
+            font-family: 'Orbitron', monospace;
+            font-size: 3rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            text-shadow: 
+                0 0 20px rgba(201, 169, 97, 0.8),
+                0 0 30px rgba(201, 169, 97, 0.6),
+                2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .section-description {
+            font-size: 1.2rem;
+            color: #ffffff;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+            text-shadow: 
+                1px 1px 2px rgba(0, 0, 0, 0.7),
+                0 0 5px rgba(201, 169, 97, 0.2);
+        }        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .service-card {
+            text-align: center;
+            padding: 0;
+            position: relative;
+        }
+
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--cyber-gradient);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem;
+            font-size: 2rem;
+            color: var(--dark-bg);
+            box-shadow: var(--neon-shadow);
+            position: relative;
+        }
+
+        .service-icon::after {
+            content: '';
+            position: absolute;
+            inset: -5px;
+            border-radius: 50%;
+            border: 2px solid var(--cyber-blue);
+            opacity: 0;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.1); }
+            100% { opacity: 0; transform: scale(1.2); }
+        }
+
+        .service-card h3 {
+            font-family: 'Orbitron', monospace;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--cyber-blue);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .service-card p {
+            color: var(--text-light);
+            line-height: 1.7;
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+
+        /* 연락처 섹션 */
+        .contact {
+            padding: 8rem 0;
+            background: var(--darker-bg);
+            color: var(--text-light);
+        }
+
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+
+        .contact-info h2 {
+            font-family: 'Orbitron', monospace;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            background: var(--cyber-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-transform: uppercase;
+        }
+
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .contact-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--cyber-gradient);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--dark-bg);
+            font-size: 1.5rem;
+            box-shadow: var(--neon-shadow);
+        }
+
+        .contact-text strong {
+            display: block;
+            margin-bottom: 0.3rem;
+            color: var(--cyber-blue);
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .contact-text small {
+            color: var(--text-light);
+            opacity: 0.7;
+        }
+
+        /* 사이버 문의 폼 */
+        .contact-form {
+            background: var(--glass-gradient);
+            backdrop-filter: blur(15px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: var(--glass-shadow-main);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--cyber-blue);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid var(--glass-border);
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.3);
+            color: var(--text-light);
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-control::placeholder {
+            color: rgba(224, 224, 224, 0.5);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--cyber-blue);
+            box-shadow: 0 0 20px rgba(0, 245, 255, 0.3);
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        /* 푸터 */
+        footer {
+            background: var(--darker-bg);
+            color: rgba(224, 224, 224, 0.8);
+            padding: 3rem 0 2rem;
+            text-align: center;
+            border-top: 1px solid var(--glass-border);
+        }
+
+        footer .logo {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            background: var(--cyber-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .footer-info {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            opacity: 0.7;
+        }
+
+        /* 반응형 디자인 */
+        @media (max-width: 768px) {
+            .hero-content,
+            .contact-content {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+                text-align: center;
+            }
+
+            .hero-text h1 {
+                font-size: 2.5rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* 스크롤 애니메이션 */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* 사이버 스캔라인 효과 */
+        .scanline {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .scanline::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: var(--cyber-blue);
+            box-shadow: 0 0 10px var(--cyber-blue);
+            animation: scanline 3s linear infinite;
+        }
+
+        @keyframes scanline {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <!-- 헤더 -->
+    <header>
+        <nav class="container">
+            <div class="logo">LIZIN</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Programs</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="cta-nav">Connect</a>
+        </nav>
+    </header>
+
+    <!-- 히어로 섹션 -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-subtitle">Next Gen Fertility</div>
+                    <h1>
+                        미래의 <span class="highlight">생명공학</span>으로<br>
+                        새로운 시작을
+                    </h1>
+                    <p class="hero-description">
+                        첨단 바이오 기술과 AI 진단 시스템으로 
+                        차세대 난임 치료의 혁신을 만들어갑니다.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-primary">INITIALIZE</a>
+                        <a href="#services" class="btn-secondary">EXPLORE</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-visual-content">
+                        <div class="visual-text">
+                            <h3>BIO-TECH</h3>
+                            <p>Advanced System Online</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 서비스 섹션 -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header fade-in">
+                <div class="section-subtitle">Advanced Programs</div>
+                <h2 class="section-title">미래 생명공학 프로그램</h2>
+                <p class="section-description">
+                    AI 기반 진단과 첨단 바이오 기술을 통해 
+                    차세대 난임 치료 솔루션을 제공합니다.
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card cyber-glass-card fade-in scanline">
+                    <div class="service-icon">🧬</div>
+                    <h3>Bio-IVF System</h3>
+                    <p>AI 기반 배아 선별과 첨단 배양 기술로 최적의 임신 성공률을 구현합니다.</p>
+                </div>
+                <div class="service-card cyber-glass-card fade-in scanline">
+                    <div class="service-icon">🔬</div>
+                    <h3>Genetic Analysis</h3>
+                    <p>차세대 유전자 분석 기술(NGS)로 정밀한 유전적 요인 분석을 제공합니다.</p>
+                </div>
+                <div class="service-card cyber-glass-card fade-in scanline">
+                    <div class="service-icon">🤖</div>
+                    <h3>AI Hormone Therapy</h3>
+                    <p>인공지능 알고리즘이 개인별 호르몬 반응을 예측하여 맞춤 치료를 설계합니다.</p>
+                </div>
+                <div class="service-card cyber-glass-card fade-in scanline">
+                    <div class="service-icon">📊</div>
+                    <h3>Digital Diagnostics</h3>
+                    <p>빅데이터 분석과 머신러닝으로 난임 원인을 정확하게 진단합니다.</p>
+                </div>
+                <div class="service-card cyber-glass-card fade-in scanline">
+                    <div class="service-icon">📱</div>
+                    <h3>Smart Monitoring</h3>
+                    <p>IoT 기반 실시간 모니터링으로 임신 과정을 체계적으로 관리합니다.</p>
+                </div>
+                <div class="service-card cyber-glass-card fade-in scanline">
+                    <div class="service-icon">🎯</div>
+                    <h3>Precision Medicine</h3>
+                    <p>개인의 유전체 정보를 기반으로 한 정밀 의학적 접근을 제공합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 연락처 섹션 -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <h2>System Access</h2>
+                    <p style="margin-bottom: 3rem; color: rgba(224,224,224,0.8); font-size: 1.1rem;">
+                        미래 생명공학 전문가가 24/7 대기 중입니다.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📡</div>
+                            <div class="contact-text">
+                                <strong>051-815-3007</strong>
+                                <small>Neural Network Available 24/7</small>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🌐</div>
+                            <div class="contact-text">
+                                <strong>부산광역시 부산진구 새싹로 22-1 라이프빌리지 7-9F</strong>
+                                <small>리즈인 여성의원</small>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🚁</div>
+                            <div class="contact-text">
+                                <strong>Quantum Parking Available</strong>
+                                <small>Underground Access Terminal</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form fade-in">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">User ID</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Contact Link</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="Enter contact number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Data Input</label>
+                            <textarea id="message" class="form-control" placeholder="Enter your message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width: 100%;">TRANSMIT DATA</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>
+        <div class="container">
+            <div class="logo">LIZIN</div>
+            <div class="footer-info">
+                <p>© 2025 LIZIN 미래 생명공학센터. All systems operational.</p>
+                <p style="margin-top: 1rem;">
+                    의료법인 리진의료재단 | 대표원장: 염현식 원장 | 사업자등록번호: 394-94-00447<br>
+                    부산광역시 부산진구 새싹로 22-1 라이프빌리지 7-9F 리즈인 여성의원
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 스크롤 애니메이션
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // 애니메이션 대상 요소들 관찰
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // 사이버틱 헤더 효과
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(0, 245, 255, 0.2)';
+                header.style.borderBottom = '1px solid rgba(0, 245, 255, 0.5)';
+            } else {
+                header.style.background = 'rgba(0, 245, 255, 0.15)';
+                header.style.borderBottom = '1px solid rgba(0, 245, 255, 0.3)';
+            }
+        });
+
+        // 부드러운 스크롤
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // 사이버틱 폼 제출 처리
+        document.querySelector('.contact-form form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // 사이버틱 효과
+            const button = this.querySelector('button[type="submit"]');
+            button.textContent = 'PROCESSING...';
+            button.style.background = 'linear-gradient(135deg, #00ff88 0%, #00f5ff 100%)';
+            
+            setTimeout(() => {
+                button.textContent = 'DATA TRANSMITTED';
+                setTimeout(() => {
+                    alert('시스템에 성공적으로 연결되었습니다. 곧 연락드리겠습니다.');
+                    button.textContent = 'TRANSMIT DATA';
+                    button.style.background = 'linear-gradient(135deg, #00f5ff 0%, #8b5cf6 50%, #00f5ff 100%)';
+                }, 1000);
+            }, 2000);
+        });
+
+        // 사이버 글리치 효과
+        function createGlitchEffect() {
+            const title = document.querySelector('.hero-text h1 .highlight');
+            if (title) {
+                title.style.animation = 'none';
+                setTimeout(() => {
+                    title.style.animation = 'neonFlicker 2s ease-in-out infinite alternate';
+                }, 100);
+            }
+        }
+
+        setInterval(createGlitchEffect, 10000);
+
+        // 동적 배경 효과
+        function updateCyberBackground() {
+            const body = document.body;
+            const colors = ['rgba(0, 245, 255, 0.1)', 'rgba(139, 92, 246, 0.1)', 'rgba(0, 255, 136, 0.1)', 'rgba(255, 0, 128, 0.1)'];
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
+            
+            body.style.background = `radial-gradient(circle at ${Math.random() * 100}% ${Math.random() * 100}%, ${randomColor} 0%, transparent 50%), var(--dark-bg)`;
+        }
+
+        setInterval(updateCyberBackground, 15000);
+    </script>
+</body>
+</html>
