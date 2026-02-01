@@ -1,266 +1,438 @@
 {
   "name": "이지노트",
   "displayName": "EZ Note",
-  "description": "AI 기반 노트 작성 및 관리 플랫폼",
+  "description": "클라우드 기반 협업 노트 플랫폼",
   "overview": {
-    "projectName": "이지노트 (EZ Note)",
-    "objective": "AI 기반 지능형 노트 작성 및 자동 분류/정리 플랫폼 개발",
-    "targetUsers": "학생, 직장인, 연구자, 창작자",
+    "projectName": "Easy Note",
+    "objective": "차세대 웹 기반 문서 협업 기술 확보 및 서비스화",
+    "targetUsers": "학생, 직장인, 개발자 등 일반 대중",
     "developmentPeriod": "2026년 1월 ~ 4월",
-    "status": "진행중",
-    "version": "1.0.0"
+    "status": "개발 진행 중",
+    "version": "v0.9.5-beta",
+    "platforms": "Web (PWA), Desktop (Electron), Mobile Safari/Chrome",
+    "mainScope": "실시간 동기화, 마크다운 지원, AI 요약",
+    "coreValue": "심플함과 강력한 확장성의 조화",
+    "todayDate": "2026. 01. 27"
   },
   "specifications": [
     {
-      "id": "EZNOTE-001",
-      "title": "리치 텍스트 에디터",
-      "description": "고급 텍스트 편집 기능 제공",
-      "priority": "높음",
-      "status": "진행중",
-      "details": "마크다운 지원, 서식 지정, 하이라이트, 체크리스트 등"
+      "id": "UI-01",
+      "category": "1. 공통 인터페이스 (Common UI)",
+      "title": "루트 레이아웃",
+      "description": "기본 레이아웃 구성",
+      "pcSpec": "좌측 내비게이션 + 우측 메인 콘텐츠 구성 (1200px 기준 최적화)",
+      "mobileSpec": "하단 탭 바 (Bottom Tab Bar) + 상단 헤더 구성",
+      "priority": "P0",
+      "status": "완료"
     },
     {
-      "id": "EZNOTE-002",
-      "title": "AI 기반 요약 및 분류",
-      "description": "작성한 노트를 AI가 자동으로 요약하고 분류",
-      "priority": "높음",
-      "status": "진행중",
-      "details": "NLP 기술을 활용한 자동 태그 생성, 중요도 판단, 카테고리 분류"
+      "id": "ED-01",
+      "category": "2. 편집 도구 (Editor Features)",
+      "title": "마크다운 파서",
+      "description": "Markdown 렌더링",
+      "pcSpec": "실시간 미리보기 분할 화면 (Split View) 지원",
+      "mobileSpec": "편집/미리보기 버튼 토글 방식",
+      "priority": "P0",
+      "status": "진행 중"
     },
     {
-      "id": "EZNOTE-003",
-      "title": "노트 폴더 및 태그 관리",
-      "description": "계층적 폴더 구조와 유연한 태그 시스템",
-      "priority": "높음",
-      "status": "진행중",
-      "details": "무제한 폴더 생성, 다중 태그 지정, 스마트 폴더(검색 기반)"
+      "id": "SY-01",
+      "category": "3. 데이터 동기화 (Data Sync)",
+      "title": "실시간 업데이트",
+      "description": "Real-time Update",
+      "pcSpec": "WebSocket 기반 0.1초 이내 동기화",
+      "mobileSpec": "백그라운드 동기화 및 오프라인 모드 지원",
+      "priority": "P1",
+      "status": "대기"
     },
     {
-      "id": "EZNOTE-004",
-      "title": "미디어 임베드",
-      "description": "이미지, 비디오, 오디오 등 멀티미디어 삽입",
-      "priority": "중간",
-      "status": "진행중",
-      "details": "드래그 앤 드롭 업로드, 자동 최적화, 미리보기"
-    },
-    {
-      "id": "EZNOTE-005",
-      "title": "공유 및 협업",
-      "description": "팀 멤버와 노트 공유 및 실시간 협업",
-      "priority": "중간",
-      "status": "계획",
-      "details": "공유 권한(보기/편집), 댓글 및 언급 기능"
-    },
-    {
-      "id": "EZNOTE-006",
-      "title": "버전 관리 및 백업",
-      "description": "노트 버전 히스토리 및 자동 백업",
-      "priority": "중간",
-      "status": "계획",
-      "details": "변경 이력 추적, 이전 버전 복구, 클라우드 백업"
-    },
-    {
-      "id": "EZNOTE-007",
-      "title": "전체 텍스트 검색",
-      "description": "모든 노트에서 빠른 검색",
-      "priority": "높음",
-      "status": "진행중",
-      "details": "인덱싱 기술로 빠른 검색, 고급 필터링 옵션"
-    },
-    {
-      "id": "EZNOTE-008",
-      "title": "내보내기 및 동기화",
-      "description": "다양한 형식으로 내보내기 및 외부 서비스 연동",
-      "priority": "낮음",
-      "status": "계획",
-      "details": "PDF, Word, Markdown 형식 지원, Dropbox/OneDrive 동기화"
+      "id": "AI-01",
+      "category": "4. AI 통합 (AI Integration)",
+      "title": "문서 요약 서비스",
+      "description": "AI Summary",
+      "pcSpec": "우측 사이드 패널에서 전체 요약 및 핵심 키워드 추출",
+      "mobileSpec": "하단 시트(Bottom Sheet)를 통한 간략 요약 제공",
+      "priority": "P2",
+      "status": "기획"
     }
   ],
+  "layoutStrategy": {
+    "desktop": {
+      "structure": "고정 좌측 사이드바 + 유동 우측 본문",
+      "sidebar": "W 260px / 접었다 펴기 기능 포함",
+      "scroll": "개별 스크롤 바 (Overlay Scrollbar)"
+    },
+    "mobile": {
+      "structure": "상단 툴바 + 중앙 편집 영역",
+      "panel": "슬라이드 업 모달 (Slide-up Modal)",
+      "sidebar": "햄버거 메뉴를 통한 전체화면 오버레이",
+      "scroll": "네이티브 스크롤 (Rubber Banding)"
+    }
+  },
   "systemArchitecture": {
-    "frontend": "Angular (AOT, IVY, Signal, TypeScript)",
-    "backend": "없음 (Native Bridge 연동)",
-    "aiEngine": "WebView postMessage Interface",
-    "database": "네이티브 스토리지",
-    "fileStorage": "네이티브 파일 시스템",
-    "deployment": "WPF(C#), IOS(Swift), AOS(Kotlin)"
+    "frontend": "Angular 18+, TailwindCSS",
+    "backend": "Node.js (NestJS)",
+    "database": "PostgreSQL, Redis",
+    "deployment": "AWS (S3 + CloudFront)"
   },
   "requirements": [
     {
-      "category": "기능 요구사항",
+      "category": "사용자 편의성",
       "items": [
-        "실시간 텍스트 편집",
-        "자동 저장 (3초 주기)",
-        "태그 자동 생성 (AI)",
-        "노트 검색 (전문 검색)",
-        "드래그 앤 드롭 파일 업로드",
-        "마크다운 미리보기"
+        "모든 컴포넌트에 다크모드 지원",
+        "키보드 단축키 커스텀 기능",
+        "드래그 앤 드롭 파일 업로드"
       ]
     },
     {
-      "category": "비기능 요구사항",
+      "category": "성능 목표",
       "items": [
-        "응답 시간: 300ms 이하",
-        "동시 사용자: 5,000명 이상 지원",
-        "99.95% 가용성",
-        "저장 용량: 사용자당 100GB",
-        "AI 처리 지연: 5초 이하",
-        "데이터 암호화 및 GDPR 준수"
-      ]
-    },
-    {
-      "category": "보안 요구사항",
-      "items": [
-        "엔드-투-엔드 암호화 옵션",
-        "2FA 인증 지원",
-        "접근 제어 및 권한 관리",
-        "감사 로깅",
-        "정기적 보안 감사"
+        "LCP 1.2초 이내 달성",
+        "오프라인 편집 및 자동 저장 (IndexedDB)",
+        "최대 1GB 대용량 문서 로딩 최적화"
       ]
     }
   ],
   "wbs": {
     "tasks": [
       {
-        "id": "EZNOTE-WBS-1",
-        "name": "프로젝트 계획 및 설계",
-        "startDate": "2026-01-01",
-        "endDate": "2026-01-20",
-        "progress": 100,
-        "responsible": "기획팀",
+        "id": "EZCAL-WBS-1",
+        "name": "캘린더 관리 모듈 설계",
+        "startDate": "2025-12-15",
+        "endDate": "2026-01-15",
+        "progress": 0,
         "subtasks": [
           {
-            "id": "EZNOTE-WBS-1.1",
-            "name": "AI 기능 요구사항 분석",
-            "progress": 100,
-            "responsible": "AI 담당자"
+            "id": "EZCAL-WBS-1.1",
+            "name": "이지 통합 로그인 설계",
+            "startDate": "2025-12-15",
+            "endDate": "2026-01-05",
+            "progress": 0
           },
           {
-            "id": "EZNOTE-WBS-1.2",
-            "name": "아키텍처 설계",
-            "progress": 100,
-            "responsible": "솔루션 아키텍트"
+            "id": "EZCAL-WBS-1.2",
+            "name": "동기화 기능 설계",
+            "startDate": "2026-01-06",
+            "endDate": "2026-01-15",
+            "progress": 0
           }
         ]
       },
       {
-        "id": "EZNOTE-WBS-2",
-        "name": "프론트엔드 개발",
-        "startDate": "2026-01-21",
-        "endDate": "2026-02-28",
-        "progress": 50,
-        "responsible": "FE팀",
+        "id": "EZCAL-WBS-2",
+        "name": "캘린더 목록 모듈 설계",
+        "startDate": "2026-01-16",
+        "endDate": "2026-01-25",
+        "progress": 0,
         "subtasks": [
           {
-            "id": "EZNOTE-WBS-2.1",
-            "name": "에디터 컴포넌트 개발",
-            "progress": 80,
-            "responsible": "FE 개발자 1"
+            "id": "EZCAL-WBS-2.1",
+            "name": "폴더 별 보기 설계",
+            "startDate": "2026-01-16",
+            "endDate": "2026-01-20",
+            "progress": 0
           },
           {
-            "id": "EZNOTE-WBS-2.2",
-            "name": "폴더/태그 관리 UI",
-            "progress": 50,
-            "responsible": "FE 개발자 2"
-          },
-          {
-            "id": "EZNOTE-WBS-2.3",
-            "name": "검색 및 필터 UI",
-            "progress": 20,
-            "responsible": "FE 개발자 3"
+            "id": "EZCAL-WBS-2.2",
+            "name": "조회 기능 설계",
+            "startDate": "2026-01-21",
+            "endDate": "2026-01-25",
+            "progress": 0
           }
         ]
       },
       {
-        "id": "EZNOTE-WBS-3",
-        "name": "백엔드 개발",
-        "startDate": "2026-01-21",
-        "endDate": "2026-03-15",
-        "progress": 40,
-        "responsible": "BE팀",
+        "id": "EZCAL-WBS-3",
+        "name": "일정 수정 모듈 설계",
+        "startDate": "2026-01-26",
+        "endDate": "2026-01-31",
+        "progress": 0,
         "subtasks": [
           {
-            "id": "EZNOTE-WBS-3.1",
-            "name": "노트 API 개발",
-            "progress": 70,
-            "responsible": "BE 개발자 1"
+            "id": "EZCAL-WBS-3.1",
+            "name": "개별 수정/삭제 설계",
+            "startDate": "2026-01-26",
+            "endDate": "2026-01-28",
+            "progress": 0
           },
           {
-            "id": "EZNOTE-WBS-3.2",
-            "name": "AI 엔진 통합",
-            "progress": 20,
-            "responsible": "AI 개발자"
-          },
-          {
-            "id": "EZNOTE-WBS-3.3",
-            "name": "검색 인덱싱",
-            "progress": 30,
-            "responsible": "BE 개발자 2"
+            "id": "EZCAL-WBS-3.2",
+            "name": "드래그앤드롭 설계",
+            "startDate": "2026-01-29",
+            "endDate": "2026-01-31",
+            "progress": 0
           }
         ]
       },
       {
-        "id": "EZNOTE-WBS-4",
-        "name": "AI 모듈 개발",
+        "id": "EZCAL-WBS-4",
+        "name": "일정 등록 모듈 개발",
         "startDate": "2026-02-01",
-        "endDate": "2026-03-20",
-        "progress": 25,
-        "responsible": "AI팀",
+        "endDate": "2026-02-20",
+        "progress": 0,
         "subtasks": [
           {
-            "id": "EZNOTE-WBS-4.1",
-            "name": "요약 모델 개발",
-            "progress": 40,
-            "responsible": "데이터 사이언티스트 1"
+            "id": "EZCAL-WBS-4.1",
+            "name": "기본 정보 입력",
+            "startDate": "2026-02-01",
+            "endDate": "2026-02-05",
+            "progress": 0
           },
           {
-            "id": "EZNOTE-WBS-4.2",
-            "name": "분류 모델 개발",
-            "progress": 20,
-            "responsible": "데이터 사이언티스트 2"
+            "id": "EZCAL-WBS-4.2",
+            "name": "반복 설정",
+            "startDate": "2026-02-06",
+            "endDate": "2026-02-12",
+            "progress": 0
           },
           {
-            "id": "EZNOTE-WBS-4.3",
-            "name": "모델 최적화 및 배포",
-            "progress": 10,
-            "responsible": "ML 엔지니어"
+            "id": "EZCAL-WBS-4.3",
+            "name": "참석자 관리 및 알림",
+            "startDate": "2026-02-13",
+            "endDate": "2026-02-20",
+            "progress": 0
           }
         ]
       },
       {
-        "id": "EZNOTE-WBS-5",
-        "name": "통합 및 테스트",
-        "startDate": "2026-03-21",
-        "endDate": "2026-04-10",
+        "id": "EZCAL-WBS-5",
+        "name": "보완 기능 모듈 개발",
+        "startDate": "2026-02-21",
+        "endDate": "2026-02-28",
         "progress": 0,
-        "responsible": "QA팀",
         "subtasks": [
           {
-            "id": "EZNOTE-WBS-5.1",
-            "name": "통합 테스트",
-            "progress": 0,
-            "responsible": "QA 엔지니어 1"
+            "id": "EZCAL-WBS-5.1",
+            "name": "할 일(Task) 기능",
+            "startDate": "2026-02-21",
+            "endDate": "2026-02-23",
+            "progress": 0
           },
           {
-            "id": "EZNOTE-WBS-5.2",
-            "name": "AI 기능 테스트",
-            "progress": 0,
-            "responsible": "QA 엔지니어 2"
+            "id": "EZCAL-WBS-5.2",
+            "name": "휴지통/내보내기/가져오기",
+            "startDate": "2026-02-24",
+            "endDate": "2026-02-26",
+            "progress": 0
+          },
+          {
+            "id": "EZCAL-WBS-5.3",
+            "name": "공유/검색/필터",
+            "startDate": "2026-02-27",
+            "endDate": "2026-02-28",
+            "progress": 0
           }
         ]
       },
       {
-        "id": "EZNOTE-WBS-6",
-        "name": "배포 및 출시",
-        "startDate": "2026-04-11",
-        "endDate": "2026-04-30",
+        "id": "EZCAL-WBS-6",
+        "name": "백엔드 개발",
+        "startDate": "2026-02-01",
+        "endDate": "2026-03-15",
         "progress": 0,
-        "responsible": "Ops팀",
         "subtasks": [
           {
-            "id": "EZNOTE-WBS-6.1",
-            "name": "프로덕션 배포",
-            "progress": 0,
-            "responsible": "DevOps"
+            "id": "EZCAL-WBS-6.1",
+            "name": "로그인/인증 구현",
+            "startDate": "2026-02-01",
+            "endDate": "2026-02-10",
+            "progress": 0
+          },
+          {
+            "id": "EZCAL-WBS-6.2",
+            "name": "캘린더 API 개발",
+            "startDate": "2026-02-11",
+            "endDate": "2026-02-28",
+            "progress": 0
+          },
+          {
+            "id": "EZCAL-WBS-6.3",
+            "name": "연동 기능 구현",
+            "startDate": "2026-03-01",
+            "endDate": "2026-03-15",
+            "progress": 0
+          }
+        ]
+      },
+      {
+        "id": "EZCAL-WBS-7",
+        "name": "프론트엔드 개발",
+        "startDate": "2026-02-01",
+        "endDate": "2026-03-15",
+        "progress": 0,
+        "subtasks": [
+          {
+            "id": "EZCAL-WBS-7.1",
+            "name": "UI 컴포넌트 구현",
+            "startDate": "2026-02-01",
+            "endDate": "2026-02-15",
+            "progress": 0
+          },
+          {
+            "id": "EZCAL-WBS-7.2",
+            "name": "뷰 기능 개발",
+            "startDate": "2026-02-16",
+            "endDate": "2026-02-28",
+            "progress": 0
+          },
+          {
+            "id": "EZCAL-WBS-7.3",
+            "name": "반응형 레이아웃",
+            "startDate": "2026-03-01",
+            "endDate": "2026-03-15",
+            "progress": 0
+          }
+        ]
+      },
+      {
+        "id": "EZCAL-WBS-8",
+        "name": "시스템 연동",
+        "startDate": "2026-03-01",
+        "endDate": "2026-03-15",
+        "progress": 0,
+        "subtasks": [
+          {
+            "id": "EZCAL-WBS-8.1",
+            "name": "이지랩 계정 연동",
+            "startDate": "2026-03-01",
+            "endDate": "2026-03-05",
+            "progress": 0
+          },
+          {
+            "id": "EZCAL-WBS-8.2",
+            "name": "구글 캘린더 연동",
+            "startDate": "2026-03-06",
+            "endDate": "2026-03-10",
+            "progress": 0
+          },
+          {
+            "id": "EZCAL-WBS-8.3",
+            "name": "포인트/메모 연동",
+            "startDate": "2026-03-11",
+            "endDate": "2026-03-15",
+            "progress": 0
+          }
+        ]
+      },
+      {
+        "id": "EZCAL-WBS-9",
+        "name": "성능 최적화",
+        "startDate": "2026-03-16",
+        "endDate": "2026-03-25",
+        "progress": 0,
+        "subtasks": [
+          {
+            "id": "EZCAL-WBS-9.1",
+            "name": "캐싱 전략 적용",
+            "startDate": "2026-03-16",
+            "endDate": "2026-03-19",
+            "progress": 0
+          },
+          {
+            "id": "EZCAL-WBS-9.2",
+            "name": "API 응답 최적화",
+            "startDate": "2026-03-20",
+            "endDate": "2026-03-23",
+            "progress": 0
+          },
+          {
+            "id": "EZCAL-WBS-9.3",
+            "name": "UI 렌더링 성능",
+            "startDate": "2026-03-24",
+            "endDate": "2026-03-25",
+            "progress": 0
+          }
+        ]
+      },
+      {
+        "id": "EZCAL-WBS-10",
+        "name": "연동 테스트",
+        "startDate": "2026-03-26",
+        "endDate": "2026-03-31",
+        "progress": 0,
+        "subtasks": [
+          {
+            "id": "EZCAL-WBS-10.1",
+            "name": "연동 기능 테스트",
+            "startDate": "2026-03-26",
+            "endDate": "2026-03-28",
+            "progress": 0
+          },
+          {
+            "id": "EZCAL-WBS-10.2",
+            "name": "데이터 동기화 검증",
+            "startDate": "2026-03-29",
+            "endDate": "2026-03-31",
+            "progress": 0
+          }
+        ]
+      },
+      {
+        "id": "EZCAL-WBS-11",
+        "name": "단위 테스트",
+        "startDate": "2026-03-15",
+        "endDate": "2026-03-25",
+        "progress": 0,
+        "subtasks": [
+          {
+            "id": "EZCAL-WBS-11.1",
+            "name": "백엔드 단위 테스트",
+            "startDate": "2026-03-15",
+            "endDate": "2026-03-20",
+            "progress": 0
+          },
+          {
+            "id": "EZCAL-WBS-11.2",
+            "name": "프론트엔드 단위 테스트",
+            "startDate": "2026-03-21",
+            "endDate": "2026-03-25",
+            "progress": 0
+          }
+        ]
+      },
+      {
+        "id": "EZCAL-WBS-12",
+        "name": "통합 테스트",
+        "startDate": "2026-03-26",
+        "endDate": "2026-04-05",
+        "progress": 0,
+        "subtasks": [
+          {
+            "id": "EZCAL-WBS-12.1",
+            "name": "기능 통합 테스트",
+            "startDate": "2026-03-26",
+            "endDate": "2026-03-31",
+            "progress": 0
+          },
+          {
+            "id": "EZCAL-WBS-12.2",
+            "name": "시스템 통합 테스트",
+            "startDate": "2026-04-01",
+            "endDate": "2026-04-05",
+            "progress": 0
+          }
+        ]
+      },
+      {
+        "id": "EZCAL-WBS-13",
+        "name": "배포 준비",
+        "startDate": "2026-04-06",
+        "endDate": "2026-04-15",
+        "progress": 0,
+        "subtasks": [
+          {
+            "id": "EZCAL-WBS-13.1",
+            "name": "배포 환경 구성",
+            "startDate": "2026-04-06",
+            "endDate": "2026-04-09",
+            "progress": 0
+          },
+          {
+            "id": "EZCAL-WBS-13.2",
+            "name": "배포 및 검증",
+            "startDate": "2026-04-10",
+            "endDate": "2026-04-15",
+            "progress": 0
           }
         ]
       }
@@ -268,118 +440,503 @@
   },
   "ia": {
     "projectModule": "note",
-    "projectType": "note",
-    "pages": [
-      {
-        "id": "EZNOTE-IA-1",
-        "name": "로그인/가입",
-        "description": "사용자 인증 및 계정 관리",
-        "category": "인증",
-        "projectModule": "note",
-        "components": ["로그인 폼", "회원가입 폼", "소셜 로그인", "2FA 설정"]
-      },
-      {
-        "id": "EZNOTE-IA-2",
-        "name": "메인 대시보드",
-        "description": "노트 목록 및 통계",
-        "category": "메인",
-        "projectModule": "note",
-        "components": ["최근 노트", "통계 위젯", "빠른 생성 버튼", "검색"]
-      },
-      {
-        "id": "EZNOTE-IA-3",
-        "name": "노트 에디터",
-        "description": "노트 작성 및 편집",
-        "category": "에디터",
-        "projectModule": "note",
-        "components": ["리치 텍스트 에디터", "태그 입력", "미디어 업로드", "AI 요약", "자동 저장 표시"]
-      },
-      {
-        "id": "EZNOTE-IA-4",
-        "name": "폴더/라이브러리",
-        "description": "노트 구성 및 분류",
-        "category": "폴더",
-        "projectModule": "note",
-        "components": ["폴더 트리", "노트 목록", "필터", "정렬 옵션"]
-      },
-      {
-        "id": "EZNOTE-IA-5",
-        "name": "검색",
-        "description": "전문 검색 및 고급 필터",
-        "category": "검색",
-        "projectModule": "note",
-        "components": ["검색 바", "필터 패널", "검색 결과", "저장된 검색"]
-      },
-      {
-        "id": "EZNOTE-IA-6",
-        "name": "공유 및 협업",
-        "description": "노트 공유 및 협업 관리",
-        "category": "협업",
-        "projectModule": "note",
-        "components": ["공유 대상 목록", "권한 설정", "댓글", "활동 로그"]
-      },
-      {
-        "id": "EZNOTE-IA-7",
-        "name": "AI 분석",
-        "description": "AI 기반 분석 및 제안",
-        "category": "AI",
-        "projectModule": "note",
-        "components": ["요약 패널", "키워드 추출", "추천 태그", "분석 결과"]
-      },
-      {
-        "id": "EZNOTE-IA-8",
-        "name": "설정",
-        "description": "사용자 설정 및 환경설정",
-        "category": "설정",
-        "projectModule": "note",
-        "components": ["프로필 설정", "에디터 설정", "알림 설정", "스토리지 관리"]
-      }
-    ],
-    "userFlows": [
-      {
-        "name": "노트 생성 및 AI 분류 플로우",
-        "steps": [
-          "로그인",
-          "대시보드 진입",
-          "'새 노트' 버튼 클릭",
-          "텍스트 작성",
-          "자동 저장",
-          "AI 요약/분류 실행",
-          "태그 검토 및 수정",
-          "저장"
-        ]
-      },
-      {
-        "name": "노트 검색 및 필터 플로우",
-        "steps": [
-          "검색 화면 진입",
-          "키워드 입력 또는 필터 선택",
-          "검색 실행",
-          "결과 표시",
-          "노트 클릭하여 상세 보기"
-        ]
-      },
-      {
-        "name": "협업 및 공유 플로우",
-        "steps": [
-          "노트 작성 완료",
-          "공유 버튼 클릭",
-          "팀 멤버 선택",
-          "권한 설정 (보기/편집)",
-          "공유 링크 생성",
-          "팀 멤버가 접근 가능"
-        ]
-      },
-      {
-        "name": "노트 정리 및 분류 플로우",
-        "steps": [
-          "라이브러리 진입",
-          "폴더 구조 확인",
-          "노트를 적절한 폴더로 드래그/이동",
-          "태그 추가",
-          "스마트 폴더로 필터 저장"
-        ]
-      }
-    ]
+    "projectType": "app",
+    "pages": [],
+    "userFlows": []
+  },
+  "specPlanTable": [
+    {
+      "id": 1,
+      "mainCategory": "노트 관리",
+      "midCategory": "이지 통합 로그인",
+      "subCategory": "계정 연동",
+      "request": "사용자가 이지 통합 로그인으로 계정을 연동하면, 해당 계정의 노트 데이터를 이지노트로 동기화한다.",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-09",
+      "endDate": "2025-12-13",
+      "progress": 0
+    },
+    {
+      "id": 2,
+      "mainCategory": "노트 관리",
+      "midCategory": "이지 통합 로그인",
+      "subCategory": "계정 전환",
+      "request": "대표 계정을 전환하면 UI/기본 보기 기준이 전환된 대표 계정으로 바뀐다.\n전환 후 \"내 노트\" 기준(생성/편집 권한, 기본 저장 위치 등)도 함께 갱신한다.\n\n*전환 시 처리 방식 협의 필요\n(1안) 대표 계정만 변경, 기존 노트 정보는 유지\n(2안) 대표 계정 변경과 함께 기존 노트 정보를 대표 계정에 소유권 이전",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-11",
+      "endDate": "2025-12-17",
+      "progress": 0
+    },
+    {
+      "id": 3,
+      "mainCategory": "노트 관리",
+      "midCategory": "이지 통합 로그인",
+      "subCategory": "포인트 연동",
+      "request": "이지노트 내 특정 행동(예: 일정 생성/완료, 할 일 완료 등)과 포인트 적립/사용 정책을 연동한다.",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "inProgress",
+      "startDate": "2026-01-20",
+      "endDate": "2026-01-31",
+      "progress": 0
+    },
+    {
+      "id": 4,
+      "mainCategory": "노트 관리",
+      "midCategory": "이지 통합 로그인",
+      "subCategory": "캘린더 연동",
+      "request": "노트의 일정(유형: 회의)과 노트의 신규노트(유형: 회의)를 동기화할 수 있는 선택 옵션을 제공한다.\n\n* 단, 이는 노트와 노트 기능 모두에 회의록 업로드 기능이 붙어야 가능\n* 연동 진행 시 처리 방식 협의 필요\n(가안)\n- 동일 시간대/동일 제목 등 매칭되는 회의 일정이 없음 - 새 회의 일정 생성 + 일정 상세에 회의록 링크를 자동 첨부\n- 매칭되는 회의 일정이 있음 - 해당 일정 상세에 회의록 링크만 추가",
+      "priority": "2.0",
+      "feasibility": "2.0",
+      "note": "",
+      "isRed": true,
+      "status": "open",
+      "startDate": "2026-02-10",
+      "endDate": "2026-02-21",
+      "progress": 0
+    },
+    {
+      "id": 5,
+      "mainCategory": "노트 관리",
+      "midCategory": "동기화",
+      "subCategory": "지금 동기화",
+      "request": "\"지금 동기화\" 클릭 시, 현재 연결된 기기별 노트의 변경사항을 즉시 동기화아며, 실패 시 재시도/에러 메시지를 노출한다.",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-16",
+      "endDate": "2025-12-20",
+      "progress": 0
+    },
+    {
+      "id": 6,
+      "mainCategory": "노트 목록",
+      "midCategory": "폴더 별 보기",
+      "subCategory": "내 노트 보기",
+      "request": "체크박스로 내 노트 여러 개를 동시에 온/오프하며 한 화면에서 통합 조회한다.\n체크 상태는 사용자 설정으로 저장(재접속/재로그인 유지)",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-16",
+      "endDate": "2025-12-20",
+      "progress": 0
+    },
+    {
+      "id": 7,
+      "mainCategory": "노트 목록",
+      "midCategory": "폴더 별 보기",
+      "subCategory": "공유 노트 보기",
+      "request": "구독한 노트 목록도 동일하게 체크박스로 동시 조회/숨김 한다.\n구독 노트는 출처(구글/이지랩)와 동기화 상태를 함께 표시(권장)",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-18",
+      "endDate": "2025-12-24",
+      "progress": 0
+    },
+    {
+      "id": 8,
+      "mainCategory": "노트 목록",
+      "midCategory": "조회",
+      "subCategory": "",
+      "request": "가장 최신 생성 파일이 최상단에 업데이트되며, 동일 데이터로 기간 조회도 가능하다.",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-20",
+      "endDate": "2025-12-26",
+      "progress": 0
+    },
+    {
+      "id": 9,
+      "mainCategory": "노트 등록",
+      "midCategory": "유형 선택",
+      "subCategory": "일반/회의록/전화 등..",
+      "request": "일정에 이메일로 참석자 추가가 가능하다.\n링크를 받은 사용자는 참석 응답(수락/거절/미정) 을 할 수 있다.\n- 이메일 추가 후 일정 저장시 초대메일 전송 컨펌 팝업 노출\n*기본 유형 및 고도화 유형 별도 정의 필요",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-23",
+      "endDate": "2025-12-30",
+      "progress": 0
+    },
+    {
+      "id": 10,
+      "mainCategory": "노트 등록",
+      "midCategory": "변환 언어 선택",
+      "subCategory": "영어/일본어/대만어",
+      "request": "생일 등록 시 양력/음력 선택을 지원하며, 음력 선택 시 윤달 여부를 선택하는 체크박스와 양력 보정 on/off 토글이 노출된다.\n- 윤달 체크 박스 선택 시 생일 처리 선택 태그를 한 줄 추가한다: 평달로(기본값) / 윤달에만 / 양력고정(추천일 표시)\n- 기대 결과: 음력 생일 등록 > 윤달 체크 > 양력 보정 on > 평달로 설정 시, 원래 음력 윤달이던 생일이 양력으로 보정되어(*윤달 없는 해에는 그냥 음력 평달로 대체) 매년 반복 설정됨",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "inProgress",
+      "startDate": "2026-01-13",
+      "endDate": "2026-01-24",
+      "progress": 0
+    },
+    {
+      "id": 11,
+      "mainCategory": "노트 등록",
+      "midCategory": "설명 추가",
+      "subCategory": "",
+      "request": "긴텍스트/링크를 지원한다.\n이미지 포함 가능하다.",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "md 추가 등록 가능 여부 체크\n복사 시 이슈 없도록 서버 저장 여부 체크",
+      "status": "completed",
+      "startDate": "2025-12-27",
+      "endDate": "2026-01-03",
+      "progress": 0
+    },
+    {
+      "id": 12,
+      "mainCategory": "노트 등록",
+      "midCategory": "첨부 파일 추가",
+      "subCategory": "",
+      "request": "음성 or 영상 파일 업로드가 가능하다\n*포맷 및 용량 내부 확인 필요",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "서버 확인 필요\n주소 관리 필요",
+      "status": "inProgress",
+      "startDate": "2026-01-20",
+      "endDate": "2026-02-03",
+      "progress": 0
+    },
+    {
+      "id": 13,
+      "mainCategory": "노트 등록",
+      "midCategory": "공개 설정",
+      "subCategory": "",
+      "request": "공개/비공개 설정 가능하다.\n- 공개 설정 시 링크 공유로 해당 노트 열람 가능\n- 이메일로 공개 범위 선택 가능",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "inProgress",
+      "startDate": "2026-01-27",
+      "endDate": "2026-02-05",
+      "progress": 0
+    },
+    {
+      "id": 14,
+      "mainCategory": "노트 등록/수정",
+      "midCategory": "노트 생성",
+      "subCategory": "",
+      "request": "노트를 신규 생성할 수 있다",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-09",
+      "endDate": "2025-12-13",
+      "progress": 0
+    },
+    {
+      "id": 15,
+      "mainCategory": "노트 등록/수정",
+      "midCategory": "개별 수정",
+      "subCategory": "",
+      "request": "노트 내용을 수정할 수 있다\n- AI 추가 시 참석자 대치\n- AI 추가 시 키워드 대치",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-11",
+      "endDate": "2025-12-17",
+      "progress": 0
+    },
+    {
+      "id": 16,
+      "mainCategory": "노트 등록/수정",
+      "midCategory": "개별 삭제",
+      "subCategory": "",
+      "request": "노트를 삭제할 수 있다",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-13",
+      "endDate": "2025-12-18",
+      "progress": 0
+    },
+    {
+      "id": 17,
+      "mainCategory": "폴더 등록/수정",
+      "midCategory": "폴더 생성",
+      "subCategory": "",
+      "request": "폴더를 신규 생성할 수 있다",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-16",
+      "endDate": "2025-12-20",
+      "progress": 0
+    },
+    {
+      "id": 18,
+      "mainCategory": "폴더 등록/수정",
+      "midCategory": "폴더 수정",
+      "subCategory": "",
+      "request": "폴더를 수정할 수 있다\n- 폴더 내 노트 저장 위치 이동 가능",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-18",
+      "endDate": "2025-12-23",
+      "progress": 0
+    },
+    {
+      "id": 19,
+      "mainCategory": "폴더 등록/수정",
+      "midCategory": "폴더 삭제",
+      "subCategory": "",
+      "request": "폴더를 삭제할 수 있다\n- 폴더 삭제 시 폴더 내 노트 전부 삭제 컨펌 알림 노출",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-20",
+      "endDate": "2025-12-26",
+      "progress": 0
+    },
+    {
+      "id": 20,
+      "mainCategory": "보완 기능",
+      "midCategory": "AI 요약",
+      "subCategory": "",
+      "request": "노트 내용에 대한 AI 요약 기능을 제공한다.\n- 다국어 요약 기능 지원(차별화)",
+      "priority": "1.5",
+      "feasibility": "1.5",
+      "note": "AI 연구소 기능 2.0 적용",
+      "status": "inProgress",
+      "startDate": "2026-01-13",
+      "endDate": "2026-01-31",
+      "progress": 0
+    },
+    {
+      "id": 21,
+      "mainCategory": "보완 기능",
+      "midCategory": "STT/TTS",
+      "subCategory": "",
+      "request": "녹음된 노트에 대한 STT 변환 기능을 제공한다.\n- 월 N00분 제한\n- 화자 구분(*qn 3.0에서 가능한 점 참고)\n- 키워드 추출\n\n* 구독 및 유료 서비스와 추후 연계 포인트",
+      "priority": "1.5",
+      "feasibility": "1.5",
+      "note": "AI 연구소 기능 2.0 적용",
+      "status": "inProgress",
+      "startDate": "2026-01-20",
+      "endDate": "2026-02-07",
+      "progress": 0
+    },
+    {
+      "id": 22,
+      "mainCategory": "보완 기능",
+      "midCategory": "휴지통",
+      "subCategory": "",
+      "request": "삭제한 일정/할 일은 휴지통으로 이동하며, 30일 내 복구 가능, 이후에는 자동 영구 삭제된다",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2026-01-06",
+      "endDate": "2026-01-13",
+      "progress": 0
+    },
+    {
+      "id": 23,
+      "mainCategory": "보완 기능",
+      "midCategory": "내보내기",
+      "subCategory": "",
+      "request": "다양한 음성/텍스트 포맷으로 내보내기를 지원한다.",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "open",
+      "startDate": "2026-02-03",
+      "endDate": "2026-02-10",
+      "progress": 0
+    },
+    {
+      "id": 24,
+      "mainCategory": "보완 기능",
+      "midCategory": "가져오기",
+      "subCategory": "",
+      "request": "다양한 영상(유료 서비스 연계 포인트)/음성/텍스트 포맷으로 가져오기를 지원한다.\n- 영상은 2.0 반영 고려중",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "open",
+      "startDate": "2026-02-05",
+      "endDate": "2026-02-14",
+      "progress": 0
+    },
+    {
+      "id": 25,
+      "mainCategory": "보완 기능",
+      "midCategory": "공유",
+      "subCategory": "노트 공유",
+      "request": "- url 공유\n- 공유 시 비밀번호 설정 가능",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "서버/무료 작업 여부 확인 필요",
+      "status": "open",
+      "startDate": "2026-02-10",
+      "endDate": "2026-02-17",
+      "progress": 0
+    },
+    {
+      "id": 26,
+      "mainCategory": "보완 기능",
+      "midCategory": "알림 설정",
+      "subCategory": "",
+      "request": "새 노트 생성에 대한 알림을 지원한다\n사용자별 알림 On/Off 및 채널별 설정을 지원한다.\n- 알림 채널: 이메일, (향후) 이지웍스 알림 등",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "inProgress",
+      "startDate": "2026-01-27",
+      "endDate": "2026-02-05",
+      "progress": 0
+    },
+    {
+      "id": 27,
+      "mainCategory": "설정",
+      "midCategory": "언어 및 지역",
+      "subCategory": "",
+      "request": "언어 및 지역 설정이 가능하다.",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2026-01-06",
+      "endDate": "2026-01-10",
+      "progress": 0
+    },
+    {
+      "id": 28,
+      "mainCategory": "설정",
+      "midCategory": "단축키",
+      "subCategory": "",
+      "request": "PC 단축키 지원 가능하다.",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "open",
+      "startDate": "2026-02-10",
+      "endDate": "2026-02-14",
+      "progress": 0
+    },
+    {
+      "id": 29,
+      "mainCategory": "설정",
+      "midCategory": "오프라인 노트 사용 설정",
+      "subCategory": "",
+      "request": "노트 오프라인 사용이 가능하다. 온라인 전환 시 오프라인 사용 로그가 온라인 사용 내역과 동기화된다.",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "서버 확인 필요\n주소 관리 필요",
+      "status": "open",
+      "startDate": "2026-02-14",
+      "endDate": "2026-02-21",
+      "progress": 0
+    },
+    {
+      "id": 30,
+      "mainCategory": "설정",
+      "midCategory": "배율 설정",
+      "subCategory": "",
+      "request": "노트 그리드/폰트 등 UI 스케일 조절이 가능하다.\n- PC: Cntl +- or 마우스 휠 위로/아래로\n- MO 글자 크기 조절",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "open",
+      "startDate": "2026-02-10",
+      "endDate": "2026-02-14",
+      "progress": 0
+    },
+    {
+      "id": 31,
+      "mainCategory": "설정",
+      "midCategory": "화이트 모드/다크 모드",
+      "subCategory": "",
+      "request": "테마 전환 및 시스템 설정 연동이 가능하다.",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "completed",
+      "startDate": "2025-12-23",
+      "endDate": "2025-12-27",
+      "progress": 0
+    },
+    {
+      "id": 32,
+      "mainCategory": "설정",
+      "midCategory": "반응형",
+      "subCategory": "",
+      "request": "프로그램 창 크기를 줄이거나 키웠을 때 반응형 레이아웃 대응이 가능하다.\n- 1차: PC 및 태블릿, MO 사이즈 필수 적용 필요",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "inProgress",
+      "startDate": "2026-01-13",
+      "endDate": "2026-01-31",
+      "progress": 0
+    },
+    {
+      "id": 33,
+      "mainCategory": "설정",
+      "midCategory": "인쇄",
+      "subCategory": "",
+      "request": "노트 인쇄가 가능하다.",
+      "priority": "1.0",
+      "feasibility": "1.0",
+      "note": "",
+      "status": "open",
+      "startDate": "2026-02-17",
+      "endDate": "2026-02-21",
+      "progress": 0
+    }
+  ],
+  "screenPositions": {
+    "노트 관리": {
+      "x": 480,
+      "y": 60
+    },
+    "노트 목록": {
+      "x": 160,
+      "y": 280
+    },
+    "노트 등록": {
+      "x": 800,
+      "y": 280
+    },
+    "폴더 등록/수정": {
+      "x": 160,
+      "y": 500
+    },
+    "노트 등록/수정": {
+      "x": 640,
+      "y": 500
+    },
+    "설정": {
+      "x": 960,
+      "y": 500
+    },
+    "보완 기능": {
+      "x": 640,
+      "y": 720
+    }
   }
 }

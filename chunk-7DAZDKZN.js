@@ -1,0 +1,1 @@
+import"./chunk-WWX6BADO.js";var t=[{path:"",loadComponent:()=>import("./chunk-ODGJOX3O.js").then(o=>o.MobileHomeComponent)},{path:"edit/:id",loadComponent:()=>import("./chunk-2SWZKOTJ.js").then(o=>o.MobileEditorComponent)},{path:"settings",loadComponent:()=>import("./chunk-2OPG3WFV.js").then(o=>o.MobileSettingsComponent)}];export{t as mobileRoutes};
