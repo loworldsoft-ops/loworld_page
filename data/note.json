@@ -454,6 +454,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-09",
       "endDate": "2025-12-13",
@@ -468,6 +469,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-11",
       "endDate": "2025-12-17",
@@ -482,6 +484,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "inProgress",
       "startDate": "2026-01-20",
       "endDate": "2026-01-31",
@@ -511,6 +514,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-16",
       "endDate": "2025-12-20",
@@ -525,6 +529,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-16",
       "endDate": "2025-12-20",
@@ -539,6 +544,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-18",
       "endDate": "2025-12-24",
@@ -553,6 +559,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-20",
       "endDate": "2025-12-26",
@@ -567,6 +574,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-23",
       "endDate": "2025-12-30",
@@ -581,6 +589,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "inProgress",
       "startDate": "2026-01-13",
       "endDate": "2026-01-24",
@@ -595,6 +604,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "md 추가 등록 가능 여부 체크\n복사 시 이슈 없도록 서버 저장 여부 체크",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-27",
       "endDate": "2026-01-03",
@@ -609,6 +619,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "서버 확인 필요\n주소 관리 필요",
+      "isRed": false,
       "status": "inProgress",
       "startDate": "2026-01-20",
       "endDate": "2026-02-03",
@@ -623,6 +634,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "inProgress",
       "startDate": "2026-01-27",
       "endDate": "2026-02-05",
@@ -637,6 +649,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-09",
       "endDate": "2025-12-13",
@@ -651,6 +664,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-11",
       "endDate": "2025-12-17",
@@ -665,6 +679,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-13",
       "endDate": "2025-12-18",
@@ -679,6 +694,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-16",
       "endDate": "2025-12-20",
@@ -693,6 +709,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-18",
       "endDate": "2025-12-23",
@@ -707,6 +724,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-20",
       "endDate": "2025-12-26",
@@ -721,6 +739,7 @@
       "priority": "1.5",
       "feasibility": "1.5",
       "note": "AI 연구소 기능 2.0 적용",
+      "isRed": false,
       "status": "inProgress",
       "startDate": "2026-01-13",
       "endDate": "2026-01-31",
@@ -735,6 +754,7 @@
       "priority": "1.5",
       "feasibility": "1.5",
       "note": "AI 연구소 기능 2.0 적용",
+      "isRed": false,
       "status": "inProgress",
       "startDate": "2026-01-20",
       "endDate": "2026-02-07",
@@ -749,6 +769,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2026-01-06",
       "endDate": "2026-01-13",
@@ -763,6 +784,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "open",
       "startDate": "2026-02-03",
       "endDate": "2026-02-10",
@@ -777,6 +799,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "open",
       "startDate": "2026-02-05",
       "endDate": "2026-02-14",
@@ -791,6 +814,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "서버/무료 작업 여부 확인 필요",
+      "isRed": false,
       "status": "open",
       "startDate": "2026-02-10",
       "endDate": "2026-02-17",
@@ -805,6 +829,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "inProgress",
       "startDate": "2026-01-27",
       "endDate": "2026-02-05",
@@ -819,6 +844,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2026-01-06",
       "endDate": "2026-01-10",
@@ -833,6 +859,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "open",
       "startDate": "2026-02-10",
       "endDate": "2026-02-14",
@@ -847,6 +874,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "서버 확인 필요\n주소 관리 필요",
+      "isRed": false,
       "status": "open",
       "startDate": "2026-02-14",
       "endDate": "2026-02-21",
@@ -861,6 +889,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "open",
       "startDate": "2026-02-10",
       "endDate": "2026-02-14",
@@ -875,6 +904,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "completed",
       "startDate": "2025-12-23",
       "endDate": "2025-12-27",
@@ -889,6 +919,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "inProgress",
       "startDate": "2026-01-13",
       "endDate": "2026-01-31",
@@ -903,6 +934,7 @@
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
+      "isRed": false,
       "status": "open",
       "startDate": "2026-02-17",
       "endDate": "2026-02-21",
@@ -910,33 +942,149 @@
     }
   ],
   "screenPositions": {
-    "노트 관리": {
-      "x": 480,
+    "메인 노트": {
+      "x": 1360,
       "y": 60
     },
-    "노트 목록": {
-      "x": 160,
-      "y": 280
+    "노트 작성": {
+      "x": 360,
+      "y": 540
     },
-    "노트 등록": {
-      "x": 800,
-      "y": 280
+    "노트 상세": {
+      "x": 760,
+      "y": 540
     },
-    "폴더 등록/수정": {
-      "x": 160,
-      "y": 500
+    "노트 관리": {
+      "x": 1160,
+      "y": 540
     },
-    "노트 등록/수정": {
-      "x": 640,
-      "y": 500
+    "폴더 관리": {
+      "x": 1560,
+      "y": 540
+    },
+    "내보내기/가져오기": {
+      "x": 1598.3333333333333,
+      "y": 1005
+    },
+    "검색": {
+      "x": 1960,
+      "y": 540
     },
     "설정": {
-      "x": 960,
-      "y": 500
+      "x": 2360,
+      "y": 540
+    }
+  },
+  "screenMapping": {
+    "메인 노트": {
+      "type": "screen",
+      "icon": "📝",
+      "path": "/note",
+      "description": "노트 메인 화면 - 폴더별 보기, 노트 목록 조회",
+      "specIds": [
+        6,
+        7,
+        8
+      ],
+      "depth": 0
     },
-    "보완 기능": {
-      "x": 640,
-      "y": 720
+    "노트 작성": {
+      "type": "modal",
+      "icon": "✏️",
+      "path": "/note/create",
+      "description": "새 노트 작성 모달 - 제목, 내용, 태그, 카테고리",
+      "specIds": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "depth": 1,
+      "parent": "메인 노트"
+    },
+    "노트 상세": {
+      "type": "panel",
+      "icon": "📄",
+      "path": "/note/:id",
+      "description": "노트 상세 패널 - 조회, 수정, 삭제, 공유",
+      "specIds": [
+        15,
+        16,
+        25
+      ],
+      "depth": 1,
+      "parent": "메인 노트"
+    },
+    "노트 관리": {
+      "type": "modal",
+      "icon": "⚙️",
+      "path": "/note/manage",
+      "description": "노트 관리 모달 - 계정 연동, 동기화, 생성/수정/삭제",
+      "specIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "depth": 1,
+      "parent": "메인 노트"
+    },
+    "폴더 관리": {
+      "type": "panel",
+      "icon": "📁",
+      "path": "/note/folders",
+      "description": "폴더 관리 패널 - 폴더 생성, 수정, 삭제",
+      "specIds": [
+        17,
+        18,
+        19
+      ],
+      "depth": 1,
+      "parent": "메인 노트"
+    },
+    "내보내기/가져오기": {
+      "type": "modal",
+      "icon": "📤",
+      "path": "/note/export",
+      "description": "데이터 내보내기/가져오기 모달",
+      "specIds": [
+        23,
+        24
+      ],
+      "depth": 2,
+      "parent": "노트 관리"
+    },
+    "검색": {
+      "type": "panel",
+      "icon": "🔍",
+      "path": "/note/search",
+      "description": "검색 패널 - 노트 검색, 필터링, 정렬",
+      "specIds": [
+        6,
+        7,
+        8
+      ],
+      "depth": 1,
+      "parent": "메인 노트"
+    },
+    "설정": {
+      "type": "screen",
+      "icon": "⚙️",
+      "path": "/settings",
+      "description": "앱 설정 화면 - 언어, 테마, 계정, 백업",
+      "specIds": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "depth": 1,
+      "parent": "메인 노트"
     }
   }
 }
