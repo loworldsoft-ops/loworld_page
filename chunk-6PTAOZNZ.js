@@ -1,0 +1,1 @@
+import"./chunk-WWX6BADO.js";var e=[{path:"",loadComponent:()=>import("./chunk-KP2L6ARH.js").then(o=>o.CalendarPcWorkspaceComponent)},{path:":screenName",loadComponent:()=>import("./chunk-KP2L6ARH.js").then(o=>o.CalendarPcWorkspaceComponent)}];export{e as pcRoutes};
