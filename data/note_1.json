@@ -1,5 +1,5 @@
 {
-  "name": "이지노트",
+  "name": "ezNote",
   "displayName": "EZ Note",
   "description": "클라우드 기반 협업 노트 플랫폼",
   "overview": {
@@ -20,7 +20,7 @@
       "mainCategory": "노트 관리",
       "midCategory": "이지 통합 로그인",
       "subCategory": "계정 연동",
-      "request": "사용자가 이지 통합 로그인으로 계정을 연동하면, 해당 계정의 노트 데이터를 이지노트로 동기화한다.",
+      "request": "사용자가 이지 통합 로그인으로 계정을 연동하면, 해당 계정의 노트 데이터를 ezNote로 동기화한다.",
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
@@ -50,7 +50,7 @@
       "mainCategory": "노트 관리",
       "midCategory": "이지 통합 로그인",
       "subCategory": "포인트 연동",
-      "request": "이지노트 내 특정 행동(예: 일정 생성/완료, 할 일 완료 등)과 포인트 적립/사용 정책을 연동한다.",
+      "request": "ezNote 내 특정 행동(예: 일정 생성/완료, 할 일 완료 등)과 포인트 적립/사용 정책을 연동한다.",
       "priority": "1.0",
       "feasibility": "1.0",
       "note": "",
