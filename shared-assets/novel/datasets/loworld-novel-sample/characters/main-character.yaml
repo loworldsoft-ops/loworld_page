@@ -1,0 +1,34 @@
+character:
+  id: wanderer
+  name: 유랑검객
+  class: warrior
+  level: 1
+  stats:
+    life: 28
+    maxLife: 28
+    mana: 12
+    maxMana: 12
+    strength: 12
+    dexterity: 11
+    vitality: 10
+    energy: 8
+    defense: 6
+  equipment:
+    weapon: null
+    shield: null
+    helmet: null
+    bodyArmor: null
+    gloves: null
+    belt: null
+    boots: null
+    amulet: null
+    ringLeft: null
+    ringRight: null
+  inventory:
+    gold: 40
+    maxSlots: 20
+    items:
+      - leather_gloves
+      - sash
+      - copper_ring
+      - wooden_shield

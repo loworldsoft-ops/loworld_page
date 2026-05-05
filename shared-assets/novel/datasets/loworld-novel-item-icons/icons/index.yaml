@@ -1,0 +1,41 @@
+dataset:
+  id: loworld-novel-item-icons
+  style: engraved-fantasy
+  targetIconsPerCategory: 20
+  categories:
+    - category: weapon
+      file: icons/weapon-icons.yaml
+      targetCount: 20
+      implementedCount: 20
+    - category: armor
+      file: icons/armor-icons.yaml
+      targetCount: 20
+      implementedCount: 20
+    - category: helmet
+      file: icons/helmet-icons.yaml
+      targetCount: 20
+      implementedCount: 20
+    - category: shield
+      file: icons/shield-icons.yaml
+      targetCount: 20
+      implementedCount: 20
+    - category: boots
+      file: icons/boots-icons.yaml
+      targetCount: 20
+      implementedCount: 20
+    - category: gloves
+      file: icons/gloves-icons.yaml
+      targetCount: 20
+      implementedCount: 20
+    - category: belt
+      file: icons/belt-icons.yaml
+      targetCount: 20
+      implementedCount: 20
+    - category: ring
+      file: icons/ring-icons.yaml
+      targetCount: 20
+      implementedCount: 20
+    - category: amulet
+      file: icons/amulet-icons.yaml
+      targetCount: 20
+      implementedCount: 20

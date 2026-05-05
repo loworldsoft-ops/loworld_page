@@ -1,0 +1,185 @@
+category: armor
+targetCount: 20
+style: engraved-fantasy
+implemented:
+  - id: armor-leather-01
+    runtimeId: armor
+    family: leather
+    svgPath: svg/armor/armor.svg
+    previewLabel: 경갑형 01
+    tags:
+      - armor
+      - leather
+      - chest
+  - id: armor-cloth-01
+    runtimeId: armor-cloth-01
+    family: cloth
+    svgPath: svg/armor/armor-cloth-01.svg
+    previewLabel: 의복갑형 01
+    tags:
+      - armor
+      - cloth
+      - robe
+  - id: armor-cloth-02
+    runtimeId: armor-cloth-02
+    family: cloth
+    svgPath: svg/armor/armor-cloth-02.svg
+    previewLabel: 의복갑형 02
+    tags:
+      - armor
+      - cloth
+      - trim
+  - id: armor-cloth-03
+    runtimeId: armor-cloth-03
+    family: cloth
+    svgPath: svg/armor/armor-cloth-03.svg
+    previewLabel: 의복갑형 03
+    tags:
+      - armor
+      - cloth
+      - sage
+  - id: armor-cloth-04
+    runtimeId: armor-cloth-04
+    family: cloth
+    svgPath: svg/armor/armor-cloth-04.svg
+    previewLabel: 의복갑형 04
+    tags:
+      - armor
+      - cloth
+      - ritual
+  - id: armor-leather-02
+    runtimeId: armor-leather-02
+    family: leather
+    svgPath: svg/armor/armor-leather-02.svg
+    previewLabel: 경갑형 02
+    tags:
+      - armor
+      - leather
+      - scout
+  - id: armor-leather-03
+    runtimeId: armor-leather-03
+    family: leather
+    svgPath: svg/armor/armor-leather-03.svg
+    previewLabel: 경갑형 03
+    tags:
+      - armor
+      - leather
+      - buckled
+  - id: armor-leather-04
+    runtimeId: armor-leather-04
+    family: leather
+    svgPath: svg/armor/armor-leather-04.svg
+    previewLabel: 경갑형 04
+    tags:
+      - armor
+      - leather
+      - raider
+  - id: armor-leather-05
+    runtimeId: armor-leather-05
+    family: leather
+    svgPath: svg/armor/armor-leather-05.svg
+    previewLabel: 경갑형 05
+    tags:
+      - armor
+      - leather
+      - hunter
+  - id: armor-plate-01
+    runtimeId: armor-plate-01
+    family: plate
+    svgPath: svg/armor/armor-plate-01.svg
+    previewLabel: 판금갑형 01
+    tags:
+      - armor
+      - plate
+      - knight
+  - id: armor-plate-02
+    runtimeId: armor-plate-02
+    family: plate
+    svgPath: svg/armor/armor-plate-02.svg
+    previewLabel: 판금갑형 02
+    tags:
+      - armor
+      - plate
+      - guard
+  - id: armor-plate-03
+    runtimeId: armor-plate-03
+    family: plate
+    svgPath: svg/armor/armor-plate-03.svg
+    previewLabel: 판금갑형 03
+    tags:
+      - armor
+      - plate
+      - crest
+  - id: armor-plate-04
+    runtimeId: armor-plate-04
+    family: plate
+    svgPath: svg/armor/armor-plate-04.svg
+    previewLabel: 판금갑형 04
+    tags:
+      - armor
+      - plate
+      - royal
+  - id: armor-heavy-01
+    runtimeId: armor-heavy-01
+    family: heavy
+    svgPath: svg/armor/armor-heavy-01.svg
+    previewLabel: 중갑형 01
+    tags:
+      - armor
+      - heavy
+      - bastion
+  - id: armor-heavy-02
+    runtimeId: armor-heavy-02
+    family: heavy
+    svgPath: svg/armor/armor-heavy-02.svg
+    previewLabel: 중갑형 02
+    tags:
+      - armor
+      - heavy
+      - spine
+  - id: armor-heavy-03
+    runtimeId: armor-heavy-03
+    family: heavy
+    svgPath: svg/armor/armor-heavy-03.svg
+    previewLabel: 중갑형 03
+    tags:
+      - armor
+      - heavy
+      - fortress
+  - id: armor-mystic-01
+    runtimeId: armor-mystic-01
+    family: mystic
+    svgPath: svg/armor/armor-mystic-01.svg
+    previewLabel: 비전갑형 01
+    tags:
+      - armor
+      - mystic
+      - glyph
+  - id: armor-mystic-02
+    runtimeId: armor-mystic-02
+    family: mystic
+    svgPath: svg/armor/armor-mystic-02.svg
+    previewLabel: 비전갑형 02
+    tags:
+      - armor
+      - mystic
+      - rune
+  - id: armor-relic-01
+    runtimeId: armor-relic-01
+    family: relic
+    svgPath: svg/armor/armor-relic-01.svg
+    previewLabel: 유물갑형 01
+    tags:
+      - armor
+      - relic
+      - sun
+  - id: armor-relic-02
+    runtimeId: armor-relic-02
+    family: relic
+    svgPath: svg/armor/armor-relic-02.svg
+    previewLabel: 유물갑형 02
+    tags:
+      - armor
+      - relic
+      - halo
+planned: []

@@ -1,0 +1,17 @@
+battles:
+  - id: battle-zombie-gate
+    phase: engaged
+    turn: 1
+    enemy:
+      id: zombie
+      name: 시귀
+      level: 4
+      life: 18
+      maxLife: 18
+    logs:
+      - id: log-01
+        message: 눅눅한 안개를 가르며 시귀가 비틀거리듯 다가온다.
+        emphasis: normal
+      - id: log-02
+        message: 유랑검객은 검자루를 움켜쥐고 하체를 낮춘다.
+        emphasis: normal
