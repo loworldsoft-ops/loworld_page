@@ -8,12 +8,12 @@ sceneOrder:
   - scene_03_dungeon_entrance
 sceneFiles:
   - id: scene_01_intro
-    file: scenes/01-intro.md
+    file: scenes/01-intro.yaml
   - id: scene_01_room
-    file: scenes/02-room.md
+    file: scenes/02-room.yaml
   - id: scene_02_village
-    file: scenes/03-village.md
+    file: scenes/03-village.yaml
   - id: scene_02_shop
-    file: scenes/04-shop.md
+    file: scenes/04-shop.yaml
   - id: scene_03_dungeon_entrance
-    file: scenes/05-dungeon-entrance.md
+    file: scenes/05-dungeon-entrance.yaml
