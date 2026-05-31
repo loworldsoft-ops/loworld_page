@@ -1,0 +1,7 @@
+datasetId: ezcalendar-ui-icons
+version: 1
+title: EzCalendar UI Icon Dataset
+
+sources:
+  icons:
+    - icons/index.yaml

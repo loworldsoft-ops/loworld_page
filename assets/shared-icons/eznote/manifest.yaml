@@ -1,0 +1,7 @@
+datasetId: eznote-ui-icons
+version: 1
+title: EzNote UI Icon Dataset
+
+sources:
+  icons:
+    - icons/index.yaml
