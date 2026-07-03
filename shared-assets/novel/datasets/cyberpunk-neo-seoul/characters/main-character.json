@@ -1,0 +1,38 @@
+{
+  "character": {
+    "id": "cyberpunk_k",
+    "name": "요원 K",
+    "class": "cyborg",
+    "level": 1,
+    "stats": {
+      "life": 30,
+      "maxLife": 30,
+      "mana": 10,
+      "maxMana": 10,
+      "strength": 15,
+      "dexterity": 12,
+      "vitality": 10,
+      "energy": 5,
+      "defense": 8
+    },
+    "equipment": {
+      "weapon": null,
+      "shield": null,
+      "helmet": null,
+      "bodyArmor": null,
+      "gloves": null,
+      "belt": null,
+      "boots": null,
+      "amulet": null,
+      "ringLeft": null,
+      "ringRight": null
+    },
+    "inventory": {
+      "gold": 500,
+      "maxSlots": 20,
+      "items": [
+        "cyber_glove"
+      ]
+    }
+  }
+}

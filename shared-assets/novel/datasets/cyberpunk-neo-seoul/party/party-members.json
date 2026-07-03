@@ -1,0 +1,12 @@
+{
+  "party": [
+    {
+      "id": "cyberpunk_k",
+      "name": "요원 K",
+      "role": "전투원",
+      "level": 1,
+      "summary": "메가코프의 기밀 정보 회수 임무 도중 기억을 소실하고 리부트된 사이보그 요원.",
+      "status": "active"
+    }
+  ]
+}

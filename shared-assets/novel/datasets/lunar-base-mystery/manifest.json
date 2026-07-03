@@ -1,0 +1,34 @@
+{
+  "datasetId": "lunar-base-mystery",
+  "version": 1,
+  "title": "Lunar Base Crater-1",
+  "initialState": {
+    "mainCharacterId": "detective_park",
+    "currentChapterId": "lunar_chapter_01",
+    "currentSceneId": "lunar_scene_01_intro",
+    "activeSidebarPanel": "chronicle",
+    "selectedMonsterId": null,
+    "selectedPartyMemberId": "detective_park",
+    "revealedMonsterIds": []
+  },
+  "sources": {
+    "items": [
+      "items/starter-items.json"
+    ],
+    "characters": [
+      "characters/main-character.json"
+    ],
+    "party": [
+      "party/party-members.json"
+    ],
+    "monsters": [
+      "monsters/act1-monsters.json"
+    ],
+    "battles": [
+      "battles/battle-presets.json"
+    ],
+    "chapters": [
+      "chapters/lunar_chapter_01/chapter.json"
+    ]
+  }
+}

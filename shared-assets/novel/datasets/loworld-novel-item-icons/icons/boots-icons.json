@@ -1,0 +1,248 @@
+{
+  "category": "boots",
+  "targetCount": 20,
+  "style": "engraved-fantasy",
+  "implemented": [
+    {
+      "id": "boots-leather-01",
+      "runtimeId": "boots",
+      "family": "leather",
+      "svgPath": "svg/boots/boots.svg",
+      "previewLabel": "장화형 01",
+      "tags": [
+        "boots",
+        "travel",
+        "leather"
+      ]
+    },
+    {
+      "id": "boots-leather-02",
+      "runtimeId": "boots-leather-02",
+      "family": "leather",
+      "svgPath": "svg/boots/boots-leather-02.svg",
+      "previewLabel": "장화형 02",
+      "tags": [
+        "boots",
+        "trail",
+        "stitch"
+      ]
+    },
+    {
+      "id": "boots-leather-03",
+      "runtimeId": "boots-leather-03",
+      "family": "leather",
+      "svgPath": "svg/boots/boots-leather-03.svg",
+      "previewLabel": "장화형 03",
+      "tags": [
+        "boots",
+        "scout",
+        "strap"
+      ]
+    },
+    {
+      "id": "boots-leather-04",
+      "runtimeId": "boots-leather-04",
+      "family": "leather",
+      "svgPath": "svg/boots/boots-leather-04.svg",
+      "previewLabel": "장화형 04",
+      "tags": [
+        "boots",
+        "raider",
+        "worn"
+      ]
+    },
+    {
+      "id": "boots-cloth-01",
+      "runtimeId": "boots-cloth-01",
+      "family": "cloth",
+      "svgPath": "svg/boots/boots-cloth-01.svg",
+      "previewLabel": "천신형 01",
+      "tags": [
+        "boots",
+        "cloth",
+        "soft"
+      ]
+    },
+    {
+      "id": "boots-cloth-02",
+      "runtimeId": "boots-cloth-02",
+      "family": "cloth",
+      "svgPath": "svg/boots/boots-cloth-02.svg",
+      "previewLabel": "천신형 02",
+      "tags": [
+        "boots",
+        "cloth",
+        "sage"
+      ]
+    },
+    {
+      "id": "boots-cloth-03",
+      "runtimeId": "boots-cloth-03",
+      "family": "cloth",
+      "svgPath": "svg/boots/boots-cloth-03.svg",
+      "previewLabel": "천신형 03",
+      "tags": [
+        "boots",
+        "cloth",
+        "trim"
+      ]
+    },
+    {
+      "id": "boots-travel-01",
+      "runtimeId": "boots-travel-01",
+      "family": "travel",
+      "svgPath": "svg/boots/boots-travel-01.svg",
+      "previewLabel": "여행신형 01",
+      "tags": [
+        "boots",
+        "travel",
+        "hook"
+      ]
+    },
+    {
+      "id": "boots-travel-02",
+      "runtimeId": "boots-travel-02",
+      "family": "travel",
+      "svgPath": "svg/boots/boots-travel-02.svg",
+      "previewLabel": "여행신형 02",
+      "tags": [
+        "boots",
+        "travel",
+        "gear"
+      ]
+    },
+    {
+      "id": "boots-travel-03",
+      "runtimeId": "boots-travel-03",
+      "family": "travel",
+      "svgPath": "svg/boots/boots-travel-03.svg",
+      "previewLabel": "여행신형 03",
+      "tags": [
+        "boots",
+        "travel",
+        "field"
+      ]
+    },
+    {
+      "id": "boots-travel-04",
+      "runtimeId": "boots-travel-04",
+      "family": "travel",
+      "svgPath": "svg/boots/boots-travel-04.svg",
+      "previewLabel": "여행신형 04",
+      "tags": [
+        "boots",
+        "travel",
+        "range"
+      ]
+    },
+    {
+      "id": "boots-greaves-01",
+      "runtimeId": "boots-greaves-01",
+      "family": "greaves",
+      "svgPath": "svg/boots/boots-greaves-01.svg",
+      "previewLabel": "각반형 01",
+      "tags": [
+        "boots",
+        "greaves",
+        "plate"
+      ]
+    },
+    {
+      "id": "boots-greaves-02",
+      "runtimeId": "boots-greaves-02",
+      "family": "greaves",
+      "svgPath": "svg/boots/boots-greaves-02.svg",
+      "previewLabel": "각반형 02",
+      "tags": [
+        "boots",
+        "greaves",
+        "knight"
+      ]
+    },
+    {
+      "id": "boots-greaves-03",
+      "runtimeId": "boots-greaves-03",
+      "family": "greaves",
+      "svgPath": "svg/boots/boots-greaves-03.svg",
+      "previewLabel": "각반형 03",
+      "tags": [
+        "boots",
+        "greaves",
+        "guard"
+      ]
+    },
+    {
+      "id": "boots-mystic-01",
+      "runtimeId": "boots-mystic-01",
+      "family": "mystic",
+      "svgPath": "svg/boots/boots-mystic-01.svg",
+      "previewLabel": "비전신형 01",
+      "tags": [
+        "boots",
+        "mystic",
+        "glyph"
+      ]
+    },
+    {
+      "id": "boots-mystic-02",
+      "runtimeId": "boots-mystic-02",
+      "family": "mystic",
+      "svgPath": "svg/boots/boots-mystic-02.svg",
+      "previewLabel": "비전신형 02",
+      "tags": [
+        "boots",
+        "mystic",
+        "float"
+      ]
+    },
+    {
+      "id": "boots-mystic-03",
+      "runtimeId": "boots-mystic-03",
+      "family": "mystic",
+      "svgPath": "svg/boots/boots-mystic-03.svg",
+      "previewLabel": "비전신형 03",
+      "tags": [
+        "boots",
+        "mystic",
+        "rune"
+      ]
+    },
+    {
+      "id": "boots-relic-01",
+      "runtimeId": "boots-relic-01",
+      "family": "relic",
+      "svgPath": "svg/boots/boots-relic-01.svg",
+      "previewLabel": "유물신형 01",
+      "tags": [
+        "boots",
+        "relic",
+        "sun"
+      ]
+    },
+    {
+      "id": "boots-relic-02",
+      "runtimeId": "boots-relic-02",
+      "family": "relic",
+      "svgPath": "svg/boots/boots-relic-02.svg",
+      "previewLabel": "유물신형 02",
+      "tags": [
+        "boots",
+        "relic",
+        "halo"
+      ]
+    },
+    {
+      "id": "boots-relic-03",
+      "runtimeId": "boots-relic-03",
+      "family": "relic",
+      "svgPath": "svg/boots/boots-relic-03.svg",
+      "previewLabel": "유물신형 03",
+      "tags": [
+        "boots",
+        "relic",
+        "royal"
+      ]
+    }
+  ],
+  "planned": []
+}

@@ -1,0 +1,248 @@
+{
+  "category": "weapon",
+  "targetCount": 20,
+  "style": "engraved-fantasy",
+  "implemented": [
+    {
+      "id": "weapon-sword-01",
+      "runtimeId": "sword",
+      "family": "sword",
+      "svgPath": "svg/weapon/sword.svg",
+      "previewLabel": "장검형 01",
+      "tags": [
+        "blade",
+        "long",
+        "knight"
+      ]
+    },
+    {
+      "id": "weapon-sword-02",
+      "runtimeId": "sword-02",
+      "family": "sword",
+      "svgPath": "svg/weapon/weapon-sword-02.svg",
+      "previewLabel": "장검형 02",
+      "tags": [
+        "blade",
+        "long",
+        "field"
+      ]
+    },
+    {
+      "id": "weapon-sword-03",
+      "runtimeId": "sword-03",
+      "family": "sword",
+      "svgPath": "svg/weapon/weapon-sword-03.svg",
+      "previewLabel": "장검형 03",
+      "tags": [
+        "blade",
+        "noble",
+        "steel"
+      ]
+    },
+    {
+      "id": "weapon-sword-04",
+      "runtimeId": "sword-04",
+      "family": "sword",
+      "svgPath": "svg/weapon/weapon-sword-04.svg",
+      "previewLabel": "장검형 04",
+      "tags": [
+        "blade",
+        "guard",
+        "war"
+      ]
+    },
+    {
+      "id": "weapon-sword-05",
+      "runtimeId": "sword-05",
+      "family": "sword",
+      "svgPath": "svg/weapon/weapon-sword-05.svg",
+      "previewLabel": "장검형 05",
+      "tags": [
+        "blade",
+        "ceremony",
+        "crest"
+      ]
+    },
+    {
+      "id": "weapon-dagger-01",
+      "runtimeId": "dagger",
+      "family": "dagger",
+      "svgPath": "svg/weapon/dagger.svg",
+      "previewLabel": "단검형 01",
+      "tags": [
+        "blade",
+        "short",
+        "rogue"
+      ]
+    },
+    {
+      "id": "weapon-dagger-02",
+      "runtimeId": "dagger-02",
+      "family": "dagger",
+      "svgPath": "svg/weapon/weapon-dagger-02.svg",
+      "previewLabel": "단검형 02",
+      "tags": [
+        "blade",
+        "short",
+        "hook"
+      ]
+    },
+    {
+      "id": "weapon-dagger-03",
+      "runtimeId": "dagger-03",
+      "family": "dagger",
+      "svgPath": "svg/weapon/weapon-dagger-03.svg",
+      "previewLabel": "단검형 03",
+      "tags": [
+        "blade",
+        "ritual",
+        "fang"
+      ]
+    },
+    {
+      "id": "weapon-bow-01",
+      "runtimeId": "bow",
+      "family": "bow",
+      "svgPath": "svg/weapon/bow.svg",
+      "previewLabel": "활형 01",
+      "tags": [
+        "ranged",
+        "bow",
+        "hunter"
+      ]
+    },
+    {
+      "id": "weapon-bow-02",
+      "runtimeId": "bow-02",
+      "family": "bow",
+      "svgPath": "svg/weapon/weapon-bow-02.svg",
+      "previewLabel": "활형 02",
+      "tags": [
+        "ranged",
+        "bow",
+        "wood"
+      ]
+    },
+    {
+      "id": "weapon-bow-03",
+      "runtimeId": "bow-03",
+      "family": "bow",
+      "svgPath": "svg/weapon/weapon-bow-03.svg",
+      "previewLabel": "활형 03",
+      "tags": [
+        "ranged",
+        "bow",
+        "royal"
+      ]
+    },
+    {
+      "id": "weapon-crossbow-01",
+      "runtimeId": "crossbow-01",
+      "family": "crossbow",
+      "svgPath": "svg/weapon/weapon-crossbow-01.svg",
+      "previewLabel": "석궁형 01",
+      "tags": [
+        "ranged",
+        "crossbow",
+        "bolt"
+      ]
+    },
+    {
+      "id": "weapon-crossbow-02",
+      "runtimeId": "crossbow-02",
+      "family": "crossbow",
+      "svgPath": "svg/weapon/weapon-crossbow-02.svg",
+      "previewLabel": "석궁형 02",
+      "tags": [
+        "ranged",
+        "crossbow",
+        "siege"
+      ]
+    },
+    {
+      "id": "weapon-polearm-01",
+      "runtimeId": "polearm-01",
+      "family": "polearm",
+      "svgPath": "svg/weapon/weapon-polearm-01.svg",
+      "previewLabel": "장병기형 01",
+      "tags": [
+        "polearm",
+        "reach",
+        "guard"
+      ]
+    },
+    {
+      "id": "weapon-polearm-02",
+      "runtimeId": "polearm-02",
+      "family": "polearm",
+      "svgPath": "svg/weapon/weapon-polearm-02.svg",
+      "previewLabel": "장병기형 02",
+      "tags": [
+        "polearm",
+        "banner",
+        "charge"
+      ]
+    },
+    {
+      "id": "weapon-mace-01",
+      "runtimeId": "mace-01",
+      "family": "mace",
+      "svgPath": "svg/weapon/weapon-mace-01.svg",
+      "previewLabel": "둔기형 01",
+      "tags": [
+        "mace",
+        "impact",
+        "iron"
+      ]
+    },
+    {
+      "id": "weapon-mace-02",
+      "runtimeId": "mace-02",
+      "family": "mace",
+      "svgPath": "svg/weapon/weapon-mace-02.svg",
+      "previewLabel": "둔기형 02",
+      "tags": [
+        "mace",
+        "spike",
+        "crusher"
+      ]
+    },
+    {
+      "id": "weapon-crystal-01",
+      "runtimeId": "crystal-sword",
+      "family": "crystal",
+      "svgPath": "svg/weapon/crystal-sword.svg",
+      "previewLabel": "수정검형 01",
+      "tags": [
+        "blade",
+        "crystal",
+        "mystic"
+      ]
+    },
+    {
+      "id": "weapon-crystal-02",
+      "runtimeId": "crystal-sword-02",
+      "family": "crystal",
+      "svgPath": "svg/weapon/weapon-crystal-02.svg",
+      "previewLabel": "수정검형 02",
+      "tags": [
+        "blade",
+        "crystal",
+        "aura"
+      ]
+    },
+    {
+      "id": "weapon-relic-01",
+      "runtimeId": "relic-weapon-01",
+      "family": "relic",
+      "svgPath": "svg/weapon/weapon-relic-01.svg",
+      "previewLabel": "유물무기형 01",
+      "tags": [
+        "relic",
+        "halo",
+        "ancient"
+      ]
+    }
+  ],
+  "planned": []
+}

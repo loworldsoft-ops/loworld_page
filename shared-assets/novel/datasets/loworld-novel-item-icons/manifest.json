@@ -1,0 +1,19 @@
+{
+  "datasetId": "loworld-novel-item-icons",
+  "version": 1,
+  "title": "Loworld Novel Item Icon Dataset",
+  "sources": {
+    "icons": [
+      "icons/index.json",
+      "icons/weapon-icons.json",
+      "icons/armor-icons.json",
+      "icons/helmet-icons.json",
+      "icons/shield-icons.json",
+      "icons/boots-icons.json",
+      "icons/gloves-icons.json",
+      "icons/belt-icons.json",
+      "icons/ring-icons.json",
+      "icons/amulet-icons.json"
+    ]
+  }
+}

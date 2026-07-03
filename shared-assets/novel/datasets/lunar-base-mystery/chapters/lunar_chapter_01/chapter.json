@@ -1,0 +1,13 @@
+{
+  "id": "lunar_chapter_01",
+  "title": "제1장: 끊어진 통신선",
+  "sceneOrder": [
+    "lunar_scene_01_intro"
+  ],
+  "sceneFiles": [
+    {
+      "id": "lunar_scene_01_intro",
+      "file": "scenes/lunar_scene_01_intro.json"
+    }
+  ]
+}

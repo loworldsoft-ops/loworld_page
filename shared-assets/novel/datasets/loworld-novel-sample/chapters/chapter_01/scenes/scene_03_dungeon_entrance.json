@@ -1,0 +1,44 @@
+{
+  "id": "scene_03_dungeon_entrance",
+  "title": "북망산 공동묘지 입구",
+  "chronicle": {
+    "id": "chronicle_dungeon_gate",
+    "title": "북망산의 입구",
+    "summary": "젖은 돌계단 아래에서 시귀와 살기의 기척을 감지했다.",
+    "category": "battle"
+  },
+  "revealMonsterIds": [
+    "skeleton_warrior"
+  ],
+  "monsterUpdates": [
+    {
+      "id": "skeleton_warrior",
+      "summary": "북망산 지하 석굴 깊은 곳에서 깨어난 백골검수의 존재가 처음 드러났다.",
+      "area": "북망산 지하 석굴",
+      "badge": "Elite Encounter",
+      "level": 5
+    }
+  ],
+  "partyUpdates": [
+    {
+      "id": "guard_cain",
+      "summary": "공동묘지 입구 인근에서 포쾌의 흔적과 피 묻은 옷자락이 발견되었다.",
+      "status": "missing"
+    }
+  ],
+  "battlePresetId": "battle-zombie-gate",
+  "autoView": "battle",
+  "choices": [
+    {
+      "id": "choice_descend_stairs",
+      "label": "검을 거머쥐고 계단 아래로 내려간다",
+      "description": "안개 속에서 꿈틀대는 사귀와 정면으로 마주한다.",
+      "nextSceneId": "scene_03_dungeon_entrance"
+    }
+  ],
+  "paragraphs": [
+    "북망산 아래에서 불어오는 음풍은 살갗을 바늘처럼 찔렀고, 젖은 돌계단은 끝이 보이지 않는 암흑 속으로 이어지고 있었다. 입구 주변의 억센 풀숲 사이에는 누군가 다급히 달아난 발자국과 무언가를 질질 끈 흔적이 뒤엉켜 있었다.",
+    "발밑에서 마른 뼈가 부서지는 소리가 울리자, 당신은 단전에 숨을 가라앉히고 전진했다. 아래쪽 안개 속에서는 낮게 으르렁거리는 소리와 함께 사람의 형체를 한 시귀들이 하나둘 몸을 일으켰다.",
+    "이제 물러설 곳은 없었다. 북망산의 사기는 이미 당신의 발목을 감아 왔고, 첫 번째 혈전은 바로 눈앞까지 다가와 있었다."
+  ]
+}

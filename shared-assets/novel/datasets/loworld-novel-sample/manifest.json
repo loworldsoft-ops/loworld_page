@@ -1,0 +1,34 @@
+{
+  "datasetId": "loworld-novel-sample",
+  "version": 1,
+  "title": "Loworld Novel Sample Dataset",
+  "initialState": {
+    "mainCharacterId": "wanderer",
+    "currentChapterId": "chapter_01",
+    "currentSceneId": "scene_01_intro",
+    "activeSidebarPanel": "chronicle",
+    "selectedMonsterId": null,
+    "selectedPartyMemberId": "wanderer",
+    "revealedMonsterIds": []
+  },
+  "sources": {
+    "items": [
+      "items/starter-items.json"
+    ],
+    "characters": [
+      "characters/main-character.json"
+    ],
+    "party": [
+      "party/party-members.json"
+    ],
+    "monsters": [
+      "monsters/act1-monsters.json"
+    ],
+    "battles": [
+      "battles/battle-presets.json"
+    ],
+    "chapters": [
+      "chapters/chapter_01/chapter.json"
+    ]
+  }
+}

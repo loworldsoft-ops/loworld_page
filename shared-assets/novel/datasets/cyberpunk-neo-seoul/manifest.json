@@ -1,0 +1,34 @@
+{
+  "datasetId": "cyberpunk-neo-seoul",
+  "version": 1,
+  "title": "Cyberpunk Neo Seoul 2088",
+  "initialState": {
+    "mainCharacterId": "cyberpunk_k",
+    "currentChapterId": "seoul_chapter_01",
+    "currentSceneId": "seoul_scene_01_intro",
+    "activeSidebarPanel": "chronicle",
+    "selectedMonsterId": null,
+    "selectedPartyMemberId": "cyberpunk_k",
+    "revealedMonsterIds": []
+  },
+  "sources": {
+    "items": [
+      "items/starter-items.json"
+    ],
+    "characters": [
+      "characters/main-character.json"
+    ],
+    "party": [
+      "party/party-members.json"
+    ],
+    "monsters": [
+      "monsters/act1-monsters.json"
+    ],
+    "battles": [
+      "battles/battle-presets.json"
+    ],
+    "chapters": [
+      "chapters/seoul_chapter_01/chapter.json"
+    ]
+  }
+}
