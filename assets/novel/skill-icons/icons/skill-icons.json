@@ -1,0 +1,175 @@
+{
+  "category": "skill",
+  "targetCount": 28,
+  "style": "dark-fantasy-rpg-skill",
+  "implemented": [
+    {
+      "id": "skill-sword-wind",
+      "skillId": "sword-wind",
+      "mediaPath": "png/skill-sword-wind.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-mighty-blow",
+      "skillId": "mighty-blow",
+      "mediaPath": "png/skill-mighty-blow.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-leap-strike",
+      "skillId": "leap-strike",
+      "mediaPath": "png/skill-leap-strike.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-iron-wall",
+      "skillId": "iron-wall",
+      "mediaPath": "png/skill-iron-wall.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-fireball",
+      "skillId": "fireball",
+      "mediaPath": "png/skill-fireball.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-frost-nova",
+      "skillId": "frost-nova",
+      "mediaPath": "png/skill-frost-nova.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-chain-lightning",
+      "skillId": "chain-lightning",
+      "mediaPath": "png/skill-chain-lightning.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-meteor",
+      "skillId": "meteor",
+      "mediaPath": "png/skill-meteor.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-magic-arrow",
+      "skillId": "magic-arrow",
+      "mediaPath": "png/skill-magic-arrow.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-multishot",
+      "skillId": "multishot",
+      "mediaPath": "png/skill-multishot.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-guided-arrow",
+      "skillId": "guided-arrow",
+      "mediaPath": "png/skill-guided-arrow.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-strafe",
+      "skillId": "strafe",
+      "mediaPath": "png/skill-strafe.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-raise-skeleton",
+      "skillId": "raise-skeleton",
+      "mediaPath": "png/skill-raise-skeleton.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-bone-spear",
+      "skillId": "bone-spear",
+      "mediaPath": "png/skill-bone-spear.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-corpse-explosion",
+      "skillId": "corpse-explosion",
+      "mediaPath": "png/skill-corpse-explosion.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-bone-armor",
+      "skillId": "bone-armor",
+      "mediaPath": "png/skill-bone-armor.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-holy-bolt",
+      "skillId": "holy-bolt",
+      "mediaPath": "png/skill-holy-bolt.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-zeal",
+      "skillId": "zeal",
+      "mediaPath": "png/skill-zeal.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-blessed-hammer",
+      "skillId": "blessed-hammer",
+      "mediaPath": "png/skill-blessed-hammer.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-sacrifice",
+      "skillId": "sacrifice",
+      "mediaPath": "png/skill-sacrifice.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-tornado",
+      "skillId": "tornado",
+      "mediaPath": "png/skill-tornado.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-armageddon",
+      "skillId": "armageddon",
+      "mediaPath": "png/skill-armageddon.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-werewolf",
+      "skillId": "werewolf",
+      "mediaPath": "png/skill-werewolf.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-cyclone-armor",
+      "skillId": "cyclone-armor",
+      "mediaPath": "png/skill-cyclone-armor.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-tiger-strike",
+      "skillId": "tiger-strike",
+      "mediaPath": "png/skill-tiger-strike.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-dragon-claw",
+      "skillId": "dragon-claw",
+      "mediaPath": "png/skill-dragon-claw.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-shadow-master",
+      "skillId": "shadow-master",
+      "mediaPath": "png/skill-shadow-master.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skill-flash-strike",
+      "skillId": "flash-strike",
+      "mediaPath": "png/skill-flash-strike.png",
+      "mediaKind": "raster"
+    }
+  ]
+}

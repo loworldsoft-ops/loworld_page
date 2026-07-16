@@ -1,0 +1,268 @@
+{
+  "category": "armor",
+  "targetCount": 20,
+  "style": "engraved-fantasy",
+  "implemented": [
+    {
+      "id": "armor-leather-01",
+      "runtimeId": "armor",
+      "family": "leather",
+      "previewLabel": "경갑형 01",
+      "tags": [
+        "armor",
+        "leather",
+        "chest"
+      ],
+      "mediaPath": "png/armor/armor-leather-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-cloth-01",
+      "runtimeId": "armor-cloth-01",
+      "family": "cloth",
+      "previewLabel": "의복갑형 01",
+      "tags": [
+        "armor",
+        "cloth",
+        "robe"
+      ],
+      "mediaPath": "png/armor/armor-cloth-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-cloth-02",
+      "runtimeId": "armor-cloth-02",
+      "family": "cloth",
+      "previewLabel": "의복갑형 02",
+      "tags": [
+        "armor",
+        "cloth",
+        "trim"
+      ],
+      "mediaPath": "png/armor/armor-cloth-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-cloth-03",
+      "runtimeId": "armor-cloth-03",
+      "family": "cloth",
+      "previewLabel": "의복갑형 03",
+      "tags": [
+        "armor",
+        "cloth",
+        "sage"
+      ],
+      "mediaPath": "png/armor/armor-cloth-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-cloth-04",
+      "runtimeId": "armor-cloth-04",
+      "family": "cloth",
+      "previewLabel": "의복갑형 04",
+      "tags": [
+        "armor",
+        "cloth",
+        "ritual"
+      ],
+      "mediaPath": "png/armor/armor-cloth-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-leather-02",
+      "runtimeId": "armor-leather-02",
+      "family": "leather",
+      "previewLabel": "경갑형 02",
+      "tags": [
+        "armor",
+        "leather",
+        "scout"
+      ],
+      "mediaPath": "png/armor/armor-leather-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-leather-03",
+      "runtimeId": "armor-leather-03",
+      "family": "leather",
+      "previewLabel": "경갑형 03",
+      "tags": [
+        "armor",
+        "leather",
+        "buckled"
+      ],
+      "mediaPath": "png/armor/armor-leather-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-leather-04",
+      "runtimeId": "armor-leather-04",
+      "family": "leather",
+      "previewLabel": "경갑형 04",
+      "tags": [
+        "armor",
+        "leather",
+        "raider"
+      ],
+      "mediaPath": "png/armor/armor-leather-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-leather-05",
+      "runtimeId": "armor-leather-05",
+      "family": "leather",
+      "previewLabel": "경갑형 05",
+      "tags": [
+        "armor",
+        "leather",
+        "hunter"
+      ],
+      "mediaPath": "png/armor/armor-leather-05.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-plate-01",
+      "runtimeId": "armor-plate-01",
+      "family": "plate",
+      "previewLabel": "판금갑형 01",
+      "tags": [
+        "armor",
+        "plate",
+        "knight"
+      ],
+      "mediaPath": "png/armor/armor-plate-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-plate-02",
+      "runtimeId": "armor-plate-02",
+      "family": "plate",
+      "previewLabel": "판금갑형 02",
+      "tags": [
+        "armor",
+        "plate",
+        "guard"
+      ],
+      "mediaPath": "png/armor/armor-plate-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-plate-03",
+      "runtimeId": "armor-plate-03",
+      "family": "plate",
+      "previewLabel": "판금갑형 03",
+      "tags": [
+        "armor",
+        "plate",
+        "crest"
+      ],
+      "mediaPath": "png/armor/armor-plate-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-plate-04",
+      "runtimeId": "armor-plate-04",
+      "family": "plate",
+      "previewLabel": "판금갑형 04",
+      "tags": [
+        "armor",
+        "plate",
+        "royal"
+      ],
+      "mediaPath": "png/armor/armor-plate-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-heavy-01",
+      "runtimeId": "armor-heavy-01",
+      "family": "heavy",
+      "previewLabel": "중갑형 01",
+      "tags": [
+        "armor",
+        "heavy",
+        "bastion"
+      ],
+      "mediaPath": "png/armor/armor-heavy-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-heavy-02",
+      "runtimeId": "armor-heavy-02",
+      "family": "heavy",
+      "previewLabel": "중갑형 02",
+      "tags": [
+        "armor",
+        "heavy",
+        "spine"
+      ],
+      "mediaPath": "png/armor/armor-heavy-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-heavy-03",
+      "runtimeId": "armor-heavy-03",
+      "family": "heavy",
+      "previewLabel": "중갑형 03",
+      "tags": [
+        "armor",
+        "heavy",
+        "fortress"
+      ],
+      "mediaPath": "png/armor/armor-heavy-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-mystic-01",
+      "runtimeId": "armor-mystic-01",
+      "family": "mystic",
+      "previewLabel": "비전갑형 01",
+      "tags": [
+        "armor",
+        "mystic",
+        "glyph"
+      ],
+      "mediaPath": "png/armor/armor-mystic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-mystic-02",
+      "runtimeId": "armor-mystic-02",
+      "family": "mystic",
+      "previewLabel": "비전갑형 02",
+      "tags": [
+        "armor",
+        "mystic",
+        "rune"
+      ],
+      "mediaPath": "png/armor/armor-mystic-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-relic-01",
+      "runtimeId": "armor-relic-01",
+      "family": "relic",
+      "previewLabel": "유물갑형 01",
+      "tags": [
+        "armor",
+        "relic",
+        "sun"
+      ],
+      "mediaPath": "png/armor/armor-relic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "armor-relic-02",
+      "runtimeId": "armor-relic-02",
+      "family": "relic",
+      "previewLabel": "유물갑형 02",
+      "tags": [
+        "armor",
+        "relic",
+        "halo"
+      ],
+      "mediaPath": "png/armor/armor-relic-02.png",
+      "mediaKind": "raster"
+    }
+  ],
+  "planned": []
+}

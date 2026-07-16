@@ -1,0 +1,6 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M3.75 7.75a2 2 0 0 1 2-2h4.2l1.7 1.9h6.6a2 2 0 0 1 2 2v6.6a2 2 0 0 1-2 2H5.75a2 2 0 0 1-2-2v-8.5Z" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round" />
+  <path d="M3.75 9.5h16.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" />
+  <!-- 공유 마크 데코레이션 패스 추가 -->
+  <circle cx="18" cy="18" r="2.5" stroke="currentColor" stroke-width="1.5" />
+</svg>

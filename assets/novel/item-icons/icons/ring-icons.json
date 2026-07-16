@@ -1,0 +1,268 @@
+{
+  "category": "ring",
+  "targetCount": 20,
+  "style": "engraved-fantasy",
+  "implemented": [
+    {
+      "id": "ring-plain-01",
+      "runtimeId": "ring",
+      "family": "plain",
+      "previewLabel": "반지형 01",
+      "tags": [
+        "ring",
+        "metal",
+        "simple"
+      ],
+      "mediaPath": "png/ring/ring-plain-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-plain-02",
+      "runtimeId": "ring-plain-02",
+      "family": "plain",
+      "previewLabel": "반지형 02",
+      "tags": [
+        "ring",
+        "metal",
+        "band"
+      ],
+      "mediaPath": "png/ring/ring-plain-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-plain-03",
+      "runtimeId": "ring-plain-03",
+      "family": "plain",
+      "previewLabel": "반지형 03",
+      "tags": [
+        "ring",
+        "metal",
+        "engraved"
+      ],
+      "mediaPath": "png/ring/ring-plain-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-plain-04",
+      "runtimeId": "ring-plain-04",
+      "family": "plain",
+      "previewLabel": "반지형 04",
+      "tags": [
+        "ring",
+        "metal",
+        "double"
+      ],
+      "mediaPath": "png/ring/ring-plain-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-gem-01",
+      "runtimeId": "ring-gem-01",
+      "family": "gem",
+      "previewLabel": "보석반지형 01",
+      "tags": [
+        "ring",
+        "gem",
+        "spark"
+      ],
+      "mediaPath": "png/ring/ring-gem-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-gem-02",
+      "runtimeId": "ring-gem-02",
+      "family": "gem",
+      "previewLabel": "보석반지형 02",
+      "tags": [
+        "ring",
+        "gem",
+        "emerald"
+      ],
+      "mediaPath": "png/ring/ring-gem-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-gem-03",
+      "runtimeId": "ring-gem-03",
+      "family": "gem",
+      "previewLabel": "보석반지형 03",
+      "tags": [
+        "ring",
+        "gem",
+        "ruby"
+      ],
+      "mediaPath": "png/ring/ring-gem-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-gem-04",
+      "runtimeId": "ring-gem-04",
+      "family": "gem",
+      "previewLabel": "보석반지형 04",
+      "tags": [
+        "ring",
+        "gem",
+        "sapphire"
+      ],
+      "mediaPath": "png/ring/ring-gem-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-royal-01",
+      "runtimeId": "ring-royal-01",
+      "family": "royal",
+      "previewLabel": "왕실반지형 01",
+      "tags": [
+        "ring",
+        "royal",
+        "crown"
+      ],
+      "mediaPath": "png/ring/ring-royal-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-royal-02",
+      "runtimeId": "ring-royal-02",
+      "family": "royal",
+      "previewLabel": "왕실반지형 02",
+      "tags": [
+        "ring",
+        "royal",
+        "crest"
+      ],
+      "mediaPath": "png/ring/ring-royal-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-royal-03",
+      "runtimeId": "ring-royal-03",
+      "family": "royal",
+      "previewLabel": "왕실반지형 03",
+      "tags": [
+        "ring",
+        "royal",
+        "sun"
+      ],
+      "mediaPath": "png/ring/ring-royal-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-signet-01",
+      "runtimeId": "ring-signet-01",
+      "family": "signet",
+      "previewLabel": "시그넷반지형 01",
+      "tags": [
+        "ring",
+        "signet",
+        "seal"
+      ],
+      "mediaPath": "png/ring/ring-signet-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-signet-02",
+      "runtimeId": "ring-signet-02",
+      "family": "signet",
+      "previewLabel": "시그넷반지형 02",
+      "tags": [
+        "ring",
+        "signet",
+        "house"
+      ],
+      "mediaPath": "png/ring/ring-signet-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-signet-03",
+      "runtimeId": "ring-signet-03",
+      "family": "signet",
+      "previewLabel": "시그넷반지형 03",
+      "tags": [
+        "ring",
+        "signet",
+        "authority"
+      ],
+      "mediaPath": "png/ring/ring-signet-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-mystic-01",
+      "runtimeId": "ring-mystic-01",
+      "family": "mystic",
+      "previewLabel": "비전반지형 01",
+      "tags": [
+        "ring",
+        "mystic",
+        "rune"
+      ],
+      "mediaPath": "png/ring/ring-mystic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-mystic-02",
+      "runtimeId": "ring-mystic-02",
+      "family": "mystic",
+      "previewLabel": "비전반지형 02",
+      "tags": [
+        "ring",
+        "mystic",
+        "orb"
+      ],
+      "mediaPath": "png/ring/ring-mystic-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-mystic-03",
+      "runtimeId": "ring-mystic-03",
+      "family": "mystic",
+      "previewLabel": "비전반지형 03",
+      "tags": [
+        "ring",
+        "mystic",
+        "halo"
+      ],
+      "mediaPath": "png/ring/ring-mystic-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-relic-01",
+      "runtimeId": "ring-relic-01",
+      "family": "relic",
+      "previewLabel": "유물반지형 01",
+      "tags": [
+        "ring",
+        "relic",
+        "sun"
+      ],
+      "mediaPath": "png/ring/ring-relic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-relic-02",
+      "runtimeId": "ring-relic-02",
+      "family": "relic",
+      "previewLabel": "유물반지형 02",
+      "tags": [
+        "ring",
+        "relic",
+        "altar"
+      ],
+      "mediaPath": "png/ring/ring-relic-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "ring-relic-03",
+      "runtimeId": "ring-relic-03",
+      "family": "relic",
+      "previewLabel": "유물반지형 03",
+      "tags": [
+        "ring",
+        "relic",
+        "radiant"
+      ],
+      "mediaPath": "png/ring/ring-relic-03.png",
+      "mediaKind": "raster"
+    }
+  ],
+  "planned": []
+}

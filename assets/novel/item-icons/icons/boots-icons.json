@@ -1,0 +1,268 @@
+{
+  "category": "boots",
+  "targetCount": 20,
+  "style": "engraved-fantasy",
+  "implemented": [
+    {
+      "id": "boots-leather-01",
+      "runtimeId": "boots",
+      "family": "leather",
+      "previewLabel": "장화형 01",
+      "tags": [
+        "boots",
+        "travel",
+        "leather"
+      ],
+      "mediaPath": "png/boots/boots-leather-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-leather-02",
+      "runtimeId": "boots-leather-02",
+      "family": "leather",
+      "previewLabel": "장화형 02",
+      "tags": [
+        "boots",
+        "trail",
+        "stitch"
+      ],
+      "mediaPath": "png/boots/boots-leather-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-leather-03",
+      "runtimeId": "boots-leather-03",
+      "family": "leather",
+      "previewLabel": "장화형 03",
+      "tags": [
+        "boots",
+        "scout",
+        "strap"
+      ],
+      "mediaPath": "png/boots/boots-leather-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-leather-04",
+      "runtimeId": "boots-leather-04",
+      "family": "leather",
+      "previewLabel": "장화형 04",
+      "tags": [
+        "boots",
+        "raider",
+        "worn"
+      ],
+      "mediaPath": "png/boots/boots-leather-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-cloth-01",
+      "runtimeId": "boots-cloth-01",
+      "family": "cloth",
+      "previewLabel": "천신형 01",
+      "tags": [
+        "boots",
+        "cloth",
+        "soft"
+      ],
+      "mediaPath": "png/boots/boots-cloth-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-cloth-02",
+      "runtimeId": "boots-cloth-02",
+      "family": "cloth",
+      "previewLabel": "천신형 02",
+      "tags": [
+        "boots",
+        "cloth",
+        "sage"
+      ],
+      "mediaPath": "png/boots/boots-cloth-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-cloth-03",
+      "runtimeId": "boots-cloth-03",
+      "family": "cloth",
+      "previewLabel": "천신형 03",
+      "tags": [
+        "boots",
+        "cloth",
+        "trim"
+      ],
+      "mediaPath": "png/boots/boots-cloth-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-travel-01",
+      "runtimeId": "boots-travel-01",
+      "family": "travel",
+      "previewLabel": "여행신형 01",
+      "tags": [
+        "boots",
+        "travel",
+        "hook"
+      ],
+      "mediaPath": "png/boots/boots-travel-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-travel-02",
+      "runtimeId": "boots-travel-02",
+      "family": "travel",
+      "previewLabel": "여행신형 02",
+      "tags": [
+        "boots",
+        "travel",
+        "gear"
+      ],
+      "mediaPath": "png/boots/boots-travel-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-travel-03",
+      "runtimeId": "boots-travel-03",
+      "family": "travel",
+      "previewLabel": "여행신형 03",
+      "tags": [
+        "boots",
+        "travel",
+        "field"
+      ],
+      "mediaPath": "png/boots/boots-travel-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-travel-04",
+      "runtimeId": "boots-travel-04",
+      "family": "travel",
+      "previewLabel": "여행신형 04",
+      "tags": [
+        "boots",
+        "travel",
+        "range"
+      ],
+      "mediaPath": "png/boots/boots-travel-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-greaves-01",
+      "runtimeId": "boots-greaves-01",
+      "family": "greaves",
+      "previewLabel": "각반형 01",
+      "tags": [
+        "boots",
+        "greaves",
+        "plate"
+      ],
+      "mediaPath": "png/boots/boots-greaves-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-greaves-02",
+      "runtimeId": "boots-greaves-02",
+      "family": "greaves",
+      "previewLabel": "각반형 02",
+      "tags": [
+        "boots",
+        "greaves",
+        "knight"
+      ],
+      "mediaPath": "png/boots/boots-greaves-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-greaves-03",
+      "runtimeId": "boots-greaves-03",
+      "family": "greaves",
+      "previewLabel": "각반형 03",
+      "tags": [
+        "boots",
+        "greaves",
+        "guard"
+      ],
+      "mediaPath": "png/boots/boots-greaves-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-mystic-01",
+      "runtimeId": "boots-mystic-01",
+      "family": "mystic",
+      "previewLabel": "비전신형 01",
+      "tags": [
+        "boots",
+        "mystic",
+        "glyph"
+      ],
+      "mediaPath": "png/boots/boots-mystic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-mystic-02",
+      "runtimeId": "boots-mystic-02",
+      "family": "mystic",
+      "previewLabel": "비전신형 02",
+      "tags": [
+        "boots",
+        "mystic",
+        "float"
+      ],
+      "mediaPath": "png/boots/boots-mystic-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-mystic-03",
+      "runtimeId": "boots-mystic-03",
+      "family": "mystic",
+      "previewLabel": "비전신형 03",
+      "tags": [
+        "boots",
+        "mystic",
+        "rune"
+      ],
+      "mediaPath": "png/boots/boots-mystic-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-relic-01",
+      "runtimeId": "boots-relic-01",
+      "family": "relic",
+      "previewLabel": "유물신형 01",
+      "tags": [
+        "boots",
+        "relic",
+        "sun"
+      ],
+      "mediaPath": "png/boots/boots-relic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-relic-02",
+      "runtimeId": "boots-relic-02",
+      "family": "relic",
+      "previewLabel": "유물신형 02",
+      "tags": [
+        "boots",
+        "relic",
+        "halo"
+      ],
+      "mediaPath": "png/boots/boots-relic-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "boots-relic-03",
+      "runtimeId": "boots-relic-03",
+      "family": "relic",
+      "previewLabel": "유물신형 03",
+      "tags": [
+        "boots",
+        "relic",
+        "royal"
+      ],
+      "mediaPath": "png/boots/boots-relic-03.png",
+      "mediaKind": "raster"
+    }
+  ],
+  "planned": []
+}

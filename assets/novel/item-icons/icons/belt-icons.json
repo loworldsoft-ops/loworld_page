@@ -1,0 +1,268 @@
+{
+  "category": "belt",
+  "targetCount": 20,
+  "style": "engraved-fantasy",
+  "implemented": [
+    {
+      "id": "belt-sash-01",
+      "runtimeId": "belt",
+      "family": "sash",
+      "previewLabel": "벨트형 01",
+      "tags": [
+        "belt",
+        "sash",
+        "utility"
+      ],
+      "mediaPath": "png/belt/belt-sash-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-sash-02",
+      "runtimeId": "belt-sash-02",
+      "family": "sash",
+      "previewLabel": "벨트형 02",
+      "tags": [
+        "belt",
+        "sash",
+        "cloth"
+      ],
+      "mediaPath": "png/belt/belt-sash-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-sash-03",
+      "runtimeId": "belt-sash-03",
+      "family": "sash",
+      "previewLabel": "벨트형 03",
+      "tags": [
+        "belt",
+        "sash",
+        "trim"
+      ],
+      "mediaPath": "png/belt/belt-sash-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-sash-04",
+      "runtimeId": "belt-sash-04",
+      "family": "sash",
+      "previewLabel": "벨트형 04",
+      "tags": [
+        "belt",
+        "sash",
+        "ceremony"
+      ],
+      "mediaPath": "png/belt/belt-sash-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-leather-01",
+      "runtimeId": "belt-leather-01",
+      "family": "leather",
+      "previewLabel": "가죽벨트형 01",
+      "tags": [
+        "belt",
+        "leather",
+        "buckle"
+      ],
+      "mediaPath": "png/belt/belt-leather-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-leather-02",
+      "runtimeId": "belt-leather-02",
+      "family": "leather",
+      "previewLabel": "가죽벨트형 02",
+      "tags": [
+        "belt",
+        "leather",
+        "field"
+      ],
+      "mediaPath": "png/belt/belt-leather-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-leather-03",
+      "runtimeId": "belt-leather-03",
+      "family": "leather",
+      "previewLabel": "가죽벨트형 03",
+      "tags": [
+        "belt",
+        "leather",
+        "stitched"
+      ],
+      "mediaPath": "png/belt/belt-leather-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-leather-04",
+      "runtimeId": "belt-leather-04",
+      "family": "leather",
+      "previewLabel": "가죽벨트형 04",
+      "tags": [
+        "belt",
+        "leather",
+        "banded"
+      ],
+      "mediaPath": "png/belt/belt-leather-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-plated-01",
+      "runtimeId": "belt-plated-01",
+      "family": "plated",
+      "previewLabel": "금속벨트형 01",
+      "tags": [
+        "belt",
+        "plate",
+        "guard"
+      ],
+      "mediaPath": "png/belt/belt-plated-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-plated-02",
+      "runtimeId": "belt-plated-02",
+      "family": "plated",
+      "previewLabel": "금속벨트형 02",
+      "tags": [
+        "belt",
+        "plate",
+        "knight"
+      ],
+      "mediaPath": "png/belt/belt-plated-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-plated-03",
+      "runtimeId": "belt-plated-03",
+      "family": "plated",
+      "previewLabel": "금속벨트형 03",
+      "tags": [
+        "belt",
+        "plate",
+        "crest"
+      ],
+      "mediaPath": "png/belt/belt-plated-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-utility-01",
+      "runtimeId": "belt-utility-01",
+      "family": "utility",
+      "previewLabel": "유틸리티벨트형 01",
+      "tags": [
+        "belt",
+        "utility",
+        "pouch"
+      ],
+      "mediaPath": "png/belt/belt-utility-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-utility-02",
+      "runtimeId": "belt-utility-02",
+      "family": "utility",
+      "previewLabel": "유틸리티벨트형 02",
+      "tags": [
+        "belt",
+        "utility",
+        "tools"
+      ],
+      "mediaPath": "png/belt/belt-utility-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-utility-03",
+      "runtimeId": "belt-utility-03",
+      "family": "utility",
+      "previewLabel": "유틸리티벨트형 03",
+      "tags": [
+        "belt",
+        "utility",
+        "adventure"
+      ],
+      "mediaPath": "png/belt/belt-utility-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-mystic-01",
+      "runtimeId": "belt-mystic-01",
+      "family": "mystic",
+      "previewLabel": "비전벨트형 01",
+      "tags": [
+        "belt",
+        "mystic",
+        "glyph"
+      ],
+      "mediaPath": "png/belt/belt-mystic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-mystic-02",
+      "runtimeId": "belt-mystic-02",
+      "family": "mystic",
+      "previewLabel": "비전벨트형 02",
+      "tags": [
+        "belt",
+        "mystic",
+        "orb"
+      ],
+      "mediaPath": "png/belt/belt-mystic-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-mystic-03",
+      "runtimeId": "belt-mystic-03",
+      "family": "mystic",
+      "previewLabel": "비전벨트형 03",
+      "tags": [
+        "belt",
+        "mystic",
+        "rune"
+      ],
+      "mediaPath": "png/belt/belt-mystic-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-relic-01",
+      "runtimeId": "belt-relic-01",
+      "family": "relic",
+      "previewLabel": "유물벨트형 01",
+      "tags": [
+        "belt",
+        "relic",
+        "sun"
+      ],
+      "mediaPath": "png/belt/belt-relic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-relic-02",
+      "runtimeId": "belt-relic-02",
+      "family": "relic",
+      "previewLabel": "유물벨트형 02",
+      "tags": [
+        "belt",
+        "relic",
+        "royal"
+      ],
+      "mediaPath": "png/belt/belt-relic-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "belt-relic-03",
+      "runtimeId": "belt-relic-03",
+      "family": "relic",
+      "previewLabel": "유물벨트형 03",
+      "tags": [
+        "belt",
+        "relic",
+        "halo"
+      ],
+      "mediaPath": "png/belt/belt-relic-03.png",
+      "mediaKind": "raster"
+    }
+  ],
+  "planned": []
+}

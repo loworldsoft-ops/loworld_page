@@ -1,0 +1,268 @@
+{
+  "category": "helmet",
+  "targetCount": 20,
+  "style": "engraved-fantasy",
+  "implemented": [
+    {
+      "id": "helmet-iron-01",
+      "runtimeId": "helmet",
+      "family": "iron",
+      "previewLabel": "철투구형 01",
+      "tags": [
+        "helmet",
+        "iron",
+        "visor"
+      ],
+      "mediaPath": "png/helmet/helmet-iron-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-iron-02",
+      "runtimeId": "helmet-iron-02",
+      "family": "iron",
+      "previewLabel": "철투구형 02",
+      "tags": [
+        "helmet",
+        "iron",
+        "crest"
+      ],
+      "mediaPath": "png/helmet/helmet-iron-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-iron-03",
+      "runtimeId": "helmet-iron-03",
+      "family": "iron",
+      "previewLabel": "철투구형 03",
+      "tags": [
+        "helmet",
+        "iron",
+        "ridge"
+      ],
+      "mediaPath": "png/helmet/helmet-iron-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-iron-04",
+      "runtimeId": "helmet-iron-04",
+      "family": "iron",
+      "previewLabel": "철투구형 04",
+      "tags": [
+        "helmet",
+        "iron",
+        "guard"
+      ],
+      "mediaPath": "png/helmet/helmet-iron-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-hood-01",
+      "runtimeId": "helmet-hood-01",
+      "family": "hood",
+      "previewLabel": "후드형 01",
+      "tags": [
+        "helmet",
+        "hood",
+        "cloth"
+      ],
+      "mediaPath": "png/helmet/helmet-hood-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-hood-02",
+      "runtimeId": "helmet-hood-02",
+      "family": "hood",
+      "previewLabel": "후드형 02",
+      "tags": [
+        "helmet",
+        "hood",
+        "shadow"
+      ],
+      "mediaPath": "png/helmet/helmet-hood-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-hood-03",
+      "runtimeId": "helmet-hood-03",
+      "family": "hood",
+      "previewLabel": "후드형 03",
+      "tags": [
+        "helmet",
+        "hood",
+        "wanderer"
+      ],
+      "mediaPath": "png/helmet/helmet-hood-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-hood-04",
+      "runtimeId": "helmet-hood-04",
+      "family": "hood",
+      "previewLabel": "후드형 04",
+      "tags": [
+        "helmet",
+        "hood",
+        "seer"
+      ],
+      "mediaPath": "png/helmet/helmet-hood-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-crown-01",
+      "runtimeId": "helmet-crown-01",
+      "family": "crown",
+      "previewLabel": "왕관형 01",
+      "tags": [
+        "helmet",
+        "crown",
+        "royal"
+      ],
+      "mediaPath": "png/helmet/helmet-crown-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-crown-02",
+      "runtimeId": "helmet-crown-02",
+      "family": "crown",
+      "previewLabel": "왕관형 02",
+      "tags": [
+        "helmet",
+        "crown",
+        "gem"
+      ],
+      "mediaPath": "png/helmet/helmet-crown-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-crown-03",
+      "runtimeId": "helmet-crown-03",
+      "family": "crown",
+      "previewLabel": "왕관형 03",
+      "tags": [
+        "helmet",
+        "crown",
+        "sun"
+      ],
+      "mediaPath": "png/helmet/helmet-crown-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-horn-01",
+      "runtimeId": "helmet-horn-01",
+      "family": "horn",
+      "previewLabel": "뿔투구형 01",
+      "tags": [
+        "helmet",
+        "horn",
+        "war"
+      ],
+      "mediaPath": "png/helmet/helmet-horn-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-horn-02",
+      "runtimeId": "helmet-horn-02",
+      "family": "horn",
+      "previewLabel": "뿔투구형 02",
+      "tags": [
+        "helmet",
+        "horn",
+        "beast"
+      ],
+      "mediaPath": "png/helmet/helmet-horn-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-horn-03",
+      "runtimeId": "helmet-horn-03",
+      "family": "horn",
+      "previewLabel": "뿔투구형 03",
+      "tags": [
+        "helmet",
+        "horn",
+        "raider"
+      ],
+      "mediaPath": "png/helmet/helmet-horn-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-mystic-01",
+      "runtimeId": "helmet-mystic-01",
+      "family": "mystic",
+      "previewLabel": "비전투구형 01",
+      "tags": [
+        "helmet",
+        "mystic",
+        "glyph"
+      ],
+      "mediaPath": "png/helmet/helmet-mystic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-mystic-02",
+      "runtimeId": "helmet-mystic-02",
+      "family": "mystic",
+      "previewLabel": "비전투구형 02",
+      "tags": [
+        "helmet",
+        "mystic",
+        "star"
+      ],
+      "mediaPath": "png/helmet/helmet-mystic-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-mystic-03",
+      "runtimeId": "helmet-mystic-03",
+      "family": "mystic",
+      "previewLabel": "비전투구형 03",
+      "tags": [
+        "helmet",
+        "mystic",
+        "veil"
+      ],
+      "mediaPath": "png/helmet/helmet-mystic-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-relic-01",
+      "runtimeId": "helmet-relic-01",
+      "family": "relic",
+      "previewLabel": "유물투구형 01",
+      "tags": [
+        "helmet",
+        "relic",
+        "halo"
+      ],
+      "mediaPath": "png/helmet/helmet-relic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-relic-02",
+      "runtimeId": "helmet-relic-02",
+      "family": "relic",
+      "previewLabel": "유물투구형 02",
+      "tags": [
+        "helmet",
+        "relic",
+        "crown"
+      ],
+      "mediaPath": "png/helmet/helmet-relic-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "helmet-relic-03",
+      "runtimeId": "helmet-relic-03",
+      "family": "relic",
+      "previewLabel": "유물투구형 03",
+      "tags": [
+        "helmet",
+        "relic",
+        "radiant"
+      ],
+      "mediaPath": "png/helmet/helmet-relic-03.png",
+      "mediaKind": "raster"
+    }
+  ],
+  "planned": []
+}

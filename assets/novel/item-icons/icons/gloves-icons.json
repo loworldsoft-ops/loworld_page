@@ -1,0 +1,268 @@
+{
+  "category": "gloves",
+  "targetCount": 20,
+  "style": "engraved-fantasy",
+  "implemented": [
+    {
+      "id": "gloves-leather-01",
+      "runtimeId": "gloves",
+      "family": "leather",
+      "previewLabel": "장갑형 01",
+      "tags": [
+        "gloves",
+        "leather",
+        "dexterity"
+      ],
+      "mediaPath": "png/gloves/gloves-leather-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-leather-02",
+      "runtimeId": "gloves-leather-02",
+      "family": "leather",
+      "previewLabel": "장갑형 02",
+      "tags": [
+        "gloves",
+        "leather",
+        "stitch"
+      ],
+      "mediaPath": "png/gloves/gloves-leather-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-leather-03",
+      "runtimeId": "gloves-leather-03",
+      "family": "leather",
+      "previewLabel": "장갑형 03",
+      "tags": [
+        "gloves",
+        "leather",
+        "scout"
+      ],
+      "mediaPath": "png/gloves/gloves-leather-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-leather-04",
+      "runtimeId": "gloves-leather-04",
+      "family": "leather",
+      "previewLabel": "장갑형 04",
+      "tags": [
+        "gloves",
+        "leather",
+        "grip"
+      ],
+      "mediaPath": "png/gloves/gloves-leather-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-cloth-01",
+      "runtimeId": "gloves-cloth-01",
+      "family": "cloth",
+      "previewLabel": "천장갑형 01",
+      "tags": [
+        "gloves",
+        "cloth",
+        "soft"
+      ],
+      "mediaPath": "png/gloves/gloves-cloth-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-cloth-02",
+      "runtimeId": "gloves-cloth-02",
+      "family": "cloth",
+      "previewLabel": "천장갑형 02",
+      "tags": [
+        "gloves",
+        "cloth",
+        "sage"
+      ],
+      "mediaPath": "png/gloves/gloves-cloth-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-cloth-03",
+      "runtimeId": "gloves-cloth-03",
+      "family": "cloth",
+      "previewLabel": "천장갑형 03",
+      "tags": [
+        "gloves",
+        "cloth",
+        "ritual"
+      ],
+      "mediaPath": "png/gloves/gloves-cloth-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-gauntlet-01",
+      "runtimeId": "gloves-gauntlet-01",
+      "family": "gauntlet",
+      "previewLabel": "건틀릿형 01",
+      "tags": [
+        "gloves",
+        "gauntlet",
+        "plate"
+      ],
+      "mediaPath": "png/gloves/gloves-gauntlet-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-gauntlet-02",
+      "runtimeId": "gloves-gauntlet-02",
+      "family": "gauntlet",
+      "previewLabel": "건틀릿형 02",
+      "tags": [
+        "gloves",
+        "gauntlet",
+        "knight"
+      ],
+      "mediaPath": "png/gloves/gloves-gauntlet-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-gauntlet-03",
+      "runtimeId": "gloves-gauntlet-03",
+      "family": "gauntlet",
+      "previewLabel": "건틀릿형 03",
+      "tags": [
+        "gloves",
+        "gauntlet",
+        "heavy"
+      ],
+      "mediaPath": "png/gloves/gloves-gauntlet-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-gauntlet-04",
+      "runtimeId": "gloves-gauntlet-04",
+      "family": "gauntlet",
+      "previewLabel": "건틀릿형 04",
+      "tags": [
+        "gloves",
+        "gauntlet",
+        "crest"
+      ],
+      "mediaPath": "png/gloves/gloves-gauntlet-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-claw-01",
+      "runtimeId": "gloves-claw-01",
+      "family": "claw",
+      "previewLabel": "갈고리장갑형 01",
+      "tags": [
+        "gloves",
+        "claw",
+        "rogue"
+      ],
+      "mediaPath": "png/gloves/gloves-claw-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-claw-02",
+      "runtimeId": "gloves-claw-02",
+      "family": "claw",
+      "previewLabel": "갈고리장갑형 02",
+      "tags": [
+        "gloves",
+        "claw",
+        "beast"
+      ],
+      "mediaPath": "png/gloves/gloves-claw-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-claw-03",
+      "runtimeId": "gloves-claw-03",
+      "family": "claw",
+      "previewLabel": "갈고리장갑형 03",
+      "tags": [
+        "gloves",
+        "claw",
+        "assassin"
+      ],
+      "mediaPath": "png/gloves/gloves-claw-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-mystic-01",
+      "runtimeId": "gloves-mystic-01",
+      "family": "mystic",
+      "previewLabel": "비전장갑형 01",
+      "tags": [
+        "gloves",
+        "mystic",
+        "glyph"
+      ],
+      "mediaPath": "png/gloves/gloves-mystic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-mystic-02",
+      "runtimeId": "gloves-mystic-02",
+      "family": "mystic",
+      "previewLabel": "비전장갑형 02",
+      "tags": [
+        "gloves",
+        "mystic",
+        "orb"
+      ],
+      "mediaPath": "png/gloves/gloves-mystic-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-mystic-03",
+      "runtimeId": "gloves-mystic-03",
+      "family": "mystic",
+      "previewLabel": "비전장갑형 03",
+      "tags": [
+        "gloves",
+        "mystic",
+        "veil"
+      ],
+      "mediaPath": "png/gloves/gloves-mystic-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-relic-01",
+      "runtimeId": "gloves-relic-01",
+      "family": "relic",
+      "previewLabel": "유물장갑형 01",
+      "tags": [
+        "gloves",
+        "relic",
+        "halo"
+      ],
+      "mediaPath": "png/gloves/gloves-relic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-relic-02",
+      "runtimeId": "gloves-relic-02",
+      "family": "relic",
+      "previewLabel": "유물장갑형 02",
+      "tags": [
+        "gloves",
+        "relic",
+        "radiant"
+      ],
+      "mediaPath": "png/gloves/gloves-relic-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gloves-relic-03",
+      "runtimeId": "gloves-relic-03",
+      "family": "relic",
+      "previewLabel": "유물장갑형 03",
+      "tags": [
+        "gloves",
+        "relic",
+        "royal"
+      ],
+      "mediaPath": "png/gloves/gloves-relic-03.png",
+      "mediaKind": "raster"
+    }
+  ],
+  "planned": []
+}
