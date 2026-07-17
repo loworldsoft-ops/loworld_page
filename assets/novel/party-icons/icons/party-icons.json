@@ -198,6 +198,90 @@
       "memberId": "fantasy-party-silvia",
       "mediaPath": "png/party-fantasy-female-01.png",
       "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-warrior-male",
+      "memberId": "d2-warrior-male",
+      "mediaPath": "png/party-d2-warrior-male.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-warrior-female",
+      "memberId": "d2-warrior-female",
+      "mediaPath": "png/party-d2-warrior-female.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-sorceress-male",
+      "memberId": "d2-sorceress-male",
+      "mediaPath": "png/party-d2-sorceress-male.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-sorceress-female",
+      "memberId": "d2-sorceress-female",
+      "mediaPath": "png/party-d2-sorceress-female.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-rogue-male",
+      "memberId": "d2-rogue-male",
+      "mediaPath": "png/party-d2-rogue-male.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-rogue-female",
+      "memberId": "d2-rogue-female",
+      "mediaPath": "png/party-d2-rogue-female.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-paladin-male",
+      "memberId": "d2-paladin-male",
+      "mediaPath": "png/party-d2-paladin-male.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-paladin-female",
+      "memberId": "d2-paladin-female",
+      "mediaPath": "png/party-d2-paladin-female.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-necromancer-male",
+      "memberId": "d2-necromancer-male",
+      "mediaPath": "png/party-d2-necromancer-male.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-necromancer-female",
+      "memberId": "d2-necromancer-female",
+      "mediaPath": "png/party-d2-necromancer-female.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-druid-male",
+      "memberId": "d2-druid-male",
+      "mediaPath": "png/party-d2-druid-male.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-druid-female",
+      "memberId": "d2-druid-female",
+      "mediaPath": "png/party-d2-druid-female.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-assassin-male",
+      "memberId": "d2-assassin-male",
+      "mediaPath": "png/party-d2-assassin-male.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-d2-assassin-female",
+      "memberId": "d2-assassin-female",
+      "mediaPath": "png/party-d2-assassin-female.png",
+      "mediaKind": "raster"
     }
   ]
 }
