@@ -1,0 +1,427 @@
+{
+  "category": "gem",
+  "targetCount": 35,
+  "style": "ai-fantasy-inventory",
+  "implemented": [
+    {
+      "id": "gcv",
+      "runtimeId": "gcv",
+      "family": "gem",
+      "previewLabel": "최하급 자수정",
+      "tags": [
+        "gem",
+        "gcv"
+      ],
+      "mediaPath": "png/gem/gcv.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gfv",
+      "runtimeId": "gfv",
+      "family": "gem",
+      "previewLabel": "하급 자수정",
+      "tags": [
+        "gem",
+        "gfv"
+      ],
+      "mediaPath": "png/gem/gfv.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gpv",
+      "runtimeId": "gpv",
+      "family": "gem",
+      "previewLabel": "최상급 자수정",
+      "tags": [
+        "gem",
+        "gpv"
+      ],
+      "mediaPath": "png/gem/gpv.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gsv",
+      "runtimeId": "gsv",
+      "family": "gem",
+      "previewLabel": "자수정",
+      "tags": [
+        "gem",
+        "gsv"
+      ],
+      "mediaPath": "png/gem/gsv.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gzv",
+      "runtimeId": "gzv",
+      "family": "gem",
+      "previewLabel": "상급 자수정",
+      "tags": [
+        "gem",
+        "gzv"
+      ],
+      "mediaPath": "png/gem/gzv.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gcw",
+      "runtimeId": "gcw",
+      "family": "gem",
+      "previewLabel": "최하급 다이아몬드",
+      "tags": [
+        "gem",
+        "gcw"
+      ],
+      "mediaPath": "png/gem/gcw.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gfw",
+      "runtimeId": "gfw",
+      "family": "gem",
+      "previewLabel": "하급 다이아몬드",
+      "tags": [
+        "gem",
+        "gfw"
+      ],
+      "mediaPath": "png/gem/gfw.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "glw",
+      "runtimeId": "glw",
+      "family": "gem",
+      "previewLabel": "상급 다이아몬드",
+      "tags": [
+        "gem",
+        "glw"
+      ],
+      "mediaPath": "png/gem/glw.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gpw",
+      "runtimeId": "gpw",
+      "family": "gem",
+      "previewLabel": "최상급 다이아몬드",
+      "tags": [
+        "gem",
+        "gpw"
+      ],
+      "mediaPath": "png/gem/gpw.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gsw",
+      "runtimeId": "gsw",
+      "family": "gem",
+      "previewLabel": "다이아몬드",
+      "tags": [
+        "gem",
+        "gsw"
+      ],
+      "mediaPath": "png/gem/gsw.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gcg",
+      "runtimeId": "gcg",
+      "family": "gem",
+      "previewLabel": "최하급 에머랄드",
+      "tags": [
+        "gem",
+        "gcg"
+      ],
+      "mediaPath": "png/gem/gcg.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gfg",
+      "runtimeId": "gfg",
+      "family": "gem",
+      "previewLabel": "하급 에머랄드",
+      "tags": [
+        "gem",
+        "gfg"
+      ],
+      "mediaPath": "png/gem/gfg.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "glg",
+      "runtimeId": "glg",
+      "family": "gem",
+      "previewLabel": "상급 에머랄드",
+      "tags": [
+        "gem",
+        "glg"
+      ],
+      "mediaPath": "png/gem/glg.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gpg",
+      "runtimeId": "gpg",
+      "family": "gem",
+      "previewLabel": "최상급 에머랄드",
+      "tags": [
+        "gem",
+        "gpg"
+      ],
+      "mediaPath": "png/gem/gpg.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gsg",
+      "runtimeId": "gsg",
+      "family": "gem",
+      "previewLabel": "에머랄드",
+      "tags": [
+        "gem",
+        "gsg"
+      ],
+      "mediaPath": "png/gem/gsg.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gcr",
+      "runtimeId": "gcr",
+      "family": "gem",
+      "previewLabel": "최하급 루비",
+      "tags": [
+        "gem",
+        "gcr"
+      ],
+      "mediaPath": "png/gem/gcr.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gfr",
+      "runtimeId": "gfr",
+      "family": "gem",
+      "previewLabel": "하급 루비",
+      "tags": [
+        "gem",
+        "gfr"
+      ],
+      "mediaPath": "png/gem/gfr.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "glr",
+      "runtimeId": "glr",
+      "family": "gem",
+      "previewLabel": "상급 루비",
+      "tags": [
+        "gem",
+        "glr"
+      ],
+      "mediaPath": "png/gem/glr.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gpr",
+      "runtimeId": "gpr",
+      "family": "gem",
+      "previewLabel": "최상급 루비",
+      "tags": [
+        "gem",
+        "gpr"
+      ],
+      "mediaPath": "png/gem/gpr.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gsr",
+      "runtimeId": "gsr",
+      "family": "gem",
+      "previewLabel": "루비",
+      "tags": [
+        "gem",
+        "gsr"
+      ],
+      "mediaPath": "png/gem/gsr.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gcb",
+      "runtimeId": "gcb",
+      "family": "gem",
+      "previewLabel": "최하급 사파이어",
+      "tags": [
+        "gem",
+        "gcb"
+      ],
+      "mediaPath": "png/gem/gcb.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gfb",
+      "runtimeId": "gfb",
+      "family": "gem",
+      "previewLabel": "하급 사파이어",
+      "tags": [
+        "gem",
+        "gfb"
+      ],
+      "mediaPath": "png/gem/gfb.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "glb",
+      "runtimeId": "glb",
+      "family": "gem",
+      "previewLabel": "상급 사파이어",
+      "tags": [
+        "gem",
+        "glb"
+      ],
+      "mediaPath": "png/gem/glb.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gpb",
+      "runtimeId": "gpb",
+      "family": "gem",
+      "previewLabel": "최상급 사파이어",
+      "tags": [
+        "gem",
+        "gpb"
+      ],
+      "mediaPath": "png/gem/gpb.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gsb",
+      "runtimeId": "gsb",
+      "family": "gem",
+      "previewLabel": "사파이어",
+      "tags": [
+        "gem",
+        "gsb"
+      ],
+      "mediaPath": "png/gem/gsb.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gcy",
+      "runtimeId": "gcy",
+      "family": "gem",
+      "previewLabel": "최하급 토파즈",
+      "tags": [
+        "gem",
+        "gcy"
+      ],
+      "mediaPath": "png/gem/gcy.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gfy",
+      "runtimeId": "gfy",
+      "family": "gem",
+      "previewLabel": "하급 토파즈",
+      "tags": [
+        "gem",
+        "gfy"
+      ],
+      "mediaPath": "png/gem/gfy.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gly",
+      "runtimeId": "gly",
+      "family": "gem",
+      "previewLabel": "상급 토파즈",
+      "tags": [
+        "gem",
+        "gly"
+      ],
+      "mediaPath": "png/gem/gly.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gpy",
+      "runtimeId": "gpy",
+      "family": "gem",
+      "previewLabel": "최상급 토파즈",
+      "tags": [
+        "gem",
+        "gpy"
+      ],
+      "mediaPath": "png/gem/gpy.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "gsy",
+      "runtimeId": "gsy",
+      "family": "gem",
+      "previewLabel": "토파즈",
+      "tags": [
+        "gem",
+        "gsy"
+      ],
+      "mediaPath": "png/gem/gsy.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skc",
+      "runtimeId": "skc",
+      "family": "gem",
+      "previewLabel": "최하급 스컬",
+      "tags": [
+        "gem",
+        "skc"
+      ],
+      "mediaPath": "png/gem/skc.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skf",
+      "runtimeId": "skf",
+      "family": "gem",
+      "previewLabel": "하급 스컬",
+      "tags": [
+        "gem",
+        "skf"
+      ],
+      "mediaPath": "png/gem/skf.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skl",
+      "runtimeId": "skl",
+      "family": "gem",
+      "previewLabel": "상급 스컬",
+      "tags": [
+        "gem",
+        "skl"
+      ],
+      "mediaPath": "png/gem/skl.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "sku",
+      "runtimeId": "sku",
+      "family": "gem",
+      "previewLabel": "스컬",
+      "tags": [
+        "gem",
+        "sku"
+      ],
+      "mediaPath": "png/gem/sku.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "skz",
+      "runtimeId": "skz",
+      "family": "gem",
+      "previewLabel": "최상급 스컬",
+      "tags": [
+        "gem",
+        "skz"
+      ],
+      "mediaPath": "png/gem/skz.png",
+      "mediaKind": "raster"
+    }
+  ]
+}

@@ -2,75 +2,63 @@
   "datasetId": "loworld-novel-party-icons",
   "implemented": [
     {
-      "id": "party-wanderer",
-      "memberId": "wanderer",
-      "mediaPath": "png/party-wanderer.png",
-      "mediaKind": "raster"
-    },
-    {
       "id": "party-akara",
       "memberId": "akara",
       "mediaPath": "png/party-akara.png",
       "mediaKind": "raster"
     },
     {
-      "id": "party-guard_cain",
-      "memberId": "guard_cain",
-      "mediaPath": "png/party-guard_cain.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-innkeeper",
-      "memberId": "innkeeper",
-      "mediaPath": "png/party-akara.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-market_guard",
-      "memberId": "market_guard",
-      "mediaPath": "png/party-guard_cain.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-south_gate_warden",
-      "memberId": "south_gate_warden",
-      "mediaPath": "png/party-guard_cain.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-graveyard_digger",
-      "memberId": "graveyard_digger",
-      "mediaPath": "png/party-guard_cain.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-adel",
-      "memberId": "adel",
-      "mediaPath": "png/party-wanderer.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-ella",
-      "memberId": "ella",
-      "mediaPath": "png/party-wuxia-female-01.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-deckard",
-      "memberId": "deckard",
-      "mediaPath": "png/party-akara.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-wind_whisper",
-      "memberId": "wind_whisper",
-      "mediaPath": "png/party-fantasy-female-02.png",
-      "mediaKind": "raster"
-    },
-    {
       "id": "party-amber_huntress",
       "memberId": "amber_huntress",
-      "mediaPath": "png/party-fantasy-female-01.png",
+      "mediaPath": "png/party-silvana.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-blacksmith_hwang",
+      "memberId": "blacksmith_hwang",
+      "mediaPath": "png/party-blacksmith_hwang.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-blood_alley_witness",
+      "memberId": "blood_alley_witness",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-bloom_caller",
+      "memberId": "bloom_caller",
+      "mediaPath": "png/party-druid-female.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-courier_runner",
+      "memberId": "courier_runner",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-cyberpunk_k",
+      "memberId": "cyberpunk_k",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-detective_park",
+      "memberId": "detective_park",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-druid_guardian",
+      "memberId": "druid_guardian",
+      "mediaPath": "png/party-druid_guardian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-dungeon_guide",
+      "memberId": "dungeon_guide",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
@@ -80,9 +68,249 @@
       "mediaKind": "raster"
     },
     {
-      "id": "party-wuxia-party-mukhyang",
-      "memberId": "wuxia-party-mukhyang",
-      "mediaPath": "png/party-wuxia-female-01.png",
+      "id": "party-elf_scout",
+      "memberId": "elf_scout",
+      "mediaPath": "png/party-silvana.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-fantasy-party-aria",
+      "memberId": "fantasy-party-aria",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-fantasy-party-chloe",
+      "memberId": "fantasy-party-chloe",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-fantasy-party-elena",
+      "memberId": "fantasy-party-elena",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-fantasy-party-fiona",
+      "memberId": "fantasy-party-fiona",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-fantasy-party-freya",
+      "memberId": "fantasy-party-freya",
+      "mediaPath": "png/party-wanderer.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-fantasy-party-irene",
+      "memberId": "fantasy-party-irene",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-fantasy-party-lilith",
+      "memberId": "fantasy-party-lilith",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-fantasy-party-selene",
+      "memberId": "fantasy-party-selene",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-fantasy-party-sera",
+      "memberId": "fantasy-party-sera",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-fantasy-party-sylvia",
+      "memberId": "fantasy-party-sylvia",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-fern_healer",
+      "memberId": "fern_healer",
+      "mediaPath": "png/party-moss_priest.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-guard_cain",
+      "memberId": "guard_cain",
+      "mediaPath": "png/party-guard_cain.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-herb_dealer",
+      "memberId": "herb_dealer",
+      "mediaPath": "png/party-shop_keeper_lin.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-inn_bard",
+      "memberId": "inn_bard",
+      "mediaPath": "png/party-inn_bard.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-innkeeper",
+      "memberId": "innkeeper",
+      "mediaPath": "png/party-shop_keeper_lin.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-leaf_dancer",
+      "memberId": "leaf_dancer",
+      "mediaPath": "png/party-fantasy-female-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-market_guard",
+      "memberId": "market_guard",
+      "mediaPath": "png/party-guard_cain.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-market_storyteller",
+      "memberId": "market_storyteller",
+      "mediaPath": "png/party-inn_bard.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-militia_captain",
+      "memberId": "militia_captain",
+      "mediaPath": "png/party-guard_cain.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-moon_archer",
+      "memberId": "moon_archer",
+      "mediaPath": "png/party-star_watcher.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-moss_priest",
+      "memberId": "moss_priest",
+      "mediaPath": "png/party-moss_priest.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-oak_sentinel",
+      "memberId": "oak_sentinel",
+      "mediaPath": "png/party-druid_guardian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-river_shaman",
+      "memberId": "river_shaman",
+      "mediaPath": "png/party-druid-female.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-room_stowaway",
+      "memberId": "room_stowaway",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-root_singer",
+      "memberId": "root_singer",
+      "mediaPath": "png/party-silvana.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-rot_warden",
+      "memberId": "rot_warden",
+      "mediaPath": "png/party-druid_guardian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-shop_keeper_lin",
+      "memberId": "shop_keeper_lin",
+      "mediaPath": "png/party-shop_keeper_lin.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-shrine_maiden",
+      "memberId": "shrine_maiden",
+      "mediaPath": "png/party-civilian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-silvana",
+      "memberId": "silvana",
+      "mediaPath": "png/party-silvana.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-south_gate_warden",
+      "memberId": "south_gate_warden",
+      "mediaPath": "png/party-guard_cain.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-spore_sage",
+      "memberId": "spore_sage",
+      "mediaPath": "png/party-druid-female.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-star_watcher",
+      "memberId": "star_watcher",
+      "mediaPath": "png/party-star_watcher.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-stone_keeper",
+      "memberId": "stone_keeper",
+      "mediaPath": "png/party-druid_guardian.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-thorn_ranger",
+      "memberId": "thorn_ranger",
+      "mediaPath": "png/party-silvana.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-village_elder",
+      "memberId": "village_elder",
+      "mediaPath": "png/party-village_elder.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-village_scribe",
+      "memberId": "village_scribe",
+      "mediaPath": "png/party-village_elder.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-vine_binder",
+      "memberId": "vine_binder",
+      "mediaPath": "png/party-druid-female.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-wanderer",
+      "memberId": "wanderer",
+      "mediaPath": "png/party-wanderer.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-wandering_monk",
+      "memberId": "wandering_monk",
+      "mediaPath": "png/party-wandering_monk.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-wind_whisper",
+      "memberId": "wind_whisper",
+      "mediaPath": "png/party-star_watcher.png",
       "mediaKind": "raster"
     },
     {
@@ -92,9 +320,39 @@
       "mediaKind": "raster"
     },
     {
-      "id": "party-wuxia-party-seoyul",
-      "memberId": "wuxia-party-seoyul",
+      "id": "party-wuxia-party-bing",
+      "memberId": "wuxia-party-bing",
+      "mediaPath": "png/party-wuxia-female-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-wuxia-party-dangso",
+      "memberId": "wuxia-party-dangso",
       "mediaPath": "png/party-wuxia-female-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-wuxia-party-geum",
+      "memberId": "wuxia-party-geum",
+      "mediaPath": "png/party-wuxia-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-wuxia-party-hyewun",
+      "memberId": "wuxia-party-hyewun",
+      "mediaPath": "png/party-wuxia-female-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-wuxia-party-mukhyang",
+      "memberId": "wuxia-party-mukhyang",
+      "mediaPath": "png/party-wuxia-party-mukhyang.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "party-wuxia-party-namgung",
+      "memberId": "wuxia-party-namgung",
+      "mediaPath": "png/party-wuxia-female-01.png",
       "mediaKind": "raster"
     },
     {
@@ -104,183 +362,15 @@
       "mediaKind": "raster"
     },
     {
-      "id": "party-wuxia-party-sojin",
-      "memberId": "wuxia-party-sojin",
-      "mediaPath": "png/party-wuxia-female-02.png",
-      "mediaKind": "raster"
-    },
-    {
       "id": "party-wuxia-party-soun",
       "memberId": "wuxia-party-soun",
-      "mediaPath": "png/party-wuxia-female-03.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-wuxia-party-eunryeong",
-      "memberId": "wuxia-party-eunryeong",
       "mediaPath": "png/party-wuxia-female-01.png",
       "mediaKind": "raster"
     },
     {
-      "id": "party-wuxia-party-yawol",
-      "memberId": "wuxia-party-yawol",
-      "mediaPath": "png/party-wuxia-female-02.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-wuxia-party-hayul",
-      "memberId": "wuxia-party-hayul",
+      "id": "party-wuxia-party-yayuel",
+      "memberId": "wuxia-party-yayuel",
       "mediaPath": "png/party-wuxia-female-03.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-wuxia-party-hyeun",
-      "memberId": "wuxia-party-hyeun",
-      "mediaPath": "png/party-wuxia-female-01.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-fantasy-party-lilith",
-      "memberId": "fantasy-party-lilith",
-      "mediaPath": "png/party-fantasy-female-01.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-fantasy-party-irene",
-      "memberId": "fantasy-party-irene",
-      "mediaPath": "png/party-fantasy-female-02.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-fantasy-party-sera",
-      "memberId": "fantasy-party-sera",
-      "mediaPath": "png/party-fantasy-female-03.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-fantasy-party-elena",
-      "memberId": "fantasy-party-elena",
-      "mediaPath": "png/party-fantasy-female-01.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-fantasy-party-fiona",
-      "memberId": "fantasy-party-fiona",
-      "mediaPath": "png/party-fantasy-female-02.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-fantasy-party-freya",
-      "memberId": "fantasy-party-freya",
-      "mediaPath": "png/party-fantasy-female-03.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-fantasy-party-selene",
-      "memberId": "fantasy-party-selene",
-      "mediaPath": "png/party-fantasy-female-01.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-fantasy-party-aria",
-      "memberId": "fantasy-party-aria",
-      "mediaPath": "png/party-fantasy-female-02.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-fantasy-party-chloe",
-      "memberId": "fantasy-party-chloe",
-      "mediaPath": "png/party-fantasy-female-03.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-fantasy-party-silvia",
-      "memberId": "fantasy-party-silvia",
-      "mediaPath": "png/party-fantasy-female-01.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-warrior-male",
-      "memberId": "d2-warrior-male",
-      "mediaPath": "png/party-d2-warrior-male.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-warrior-female",
-      "memberId": "d2-warrior-female",
-      "mediaPath": "png/party-d2-warrior-female.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-sorceress-male",
-      "memberId": "d2-sorceress-male",
-      "mediaPath": "png/party-d2-sorceress-male.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-sorceress-female",
-      "memberId": "d2-sorceress-female",
-      "mediaPath": "png/party-d2-sorceress-female.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-rogue-male",
-      "memberId": "d2-rogue-male",
-      "mediaPath": "png/party-d2-rogue-male.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-rogue-female",
-      "memberId": "d2-rogue-female",
-      "mediaPath": "png/party-d2-rogue-female.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-paladin-male",
-      "memberId": "d2-paladin-male",
-      "mediaPath": "png/party-d2-paladin-male.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-paladin-female",
-      "memberId": "d2-paladin-female",
-      "mediaPath": "png/party-d2-paladin-female.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-necromancer-male",
-      "memberId": "d2-necromancer-male",
-      "mediaPath": "png/party-d2-necromancer-male.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-necromancer-female",
-      "memberId": "d2-necromancer-female",
-      "mediaPath": "png/party-d2-necromancer-female.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-druid-male",
-      "memberId": "d2-druid-male",
-      "mediaPath": "png/party-d2-druid-male.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-druid-female",
-      "memberId": "d2-druid-female",
-      "mediaPath": "png/party-d2-druid-female.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-assassin-male",
-      "memberId": "d2-assassin-male",
-      "mediaPath": "png/party-d2-assassin-male.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "party-d2-assassin-female",
-      "memberId": "d2-assassin-female",
-      "mediaPath": "png/party-d2-assassin-female.png",
       "mediaKind": "raster"
     }
   ]

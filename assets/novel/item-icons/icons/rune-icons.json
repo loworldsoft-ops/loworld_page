@@ -1,0 +1,403 @@
+{
+  "category": "rune",
+  "targetCount": 33,
+  "style": "ai-fantasy-inventory",
+  "implemented": [
+    {
+      "id": "r01",
+      "runtimeId": "r01",
+      "family": "rune",
+      "previewLabel": "엘 룬",
+      "tags": [
+        "rune",
+        "r01"
+      ],
+      "mediaPath": "png/rune/r01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r02",
+      "runtimeId": "r02",
+      "family": "rune",
+      "previewLabel": "엘드 룬",
+      "tags": [
+        "rune",
+        "r02"
+      ],
+      "mediaPath": "png/rune/r02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r03",
+      "runtimeId": "r03",
+      "family": "rune",
+      "previewLabel": "티르 룬",
+      "tags": [
+        "rune",
+        "r03"
+      ],
+      "mediaPath": "png/rune/r03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r04",
+      "runtimeId": "r04",
+      "family": "rune",
+      "previewLabel": "네프 룬",
+      "tags": [
+        "rune",
+        "r04"
+      ],
+      "mediaPath": "png/rune/r04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r05",
+      "runtimeId": "r05",
+      "family": "rune",
+      "previewLabel": "에드 룬",
+      "tags": [
+        "rune",
+        "r05"
+      ],
+      "mediaPath": "png/rune/r05.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r06",
+      "runtimeId": "r06",
+      "family": "rune",
+      "previewLabel": "아이드 룬",
+      "tags": [
+        "rune",
+        "r06"
+      ],
+      "mediaPath": "png/rune/r06.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r07",
+      "runtimeId": "r07",
+      "family": "rune",
+      "previewLabel": "탈 룬",
+      "tags": [
+        "rune",
+        "r07"
+      ],
+      "mediaPath": "png/rune/r07.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r08",
+      "runtimeId": "r08",
+      "family": "rune",
+      "previewLabel": "랄 룬",
+      "tags": [
+        "rune",
+        "r08"
+      ],
+      "mediaPath": "png/rune/r08.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r09",
+      "runtimeId": "r09",
+      "family": "rune",
+      "previewLabel": "오르트 룬",
+      "tags": [
+        "rune",
+        "r09"
+      ],
+      "mediaPath": "png/rune/r09.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r10",
+      "runtimeId": "r10",
+      "family": "rune",
+      "previewLabel": "주울 룬",
+      "tags": [
+        "rune",
+        "r10"
+      ],
+      "mediaPath": "png/rune/r10.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r11",
+      "runtimeId": "r11",
+      "family": "rune",
+      "previewLabel": "앰 룬",
+      "tags": [
+        "rune",
+        "r11"
+      ],
+      "mediaPath": "png/rune/r11.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r12",
+      "runtimeId": "r12",
+      "family": "rune",
+      "previewLabel": "솔 룬",
+      "tags": [
+        "rune",
+        "r12"
+      ],
+      "mediaPath": "png/rune/r12.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r13",
+      "runtimeId": "r13",
+      "family": "rune",
+      "previewLabel": "샤에 룬",
+      "tags": [
+        "rune",
+        "r13"
+      ],
+      "mediaPath": "png/rune/r13.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r14",
+      "runtimeId": "r14",
+      "family": "rune",
+      "previewLabel": "돌 룬",
+      "tags": [
+        "rune",
+        "r14"
+      ],
+      "mediaPath": "png/rune/r14.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r15",
+      "runtimeId": "r15",
+      "family": "rune",
+      "previewLabel": "헬 룬",
+      "tags": [
+        "rune",
+        "r15"
+      ],
+      "mediaPath": "png/rune/r15.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r16",
+      "runtimeId": "r16",
+      "family": "rune",
+      "previewLabel": "포 룬",
+      "tags": [
+        "rune",
+        "r16"
+      ],
+      "mediaPath": "png/rune/r16.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r17",
+      "runtimeId": "r17",
+      "family": "rune",
+      "previewLabel": "룸 룬",
+      "tags": [
+        "rune",
+        "r17"
+      ],
+      "mediaPath": "png/rune/r17.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r18",
+      "runtimeId": "r18",
+      "family": "rune",
+      "previewLabel": "코 룬",
+      "tags": [
+        "rune",
+        "r18"
+      ],
+      "mediaPath": "png/rune/r18.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r19",
+      "runtimeId": "r19",
+      "family": "rune",
+      "previewLabel": "팔 룬",
+      "tags": [
+        "rune",
+        "r19"
+      ],
+      "mediaPath": "png/rune/r19.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r20",
+      "runtimeId": "r20",
+      "family": "rune",
+      "previewLabel": "렘 룬",
+      "tags": [
+        "rune",
+        "r20"
+      ],
+      "mediaPath": "png/rune/r20.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r21",
+      "runtimeId": "r21",
+      "family": "rune",
+      "previewLabel": "풀 룬",
+      "tags": [
+        "rune",
+        "r21"
+      ],
+      "mediaPath": "png/rune/r21.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r22",
+      "runtimeId": "r22",
+      "family": "rune",
+      "previewLabel": "우움 룬",
+      "tags": [
+        "rune",
+        "r22"
+      ],
+      "mediaPath": "png/rune/r22.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r23",
+      "runtimeId": "r23",
+      "family": "rune",
+      "previewLabel": "말 룬",
+      "tags": [
+        "rune",
+        "r23"
+      ],
+      "mediaPath": "png/rune/r23.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r24",
+      "runtimeId": "r24",
+      "family": "rune",
+      "previewLabel": "아이스트 룬",
+      "tags": [
+        "rune",
+        "r24"
+      ],
+      "mediaPath": "png/rune/r24.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r25",
+      "runtimeId": "r25",
+      "family": "rune",
+      "previewLabel": "굴 룬",
+      "tags": [
+        "rune",
+        "r25"
+      ],
+      "mediaPath": "png/rune/r25.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r26",
+      "runtimeId": "r26",
+      "family": "rune",
+      "previewLabel": "벡스 룬",
+      "tags": [
+        "rune",
+        "r26"
+      ],
+      "mediaPath": "png/rune/r26.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r27",
+      "runtimeId": "r27",
+      "family": "rune",
+      "previewLabel": "오움 룬",
+      "tags": [
+        "rune",
+        "r27"
+      ],
+      "mediaPath": "png/rune/r27.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r28",
+      "runtimeId": "r28",
+      "family": "rune",
+      "previewLabel": "로 룬",
+      "tags": [
+        "rune",
+        "r28"
+      ],
+      "mediaPath": "png/rune/r28.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r29",
+      "runtimeId": "r29",
+      "family": "rune",
+      "previewLabel": "수르 룬",
+      "tags": [
+        "rune",
+        "r29"
+      ],
+      "mediaPath": "png/rune/r29.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r30",
+      "runtimeId": "r30",
+      "family": "rune",
+      "previewLabel": "베르 룬",
+      "tags": [
+        "rune",
+        "r30"
+      ],
+      "mediaPath": "png/rune/r30.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r31",
+      "runtimeId": "r31",
+      "family": "rune",
+      "previewLabel": "조 룬",
+      "tags": [
+        "rune",
+        "r31"
+      ],
+      "mediaPath": "png/rune/r31.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r32",
+      "runtimeId": "r32",
+      "family": "rune",
+      "previewLabel": "차암 룬",
+      "tags": [
+        "rune",
+        "r32"
+      ],
+      "mediaPath": "png/rune/r32.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "r33",
+      "runtimeId": "r33",
+      "family": "rune",
+      "previewLabel": "조드 룬",
+      "tags": [
+        "rune",
+        "r33"
+      ],
+      "mediaPath": "png/rune/r33.png",
+      "mediaKind": "raster"
+    }
+  ]
+}

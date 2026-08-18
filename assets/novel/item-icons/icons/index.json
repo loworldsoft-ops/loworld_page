@@ -57,6 +57,18 @@
         "file": "icons/amulet-icons.json",
         "targetCount": 20,
         "implementedCount": 20
+      },
+      {
+        "category": "gem",
+        "file": "icons/gem-icons.json",
+        "targetCount": 35,
+        "implementedCount": 35
+      },
+      {
+        "category": "rune",
+        "file": "icons/rune-icons.json",
+        "targetCount": 33,
+        "implementedCount": 33
       }
     ]
   }

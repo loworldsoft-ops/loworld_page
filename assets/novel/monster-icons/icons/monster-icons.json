@@ -2,27 +2,27 @@
   "datasetId": "loworld-novel-monster-icons",
   "implemented": [
     {
-      "id": "monster-fallen",
-      "monsterId": "fallen",
+      "id": "monster-abyss_hound",
+      "monsterId": "abyss_hound",
+      "mediaPath": "png/monster-fantasy-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-abyss_knight",
+      "monsterId": "abyss_knight",
       "mediaPath": "png/monster-fallen.png",
       "mediaKind": "raster"
     },
     {
-      "id": "monster-zombie",
-      "monsterId": "zombie",
-      "mediaPath": "png/monster-zombie.png",
+      "id": "monster-ash_devil",
+      "monsterId": "ash_devil",
+      "mediaPath": "png/monster-fantasy-female-02.png",
       "mediaKind": "raster"
     },
     {
-      "id": "monster-skeleton_warrior",
-      "monsterId": "skeleton_warrior",
+      "id": "monster-ash_phantom",
+      "monsterId": "ash_phantom",
       "mediaPath": "png/monster-skeleton_warrior.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-wraith",
-      "monsterId": "wraith",
-      "mediaPath": "png/monster-wuxia-female-03.png",
       "mediaKind": "raster"
     },
     {
@@ -32,69 +32,273 @@
       "mediaKind": "raster"
     },
     {
+      "id": "monster-brimstone_imp",
+      "monsterId": "brimstone_imp",
+      "mediaPath": "png/monster-fantasy-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-cliff_eagle",
+      "monsterId": "cliff_eagle",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
       "id": "monster-corpse_crawler",
       "monsterId": "corpse_crawler",
       "mediaPath": "png/monster-zombie.png",
       "mediaKind": "raster"
     },
     {
-      "id": "monster-ghoul",
-      "monsterId": "ghoul",
-      "mediaPath": "png/monster-zombie.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-skeleton_archer",
-      "monsterId": "skeleton_archer",
-      "mediaPath": "png/monster-skeleton_warrior.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-zombie_boss",
-      "monsterId": "zombie_boss",
-      "mediaPath": "png/monster-zombie.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-butcher",
-      "monsterId": "butcher",
+      "id": "monster-crimson_shaman",
+      "monsterId": "crimson_shaman",
       "mediaPath": "png/monster-fallen.png",
       "mediaKind": "raster"
     },
     {
-      "id": "monster-blood_clan_imp",
-      "monsterId": "blood_clan_imp",
+      "id": "monster-curse_bringer",
+      "monsterId": "curse_bringer",
+      "mediaPath": "png/monster-fantasy-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-fallen",
+      "monsterId": "fallen",
       "mediaPath": "png/monster-fallen.png",
       "mediaKind": "raster"
     },
     {
-      "id": "monster-demon_hellhound",
-      "monsterId": "demon_hellhound",
-      "mediaPath": "png/monster-fantasy-female-02.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-gargoyle",
-      "monsterId": "gargoyle",
-      "mediaPath": "png/monster-fantasy-female-02.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-infernal_succubus",
-      "monsterId": "infernal_succubus",
+      "id": "monster-fantasy-monster-arachne",
+      "monsterId": "fantasy-monster-arachne",
       "mediaPath": "png/monster-fantasy-female-01.png",
       "mediaKind": "raster"
     },
     {
-      "id": "monster-diablo",
-      "monsterId": "diablo",
-      "mediaPath": "png/monster-wuxia-female-02.png",
+      "id": "monster-fantasy-monster-balrog",
+      "monsterId": "fantasy-monster-balrog",
+      "mediaPath": "png/monster-fantasy-female-02.png",
       "mediaKind": "raster"
     },
     {
-      "id": "monster-wuxia-monster-gumiho",
-      "monsterId": "wuxia-monster-gumiho",
-      "mediaPath": "png/monster-wuxia-female-01.png",
+      "id": "monster-fantasy-monster-banshee",
+      "monsterId": "fantasy-monster-banshee",
+      "mediaPath": "png/monster-fantasy-female-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-fantasy-monster-darkelf",
+      "monsterId": "fantasy-monster-darkelf",
+      "mediaPath": "png/monster-fantasy-female-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-fantasy-monster-harpy",
+      "monsterId": "fantasy-monster-harpy",
+      "mediaPath": "png/monster-fantasy-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-fantasy-monster-icequeen",
+      "monsterId": "fantasy-monster-icequeen",
+      "mediaPath": "png/monster-fantasy-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-fantasy-monster-lamia",
+      "monsterId": "fantasy-monster-lamia",
+      "mediaPath": "png/monster-fantasy-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-fantasy-monster-medusa",
+      "monsterId": "fantasy-monster-medusa",
+      "mediaPath": "png/monster-fantasy-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-fantasy-monster-siren",
+      "monsterId": "fantasy-monster-siren",
+      "mediaPath": "png/monster-fantasy-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-fantasy-monster-succubus",
+      "monsterId": "fantasy-monster-succubus",
+      "mediaPath": "png/monster-fantasy-female-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-feral_ape",
+      "monsterId": "feral_ape",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-ghost_blade",
+      "monsterId": "ghost_blade",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-grave_moss",
+      "monsterId": "grave_moss",
+      "mediaPath": "png/monster-skeleton_warrior.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-hellhound",
+      "monsterId": "hellhound",
+      "mediaPath": "png/monster-fantasy-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-horned_marauder",
+      "monsterId": "horned_marauder",
+      "mediaPath": "png/monster-fantasy-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-imp_swarm",
+      "monsterId": "imp_swarm",
+      "mediaPath": "png/monster-fantasy-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-iron_boar",
+      "monsterId": "iron_boar",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-iron_general",
+      "monsterId": "iron_general",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-jade_assassin",
+      "monsterId": "jade_assassin",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-mountain_wolf",
+      "monsterId": "mountain_wolf",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-mud_serpent",
+      "monsterId": "mud_serpent",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-plague_lord",
+      "monsterId": "plague_lord",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-rotting_brute",
+      "monsterId": "rotting_brute",
+      "mediaPath": "png/monster-zombie.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-shadow_fiend",
+      "monsterId": "shadow_fiend",
+      "mediaPath": "png/monster-fantasy-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-skeleton_warrior",
+      "monsterId": "skeleton_warrior",
+      "mediaPath": "png/monster-skeleton_warrior.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-skull_archer",
+      "monsterId": "skull_archer",
+      "mediaPath": "png/monster-skeleton_warrior.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-spectral_duelist",
+      "monsterId": "spectral_duelist",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-spirit_chain",
+      "monsterId": "spirit_chain",
+      "mediaPath": "png/monster-skeleton_warrior.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-spite_lurker",
+      "monsterId": "spite_lurker",
+      "mediaPath": "png/monster-fantasy-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-stone_crab",
+      "monsterId": "stone_crab",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-storm_ronin",
+      "monsterId": "storm_ronin",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-swamp_toad",
+      "monsterId": "swamp_toad",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-thorn_beetle",
+      "monsterId": "thorn_beetle",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-tomb_guardian",
+      "monsterId": "tomb_guardian",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-tomb_wailer",
+      "monsterId": "tomb_wailer",
+      "mediaPath": "png/monster-skeleton_warrior.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-viper",
+      "monsterId": "viper",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-wild_boar",
+      "monsterId": "wild_boar",
+      "mediaPath": "png/monster-fallen.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-wraith",
+      "monsterId": "wraith",
+      "mediaPath": "png/monster-skeleton_warrior.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-wuxia-monster-cheolrang",
+      "monsterId": "wuxia-monster-cheolrang",
+      "mediaPath": "png/monster-wuxia-female-03.png",
       "mediaKind": "raster"
     },
     {
@@ -104,9 +308,27 @@
       "mediaKind": "raster"
     },
     {
-      "id": "monster-wuxia-monster-yachal",
-      "monsterId": "wuxia-monster-yachal",
-      "mediaPath": "png/monster-wuxia-female-03.png",
+      "id": "monster-wuxia-monster-eumyang",
+      "monsterId": "wuxia-monster-eumyang",
+      "mediaPath": "png/monster-wuxia-female-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-wuxia-monster-gangshi",
+      "monsterId": "wuxia-monster-gangshi",
+      "mediaPath": "png/monster-wuxia-female-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-wuxia-monster-gumiho",
+      "monsterId": "wuxia-monster-gumiho",
+      "mediaPath": "png/monster-wuxia-monster-gumiho.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "monster-wuxia-monster-hwahwa",
+      "monsterId": "wuxia-monster-hwahwa",
+      "mediaPath": "png/monster-wuxia-female-01.png",
       "mediaKind": "raster"
     },
     {
@@ -128,87 +350,15 @@
       "mediaKind": "raster"
     },
     {
-      "id": "monster-wuxia-monster-eumyang",
-      "monsterId": "wuxia-monster-eumyang",
-      "mediaPath": "png/monster-wuxia-female-01.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-wuxia-monster-gangshi",
-      "monsterId": "wuxia-monster-gangshi",
-      "mediaPath": "png/monster-wuxia-female-02.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-wuxia-monster-cheolrang",
-      "monsterId": "wuxia-monster-cheolrang",
+      "id": "monster-wuxia-monster-yachal",
+      "monsterId": "wuxia-monster-yachal",
       "mediaPath": "png/monster-wuxia-female-03.png",
       "mediaKind": "raster"
     },
     {
-      "id": "monster-wuxia-monster-hwahwa",
-      "monsterId": "wuxia-monster-hwahwa",
-      "mediaPath": "png/monster-wuxia-female-01.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-fantasy-monster-succubus",
-      "monsterId": "fantasy-monster-succubus",
-      "mediaPath": "png/monster-fantasy-female-01.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-fantasy-monster-harpy",
-      "monsterId": "fantasy-monster-harpy",
-      "mediaPath": "png/monster-fantasy-female-02.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-fantasy-monster-arachne",
-      "monsterId": "fantasy-monster-arachne",
-      "mediaPath": "png/monster-fantasy-female-01.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-fantasy-monster-medusa",
-      "monsterId": "fantasy-monster-medusa",
-      "mediaPath": "png/monster-fantasy-female-02.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-fantasy-monster-banshee",
-      "monsterId": "fantasy-monster-banshee",
-      "mediaPath": "png/monster-fantasy-female-01.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-fantasy-monster-siren",
-      "monsterId": "fantasy-monster-siren",
-      "mediaPath": "png/monster-fantasy-female-02.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-fantasy-monster-lamia",
-      "monsterId": "fantasy-monster-lamia",
-      "mediaPath": "png/monster-fantasy-female-01.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-fantasy-monster-icequeen",
-      "monsterId": "fantasy-monster-icequeen",
-      "mediaPath": "png/monster-fantasy-female-02.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-fantasy-monster-darkelf",
-      "monsterId": "fantasy-monster-darkelf",
-      "mediaPath": "png/monster-fantasy-female-01.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "monster-fantasy-monster-balrog",
-      "monsterId": "fantasy-monster-balrog",
-      "mediaPath": "png/monster-fantasy-female-02.png",
+      "id": "monster-zombie",
+      "monsterId": "zombie",
+      "mediaPath": "png/monster-zombie.png",
       "mediaKind": "raster"
     }
   ]

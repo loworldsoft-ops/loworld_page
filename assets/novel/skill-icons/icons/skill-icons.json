@@ -1,175 +1,1898 @@
 {
   "category": "skill",
-  "targetCount": 28,
-  "style": "dark-fantasy-rpg-skill",
+  "targetCount": 210,
+  "style": "dark-fantasy-rpg-skill-d2r",
+  "generatedAt": "2026-07-24T04:08:43.384Z",
   "implemented": [
     {
-      "id": "skill-sword-wind",
-      "skillId": "sword-wind",
-      "mediaPath": "png/skill-sword-wind.png",
-      "mediaKind": "raster"
+      "id": "skill-amplify-damage",
+      "skillId": "amplify-damage",
+      "mediaPath": "png/skill-amplify-damage.png",
+      "mediaKind": "raster",
+      "d2Name": "Amplify Damage",
+      "nameKo": "앰플리파이 데미지",
+      "charclass": "nec"
     },
     {
-      "id": "skill-mighty-blow",
-      "skillId": "mighty-blow",
-      "mediaPath": "png/skill-mighty-blow.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-leap-strike",
-      "skillId": "leap-strike",
-      "mediaPath": "png/skill-leap-strike.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-iron-wall",
-      "skillId": "iron-wall",
-      "mediaPath": "png/skill-iron-wall.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-fireball",
-      "skillId": "fireball",
-      "mediaPath": "png/skill-fireball.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-frost-nova",
-      "skillId": "frost-nova",
-      "mediaPath": "png/skill-frost-nova.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-chain-lightning",
-      "skillId": "chain-lightning",
-      "mediaPath": "png/skill-chain-lightning.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-meteor",
-      "skillId": "meteor",
-      "mediaPath": "png/skill-meteor.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-magic-arrow",
-      "skillId": "magic-arrow",
-      "mediaPath": "png/skill-magic-arrow.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-multishot",
-      "skillId": "multishot",
-      "mediaPath": "png/skill-multishot.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-guided-arrow",
-      "skillId": "guided-arrow",
-      "mediaPath": "png/skill-guided-arrow.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-strafe",
-      "skillId": "strafe",
-      "mediaPath": "png/skill-strafe.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-raise-skeleton",
-      "skillId": "raise-skeleton",
-      "mediaPath": "png/skill-raise-skeleton.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-bone-spear",
-      "skillId": "bone-spear",
-      "mediaPath": "png/skill-bone-spear.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-corpse-explosion",
-      "skillId": "corpse-explosion",
-      "mediaPath": "png/skill-corpse-explosion.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-bone-armor",
-      "skillId": "bone-armor",
-      "mediaPath": "png/skill-bone-armor.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-holy-bolt",
-      "skillId": "holy-bolt",
-      "mediaPath": "png/skill-holy-bolt.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-zeal",
-      "skillId": "zeal",
-      "mediaPath": "png/skill-zeal.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-blessed-hammer",
-      "skillId": "blessed-hammer",
-      "mediaPath": "png/skill-blessed-hammer.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-sacrifice",
-      "skillId": "sacrifice",
-      "mediaPath": "png/skill-sacrifice.png",
-      "mediaKind": "raster"
-    },
-    {
-      "id": "skill-tornado",
-      "skillId": "tornado",
-      "mediaPath": "png/skill-tornado.png",
-      "mediaKind": "raster"
+      "id": "skill-arctic-blast",
+      "skillId": "arctic-blast",
+      "mediaPath": "png/skill-arctic-blast.png",
+      "mediaKind": "raster",
+      "d2Name": "Arctic Blast",
+      "nameKo": "아틱 블라스트",
+      "charclass": "dru"
     },
     {
       "id": "skill-armageddon",
       "skillId": "armageddon",
       "mediaPath": "png/skill-armageddon.png",
-      "mediaKind": "raster"
+      "mediaKind": "raster",
+      "d2Name": "Armageddon",
+      "nameKo": "아마게돈",
+      "charclass": "dru"
     },
     {
-      "id": "skill-werewolf",
-      "skillId": "werewolf",
-      "mediaPath": "png/skill-werewolf.png",
-      "mediaKind": "raster"
+      "id": "skill-attract",
+      "skillId": "attract",
+      "mediaPath": "png/skill-attract.png",
+      "mediaKind": "raster",
+      "d2Name": "Attract",
+      "nameKo": "어트랙트",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-avoid",
+      "skillId": "avoid",
+      "mediaPath": "png/skill-avoid.png",
+      "mediaKind": "raster",
+      "d2Name": "Avoid",
+      "nameKo": "어보이드",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-axe-mastery",
+      "skillId": "axe-mastery",
+      "mediaPath": "png/skill-axe-mastery.png",
+      "mediaKind": "raster",
+      "d2Name": "Axe Mastery",
+      "nameKo": "액스 마스터리",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-battle-command",
+      "skillId": "battle-command",
+      "mediaPath": "png/skill-battle-command.png",
+      "mediaKind": "raster",
+      "d2Name": "Battle Command",
+      "nameKo": "배틀 커멘드",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-battle-cry",
+      "skillId": "battle-cry",
+      "mediaPath": "png/skill-battle-cry.png",
+      "mediaKind": "raster",
+      "d2Name": "Battle Cry",
+      "nameKo": "배틀 크라이",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-battle-orders",
+      "skillId": "battle-orders",
+      "mediaPath": "png/skill-battle-orders.png",
+      "mediaKind": "raster",
+      "d2Name": "Battle Orders",
+      "nameKo": "배틀 오더스",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-berserk",
+      "skillId": "berserk",
+      "mediaPath": "png/skill-berserk.png",
+      "mediaKind": "raster",
+      "d2Name": "Berserk",
+      "nameKo": "버서크",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-blade-fury",
+      "skillId": "blade-fury",
+      "mediaPath": "png/skill-blade-fury.png",
+      "mediaKind": "raster",
+      "d2Name": "Blade Fury",
+      "nameKo": "블레이드 퓨리",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-blade-mastery",
+      "skillId": "blade-mastery",
+      "mediaPath": "png/skill-blade-mastery.png",
+      "mediaKind": "raster",
+      "d2Name": "Blade Mastery",
+      "nameKo": "소드 마스터리",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-blade-sentinel",
+      "skillId": "blade-sentinel",
+      "mediaPath": "png/skill-blade-sentinel.png",
+      "mediaKind": "raster",
+      "d2Name": "Blade Sentinel",
+      "nameKo": "블레이드 센티널",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-blade-shield",
+      "skillId": "blade-shield",
+      "mediaPath": "png/skill-blade-shield.png",
+      "mediaKind": "raster",
+      "d2Name": "Blade Shield",
+      "nameKo": "블레이드 쉴드",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-blades-of-ice",
+      "skillId": "blades-of-ice",
+      "mediaPath": "png/skill-blades-of-ice.png",
+      "mediaKind": "raster",
+      "d2Name": "Blades of Ice",
+      "nameKo": "블레이드 오브 아이스",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-blaze",
+      "skillId": "blaze",
+      "mediaPath": "png/skill-blaze.png",
+      "mediaKind": "raster",
+      "d2Name": "Blaze",
+      "nameKo": "블레이즈",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-blessed-aim",
+      "skillId": "blessed-aim",
+      "mediaPath": "png/skill-blessed-aim.png",
+      "mediaKind": "raster",
+      "d2Name": "Blessed Aim",
+      "nameKo": "블레시드 에임",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-blessed-hammer",
+      "skillId": "blessed-hammer",
+      "mediaPath": "png/skill-blessed-hammer.png",
+      "mediaKind": "raster",
+      "d2Name": "Blessed Hammer",
+      "nameKo": "블레시드 해머",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-blizzard",
+      "skillId": "blizzard",
+      "mediaPath": "png/skill-blizzard.png",
+      "mediaKind": "raster",
+      "d2Name": "Blizzard",
+      "nameKo": "블리자드",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-bloodgolem",
+      "skillId": "bloodgolem",
+      "mediaPath": "png/skill-bloodgolem.png",
+      "mediaKind": "raster",
+      "d2Name": "BloodGolem",
+      "nameKo": "블러드 골렘",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-bone-armor",
+      "skillId": "bone-armor",
+      "mediaPath": "png/skill-bone-armor.png",
+      "mediaKind": "raster",
+      "d2Name": "Bone Armor",
+      "nameKo": "본 아머",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-bone-prison",
+      "skillId": "bone-prison",
+      "mediaPath": "png/skill-bone-prison.png",
+      "mediaKind": "raster",
+      "d2Name": "Bone Prison",
+      "nameKo": "본 프리즌",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-bone-spear",
+      "skillId": "bone-spear",
+      "mediaPath": "png/skill-bone-spear.png",
+      "mediaKind": "raster",
+      "d2Name": "Bone Spear",
+      "nameKo": "본 스피어",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-bone-spirit",
+      "skillId": "bone-spirit",
+      "mediaPath": "png/skill-bone-spirit.png",
+      "mediaKind": "raster",
+      "d2Name": "Bone Spirit",
+      "nameKo": "본 스피리트",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-bone-wall",
+      "skillId": "bone-wall",
+      "mediaPath": "png/skill-bone-wall.png",
+      "mediaKind": "raster",
+      "d2Name": "Bone Wall",
+      "nameKo": "본 월",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-chain-lightning",
+      "skillId": "chain-lightning",
+      "mediaPath": "png/skill-chain-lightning.png",
+      "mediaKind": "raster",
+      "d2Name": "Chain Lightning",
+      "nameKo": "체인 라이트닝",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-charge",
+      "skillId": "charge",
+      "mediaPath": "png/skill-charge.png",
+      "mediaKind": "raster",
+      "d2Name": "Charge",
+      "nameKo": "차지",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-charged-bolt",
+      "skillId": "charged-bolt",
+      "mediaPath": "png/skill-charged-bolt.png",
+      "mediaKind": "raster",
+      "d2Name": "Charged Bolt",
+      "nameKo": "차지드 볼트",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-charged-bolt-sentry",
+      "skillId": "charged-bolt-sentry",
+      "mediaPath": "png/skill-charged-bolt-sentry.png",
+      "mediaKind": "raster",
+      "d2Name": "Charged Bolt Sentry",
+      "nameKo": "차지드 볼트 센트리",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-charged-strike",
+      "skillId": "charged-strike",
+      "mediaPath": "png/skill-charged-strike.png",
+      "mediaKind": "raster",
+      "d2Name": "Charged Strike",
+      "nameKo": "차지드 스트라이크",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-chilling-armor",
+      "skillId": "chilling-armor",
+      "mediaPath": "png/skill-chilling-armor.png",
+      "mediaKind": "raster",
+      "d2Name": "Chilling Armor",
+      "nameKo": "칠링 아머",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-claw-mastery",
+      "skillId": "claw-mastery",
+      "mediaPath": "png/skill-claw-mastery.png",
+      "mediaKind": "raster",
+      "d2Name": "Claw Mastery",
+      "nameKo": "클러 마스터리",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-claws-of-thunder",
+      "skillId": "claws-of-thunder",
+      "mediaPath": "png/skill-claws-of-thunder.png",
+      "mediaKind": "raster",
+      "d2Name": "Claws of Thunder",
+      "nameKo": "클러 오브 선더",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-clay-golem",
+      "skillId": "clay-golem",
+      "mediaPath": "png/skill-clay-golem.png",
+      "mediaKind": "raster",
+      "d2Name": "Clay Golem",
+      "nameKo": "클레이 골렘",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-cleansing",
+      "skillId": "cleansing",
+      "mediaPath": "png/skill-cleansing.png",
+      "mediaKind": "raster",
+      "d2Name": "Cleansing",
+      "nameKo": "클렌징",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-cloak-of-shadows",
+      "skillId": "cloak-of-shadows",
+      "mediaPath": "png/skill-cloak-of-shadows.png",
+      "mediaKind": "raster",
+      "d2Name": "Cloak of Shadows",
+      "nameKo": "클럭 오브 쉐도우",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-cobra-strike",
+      "skillId": "cobra-strike",
+      "mediaPath": "png/skill-cobra-strike.png",
+      "mediaKind": "raster",
+      "d2Name": "Cobra Strike",
+      "nameKo": "코브라 스트라이크",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-cold-arrow",
+      "skillId": "cold-arrow",
+      "mediaPath": "png/skill-cold-arrow.png",
+      "mediaKind": "raster",
+      "d2Name": "Cold Arrow",
+      "nameKo": "콜드 애로우",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-cold-mastery",
+      "skillId": "cold-mastery",
+      "mediaPath": "png/skill-cold-mastery.png",
+      "mediaKind": "raster",
+      "d2Name": "Cold Mastery",
+      "nameKo": "콜드 마스터리",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-concentrate",
+      "skillId": "concentrate",
+      "mediaPath": "png/skill-concentrate.png",
+      "mediaKind": "raster",
+      "d2Name": "Concentrate",
+      "nameKo": "컨센트레이트",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-concentration",
+      "skillId": "concentration",
+      "mediaPath": "png/skill-concentration.png",
+      "mediaKind": "raster",
+      "d2Name": "Concentration",
+      "nameKo": "컨센트레이션",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-confuse",
+      "skillId": "confuse",
+      "mediaPath": "png/skill-confuse.png",
+      "mediaKind": "raster",
+      "d2Name": "Confuse",
+      "nameKo": "컨퓨즈",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-conversion",
+      "skillId": "conversion",
+      "mediaPath": "png/skill-conversion.png",
+      "mediaKind": "raster",
+      "d2Name": "Conversion",
+      "nameKo": "컨버젼",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-conviction",
+      "skillId": "conviction",
+      "mediaPath": "png/skill-conviction.png",
+      "mediaKind": "raster",
+      "d2Name": "Conviction",
+      "nameKo": "컨빅션",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-corpse-explosion",
+      "skillId": "corpse-explosion",
+      "mediaPath": "png/skill-corpse-explosion.png",
+      "mediaKind": "raster",
+      "d2Name": "Corpse Explosion",
+      "nameKo": "커프스 익스플로젼",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-critical-strike",
+      "skillId": "critical-strike",
+      "mediaPath": "png/skill-critical-strike.png",
+      "mediaKind": "raster",
+      "d2Name": "Critical Strike",
+      "nameKo": "크리티컬 스트라이크",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-cycle-of-life",
+      "skillId": "cycle-of-life",
+      "mediaPath": "png/skill-cycle-of-life.png",
+      "mediaKind": "raster",
+      "d2Name": "Cycle of Life",
+      "nameKo": "캐리언 바인",
+      "charclass": "dru"
     },
     {
       "id": "skill-cyclone-armor",
       "skillId": "cyclone-armor",
       "mediaPath": "png/skill-cyclone-armor.png",
-      "mediaKind": "raster"
+      "mediaKind": "raster",
+      "d2Name": "Cyclone Armor",
+      "nameKo": "사이클론 아머",
+      "charclass": "dru"
     },
     {
-      "id": "skill-tiger-strike",
-      "skillId": "tiger-strike",
-      "mediaPath": "png/skill-tiger-strike.png",
-      "mediaKind": "raster"
+      "id": "skill-death-sentry",
+      "skillId": "death-sentry",
+      "mediaPath": "png/skill-death-sentry.png",
+      "mediaKind": "raster",
+      "d2Name": "Death Sentry",
+      "nameKo": "데쓰 센트리",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-decrepify",
+      "skillId": "decrepify",
+      "mediaPath": "png/skill-decrepify.png",
+      "mediaKind": "raster",
+      "d2Name": "Decrepify",
+      "nameKo": "디크리피파이",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-defiance",
+      "skillId": "defiance",
+      "mediaPath": "png/skill-defiance.png",
+      "mediaKind": "raster",
+      "d2Name": "Defiance",
+      "nameKo": "디파이언스",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-dim-vision",
+      "skillId": "dim-vision",
+      "mediaPath": "png/skill-dim-vision.png",
+      "mediaKind": "raster",
+      "d2Name": "Dim Vision",
+      "nameKo": "딤 비젼",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-dodge",
+      "skillId": "dodge",
+      "mediaPath": "png/skill-dodge.png",
+      "mediaKind": "raster",
+      "d2Name": "Dodge",
+      "nameKo": "닷지",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-dopplezon",
+      "skillId": "dopplezon",
+      "mediaPath": "png/skill-dopplezon.png",
+      "mediaKind": "raster",
+      "d2Name": "Dopplezon",
+      "nameKo": "디코이",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-double-swing",
+      "skillId": "double-swing",
+      "mediaPath": "png/skill-double-swing.png",
+      "mediaKind": "raster",
+      "d2Name": "Double Swing",
+      "nameKo": "더블 스윙",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-double-throw",
+      "skillId": "double-throw",
+      "mediaPath": "png/skill-double-throw.png",
+      "mediaKind": "raster",
+      "d2Name": "Double Throw",
+      "nameKo": "더블 스로우",
+      "charclass": "bar"
     },
     {
       "id": "skill-dragon-claw",
       "skillId": "dragon-claw",
       "mediaPath": "png/skill-dragon-claw.png",
-      "mediaKind": "raster"
+      "mediaKind": "raster",
+      "d2Name": "Dragon Claw",
+      "nameKo": "드래곤 클러",
+      "charclass": "ass"
     },
     {
-      "id": "skill-shadow-master",
-      "skillId": "shadow-master",
-      "mediaPath": "png/skill-shadow-master.png",
-      "mediaKind": "raster"
+      "id": "skill-dragon-tail",
+      "skillId": "dragon-tail",
+      "mediaPath": "png/skill-dragon-tail.png",
+      "mediaKind": "raster",
+      "d2Name": "Dragon Tail",
+      "nameKo": "드래곤 테일",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-dragon-talon",
+      "skillId": "dragon-talon",
+      "mediaPath": "png/skill-dragon-talon.png",
+      "mediaKind": "raster",
+      "d2Name": "Dragon Talon",
+      "nameKo": "드래곤 탈런",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-enchant",
+      "skillId": "enchant",
+      "mediaPath": "png/skill-enchant.png",
+      "mediaKind": "raster",
+      "d2Name": "Enchant",
+      "nameKo": "인첸트",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-energy-shield",
+      "skillId": "energy-shield",
+      "mediaPath": "png/skill-energy-shield.png",
+      "mediaKind": "raster",
+      "d2Name": "Energy Shield",
+      "nameKo": "에너지 쉴드",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-eruption",
+      "skillId": "eruption",
+      "mediaPath": "png/skill-eruption.png",
+      "mediaKind": "raster",
+      "d2Name": "Eruption",
+      "nameKo": "피셔",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-evade",
+      "skillId": "evade",
+      "mediaPath": "png/skill-evade.png",
+      "mediaKind": "raster",
+      "d2Name": "Evade",
+      "nameKo": "이베이드",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-exploding-arrow",
+      "skillId": "exploding-arrow",
+      "mediaPath": "png/skill-exploding-arrow.png",
+      "mediaKind": "raster",
+      "d2Name": "Exploding Arrow",
+      "nameKo": "익스플로딩 애로우",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-fade",
+      "skillId": "fade",
+      "mediaPath": "png/skill-fade.png",
+      "mediaKind": "raster",
+      "d2Name": "Fade",
+      "nameKo": "페이드",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-fanaticism",
+      "skillId": "fanaticism",
+      "mediaPath": "png/skill-fanaticism.png",
+      "mediaKind": "raster",
+      "d2Name": "Fanaticism",
+      "nameKo": "파나티시즘",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-fend",
+      "skillId": "fend",
+      "mediaPath": "png/skill-fend.png",
+      "mediaKind": "raster",
+      "d2Name": "Fend",
+      "nameKo": "펜드",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-feral-rage",
+      "skillId": "feral-rage",
+      "mediaPath": "png/skill-feral-rage.png",
+      "mediaKind": "raster",
+      "d2Name": "Feral Rage",
+      "nameKo": "피어럴 레이지",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-find-item",
+      "skillId": "find-item",
+      "mediaPath": "png/skill-find-item.png",
+      "mediaKind": "raster",
+      "d2Name": "Find Item",
+      "nameKo": "파인드 아이템",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-find-potion",
+      "skillId": "find-potion",
+      "mediaPath": "png/skill-find-potion.png",
+      "mediaKind": "raster",
+      "d2Name": "Find Potion",
+      "nameKo": "파인드 포션",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-fire-arrow",
+      "skillId": "fire-arrow",
+      "mediaPath": "png/skill-fire-arrow.png",
+      "mediaKind": "raster",
+      "d2Name": "Fire Arrow",
+      "nameKo": "파이어 애로우 ",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-fire-bolt",
+      "skillId": "fire-bolt",
+      "mediaPath": "png/skill-fire-bolt.png",
+      "mediaKind": "raster",
+      "d2Name": "Fire Bolt",
+      "nameKo": "파이어 볼트",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-fire-claws",
+      "skillId": "fire-claws",
+      "mediaPath": "png/skill-fire-claws.png",
+      "mediaKind": "raster",
+      "d2Name": "Fire Claws",
+      "nameKo": "파이러 클러",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-fire-mastery",
+      "skillId": "fire-mastery",
+      "mediaPath": "png/skill-fire-mastery.png",
+      "mediaKind": "raster",
+      "d2Name": "Fire Mastery",
+      "nameKo": "파이어 마스터리",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-fire-trauma",
+      "skillId": "fire-trauma",
+      "mediaPath": "png/skill-fire-trauma.png",
+      "mediaKind": "raster",
+      "d2Name": "Fire Trauma",
+      "nameKo": "파이어 블라스트",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-fire-wall",
+      "skillId": "fire-wall",
+      "mediaPath": "png/skill-fire-wall.png",
+      "mediaKind": "raster",
+      "d2Name": "Fire Wall",
+      "nameKo": "파이어 월",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-fireball",
+      "skillId": "fireball",
+      "mediaPath": "png/skill-fireball.png",
+      "mediaKind": "raster",
+      "d2Name": "Fire Ball",
+      "nameKo": "파이어 볼",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-firegolem",
+      "skillId": "firegolem",
+      "mediaPath": "png/skill-firegolem.png",
+      "mediaKind": "raster",
+      "d2Name": "FireGolem",
+      "nameKo": "파이어 골렘",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-firestorm",
+      "skillId": "firestorm",
+      "mediaPath": "png/skill-firestorm.png",
+      "mediaKind": "raster",
+      "d2Name": "Firestorm",
+      "nameKo": "파이어스톰",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-fist-of-the-heavens",
+      "skillId": "fist-of-the-heavens",
+      "mediaPath": "png/skill-fist-of-the-heavens.png",
+      "mediaKind": "raster",
+      "d2Name": "Fist of the Heavens",
+      "nameKo": "피스트 오브 더 헤븐",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-fists-of-fire",
+      "skillId": "fists-of-fire",
+      "mediaPath": "png/skill-fists-of-fire.png",
+      "mediaKind": "raster",
+      "d2Name": "Fists of Fire",
+      "nameKo": "피스트 오브 파이어",
+      "charclass": "ass"
     },
     {
       "id": "skill-flash-strike",
       "skillId": "flash-strike",
       "mediaPath": "png/skill-flash-strike.png",
-      "mediaKind": "raster"
+      "mediaKind": "raster",
+      "d2Name": "Dragon Flight",
+      "nameKo": "드래곤 플라이트",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-freezing-arrow",
+      "skillId": "freezing-arrow",
+      "mediaPath": "png/skill-freezing-arrow.png",
+      "mediaKind": "raster",
+      "d2Name": "Freezing Arrow",
+      "nameKo": "프리징 애로우",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-frenzy",
+      "skillId": "frenzy",
+      "mediaPath": "png/skill-frenzy.png",
+      "mediaKind": "raster",
+      "d2Name": "Frenzy",
+      "nameKo": "프렌지",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-frost-nova",
+      "skillId": "frost-nova",
+      "mediaPath": "png/skill-frost-nova.png",
+      "mediaKind": "raster",
+      "d2Name": "Frost Nova",
+      "nameKo": "프로스트 노바",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-frozen-armor",
+      "skillId": "frozen-armor",
+      "mediaPath": "png/skill-frozen-armor.png",
+      "mediaKind": "raster",
+      "d2Name": "Frozen Armor",
+      "nameKo": "프로즌 아머",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-frozen-orb",
+      "skillId": "frozen-orb",
+      "mediaPath": "png/skill-frozen-orb.png",
+      "mediaKind": "raster",
+      "d2Name": "Frozen Orb",
+      "nameKo": "프로즌 오브",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-fury",
+      "skillId": "fury",
+      "mediaPath": "png/skill-fury.png",
+      "mediaKind": "raster",
+      "d2Name": "Fury",
+      "nameKo": "퓨리",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-glacial-spike",
+      "skillId": "glacial-spike",
+      "mediaPath": "png/skill-glacial-spike.png",
+      "mediaKind": "raster",
+      "d2Name": "Glacial Spike",
+      "nameKo": "글래셜 스파이크",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-golem-mastery",
+      "skillId": "golem-mastery",
+      "mediaPath": "png/skill-golem-mastery.png",
+      "mediaKind": "raster",
+      "d2Name": "Golem Mastery",
+      "nameKo": "골렘 마스터리",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-grim-ward",
+      "skillId": "grim-ward",
+      "mediaPath": "png/skill-grim-ward.png",
+      "mediaKind": "raster",
+      "d2Name": "Grim Ward",
+      "nameKo": "그림 워드",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-guided-arrow",
+      "skillId": "guided-arrow",
+      "mediaPath": "png/skill-guided-arrow.png",
+      "mediaKind": "raster",
+      "d2Name": "Guided Arrow",
+      "nameKo": "가이드 애로우",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-heart-of-wolverine",
+      "skillId": "heart-of-wolverine",
+      "mediaPath": "png/skill-heart-of-wolverine.png",
+      "mediaKind": "raster",
+      "d2Name": "Heart of Wolverine",
+      "nameKo": "하트 오브 울버린",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-holy-bolt",
+      "skillId": "holy-bolt",
+      "mediaPath": "png/skill-holy-bolt.png",
+      "mediaKind": "raster",
+      "d2Name": "Holy Bolt",
+      "nameKo": "홀리 볼트",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-holy-fire",
+      "skillId": "holy-fire",
+      "mediaPath": "png/skill-holy-fire.png",
+      "mediaKind": "raster",
+      "d2Name": "Holy Fire",
+      "nameKo": "홀리 파이어",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-holy-freeze",
+      "skillId": "holy-freeze",
+      "mediaPath": "png/skill-holy-freeze.png",
+      "mediaKind": "raster",
+      "d2Name": "Holy Freeze",
+      "nameKo": "홀리 프리즈",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-holy-shield",
+      "skillId": "holy-shield",
+      "mediaPath": "png/skill-holy-shield.png",
+      "mediaKind": "raster",
+      "d2Name": "Holy Shield",
+      "nameKo": "홀리 쉴드",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-holy-shock",
+      "skillId": "holy-shock",
+      "mediaPath": "png/skill-holy-shock.png",
+      "mediaKind": "raster",
+      "d2Name": "Holy Shock",
+      "nameKo": "홀리 쇼크",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-howl",
+      "skillId": "howl",
+      "mediaPath": "png/skill-howl.png",
+      "mediaKind": "raster",
+      "d2Name": "Howl",
+      "nameKo": "하울",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-hunger",
+      "skillId": "hunger",
+      "mediaPath": "png/skill-hunger.png",
+      "mediaKind": "raster",
+      "d2Name": "Hunger",
+      "nameKo": "헝거",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-hurricane",
+      "skillId": "hurricane",
+      "mediaPath": "png/skill-hurricane.png",
+      "mediaKind": "raster",
+      "d2Name": "Hurricane",
+      "nameKo": "허리케인",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-hydra",
+      "skillId": "hydra",
+      "mediaPath": "png/skill-hydra.png",
+      "mediaKind": "raster",
+      "d2Name": "Hydra",
+      "nameKo": "하이드라",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-ice-arrow",
+      "skillId": "ice-arrow",
+      "mediaPath": "png/skill-ice-arrow.png",
+      "mediaKind": "raster",
+      "d2Name": "Ice Arrow",
+      "nameKo": "아이스 애로우",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-ice-blast",
+      "skillId": "ice-blast",
+      "mediaPath": "png/skill-ice-blast.png",
+      "mediaKind": "raster",
+      "d2Name": "Ice Blast",
+      "nameKo": "아이스 블래스트",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-ice-bolt",
+      "skillId": "ice-bolt",
+      "mediaPath": "png/skill-ice-bolt.png",
+      "mediaKind": "raster",
+      "d2Name": "Ice Bolt",
+      "nameKo": "아이스 볼트",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-immolation-arrow",
+      "skillId": "immolation-arrow",
+      "mediaPath": "png/skill-immolation-arrow.png",
+      "mediaKind": "raster",
+      "d2Name": "Immolation Arrow",
+      "nameKo": "이몰레이션 애로우",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-impale",
+      "skillId": "impale",
+      "mediaPath": "png/skill-impale.png",
+      "mediaKind": "raster",
+      "d2Name": "Impale",
+      "nameKo": "임페일",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-increased-speed",
+      "skillId": "increased-speed",
+      "mediaPath": "png/skill-increased-speed.png",
+      "mediaKind": "raster",
+      "d2Name": "Increased Speed",
+      "nameKo": "인크리즈드 스피드",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-increased-stamina",
+      "skillId": "increased-stamina",
+      "mediaPath": "png/skill-increased-stamina.png",
+      "mediaKind": "raster",
+      "d2Name": "Increased Stamina",
+      "nameKo": "인크리즈드 스태미나",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-inferno",
+      "skillId": "inferno",
+      "mediaPath": "png/skill-inferno.png",
+      "mediaKind": "raster",
+      "d2Name": "Inferno",
+      "nameKo": "인페르노",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-inferno-sentry",
+      "skillId": "inferno-sentry",
+      "mediaPath": "png/skill-inferno-sentry.png",
+      "mediaKind": "raster",
+      "d2Name": "Inferno Sentry",
+      "nameKo": "웨이크 오브 인페르노",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-inner-sight",
+      "skillId": "inner-sight",
+      "mediaPath": "png/skill-inner-sight.png",
+      "mediaKind": "raster",
+      "d2Name": "Inner Sight",
+      "nameKo": "이너 사이트",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-iron-maiden",
+      "skillId": "iron-maiden",
+      "mediaPath": "png/skill-iron-maiden.png",
+      "mediaKind": "raster",
+      "d2Name": "Iron Maiden",
+      "nameKo": "아이언 메이든",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-iron-skin",
+      "skillId": "iron-skin",
+      "mediaPath": "png/skill-iron-skin.png",
+      "mediaKind": "raster",
+      "d2Name": "Iron Skin",
+      "nameKo": "아이언 스킨",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-iron-wall",
+      "skillId": "iron-wall",
+      "mediaPath": "png/skill-iron-wall.png",
+      "mediaKind": "raster",
+      "d2Name": "Shout",
+      "nameKo": "샤우트",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-irongolem",
+      "skillId": "irongolem",
+      "mediaPath": "png/skill-irongolem.png",
+      "mediaKind": "raster",
+      "d2Name": "IronGolem",
+      "nameKo": "아이언 골렘",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-jab",
+      "skillId": "jab",
+      "mediaPath": "png/skill-jab.png",
+      "mediaKind": "raster",
+      "d2Name": "Jab",
+      "nameKo": "잽",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-leap",
+      "skillId": "leap",
+      "mediaPath": "png/skill-leap.png",
+      "mediaKind": "raster",
+      "d2Name": "Leap",
+      "nameKo": "리프",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-leap-strike",
+      "skillId": "leap-strike",
+      "mediaPath": "png/skill-leap-strike.png",
+      "mediaKind": "raster",
+      "d2Name": "Leap Attack",
+      "nameKo": "리프 어택",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-life-tap",
+      "skillId": "life-tap",
+      "mediaPath": "png/skill-life-tap.png",
+      "mediaKind": "raster",
+      "d2Name": "Life Tap",
+      "nameKo": "라이프 탭",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-lightning",
+      "skillId": "lightning",
+      "mediaPath": "png/skill-lightning.png",
+      "mediaKind": "raster",
+      "d2Name": "Lightning",
+      "nameKo": "라이트닝",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-lightning-bolt",
+      "skillId": "lightning-bolt",
+      "mediaPath": "png/skill-lightning-bolt.png",
+      "mediaKind": "raster",
+      "d2Name": "Lightning Bolt",
+      "nameKo": "라이트닝 볼트",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-lightning-fury",
+      "skillId": "lightning-fury",
+      "mediaPath": "png/skill-lightning-fury.png",
+      "mediaKind": "raster",
+      "d2Name": "Lightning Fury",
+      "nameKo": "라이트닝 퓨리",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-lightning-mastery",
+      "skillId": "lightning-mastery",
+      "mediaPath": "png/skill-lightning-mastery.png",
+      "mediaKind": "raster",
+      "d2Name": "Lightning Mastery",
+      "nameKo": "라이트닝 마스터리",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-lightning-sentry",
+      "skillId": "lightning-sentry",
+      "mediaPath": "png/skill-lightning-sentry.png",
+      "mediaKind": "raster",
+      "d2Name": "Lightning Sentry",
+      "nameKo": "라이트닝 센트리",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-lightning-strike",
+      "skillId": "lightning-strike",
+      "mediaPath": "png/skill-lightning-strike.png",
+      "mediaKind": "raster",
+      "d2Name": "Lightning Strike",
+      "nameKo": "라이트닝 스트라이크",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-lower-resist",
+      "skillId": "lower-resist",
+      "mediaPath": "png/skill-lower-resist.png",
+      "mediaKind": "raster",
+      "d2Name": "Lower Resist",
+      "nameKo": "로우어 레지스트",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-mace-mastery",
+      "skillId": "mace-mastery",
+      "mediaPath": "png/skill-mace-mastery.png",
+      "mediaKind": "raster",
+      "d2Name": "Mace Mastery",
+      "nameKo": "메이스 마스터리",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-magic-arrow",
+      "skillId": "magic-arrow",
+      "mediaPath": "png/skill-magic-arrow.png",
+      "mediaKind": "raster",
+      "d2Name": "Magic Arrow",
+      "nameKo": "매직 애로우",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-maul",
+      "skillId": "maul",
+      "mediaPath": "png/skill-maul.png",
+      "mediaKind": "raster",
+      "d2Name": "Maul",
+      "nameKo": "마울",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-meditation",
+      "skillId": "meditation",
+      "mediaPath": "png/skill-meditation.png",
+      "mediaKind": "raster",
+      "d2Name": "Meditation",
+      "nameKo": "메디테이션",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-meteor",
+      "skillId": "meteor",
+      "mediaPath": "png/skill-meteor.png",
+      "mediaKind": "raster",
+      "d2Name": "Meteor",
+      "nameKo": "메테오",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-might",
+      "skillId": "might",
+      "mediaPath": "png/skill-might.png",
+      "mediaKind": "raster",
+      "d2Name": "Might",
+      "nameKo": "마이트",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-mighty-blow",
+      "skillId": "mighty-blow",
+      "mediaPath": "png/skill-mighty-blow.png",
+      "mediaKind": "raster",
+      "d2Name": "Bash",
+      "nameKo": "배쉬",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-mind-blast",
+      "skillId": "mind-blast",
+      "mediaPath": "png/skill-mind-blast.png",
+      "mediaKind": "raster",
+      "d2Name": "Mind Blast",
+      "nameKo": "마인드 블라스트",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-molten-boulder",
+      "skillId": "molten-boulder",
+      "mediaPath": "png/skill-molten-boulder.png",
+      "mediaKind": "raster",
+      "d2Name": "Molten Boulder",
+      "nameKo": "몰튼 보울더",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-multishot",
+      "skillId": "multishot",
+      "mediaPath": "png/skill-multishot.png",
+      "mediaKind": "raster",
+      "d2Name": "Multiple Shot",
+      "nameKo": "멀티플 샷",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-natural-resistance",
+      "skillId": "natural-resistance",
+      "mediaPath": "png/skill-natural-resistance.png",
+      "mediaKind": "raster",
+      "d2Name": "Natural Resistance",
+      "nameKo": "네츄럴 레지스턴스",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-nova",
+      "skillId": "nova",
+      "mediaPath": "png/skill-nova.png",
+      "mediaKind": "raster",
+      "d2Name": "Nova",
+      "nameKo": "노바",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-oak-sage",
+      "skillId": "oak-sage",
+      "mediaPath": "png/skill-oak-sage.png",
+      "mediaKind": "raster",
+      "d2Name": "Oak Sage",
+      "nameKo": "오크 세이지",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-penetrate",
+      "skillId": "penetrate",
+      "mediaPath": "png/skill-penetrate.png",
+      "mediaKind": "raster",
+      "d2Name": "Penetrate",
+      "nameKo": "페니트레이트",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-pierce",
+      "skillId": "pierce",
+      "mediaPath": "png/skill-pierce.png",
+      "mediaKind": "raster",
+      "d2Name": "Pierce",
+      "nameKo": "피어스",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-plague-javelin",
+      "skillId": "plague-javelin",
+      "mediaPath": "png/skill-plague-javelin.png",
+      "mediaKind": "raster",
+      "d2Name": "Plague Javelin",
+      "nameKo": "플레이그 재벌린",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-plague-poppy",
+      "skillId": "plague-poppy",
+      "mediaPath": "png/skill-plague-poppy.png",
+      "mediaKind": "raster",
+      "d2Name": "Plague Poppy",
+      "nameKo": "워울프",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-poison-dagger",
+      "skillId": "poison-dagger",
+      "mediaPath": "png/skill-poison-dagger.png",
+      "mediaKind": "raster",
+      "d2Name": "Poison Dagger",
+      "nameKo": "포이즌 데거",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-poison-explosion",
+      "skillId": "poison-explosion",
+      "mediaPath": "png/skill-poison-explosion.png",
+      "mediaKind": "raster",
+      "d2Name": "Poison Explosion",
+      "nameKo": "포이즌 익스플로젼",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-poison-javelin",
+      "skillId": "poison-javelin",
+      "mediaPath": "png/skill-poison-javelin.png",
+      "mediaKind": "raster",
+      "d2Name": "Poison Javelin",
+      "nameKo": "포이즌 재벌린",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-poison-nova",
+      "skillId": "poison-nova",
+      "mediaPath": "png/skill-poison-nova.png",
+      "mediaKind": "raster",
+      "d2Name": "Poison Nova",
+      "nameKo": "포이즌 노바",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-pole-arm-mastery",
+      "skillId": "pole-arm-mastery",
+      "mediaPath": "png/skill-pole-arm-mastery.png",
+      "mediaKind": "raster",
+      "d2Name": "Pole Arm Mastery",
+      "nameKo": "폴 암 마스터리",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-power-strike",
+      "skillId": "power-strike",
+      "mediaPath": "png/skill-power-strike.png",
+      "mediaKind": "raster",
+      "d2Name": "Power Strike",
+      "nameKo": "파워 스트라이크",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-prayer",
+      "skillId": "prayer",
+      "mediaPath": "png/skill-prayer.png",
+      "mediaKind": "raster",
+      "d2Name": "Prayer",
+      "nameKo": "프레이어",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-psychic-hammer",
+      "skillId": "psychic-hammer",
+      "mediaPath": "png/skill-psychic-hammer.png",
+      "mediaKind": "raster",
+      "d2Name": "Psychic Hammer",
+      "nameKo": "싸이킥 해머",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-quickness",
+      "skillId": "quickness",
+      "mediaPath": "png/skill-quickness.png",
+      "mediaKind": "raster",
+      "d2Name": "Quickness",
+      "nameKo": "버스트 오브 스피드",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-rabies",
+      "skillId": "rabies",
+      "mediaPath": "png/skill-rabies.png",
+      "mediaKind": "raster",
+      "d2Name": "Rabies",
+      "nameKo": "레이비즈",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-raise-skeletal-mage",
+      "skillId": "raise-skeletal-mage",
+      "mediaPath": "png/skill-raise-skeletal-mage.png",
+      "mediaKind": "raster",
+      "d2Name": "Raise Skeletal Mage",
+      "nameKo": "레이즈 스켈레톤 메이지",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-raise-skeleton",
+      "skillId": "raise-skeleton",
+      "mediaPath": "png/skill-raise-skeleton.png",
+      "mediaKind": "raster",
+      "d2Name": "Raise Skeleton",
+      "nameKo": "레이즈 스켈레톤",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-raven",
+      "skillId": "raven",
+      "mediaPath": "png/skill-raven.png",
+      "mediaKind": "raster",
+      "d2Name": "Raven",
+      "nameKo": "레이번",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-redemption",
+      "skillId": "redemption",
+      "mediaPath": "png/skill-redemption.png",
+      "mediaKind": "raster",
+      "d2Name": "Redemption",
+      "nameKo": "리뎀션",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-resist-cold",
+      "skillId": "resist-cold",
+      "mediaPath": "png/skill-resist-cold.png",
+      "mediaKind": "raster",
+      "d2Name": "Resist Cold",
+      "nameKo": "레지스트 콜드",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-resist-fire",
+      "skillId": "resist-fire",
+      "mediaPath": "png/skill-resist-fire.png",
+      "mediaKind": "raster",
+      "d2Name": "Resist Fire",
+      "nameKo": "레지스트 파이어",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-resist-lightning",
+      "skillId": "resist-lightning",
+      "mediaPath": "png/skill-resist-lightning.png",
+      "mediaKind": "raster",
+      "d2Name": "Resist Lightning",
+      "nameKo": "레지스트 라이트닝",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-revive",
+      "skillId": "revive",
+      "mediaPath": "png/skill-revive.png",
+      "mediaKind": "raster",
+      "d2Name": "Revive",
+      "nameKo": "리바이브",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-royal-strike",
+      "skillId": "royal-strike",
+      "mediaPath": "png/skill-royal-strike.png",
+      "mediaKind": "raster",
+      "d2Name": "Royal Strike",
+      "nameKo": "피닉스 스트라이크",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-sacrifice",
+      "skillId": "sacrifice",
+      "mediaPath": "png/skill-sacrifice.png",
+      "mediaKind": "raster",
+      "d2Name": "Sacrifice",
+      "nameKo": "세크리파이스",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-salvation",
+      "skillId": "salvation",
+      "mediaPath": "png/skill-salvation.png",
+      "mediaKind": "raster",
+      "d2Name": "Salvation",
+      "nameKo": "셀베이션",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-sanctuary",
+      "skillId": "sanctuary",
+      "mediaPath": "png/skill-sanctuary.png",
+      "mediaKind": "raster",
+      "d2Name": "Sanctuary",
+      "nameKo": "생츄어리",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-shadow-master",
+      "skillId": "shadow-master",
+      "mediaPath": "png/skill-shadow-master.png",
+      "mediaKind": "raster",
+      "d2Name": "Shadow Master",
+      "nameKo": "쉐도우 마스터",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-shadow-warrior",
+      "skillId": "shadow-warrior",
+      "mediaPath": "png/skill-shadow-warrior.png",
+      "mediaKind": "raster",
+      "d2Name": "Shadow Warrior",
+      "nameKo": "쉐도우 워리어",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-shape-shifting",
+      "skillId": "shape-shifting",
+      "mediaPath": "png/skill-shape-shifting.png",
+      "mediaKind": "raster",
+      "d2Name": "Shape Shifting",
+      "nameKo": "변신술",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-shiver-armor",
+      "skillId": "shiver-armor",
+      "mediaPath": "png/skill-shiver-armor.png",
+      "mediaKind": "raster",
+      "d2Name": "Shiver Armor",
+      "nameKo": "쉬버 아머",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-shock-field",
+      "skillId": "shock-field",
+      "mediaPath": "png/skill-shock-field.png",
+      "mediaKind": "raster",
+      "d2Name": "Shock Field",
+      "nameKo": "쇼크 웹",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-shock-wave",
+      "skillId": "shock-wave",
+      "mediaPath": "png/skill-shock-wave.png",
+      "mediaKind": "raster",
+      "d2Name": "Shock Wave",
+      "nameKo": "쇼크 웨이브",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-skeleton-mastery",
+      "skillId": "skeleton-mastery",
+      "mediaPath": "png/skill-skeleton-mastery.png",
+      "mediaKind": "raster",
+      "d2Name": "Skeleton Mastery",
+      "nameKo": "스켈레톤 마스터리",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-slow-missiles",
+      "skillId": "slow-missiles",
+      "mediaPath": "png/skill-slow-missiles.png",
+      "mediaKind": "raster",
+      "d2Name": "Slow Missiles",
+      "nameKo": "슬로우 미사일",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-smite",
+      "skillId": "smite",
+      "mediaPath": "png/skill-smite.png",
+      "mediaKind": "raster",
+      "d2Name": "Smite",
+      "nameKo": "스마이트",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-spear-mastery",
+      "skillId": "spear-mastery",
+      "mediaPath": "png/skill-spear-mastery.png",
+      "mediaKind": "raster",
+      "d2Name": "Spear Mastery",
+      "nameKo": "스피어 마스터리",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-spirit-of-barbs",
+      "skillId": "spirit-of-barbs",
+      "mediaPath": "png/skill-spirit-of-barbs.png",
+      "mediaKind": "raster",
+      "d2Name": "Spirit of Barbs",
+      "nameKo": "스피리트 오브 바브",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-static-field",
+      "skillId": "static-field",
+      "mediaPath": "png/skill-static-field.png",
+      "mediaKind": "raster",
+      "d2Name": "Static Field",
+      "nameKo": "스태틱 필드",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-strafe",
+      "skillId": "strafe",
+      "mediaPath": "png/skill-strafe.png",
+      "mediaKind": "raster",
+      "d2Name": "Strafe",
+      "nameKo": "스트레이프",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-stun",
+      "skillId": "stun",
+      "mediaPath": "png/skill-stun.png",
+      "mediaKind": "raster",
+      "d2Name": "Stun",
+      "nameKo": "스턴",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-summon-fenris",
+      "skillId": "summon-fenris",
+      "mediaPath": "png/skill-summon-fenris.png",
+      "mediaKind": "raster",
+      "d2Name": "Summon Fenris",
+      "nameKo": "다이어 울프",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-summon-grizzly",
+      "skillId": "summon-grizzly",
+      "mediaPath": "png/skill-summon-grizzly.png",
+      "mediaKind": "raster",
+      "d2Name": "Summon Grizzly",
+      "nameKo": "그리즐리",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-summon-resist",
+      "skillId": "summon-resist",
+      "mediaPath": "png/skill-summon-resist.png",
+      "mediaKind": "raster",
+      "d2Name": "Summon Resist",
+      "nameKo": "써몬 레지스트",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-summon-spirit-wolf",
+      "skillId": "summon-spirit-wolf",
+      "mediaPath": "png/skill-summon-spirit-wolf.png",
+      "mediaKind": "raster",
+      "d2Name": "Summon Spirit Wolf",
+      "nameKo": "스피리트 울프",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-sword-wind",
+      "skillId": "sword-wind",
+      "mediaPath": "png/skill-sword-wind.png",
+      "mediaKind": "raster",
+      "d2Name": "Whirlwind",
+      "nameKo": "훨윈드",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-taunt",
+      "skillId": "taunt",
+      "mediaPath": "png/skill-taunt.png",
+      "mediaKind": "raster",
+      "d2Name": "Taunt",
+      "nameKo": "타운트",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-teeth",
+      "skillId": "teeth",
+      "mediaPath": "png/skill-teeth.png",
+      "mediaKind": "raster",
+      "d2Name": "Teeth",
+      "nameKo": "티스",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-telekinesis",
+      "skillId": "telekinesis",
+      "mediaPath": "png/skill-telekinesis.png",
+      "mediaKind": "raster",
+      "d2Name": "Telekinesis",
+      "nameKo": "텔레키네시스",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-teleport",
+      "skillId": "teleport",
+      "mediaPath": "png/skill-teleport.png",
+      "mediaKind": "raster",
+      "d2Name": "Teleport",
+      "nameKo": "텔레포트",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-terror",
+      "skillId": "terror",
+      "mediaPath": "png/skill-terror.png",
+      "mediaKind": "raster",
+      "d2Name": "Terror",
+      "nameKo": "테러",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-thorns",
+      "skillId": "thorns",
+      "mediaPath": "png/skill-thorns.png",
+      "mediaKind": "raster",
+      "d2Name": "Thorns",
+      "nameKo": "쏜즈",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-throwing-mastery",
+      "skillId": "throwing-mastery",
+      "mediaPath": "png/skill-throwing-mastery.png",
+      "mediaKind": "raster",
+      "d2Name": "Throwing Mastery",
+      "nameKo": "스로잉 마스터리",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-thunder-storm",
+      "skillId": "thunder-storm",
+      "mediaPath": "png/skill-thunder-storm.png",
+      "mediaKind": "raster",
+      "d2Name": "Thunder Storm",
+      "nameKo": "썬더 스톰",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-tiger-strike",
+      "skillId": "tiger-strike",
+      "mediaPath": "png/skill-tiger-strike.png",
+      "mediaKind": "raster",
+      "d2Name": "Tiger Strike",
+      "nameKo": "타이거 스트라이크",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-tornado",
+      "skillId": "tornado",
+      "mediaPath": "png/skill-tornado.png",
+      "mediaKind": "raster",
+      "d2Name": "Tornado",
+      "nameKo": "토네이도",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-twister",
+      "skillId": "twister",
+      "mediaPath": "png/skill-twister.png",
+      "mediaKind": "raster",
+      "d2Name": "Twister",
+      "nameKo": "트위스터",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-valkyrie",
+      "skillId": "valkyrie",
+      "mediaPath": "png/skill-valkyrie.png",
+      "mediaKind": "raster",
+      "d2Name": "Valkyrie",
+      "nameKo": "발키리",
+      "charclass": "ama"
+    },
+    {
+      "id": "skill-vengeance",
+      "skillId": "vengeance",
+      "mediaPath": "png/skill-vengeance.png",
+      "mediaKind": "raster",
+      "d2Name": "Vengeance",
+      "nameKo": "벤젠스",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-venom",
+      "skillId": "venom",
+      "mediaPath": "png/skill-venom.png",
+      "mediaKind": "raster",
+      "d2Name": "Venom",
+      "nameKo": "베넘",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-vigor",
+      "skillId": "vigor",
+      "mediaPath": "png/skill-vigor.png",
+      "mediaKind": "raster",
+      "d2Name": "Vigor",
+      "nameKo": "비거",
+      "charclass": "pal"
+    },
+    {
+      "id": "skill-vines",
+      "skillId": "vines",
+      "mediaPath": "png/skill-vines.png",
+      "mediaKind": "raster",
+      "d2Name": "Vines",
+      "nameKo": "솔라 크리퍼",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-volcano",
+      "skillId": "volcano",
+      "mediaPath": "png/skill-volcano.png",
+      "mediaKind": "raster",
+      "d2Name": "Volcano",
+      "nameKo": "볼케이노",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-wake-of-fire-sentry",
+      "skillId": "wake-of-fire-sentry",
+      "mediaPath": "png/skill-wake-of-fire-sentry.png",
+      "mediaKind": "raster",
+      "d2Name": "Wake of Fire Sentry",
+      "nameKo": "웨이크 오브 파이어",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-war-cry",
+      "skillId": "war-cry",
+      "mediaPath": "png/skill-war-cry.png",
+      "mediaKind": "raster",
+      "d2Name": "War Cry",
+      "nameKo": "워 크라이",
+      "charclass": "bar"
+    },
+    {
+      "id": "skill-warmth",
+      "skillId": "warmth",
+      "mediaPath": "png/skill-warmth.png",
+      "mediaKind": "raster",
+      "d2Name": "Warmth",
+      "nameKo": "웜쓰",
+      "charclass": "sor"
+    },
+    {
+      "id": "skill-weaken",
+      "skillId": "weaken",
+      "mediaPath": "png/skill-weaken.png",
+      "mediaKind": "raster",
+      "d2Name": "Weaken",
+      "nameKo": "위큰",
+      "charclass": "nec"
+    },
+    {
+      "id": "skill-weapon-block",
+      "skillId": "weapon-block",
+      "mediaPath": "png/skill-weapon-block.png",
+      "mediaKind": "raster",
+      "d2Name": "Weapon Block",
+      "nameKo": "웨폰 블록",
+      "charclass": "ass"
+    },
+    {
+      "id": "skill-wearbear",
+      "skillId": "wearbear",
+      "mediaPath": "png/skill-wearbear.png",
+      "mediaKind": "raster",
+      "d2Name": "Wearbear",
+      "nameKo": "워베어",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-wearwolf",
+      "skillId": "wearwolf",
+      "mediaPath": "png/skill-wearwolf.png",
+      "mediaKind": "raster",
+      "d2Name": "Wearwolf",
+      "nameKo": "워울프",
+      "charclass": "dru"
+    },
+    {
+      "id": "skill-zeal",
+      "skillId": "zeal",
+      "mediaPath": "png/skill-zeal.png",
+      "mediaKind": "raster",
+      "d2Name": "Zeal",
+      "nameKo": "질",
+      "charclass": "pal"
     }
   ]
 }
