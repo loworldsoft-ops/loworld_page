@@ -1,0 +1,33 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="comp-grad-1" x1="3" y1="3" x2="10.5" y2="10.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="comp-grad-2" x1="13.5" y1="3" x2="21" y2="10.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="comp-grad-3" x1="3" y1="13.5" x2="10.5" y2="21" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="comp-grad-4" x1="13.5" y1="13.5" x2="21" y2="21" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#4f46e5"/>
+    </linearGradient>
+    <filter id="comp-glow" x="1" y="1" width="22" height="22" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#0f172a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <g filter="url(#comp-glow)">
+    <rect x="3" y="3" width="7.5" height="7.5" rx="2" fill="url(#comp-grad-1)"/>
+    <rect x="13.5" y="3" width="7.5" height="7.5" rx="2" fill="url(#comp-grad-2)"/>
+    <rect x="3" y="13.5" width="7.5" height="7.5" rx="2" fill="url(#comp-grad-3)"/>
+    <rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2" fill="url(#comp-grad-4)"/>
+    <circle cx="6.75" cy="6.75" r="1.25" fill="#ffffff" fill-opacity="0.8"/>
+    <circle cx="17.25" cy="6.75" r="1.25" fill="#ffffff" fill-opacity="0.8"/>
+    <circle cx="6.75" cy="17.25" r="1.25" fill="#ffffff" fill-opacity="0.8"/>
+    <circle cx="17.25" cy="17.25" r="1.25" fill="#ffffff" fill-opacity="0.8"/>
+  </g>
+</svg>
