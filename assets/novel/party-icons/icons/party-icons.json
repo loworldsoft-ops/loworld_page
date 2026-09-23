@@ -10,7 +10,7 @@
     {
       "id": "party-amber_huntress",
       "memberId": "amber_huntress",
-      "mediaPath": "png/party-silvana.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
@@ -28,7 +28,7 @@
     {
       "id": "party-bloom_caller",
       "memberId": "bloom_caller",
-      "mediaPath": "png/party-druid-female.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
@@ -64,13 +64,13 @@
     {
       "id": "party-elder_leaf",
       "memberId": "elder_leaf",
-      "mediaPath": "png/party-fantasy-female-03.png",
+      "mediaPath": "png/party-village_elder.png",
       "mediaKind": "raster"
     },
     {
       "id": "party-elf_scout",
       "memberId": "elf_scout",
-      "mediaPath": "png/party-silvana.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
@@ -100,7 +100,7 @@
     {
       "id": "party-fantasy-party-freya",
       "memberId": "fantasy-party-freya",
-      "mediaPath": "png/party-wanderer.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
@@ -136,7 +136,7 @@
     {
       "id": "party-fern_healer",
       "memberId": "fern_healer",
-      "mediaPath": "png/party-moss_priest.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
@@ -166,7 +166,7 @@
     {
       "id": "party-leaf_dancer",
       "memberId": "leaf_dancer",
-      "mediaPath": "png/party-fantasy-female-03.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
@@ -190,7 +190,7 @@
     {
       "id": "party-moon_archer",
       "memberId": "moon_archer",
-      "mediaPath": "png/party-star_watcher.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
@@ -202,13 +202,13 @@
     {
       "id": "party-oak_sentinel",
       "memberId": "oak_sentinel",
-      "mediaPath": "png/party-druid_guardian.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
       "id": "party-river_shaman",
       "memberId": "river_shaman",
-      "mediaPath": "png/party-druid-female.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
@@ -220,13 +220,13 @@
     {
       "id": "party-root_singer",
       "memberId": "root_singer",
-      "mediaPath": "png/party-silvana.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
       "id": "party-rot_warden",
       "memberId": "rot_warden",
-      "mediaPath": "png/party-druid_guardian.png",
+      "mediaPath": "png/party-guard_cain.png",
       "mediaKind": "raster"
     },
     {
@@ -256,7 +256,7 @@
     {
       "id": "party-spore_sage",
       "memberId": "spore_sage",
-      "mediaPath": "png/party-druid-female.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
@@ -268,13 +268,13 @@
     {
       "id": "party-stone_keeper",
       "memberId": "stone_keeper",
-      "mediaPath": "png/party-druid_guardian.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
       "id": "party-thorn_ranger",
       "memberId": "thorn_ranger",
-      "mediaPath": "png/party-silvana.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
@@ -292,7 +292,7 @@
     {
       "id": "party-vine_binder",
       "memberId": "vine_binder",
-      "mediaPath": "png/party-druid-female.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
@@ -310,37 +310,37 @@
     {
       "id": "party-wind_whisper",
       "memberId": "wind_whisper",
-      "mediaPath": "png/party-star_watcher.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
       "id": "party-wuxia-party-baekyeon",
       "memberId": "wuxia-party-baekyeon",
-      "mediaPath": "png/party-wuxia-female-02.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
       "id": "party-wuxia-party-bing",
       "memberId": "wuxia-party-bing",
-      "mediaPath": "png/party-wuxia-female-01.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
       "id": "party-wuxia-party-dangso",
       "memberId": "wuxia-party-dangso",
-      "mediaPath": "png/party-wuxia-female-03.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
       "id": "party-wuxia-party-geum",
       "memberId": "wuxia-party-geum",
-      "mediaPath": "png/party-wuxia-female-02.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
       "id": "party-wuxia-party-hyewun",
       "memberId": "wuxia-party-hyewun",
-      "mediaPath": "png/party-wuxia-female-01.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
@@ -352,25 +352,25 @@
     {
       "id": "party-wuxia-party-namgung",
       "memberId": "wuxia-party-namgung",
-      "mediaPath": "png/party-wuxia-female-01.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
       "id": "party-wuxia-party-seolyeong",
       "memberId": "wuxia-party-seolyeong",
-      "mediaPath": "png/party-wuxia-female-01.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
       "id": "party-wuxia-party-soun",
       "memberId": "wuxia-party-soun",
-      "mediaPath": "png/party-wuxia-female-01.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     },
     {
       "id": "party-wuxia-party-yayuel",
       "memberId": "wuxia-party-yayuel",
-      "mediaPath": "png/party-wuxia-female-03.png",
+      "mediaPath": "png/party-civilian.png",
       "mediaKind": "raster"
     }
   ]
