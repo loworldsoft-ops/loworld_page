@@ -7,7 +7,7 @@
       "id": "eznote-folder-shared",
       "runtimeId": "folder-shared",
       "family": "folder",
-      "svgPath": "svg/eznote/folder-shared.svg",
+      "svgPath": "svg/eznote/folder-shared.webp",
       "previewLabel": "공유 폴더",
       "tags": [
         "folder",
