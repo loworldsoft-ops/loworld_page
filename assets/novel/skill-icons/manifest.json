@@ -1,0 +1,10 @@
+{
+  "datasetId": "loworld-novel-skill-icons",
+  "version": 1,
+  "title": "Loworld Novel Skill Icon Dataset",
+  "sources": {
+    "icons": [
+      "icons/skill-icons.json"
+    ]
+  }
+}

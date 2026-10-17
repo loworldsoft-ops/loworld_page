@@ -1,0 +1,268 @@
+{
+  "category": "amulet",
+  "targetCount": 20,
+  "style": "engraved-fantasy",
+  "implemented": [
+    {
+      "id": "amulet-pendant-01",
+      "runtimeId": "amulet",
+      "family": "pendant",
+      "previewLabel": "아뮬렛형 01",
+      "tags": [
+        "amulet",
+        "pendant",
+        "jewel"
+      ],
+      "mediaPath": "png/amulet/amulet-pendant-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-pendant-02",
+      "runtimeId": "amulet-pendant-02",
+      "family": "pendant",
+      "previewLabel": "아뮬렛형 02",
+      "tags": [
+        "amulet",
+        "pendant",
+        "leaf"
+      ],
+      "mediaPath": "png/amulet/amulet-pendant-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-pendant-03",
+      "runtimeId": "amulet-pendant-03",
+      "family": "pendant",
+      "previewLabel": "아뮬렛형 03",
+      "tags": [
+        "amulet",
+        "pendant",
+        "sun"
+      ],
+      "mediaPath": "png/amulet/amulet-pendant-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-pendant-04",
+      "runtimeId": "amulet-pendant-04",
+      "family": "pendant",
+      "previewLabel": "아뮬렛형 04",
+      "tags": [
+        "amulet",
+        "pendant",
+        "drop"
+      ],
+      "mediaPath": "png/amulet/amulet-pendant-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-pendant-05",
+      "runtimeId": "amulet-pendant-05",
+      "family": "pendant",
+      "previewLabel": "아뮬렛형 05",
+      "tags": [
+        "amulet",
+        "pendant",
+        "crest"
+      ],
+      "mediaPath": "png/amulet/amulet-pendant-05.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-talisman-01",
+      "runtimeId": "amulet-talisman-01",
+      "family": "talisman",
+      "previewLabel": "부적형 01",
+      "tags": [
+        "amulet",
+        "talisman",
+        "paper"
+      ],
+      "mediaPath": "png/amulet/amulet-talisman-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-talisman-02",
+      "runtimeId": "amulet-talisman-02",
+      "family": "talisman",
+      "previewLabel": "부적형 02",
+      "tags": [
+        "amulet",
+        "talisman",
+        "seal"
+      ],
+      "mediaPath": "png/amulet/amulet-talisman-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-talisman-03",
+      "runtimeId": "amulet-talisman-03",
+      "family": "talisman",
+      "previewLabel": "부적형 03",
+      "tags": [
+        "amulet",
+        "talisman",
+        "rope"
+      ],
+      "mediaPath": "png/amulet/amulet-talisman-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-talisman-04",
+      "runtimeId": "amulet-talisman-04",
+      "family": "talisman",
+      "previewLabel": "부적형 04",
+      "tags": [
+        "amulet",
+        "talisman",
+        "ward"
+      ],
+      "mediaPath": "png/amulet/amulet-talisman-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-medallion-01",
+      "runtimeId": "amulet-medallion-01",
+      "family": "medallion",
+      "previewLabel": "메달형 01",
+      "tags": [
+        "amulet",
+        "medallion",
+        "round"
+      ],
+      "mediaPath": "png/amulet/amulet-medallion-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-medallion-02",
+      "runtimeId": "amulet-medallion-02",
+      "family": "medallion",
+      "previewLabel": "메달형 02",
+      "tags": [
+        "amulet",
+        "medallion",
+        "crest"
+      ],
+      "mediaPath": "png/amulet/amulet-medallion-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-medallion-03",
+      "runtimeId": "amulet-medallion-03",
+      "family": "medallion",
+      "previewLabel": "메달형 03",
+      "tags": [
+        "amulet",
+        "medallion",
+        "royal"
+      ],
+      "mediaPath": "png/amulet/amulet-medallion-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-medallion-04",
+      "runtimeId": "amulet-medallion-04",
+      "family": "medallion",
+      "previewLabel": "메달형 04",
+      "tags": [
+        "amulet",
+        "medallion",
+        "sun"
+      ],
+      "mediaPath": "png/amulet/amulet-medallion-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-rune-01",
+      "runtimeId": "amulet-rune-01",
+      "family": "rune",
+      "previewLabel": "룬아뮬렛형 01",
+      "tags": [
+        "amulet",
+        "rune",
+        "glyph"
+      ],
+      "mediaPath": "png/amulet/amulet-rune-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-rune-02",
+      "runtimeId": "amulet-rune-02",
+      "family": "rune",
+      "previewLabel": "룬아뮬렛형 02",
+      "tags": [
+        "amulet",
+        "rune",
+        "mystic"
+      ],
+      "mediaPath": "png/amulet/amulet-rune-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-rune-03",
+      "runtimeId": "amulet-rune-03",
+      "family": "rune",
+      "previewLabel": "룬아뮬렛형 03",
+      "tags": [
+        "amulet",
+        "rune",
+        "arcane"
+      ],
+      "mediaPath": "png/amulet/amulet-rune-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-royal-01",
+      "runtimeId": "amulet-royal-01",
+      "family": "royal",
+      "previewLabel": "왕실아뮬렛형 01",
+      "tags": [
+        "amulet",
+        "royal",
+        "crown"
+      ],
+      "mediaPath": "png/amulet/amulet-royal-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-royal-02",
+      "runtimeId": "amulet-royal-02",
+      "family": "royal",
+      "previewLabel": "왕실아뮬렛형 02",
+      "tags": [
+        "amulet",
+        "royal",
+        "gem"
+      ],
+      "mediaPath": "png/amulet/amulet-royal-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-relic-01",
+      "runtimeId": "amulet-relic-01",
+      "family": "relic",
+      "previewLabel": "유물아뮬렛형 01",
+      "tags": [
+        "amulet",
+        "relic",
+        "halo"
+      ],
+      "mediaPath": "png/amulet/amulet-relic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "amulet-relic-02",
+      "runtimeId": "amulet-relic-02",
+      "family": "relic",
+      "previewLabel": "유물아뮬렛형 02",
+      "tags": [
+        "amulet",
+        "relic",
+        "radiant"
+      ],
+      "mediaPath": "png/amulet/amulet-relic-02.png",
+      "mediaKind": "raster"
+    }
+  ],
+  "planned": []
+}

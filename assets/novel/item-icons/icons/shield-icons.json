@@ -1,0 +1,268 @@
+{
+  "category": "shield",
+  "targetCount": 20,
+  "style": "engraved-fantasy",
+  "implemented": [
+    {
+      "id": "shield-round-01",
+      "runtimeId": "shield",
+      "family": "round",
+      "previewLabel": "방패형 01",
+      "tags": [
+        "shield",
+        "round",
+        "crest"
+      ],
+      "mediaPath": "png/shield/shield-round-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-round-02",
+      "runtimeId": "shield-round-02",
+      "family": "round",
+      "previewLabel": "방패형 02",
+      "tags": [
+        "shield",
+        "round",
+        "wood"
+      ],
+      "mediaPath": "png/shield/shield-round-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-round-03",
+      "runtimeId": "shield-round-03",
+      "family": "round",
+      "previewLabel": "방패형 03",
+      "tags": [
+        "shield",
+        "round",
+        "steel"
+      ],
+      "mediaPath": "png/shield/shield-round-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-round-04",
+      "runtimeId": "shield-round-04",
+      "family": "round",
+      "previewLabel": "방패형 04",
+      "tags": [
+        "shield",
+        "round",
+        "sun"
+      ],
+      "mediaPath": "png/shield/shield-round-04.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-buckler-01",
+      "runtimeId": "shield-buckler-01",
+      "family": "buckler",
+      "previewLabel": "버클러형 01",
+      "tags": [
+        "shield",
+        "buckler",
+        "duel"
+      ],
+      "mediaPath": "png/shield/shield-buckler-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-buckler-02",
+      "runtimeId": "shield-buckler-02",
+      "family": "buckler",
+      "previewLabel": "버클러형 02",
+      "tags": [
+        "shield",
+        "buckler",
+        "swift"
+      ],
+      "mediaPath": "png/shield/shield-buckler-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-buckler-03",
+      "runtimeId": "shield-buckler-03",
+      "family": "buckler",
+      "previewLabel": "버클러형 03",
+      "tags": [
+        "shield",
+        "buckler",
+        "hook"
+      ],
+      "mediaPath": "png/shield/shield-buckler-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-kite-01",
+      "runtimeId": "shield-kite-01",
+      "family": "kite",
+      "previewLabel": "연미복방패형 01",
+      "tags": [
+        "shield",
+        "kite",
+        "guard"
+      ],
+      "mediaPath": "png/shield/shield-kite-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-kite-02",
+      "runtimeId": "shield-kite-02",
+      "family": "kite",
+      "previewLabel": "연미복방패형 02",
+      "tags": [
+        "shield",
+        "kite",
+        "knight"
+      ],
+      "mediaPath": "png/shield/shield-kite-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-kite-03",
+      "runtimeId": "shield-kite-03",
+      "family": "kite",
+      "previewLabel": "연미복방패형 03",
+      "tags": [
+        "shield",
+        "kite",
+        "lance"
+      ],
+      "mediaPath": "png/shield/shield-kite-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-tower-01",
+      "runtimeId": "shield-tower-01",
+      "family": "tower",
+      "previewLabel": "타워방패형 01",
+      "tags": [
+        "shield",
+        "tower",
+        "bastion"
+      ],
+      "mediaPath": "png/shield/shield-tower-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-tower-02",
+      "runtimeId": "shield-tower-02",
+      "family": "tower",
+      "previewLabel": "타워방패형 02",
+      "tags": [
+        "shield",
+        "tower",
+        "wall"
+      ],
+      "mediaPath": "png/shield/shield-tower-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-tower-03",
+      "runtimeId": "shield-tower-03",
+      "family": "tower",
+      "previewLabel": "타워방패형 03",
+      "tags": [
+        "shield",
+        "tower",
+        "heavy"
+      ],
+      "mediaPath": "png/shield/shield-tower-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-mystic-01",
+      "runtimeId": "shield-mystic-01",
+      "family": "mystic",
+      "previewLabel": "비전방패형 01",
+      "tags": [
+        "shield",
+        "mystic",
+        "glyph"
+      ],
+      "mediaPath": "png/shield/shield-mystic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-mystic-02",
+      "runtimeId": "shield-mystic-02",
+      "family": "mystic",
+      "previewLabel": "비전방패형 02",
+      "tags": [
+        "shield",
+        "mystic",
+        "orb"
+      ],
+      "mediaPath": "png/shield/shield-mystic-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-mystic-03",
+      "runtimeId": "shield-mystic-03",
+      "family": "mystic",
+      "previewLabel": "비전방패형 03",
+      "tags": [
+        "shield",
+        "mystic",
+        "ward"
+      ],
+      "mediaPath": "png/shield/shield-mystic-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-relic-01",
+      "runtimeId": "shield-relic-01",
+      "family": "relic",
+      "previewLabel": "유물방패형 01",
+      "tags": [
+        "shield",
+        "relic",
+        "halo"
+      ],
+      "mediaPath": "png/shield/shield-relic-01.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-relic-02",
+      "runtimeId": "shield-relic-02",
+      "family": "relic",
+      "previewLabel": "유물방패형 02",
+      "tags": [
+        "shield",
+        "relic",
+        "wing"
+      ],
+      "mediaPath": "png/shield/shield-relic-02.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-relic-03",
+      "runtimeId": "shield-relic-03",
+      "family": "relic",
+      "previewLabel": "유물방패형 03",
+      "tags": [
+        "shield",
+        "relic",
+        "altar"
+      ],
+      "mediaPath": "png/shield/shield-relic-03.png",
+      "mediaKind": "raster"
+    },
+    {
+      "id": "shield-relic-04",
+      "runtimeId": "shield-relic-04",
+      "family": "relic",
+      "previewLabel": "유물방패형 04",
+      "tags": [
+        "shield",
+        "relic",
+        "radiant"
+      ],
+      "mediaPath": "png/shield/shield-relic-04.png",
+      "mediaKind": "raster"
+    }
+  ],
+  "planned": []
+}

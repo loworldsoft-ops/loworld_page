@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#faf6ef" stroke="#d4af37" stroke-width="2"/>
+  <text x="32" y="30" text-anchor="middle" font-size="11" font-weight="700" fill="#d4af37" font-family="system-ui">유니크</text>
+  <text x="32" y="46" text-anchor="middle" font-size="8" fill="#58422c" font-family="system-ui">Unique</text>
+</svg>
