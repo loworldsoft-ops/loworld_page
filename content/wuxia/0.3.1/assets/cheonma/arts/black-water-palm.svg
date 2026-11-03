@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><defs>
+<radialGradient id="p" cx=".42" cy=".36" r=".85"><stop offset="0" stop-color="#efe5d0"/><stop offset="1" stop-color="#dccfb4"/></radialGradient>
+<linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a443d" stop-opacity=".1"/><stop offset="1" stop-color="#4a443d" stop-opacity=".62"/></linearGradient>
+<filter id="i" x="-8%" y="-8%" width="116%" height="116%"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="3" seed="7"/><feDisplacementMap in="SourceGraphic" scale="3.2"/></filter>
+</defs><rect width="128" height="128" rx="10.24" fill="url(#p)"/><g filter="url(#i)"><path d="M42 118 L44 62 L38 34 Q40 26 46 34 L54 56 L56 22 Q61 14 65 22 L66 54 L74 26 Q80 20 83 28 L78 60 L92 44 Q98 42 96 50 L78 86 L78 118 Z" fill="#1b1917"/><rect x="98" y="98" width="22" height="22" rx="3" fill="#a4281e"/><text x="109.0" y="114.28" text-anchor="middle" font-size="14.96" font-family="serif" font-weight="700" fill="#efe5d0">水</text></g></svg>

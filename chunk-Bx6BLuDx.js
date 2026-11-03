@@ -1,0 +1,1 @@
+var e={theme:"light",language:"ko",offlineMode:false,uiScale:100,autoSync:true,syncInterval:10,notificationReminder:true,notificationSound:true,notificationVibration:false,windowLaunchMode:"maximized"},t=["#fb3220","#3b82f6","#10b981","#f59e0b","#8b5cf6","#ec4899"];export{e,t};

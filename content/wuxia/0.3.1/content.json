@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "id": "wuxia",
+  "version": "0.3.1",
+  "title": "무협",
+  "packs": [
+    "cheonma-1",
+    "math-1",
+    "romance-1"
+  ],
+  "codex": {
+    "schema": "legacy-novel-1",
+    "files": [
+      "equipment-categories.json",
+      "item-registry.json",
+      "item-base-stats.json",
+      "item-names.json",
+      "item-icon-names.json",
+      "item-registry-sample.json",
+      "personality.json",
+      "monsters.json",
+      "characters.json",
+      "runes-gems.json",
+      "rune-names-ko.json",
+      "cube-recipes.json",
+      "card-themes.json",
+      "bundles/rpg.json",
+      "bundles/chronicle.json",
+      "icons/item.json",
+      "icons/monster.json",
+      "icons/party.json",
+      "icons/skill.json",
+      "naming.csv"
+    ]
+  },
+  "assets": {
+    "placeholder": "_placeholder.svg",
+    "portraits": "wuxia-heroes"
+  }
+}

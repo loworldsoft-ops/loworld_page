@@ -1,0 +1,825 @@
+{
+  "RPG_RUNES": [
+    {
+      "id": "d2_rune_r01",
+      "name": "엘 룬 (El)",
+      "code": "r01",
+      "kind": "rune",
+      "iconEntryId": "r01",
+      "stats": [
+        {
+          "label": "R01",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r02",
+      "name": "엘드 룬 (Eld)",
+      "code": "r02",
+      "kind": "rune",
+      "iconEntryId": "r02",
+      "stats": [
+        {
+          "label": "R02",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r03",
+      "name": "티르 룬 (Tir)",
+      "code": "r03",
+      "kind": "rune",
+      "iconEntryId": "r03",
+      "stats": [
+        {
+          "label": "R03",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r04",
+      "name": "네프 룬 (Nef)",
+      "code": "r04",
+      "kind": "rune",
+      "iconEntryId": "r04",
+      "stats": [
+        {
+          "label": "R04",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r05",
+      "name": "에드 룬 (Eth)",
+      "code": "r05",
+      "kind": "rune",
+      "iconEntryId": "r05",
+      "stats": [
+        {
+          "label": "R05",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r06",
+      "name": "아이드 룬 (Ith)",
+      "code": "r06",
+      "kind": "rune",
+      "iconEntryId": "r06",
+      "stats": [
+        {
+          "label": "R06",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r07",
+      "name": "탈 룬 (Tal)",
+      "code": "r07",
+      "kind": "rune",
+      "iconEntryId": "r07",
+      "stats": [
+        {
+          "label": "R07",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r08",
+      "name": "랄 룬 (Ral)",
+      "code": "r08",
+      "kind": "rune",
+      "iconEntryId": "r08",
+      "stats": [
+        {
+          "label": "R08",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r09",
+      "name": "오르트 룬 (Ort)",
+      "code": "r09",
+      "kind": "rune",
+      "iconEntryId": "r09",
+      "stats": [
+        {
+          "label": "R09",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r10",
+      "name": "주울 룬 (Thul)",
+      "code": "r10",
+      "kind": "rune",
+      "iconEntryId": "r10",
+      "stats": [
+        {
+          "label": "R10",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r11",
+      "name": "앰 룬 (Amn)",
+      "code": "r11",
+      "kind": "rune",
+      "iconEntryId": "r11",
+      "stats": [
+        {
+          "label": "R11",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r12",
+      "name": "솔 룬 (Sol)",
+      "code": "r12",
+      "kind": "rune",
+      "iconEntryId": "r12",
+      "stats": [
+        {
+          "label": "R12",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r13",
+      "name": "샤에 룬 (Shael)",
+      "code": "r13",
+      "kind": "rune",
+      "iconEntryId": "r13",
+      "stats": [
+        {
+          "label": "R13",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r14",
+      "name": "돌 룬 (Dol)",
+      "code": "r14",
+      "kind": "rune",
+      "iconEntryId": "r14",
+      "stats": [
+        {
+          "label": "R14",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r15",
+      "name": "헬 룬 (Hel)",
+      "code": "r15",
+      "kind": "rune",
+      "iconEntryId": "r15",
+      "stats": [
+        {
+          "label": "R15",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r16",
+      "name": "포 룬 (Io)",
+      "code": "r16",
+      "kind": "rune",
+      "iconEntryId": "r16",
+      "stats": [
+        {
+          "label": "R16",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r17",
+      "name": "룸 룬 (Lum)",
+      "code": "r17",
+      "kind": "rune",
+      "iconEntryId": "r17",
+      "stats": [
+        {
+          "label": "R17",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r18",
+      "name": "코 룬 (Ko)",
+      "code": "r18",
+      "kind": "rune",
+      "iconEntryId": "r18",
+      "stats": [
+        {
+          "label": "R18",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r19",
+      "name": "팔 룬 (Fal)",
+      "code": "r19",
+      "kind": "rune",
+      "iconEntryId": "r19",
+      "stats": [
+        {
+          "label": "R19",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r20",
+      "name": "렘 룬 (Lem)",
+      "code": "r20",
+      "kind": "rune",
+      "iconEntryId": "r20",
+      "stats": [
+        {
+          "label": "R20",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r21",
+      "name": "풀 룬 (Pul)",
+      "code": "r21",
+      "kind": "rune",
+      "iconEntryId": "r21",
+      "stats": [
+        {
+          "label": "R21",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r22",
+      "name": "우움 룬 (Um)",
+      "code": "r22",
+      "kind": "rune",
+      "iconEntryId": "r22",
+      "stats": [
+        {
+          "label": "R22",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r23",
+      "name": "말 룬 (Mal)",
+      "code": "r23",
+      "kind": "rune",
+      "iconEntryId": "r23",
+      "stats": [
+        {
+          "label": "R23",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r24",
+      "name": "아이스트 룬 (Ist)",
+      "code": "r24",
+      "kind": "rune",
+      "iconEntryId": "r24",
+      "stats": [
+        {
+          "label": "R24",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r25",
+      "name": "굴 룬 (Gul)",
+      "code": "r25",
+      "kind": "rune",
+      "iconEntryId": "r25",
+      "stats": [
+        {
+          "label": "R25",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r26",
+      "name": "벡스 룬 (Vex)",
+      "code": "r26",
+      "kind": "rune",
+      "iconEntryId": "r26",
+      "stats": [
+        {
+          "label": "R26",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r27",
+      "name": "오움 룬 (Ohm)",
+      "code": "r27",
+      "kind": "rune",
+      "iconEntryId": "r27",
+      "stats": [
+        {
+          "label": "R27",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r28",
+      "name": "로 룬 (Lo)",
+      "code": "r28",
+      "kind": "rune",
+      "iconEntryId": "r28",
+      "stats": [
+        {
+          "label": "R28",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r29",
+      "name": "수르 룬 (Sur)",
+      "code": "r29",
+      "kind": "rune",
+      "iconEntryId": "r29",
+      "stats": [
+        {
+          "label": "R29",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r30",
+      "name": "베르 룬 (Ber)",
+      "code": "r30",
+      "kind": "rune",
+      "iconEntryId": "r30",
+      "stats": [
+        {
+          "label": "R30",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r31",
+      "name": "조 룬 (Jah)",
+      "code": "r31",
+      "kind": "rune",
+      "iconEntryId": "r31",
+      "stats": [
+        {
+          "label": "R31",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r32",
+      "name": "차암 룬 (Cham)",
+      "code": "r32",
+      "kind": "rune",
+      "iconEntryId": "r32",
+      "stats": [
+        {
+          "label": "R32",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_rune_r33",
+      "name": "조드 룬 (Zod)",
+      "code": "r33",
+      "kind": "rune",
+      "iconEntryId": "r33",
+      "stats": [
+        {
+          "label": "R33",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "RPG_GEMS": [
+    {
+      "id": "d2_gem_gcv",
+      "name": "최하급 자수정 (Chipped Amethyst)",
+      "code": "gcv",
+      "kind": "gem",
+      "iconEntryId": "gcv",
+      "stats": [
+        {
+          "label": "Chipped Amethyst",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gfv",
+      "name": "하급 자수정 (Flawed Amethyst)",
+      "code": "gfv",
+      "kind": "gem",
+      "iconEntryId": "gfv",
+      "stats": [
+        {
+          "label": "Flawed Amethyst",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gpv",
+      "name": "최상급 자수정 (Perfect Amethyst)",
+      "code": "gpv",
+      "kind": "gem",
+      "iconEntryId": "gpv",
+      "stats": [
+        {
+          "label": "Perfect Amethyst",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gsv",
+      "name": "자수정 (Amethyst)",
+      "code": "gsv",
+      "kind": "gem",
+      "iconEntryId": "gsv",
+      "stats": [
+        {
+          "label": "Amethyst",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gzv",
+      "name": "상급 자수정 (Flawless Amethyst)",
+      "code": "gzv",
+      "kind": "gem",
+      "iconEntryId": "gzv",
+      "stats": [
+        {
+          "label": "Flawless Amethyst",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gcw",
+      "name": "최하급 다이아몬드 (Chipped Diamond)",
+      "code": "gcw",
+      "kind": "gem",
+      "iconEntryId": "gcw",
+      "stats": [
+        {
+          "label": "Chipped Diamond",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gfw",
+      "name": "하급 다이아몬드 (Flawed Diamond)",
+      "code": "gfw",
+      "kind": "gem",
+      "iconEntryId": "gfw",
+      "stats": [
+        {
+          "label": "Flawed Diamond",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_glw",
+      "name": "상급 다이아몬드 (Flawless Diamond)",
+      "code": "glw",
+      "kind": "gem",
+      "iconEntryId": "glw",
+      "stats": [
+        {
+          "label": "Flawless Diamond",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gpw",
+      "name": "최상급 다이아몬드 (Perfect Diamond)",
+      "code": "gpw",
+      "kind": "gem",
+      "iconEntryId": "gpw",
+      "stats": [
+        {
+          "label": "Perfect Diamond",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gsw",
+      "name": "다이아몬드 (Diamond)",
+      "code": "gsw",
+      "kind": "gem",
+      "iconEntryId": "gsw",
+      "stats": [
+        {
+          "label": "Diamond",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gcg",
+      "name": "최하급 에머랄드 (Chipped Emerald)",
+      "code": "gcg",
+      "kind": "gem",
+      "iconEntryId": "gcg",
+      "stats": [
+        {
+          "label": "Chipped Emerald",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gfg",
+      "name": "하급 에머랄드 (Flawed Emerald)",
+      "code": "gfg",
+      "kind": "gem",
+      "iconEntryId": "gfg",
+      "stats": [
+        {
+          "label": "Flawed Emerald",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_glg",
+      "name": "상급 에머랄드 (Flawless Emerald)",
+      "code": "glg",
+      "kind": "gem",
+      "iconEntryId": "glg",
+      "stats": [
+        {
+          "label": "Flawless Emerald",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gpg",
+      "name": "최상급 에머랄드 (Perfect Emerald)",
+      "code": "gpg",
+      "kind": "gem",
+      "iconEntryId": "gpg",
+      "stats": [
+        {
+          "label": "Perfect Emerald",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gsg",
+      "name": "에머랄드 (Emerald)",
+      "code": "gsg",
+      "kind": "gem",
+      "iconEntryId": "gsg",
+      "stats": [
+        {
+          "label": "Emerald",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gcr",
+      "name": "최하급 루비 (Chipped Ruby)",
+      "code": "gcr",
+      "kind": "gem",
+      "iconEntryId": "gcr",
+      "stats": [
+        {
+          "label": "Chipped Ruby",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gfr",
+      "name": "하급 루비 (Flawed Ruby)",
+      "code": "gfr",
+      "kind": "gem",
+      "iconEntryId": "gfr",
+      "stats": [
+        {
+          "label": "Flawed Ruby",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_glr",
+      "name": "상급 루비 (Flawless Ruby)",
+      "code": "glr",
+      "kind": "gem",
+      "iconEntryId": "glr",
+      "stats": [
+        {
+          "label": "Flawless Ruby",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gpr",
+      "name": "최상급 루비 (Perfect Ruby)",
+      "code": "gpr",
+      "kind": "gem",
+      "iconEntryId": "gpr",
+      "stats": [
+        {
+          "label": "Perfect Ruby",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gsr",
+      "name": "루비 (Ruby)",
+      "code": "gsr",
+      "kind": "gem",
+      "iconEntryId": "gsr",
+      "stats": [
+        {
+          "label": "Ruby",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gcb",
+      "name": "최하급 사파이어 (Chipped Sapphire)",
+      "code": "gcb",
+      "kind": "gem",
+      "iconEntryId": "gcb",
+      "stats": [
+        {
+          "label": "Chipped Sapphire",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gfb",
+      "name": "하급 사파이어 (Flawed Sapphire)",
+      "code": "gfb",
+      "kind": "gem",
+      "iconEntryId": "gfb",
+      "stats": [
+        {
+          "label": "Flawed Sapphire",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_glb",
+      "name": "상급 사파이어 (Flawless Sapphire)",
+      "code": "glb",
+      "kind": "gem",
+      "iconEntryId": "glb",
+      "stats": [
+        {
+          "label": "Flawless Sapphire",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gpb",
+      "name": "최상급 사파이어 (Perfect Sapphire)",
+      "code": "gpb",
+      "kind": "gem",
+      "iconEntryId": "gpb",
+      "stats": [
+        {
+          "label": "Perfect Sapphire",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gsb",
+      "name": "사파이어 (Sapphire)",
+      "code": "gsb",
+      "kind": "gem",
+      "iconEntryId": "gsb",
+      "stats": [
+        {
+          "label": "Sapphire",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gcy",
+      "name": "최하급 토파즈 (Chipped Topaz)",
+      "code": "gcy",
+      "kind": "gem",
+      "iconEntryId": "gcy",
+      "stats": [
+        {
+          "label": "Chipped Topaz",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gfy",
+      "name": "하급 토파즈 (Flawed Topaz)",
+      "code": "gfy",
+      "kind": "gem",
+      "iconEntryId": "gfy",
+      "stats": [
+        {
+          "label": "Flawed Topaz",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gly",
+      "name": "상급 토파즈 (Flawless Topaz)",
+      "code": "gly",
+      "kind": "gem",
+      "iconEntryId": "gly",
+      "stats": [
+        {
+          "label": "Flawless Topaz",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gpy",
+      "name": "최상급 토파즈 (Perfect Topaz)",
+      "code": "gpy",
+      "kind": "gem",
+      "iconEntryId": "gpy",
+      "stats": [
+        {
+          "label": "Perfect Topaz",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "id": "d2_gem_gsy",
+      "name": "토파즈 (Topaz)",
+      "code": "gsy",
+      "kind": "gem",
+      "iconEntryId": "gsy",
+      "stats": [
+        {
+          "label": "Topaz",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

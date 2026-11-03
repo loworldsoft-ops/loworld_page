@@ -1,0 +1,1 @@
+function r(e,n=()=>{},i=0){let o=setTimeout(()=>{n();},i),t=e&&typeof e.onDestroy=="function"?e.onDestroy(()=>{clearTimeout(o);}):void 0;return ()=>{clearTimeout(o),typeof t=="function"&&t();}}export{r};

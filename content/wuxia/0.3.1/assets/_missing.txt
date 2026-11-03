@@ -1,0 +1,25 @@
+# 도감이 가리키지만 아직 그리지 않은 그림. 앱은 _placeholder.svg로 대신 보여 준다.
+novel/item-icons/png/weapon/weapon-staff-01.png
+novel/item-icons/webp/armor/armor.webp
+novel/party-icons/png/party-monster-fallen.png
+novel/party-icons/png/party-monster-fantasy-monster-arachne.png
+novel/party-icons/png/party-monster-fantasy-monster-icequeen.png
+novel/party-icons/png/party-monster-fantasy-monster-succubus.png
+novel/party-icons/png/party-monster-skeleton_warrior.png
+novel/party-icons/png/party-monster-wuxia-monster-cheolrang.png
+novel/party-icons/png/party-monster-wuxia-monster-cheonma.png
+novel/party-icons/png/party-monster-zombie.png
+novel/party-icons/png/party-party-akara.png
+novel/party-icons/png/party-party-blacksmith_hwang.png
+novel/party-icons/png/party-party-druid-female.png
+novel/party-icons/png/party-party-druid_guardian.png
+novel/party-icons/png/party-party-fantasy-female-03.png
+novel/party-icons/png/party-party-guard_cain.png
+novel/party-icons/png/party-party-inn_bard.png
+novel/party-icons/png/party-party-moss_priest.png
+novel/party-icons/png/party-party-shop_keeper_lin.png
+novel/party-icons/png/party-party-silvana.png
+novel/party-icons/png/party-party-star_watcher.png
+novel/party-icons/png/party-party-village_elder.png
+novel/party-icons/png/party-party-wanderer.png
+novel/personality/seal_destiny.png

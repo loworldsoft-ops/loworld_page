@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "weapon",
+    "label": "무기",
+    "targetCount": 20,
+    "implementedCount": 20,
+    "plannedCount": 0,
+    "entries": [
+      {
+        "id": "weapon-sword-01",
+        "label": "숏소드 (Short Sword)",
+        "runtimeId": "sword",
+        "family": "sword",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-sword-01.png",
+        "tags": [
+          "blade",
+          "long",
+          "knight"
+        ]
+      },
+      {
+        "id": "weapon-sword-02",
+        "label": "브로드소드 (Broad Sword)",
+        "runtimeId": "sword-02",
+        "family": "sword",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-sword-02.png",
+        "tags": [
+          "blade",
+          "long",
+          "field"
+        ]
+      },
+      {
+        "id": "weapon-sword-03",
+        "label": "롱소드 (Long Sword)",
+        "runtimeId": "sword-03",
+        "family": "sword",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-sword-03.png",
+        "tags": [
+          "blade",
+          "noble",
+          "steel"
+        ]
+      },
+      {
+        "id": "weapon-sword-04",
+        "label": "워소드 (War Sword)",
+        "runtimeId": "sword-04",
+        "family": "sword",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-sword-04.png",
+        "tags": [
+          "blade",
+          "guard",
+          "war"
+        ]
+      },
+      {
+        "id": "weapon-sword-05",
+        "label": "배스터드소드 (Bastard Sword)",
+        "runtimeId": "sword-05",
+        "family": "sword",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-sword-05.png",
+        "tags": [
+          "blade",
+          "ceremony",
+          "crest"
+        ]
+      },
+      {
+        "id": "weapon-dagger-01",
+        "label": "단검 (Dagger)",
+        "runtimeId": "dagger",
+        "family": "dagger",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-dagger-01.png",
+        "tags": [
+          "blade",
+          "short",
+          "rogue"
+        ]
+      },
+      {
+        "id": "weapon-dagger-02",
+        "label": "더크 (Dirk)",
+        "runtimeId": "dagger-02",
+        "family": "dagger",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-dagger-02.png",
+        "tags": [
+          "blade",
+          "short",
+          "hook"
+        ]
+      },
+      {
+        "id": "weapon-dagger-03",
+        "label": "크리스 (Kris)",
+        "runtimeId": "dagger-03",
+        "family": "dagger",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-dagger-03.png",
+        "tags": [
+          "blade",
+          "ritual",
+          "fang"
+        ]
+      },
+      {
+        "id": "weapon-bow-01",
+        "label": "숏 보우 (Short Bow)",
+        "runtimeId": "bow",
+        "family": "bow",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-bow-01.png",
+        "tags": [
+          "ranged",
+          "bow",
+          "hunter"
+        ]
+      },
+      {
+        "id": "weapon-bow-02",
+        "label": "헌터즈 보우 (Hunter's Bow)",
+        "runtimeId": "bow-02",
+        "family": "bow",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-bow-02.png",
+        "tags": [
+          "ranged",
+          "bow",
+          "wood"
+        ]
+      },
+      {
+        "id": "weapon-bow-03",
+        "label": "롱 보우 (Long Bow)",
+        "runtimeId": "bow-03",
+        "family": "bow",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-bow-03.png",
+        "tags": [
+          "ranged",
+          "bow",
+          "royal"
+        ]
+      },
+      {
+        "id": "weapon-crossbow-01",
+        "label": "라이트 석궁 (Light Crossbow)",
+        "runtimeId": "crossbow-01",
+        "family": "crossbow",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-crossbow-01.png",
+        "tags": [
+          "ranged",
+          "crossbow",
+          "bolt"
+        ]
+      },
+      {
+        "id": "weapon-crossbow-02",
+        "label": "석궁 (Crossbow)",
+        "runtimeId": "crossbow-02",
+        "family": "crossbow",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-crossbow-02.png",
+        "tags": [
+          "ranged",
+          "crossbow",
+          "siege"
+        ]
+      },
+      {
+        "id": "weapon-polearm-01",
+        "label": "창 (Spear)",
+        "runtimeId": "polearm-01",
+        "family": "polearm",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-polearm-01.png",
+        "tags": [
+          "polearm",
+          "reach",
+          "guard"
+        ]
+      },
+      {
+        "id": "weapon-polearm-02",
+        "label": "폴액스 (Poleaxe)",
+        "runtimeId": "polearm-02",
+        "family": "polearm",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-polearm-02.png",
+        "tags": [
+          "polearm",
+          "banner",
+          "charge"
+        ]
+      },
+      {
+        "id": "weapon-mace-01",
+        "label": "클럽 (Club)",
+        "runtimeId": "mace-01",
+        "family": "mace",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-mace-01.png",
+        "tags": [
+          "mace",
+          "impact",
+          "iron"
+        ]
+      },
+      {
+        "id": "weapon-mace-02",
+        "label": "메이스 (Mace)",
+        "runtimeId": "mace-02",
+        "family": "mace",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-mace-02.png",
+        "tags": [
+          "mace",
+          "spike",
+          "crusher"
+        ]
+      },
+      {
+        "id": "weapon-crystal-01",
+        "label": "크리스탈소드 (Crystal Sword)",
+        "runtimeId": "crystal-sword",
+        "family": "crystal",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-crystal-01.png",
+        "tags": [
+          "blade",
+          "crystal",
+          "mystic"
+        ]
+      },
+      {
+        "id": "weapon-crystal-02",
+        "label": "디멘셔널블레이드 (Dimensional Blade)",
+        "runtimeId": "crystal-sword-02",
+        "family": "crystal",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-crystal-02.png",
+        "tags": [
+          "blade",
+          "crystal",
+          "aura"
+        ]
+      },
+      {
+        "id": "weapon-relic-01",
+        "label": "패이즈 블레이드 (Phase Blade)",
+        "runtimeId": "relic-weapon-01",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/weapon/weapon-relic-01.png",
+        "tags": [
+          "relic",
+          "halo",
+          "ancient"
+        ]
+      }
+    ],
+    "planned": []
+  },
+  {
+    "id": "armor",
+    "label": "갑옷",
+    "targetCount": 20,
+    "implementedCount": 20,
+    "plannedCount": 0,
+    "entries": [
+      {
+        "id": "armor-leather-01",
+        "label": "퀼티드아머 (Quilted Armor)",
+        "runtimeId": "armor",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-leather-01.png",
+        "tags": [
+          "armor",
+          "leather",
+          "chest"
+        ]
+      },
+      {
+        "id": "armor-cloth-01",
+        "label": "레더아머 (Leather Armor)",
+        "runtimeId": "armor-cloth-01",
+        "family": "cloth",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-cloth-01.png",
+        "tags": [
+          "armor",
+          "cloth",
+          "robe"
+        ]
+      },
+      {
+        "id": "armor-cloth-02",
+        "label": "하드레더아머 (Hard Leather Armor)",
+        "runtimeId": "armor-cloth-02",
+        "family": "cloth",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-cloth-02.png",
+        "tags": [
+          "armor",
+          "cloth",
+          "trim"
+        ]
+      },
+      {
+        "id": "armor-cloth-03",
+        "label": "스터디드레더 (Studded Leather)",
+        "runtimeId": "armor-cloth-03",
+        "family": "cloth",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-cloth-03.png",
+        "tags": [
+          "armor",
+          "cloth",
+          "sage"
+        ]
+      },
+      {
+        "id": "armor-cloth-04",
+        "label": "링메일 (Ring Mail)",
+        "runtimeId": "armor-cloth-04",
+        "family": "cloth",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-cloth-04.png",
+        "tags": [
+          "armor",
+          "cloth",
+          "ritual"
+        ]
+      },
+      {
+        "id": "armor-leather-02",
+        "label": "체인메일 (Chain Mail)",
+        "runtimeId": "armor-leather-02",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-leather-02.png",
+        "tags": [
+          "armor",
+          "leather",
+          "scout"
+        ]
+      },
+      {
+        "id": "armor-leather-03",
+        "label": "스플린트메일 (Splint Mail)",
+        "runtimeId": "armor-leather-03",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-leather-03.png",
+        "tags": [
+          "armor",
+          "leather",
+          "buckled"
+        ]
+      },
+      {
+        "id": "armor-leather-04",
+        "label": "플레이트메일 (Plate Mail)",
+        "runtimeId": "armor-leather-04",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-leather-04.png",
+        "tags": [
+          "armor",
+          "leather",
+          "raider"
+        ]
+      },
+      {
+        "id": "armor-leather-05",
+        "label": "필드플레이트 (Field Plate)",
+        "runtimeId": "armor-leather-05",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-leather-05.png",
+        "tags": [
+          "armor",
+          "leather",
+          "hunter"
+        ]
+      },
+      {
+        "id": "armor-plate-01",
+        "label": "고딕플레이트 (Gothic Plate)",
+        "runtimeId": "armor-plate-01",
+        "family": "plate",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-plate-01.png",
+        "tags": [
+          "armor",
+          "plate",
+          "knight"
+        ]
+      },
+      {
+        "id": "armor-plate-02",
+        "label": "풀플레이트메일 (Full Plate Mail)",
+        "runtimeId": "armor-plate-02",
+        "family": "plate",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-plate-02.png",
+        "tags": [
+          "armor",
+          "plate",
+          "guard"
+        ]
+      },
+      {
+        "id": "armor-plate-03",
+        "label": "에인션트아머 (Ancient Armor)",
+        "runtimeId": "armor-plate-03",
+        "family": "plate",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-plate-03.png",
+        "tags": [
+          "armor",
+          "plate",
+          "crest"
+        ]
+      },
+      {
+        "id": "armor-plate-04",
+        "label": "오너먼트플레이트 (Ornate Plate)",
+        "runtimeId": "armor-plate-04",
+        "family": "plate",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-plate-04.png",
+        "tags": [
+          "armor",
+          "plate",
+          "royal"
+        ]
+      },
+      {
+        "id": "armor-heavy-01",
+        "label": "메이지플레이트 (Mage Plate)",
+        "runtimeId": "armor-heavy-01",
+        "family": "heavy",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-heavy-01.png",
+        "tags": [
+          "armor",
+          "heavy",
+          "bastion"
+        ]
+      },
+      {
+        "id": "armor-heavy-02",
+        "label": "샤크스킨아머 (Sharkskin Armor)",
+        "runtimeId": "armor-heavy-02",
+        "family": "heavy",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-heavy-02.png",
+        "tags": [
+          "armor",
+          "heavy",
+          "spine"
+        ]
+      },
+      {
+        "id": "armor-heavy-03",
+        "label": "브레스트플레이트 (Breast Plate)",
+        "runtimeId": "armor-heavy-03",
+        "family": "heavy",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-heavy-03.png",
+        "tags": [
+          "armor",
+          "heavy",
+          "fortress"
+        ]
+      },
+      {
+        "id": "armor-mystic-01",
+        "label": "세레모니얼플레이트 (Ceremonial Plate)",
+        "runtimeId": "armor-mystic-01",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-mystic-01.png",
+        "tags": [
+          "armor",
+          "mystic",
+          "glyph"
+        ]
+      },
+      {
+        "id": "armor-mystic-02",
+        "label": "티귤레이티드메일 (Tigulated Mail)",
+        "runtimeId": "armor-mystic-02",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-mystic-02.png",
+        "tags": [
+          "armor",
+          "mystic",
+          "rune"
+        ]
+      },
+      {
+        "id": "armor-relic-01",
+        "label": "본위브 (Boneweave)",
+        "runtimeId": "armor-relic-01",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-relic-01.png",
+        "tags": [
+          "armor",
+          "relic",
+          "sun"
+        ]
+      },
+      {
+        "id": "armor-relic-02",
+        "label": "아콘플레이트 (Archon Plate)",
+        "runtimeId": "armor-relic-02",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/armor/armor-relic-02.png",
+        "tags": [
+          "armor",
+          "relic",
+          "halo"
+        ]
+      }
+    ],
+    "planned": []
+  },
+  {
+    "id": "helmet",
+    "label": "투구",
+    "targetCount": 20,
+    "implementedCount": 20,
+    "plannedCount": 0,
+    "entries": [
+      {
+        "id": "helmet-iron-01",
+        "label": "캡 (Cap)",
+        "runtimeId": "helmet",
+        "family": "iron",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-iron-01.png",
+        "tags": [
+          "helmet",
+          "iron",
+          "visor"
+        ]
+      },
+      {
+        "id": "helmet-iron-02",
+        "label": "스컬캡 (Skull Cap)",
+        "runtimeId": "helmet-iron-02",
+        "family": "iron",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-iron-02.png",
+        "tags": [
+          "helmet",
+          "iron",
+          "crest"
+        ]
+      },
+      {
+        "id": "helmet-iron-03",
+        "label": "헬름 (Helm)",
+        "runtimeId": "helmet-iron-03",
+        "family": "iron",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-iron-03.png",
+        "tags": [
+          "helmet",
+          "iron",
+          "ridge"
+        ]
+      },
+      {
+        "id": "helmet-iron-04",
+        "label": "풀헬름 (Full Helm)",
+        "runtimeId": "helmet-iron-04",
+        "family": "iron",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-iron-04.png",
+        "tags": [
+          "helmet",
+          "iron",
+          "guard"
+        ]
+      },
+      {
+        "id": "helmet-hood-01",
+        "label": "그레이트헬름 (Great Helm)",
+        "runtimeId": "helmet-hood-01",
+        "family": "hood",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-hood-01.png",
+        "tags": [
+          "helmet",
+          "hood",
+          "cloth"
+        ]
+      },
+      {
+        "id": "helmet-hood-02",
+        "label": "크라운 (Crown)",
+        "runtimeId": "helmet-hood-02",
+        "family": "hood",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-hood-02.png",
+        "tags": [
+          "helmet",
+          "hood",
+          "shadow"
+        ]
+      },
+      {
+        "id": "helmet-hood-03",
+        "label": "마스크 (Mask)",
+        "runtimeId": "helmet-hood-03",
+        "family": "hood",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-hood-03.png",
+        "tags": [
+          "helmet",
+          "hood",
+          "wanderer"
+        ]
+      },
+      {
+        "id": "helmet-hood-04",
+        "label": "본헬름 (Bone Helm)",
+        "runtimeId": "helmet-hood-04",
+        "family": "hood",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-hood-04.png",
+        "tags": [
+          "helmet",
+          "hood",
+          "seer"
+        ]
+      },
+      {
+        "id": "helmet-crown-01",
+        "label": "워햇 (War Hat)",
+        "runtimeId": "helmet-crown-01",
+        "family": "crown",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-crown-01.png",
+        "tags": [
+          "helmet",
+          "crown",
+          "royal"
+        ]
+      },
+      {
+        "id": "helmet-crown-02",
+        "label": "샤코 (Shako)",
+        "runtimeId": "helmet-crown-02",
+        "family": "crown",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-crown-02.png",
+        "tags": [
+          "helmet",
+          "crown",
+          "gem"
+        ]
+      },
+      {
+        "id": "helmet-crown-03",
+        "label": "어썰트 헬멧 (Assault Helmet)",
+        "runtimeId": "helmet-crown-03",
+        "family": "crown",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-crown-03.png",
+        "tags": [
+          "helmet",
+          "crown",
+          "sun"
+        ]
+      },
+      {
+        "id": "helmet-horn-01",
+        "label": "어벤져 가드 (Avenger Guard)",
+        "runtimeId": "helmet-horn-01",
+        "family": "horn",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-horn-01.png",
+        "tags": [
+          "helmet",
+          "horn",
+          "war"
+        ]
+      },
+      {
+        "id": "helmet-horn-02",
+        "label": "데빌 스타 (Devil Star)",
+        "runtimeId": "helmet-horn-02",
+        "family": "horn",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-horn-02.png",
+        "tags": [
+          "helmet",
+          "horn",
+          "beast"
+        ]
+      },
+      {
+        "id": "helmet-horn-03",
+        "label": "자이언트 칸크 (Giant Conch)",
+        "runtimeId": "helmet-horn-03",
+        "family": "horn",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-horn-03.png",
+        "tags": [
+          "helmet",
+          "horn",
+          "raider"
+        ]
+      },
+      {
+        "id": "helmet-mystic-01",
+        "label": "스파이어드 헬름 (Spired Helm)",
+        "runtimeId": "helmet-mystic-01",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-mystic-01.png",
+        "tags": [
+          "helmet",
+          "mystic",
+          "glyph"
+        ]
+      },
+      {
+        "id": "helmet-mystic-02",
+        "label": "혼드 헬름 (Horned Helm)",
+        "runtimeId": "helmet-mystic-02",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-mystic-02.png",
+        "tags": [
+          "helmet",
+          "mystic",
+          "star"
+        ]
+      },
+      {
+        "id": "helmet-mystic-03",
+        "label": "본 비지즈 (Bone Visage)",
+        "runtimeId": "helmet-mystic-03",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-mystic-03.png",
+        "tags": [
+          "helmet",
+          "mystic",
+          "veil"
+        ]
+      },
+      {
+        "id": "helmet-relic-01",
+        "label": "윙드 헬름 (Winged Helm)",
+        "runtimeId": "helmet-relic-01",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-relic-01.png",
+        "tags": [
+          "helmet",
+          "relic",
+          "halo"
+        ]
+      },
+      {
+        "id": "helmet-relic-02",
+        "label": "스틸 셰이드 (Steel Shade)",
+        "runtimeId": "helmet-relic-02",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-relic-02.png",
+        "tags": [
+          "helmet",
+          "relic",
+          "crown"
+        ]
+      },
+      {
+        "id": "helmet-relic-03",
+        "label": "다이어뎀 (Diadem)",
+        "runtimeId": "helmet-relic-03",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/helmet/helmet-relic-03.png",
+        "tags": [
+          "helmet",
+          "relic",
+          "radiant"
+        ]
+      }
+    ],
+    "planned": []
+  },
+  {
+    "id": "shield",
+    "label": "방패",
+    "targetCount": 20,
+    "implementedCount": 20,
+    "plannedCount": 0,
+    "entries": [
+      {
+        "id": "shield-round-01",
+        "label": "버클러 (Buckler)",
+        "runtimeId": "shield",
+        "family": "round",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-round-01.png",
+        "tags": [
+          "shield",
+          "round",
+          "crest"
+        ]
+      },
+      {
+        "id": "shield-round-02",
+        "label": "스몰쉴드 (Small Shield)",
+        "runtimeId": "shield-round-02",
+        "family": "round",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-round-02.png",
+        "tags": [
+          "shield",
+          "round",
+          "wood"
+        ]
+      },
+      {
+        "id": "shield-round-03",
+        "label": "카이트쉴드 (Kite Shield)",
+        "runtimeId": "shield-round-03",
+        "family": "round",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-round-03.png",
+        "tags": [
+          "shield",
+          "round",
+          "steel"
+        ]
+      },
+      {
+        "id": "shield-round-04",
+        "label": "타워쉴드 (Tower Shield)",
+        "runtimeId": "shield-round-04",
+        "family": "round",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-round-04.png",
+        "tags": [
+          "shield",
+          "round",
+          "sun"
+        ]
+      },
+      {
+        "id": "shield-buckler-01",
+        "label": "고딕쉴드 (Gothic Shield)",
+        "runtimeId": "shield-buckler-01",
+        "family": "buckler",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-buckler-01.png",
+        "tags": [
+          "shield",
+          "buckler",
+          "duel"
+        ]
+      },
+      {
+        "id": "shield-buckler-02",
+        "label": "본쉴드 (Bone Shield)",
+        "runtimeId": "shield-buckler-02",
+        "family": "buckler",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-buckler-02.png",
+        "tags": [
+          "shield",
+          "buckler",
+          "swift"
+        ]
+      },
+      {
+        "id": "shield-buckler-03",
+        "label": "스파이크쉴드 (Spiked Shield)",
+        "runtimeId": "shield-buckler-03",
+        "family": "buckler",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-buckler-03.png",
+        "tags": [
+          "shield",
+          "buckler",
+          "hook"
+        ]
+      },
+      {
+        "id": "shield-kite-01",
+        "label": "그림쉴드 (Grim Shield)",
+        "runtimeId": "shield-kite-01",
+        "family": "kite",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-kite-01.png",
+        "tags": [
+          "shield",
+          "kite",
+          "guard"
+        ]
+      },
+      {
+        "id": "shield-kite-02",
+        "label": "바브드쉴드 (Barbed Shield)",
+        "runtimeId": "shield-kite-02",
+        "family": "kite",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-kite-02.png",
+        "tags": [
+          "shield",
+          "kite",
+          "knight"
+        ]
+      },
+      {
+        "id": "shield-kite-03",
+        "label": "드래곤쉴드 (Dragon Shield)",
+        "runtimeId": "shield-kite-03",
+        "family": "kite",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-kite-03.png",
+        "tags": [
+          "shield",
+          "kite",
+          "lance"
+        ]
+      },
+      {
+        "id": "shield-tower-01",
+        "label": "퍼비스 (Pavise)",
+        "runtimeId": "shield-tower-01",
+        "family": "tower",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-tower-01.png",
+        "tags": [
+          "shield",
+          "tower",
+          "bastion"
+        ]
+      },
+      {
+        "id": "shield-tower-02",
+        "label": "애어린 쉴드 (Aerin Shield)",
+        "runtimeId": "shield-tower-02",
+        "family": "tower",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-tower-02.png",
+        "tags": [
+          "shield",
+          "tower",
+          "wall"
+        ]
+      },
+      {
+        "id": "shield-tower-03",
+        "label": "트롤 네스트 (Troll Nest)",
+        "runtimeId": "shield-tower-03",
+        "family": "tower",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-tower-03.png",
+        "tags": [
+          "shield",
+          "tower",
+          "heavy"
+        ]
+      },
+      {
+        "id": "shield-mystic-01",
+        "label": "모너크 (Monarch)",
+        "runtimeId": "shield-mystic-01",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-mystic-01.png",
+        "tags": [
+          "shield",
+          "mystic",
+          "glyph"
+        ]
+      },
+      {
+        "id": "shield-mystic-02",
+        "label": "워드 (Ward)",
+        "runtimeId": "shield-mystic-02",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-mystic-02.png",
+        "tags": [
+          "shield",
+          "mystic",
+          "orb"
+        ]
+      },
+      {
+        "id": "shield-mystic-03",
+        "label": "블레이드 배리어 (Blade Barrier)",
+        "runtimeId": "shield-mystic-03",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-mystic-03.png",
+        "tags": [
+          "shield",
+          "mystic",
+          "ward"
+        ]
+      },
+      {
+        "id": "shield-relic-01",
+        "label": "세이크리드 타아지 (Sacred Targe)",
+        "runtimeId": "shield-relic-01",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-relic-01.png",
+        "tags": [
+          "shield",
+          "relic",
+          "halo"
+        ]
+      },
+      {
+        "id": "shield-relic-02",
+        "label": "자카럼 쉴드 (Zakarum Shield)",
+        "runtimeId": "shield-relic-02",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-relic-02.png",
+        "tags": [
+          "shield",
+          "relic",
+          "wing"
+        ]
+      },
+      {
+        "id": "shield-relic-03",
+        "label": "보어텍스 쉴드 (Vortex Shield)",
+        "runtimeId": "shield-relic-03",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-relic-03.png",
+        "tags": [
+          "shield",
+          "relic",
+          "altar"
+        ]
+      },
+      {
+        "id": "shield-relic-04",
+        "label": "헬스폰 쉴드 (Hellspawn Shield)",
+        "runtimeId": "shield-relic-04",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/shield/shield-relic-04.png",
+        "tags": [
+          "shield",
+          "relic",
+          "radiant"
+        ]
+      }
+    ],
+    "planned": []
+  },
+  {
+    "id": "boots",
+    "label": "신발",
+    "targetCount": 20,
+    "implementedCount": 20,
+    "plannedCount": 0,
+    "entries": [
+      {
+        "id": "boots-leather-01",
+        "label": "부츠 (Boots)",
+        "runtimeId": "boots",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-leather-01.png",
+        "tags": [
+          "boots",
+          "travel",
+          "leather"
+        ]
+      },
+      {
+        "id": "boots-leather-02",
+        "label": "헤비부츠 (Heavy Boots)",
+        "runtimeId": "boots-leather-02",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-leather-02.png",
+        "tags": [
+          "boots",
+          "trail",
+          "stitch"
+        ]
+      },
+      {
+        "id": "boots-leather-03",
+        "label": "체인부츠 (Chain Boots)",
+        "runtimeId": "boots-leather-03",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-leather-03.png",
+        "tags": [
+          "boots",
+          "scout",
+          "strap"
+        ]
+      },
+      {
+        "id": "boots-leather-04",
+        "label": "라이트플레이트부츠 (Light Plated Boots)",
+        "runtimeId": "boots-leather-04",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-leather-04.png",
+        "tags": [
+          "boots",
+          "raider",
+          "worn"
+        ]
+      },
+      {
+        "id": "boots-cloth-01",
+        "label": "그리브 (Greaves)",
+        "runtimeId": "boots-cloth-01",
+        "family": "cloth",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-cloth-01.png",
+        "tags": [
+          "boots",
+          "cloth",
+          "soft"
+        ]
+      },
+      {
+        "id": "boots-cloth-02",
+        "label": "데몬하이드부츠 (Demonhide Boots)",
+        "runtimeId": "boots-cloth-02",
+        "family": "cloth",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-cloth-02.png",
+        "tags": [
+          "boots",
+          "cloth",
+          "sage"
+        ]
+      },
+      {
+        "id": "boots-cloth-03",
+        "label": "샤크스킨부츠 (Sharkskin Boots)",
+        "runtimeId": "boots-cloth-03",
+        "family": "cloth",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-cloth-03.png",
+        "tags": [
+          "boots",
+          "cloth",
+          "trim"
+        ]
+      },
+      {
+        "id": "boots-travel-01",
+        "label": "메쉬부츠 (Mesh Boots)",
+        "runtimeId": "boots-travel-01",
+        "family": "travel",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-travel-01.png",
+        "tags": [
+          "boots",
+          "travel",
+          "hook"
+        ]
+      },
+      {
+        "id": "boots-travel-02",
+        "label": "배틀부츠 (Battle Boots)",
+        "runtimeId": "boots-travel-02",
+        "family": "travel",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-travel-02.png",
+        "tags": [
+          "boots",
+          "travel",
+          "gear"
+        ]
+      },
+      {
+        "id": "boots-travel-03",
+        "label": "워부츠 (War Boots)",
+        "runtimeId": "boots-travel-03",
+        "family": "travel",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-travel-03.png",
+        "tags": [
+          "boots",
+          "travel",
+          "field"
+        ]
+      },
+      {
+        "id": "boots-travel-04",
+        "label": "와이엄하이드 부츠 (Wyrmhide Boots)",
+        "runtimeId": "boots-travel-04",
+        "family": "travel",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-travel-04.png",
+        "tags": [
+          "boots",
+          "travel",
+          "range"
+        ]
+      },
+      {
+        "id": "boots-greaves-01",
+        "label": "스캐럽쉘 부츠 (Scarabshell Boots)",
+        "runtimeId": "boots-greaves-01",
+        "family": "greaves",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-greaves-01.png",
+        "tags": [
+          "boots",
+          "greaves",
+          "plate"
+        ]
+      },
+      {
+        "id": "boots-greaves-02",
+        "label": "본위브 부츠 (Boneweave Boots)",
+        "runtimeId": "boots-greaves-02",
+        "family": "greaves",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-greaves-02.png",
+        "tags": [
+          "boots",
+          "greaves",
+          "knight"
+        ]
+      },
+      {
+        "id": "boots-greaves-03",
+        "label": "미러드 부츠 (Mirrored Boots)",
+        "runtimeId": "boots-greaves-03",
+        "family": "greaves",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-greaves-03.png",
+        "tags": [
+          "boots",
+          "greaves",
+          "guard"
+        ]
+      },
+      {
+        "id": "boots-mystic-01",
+        "label": "뮈르미돈 그리브즈 (Myrmidon Greaves)",
+        "runtimeId": "boots-mystic-01",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-mystic-01.png",
+        "tags": [
+          "boots",
+          "mystic",
+          "glyph"
+        ]
+      },
+      {
+        "id": "boots-mystic-02",
+        "label": "스칼렛 부츠 (Scarlet Boots)",
+        "runtimeId": "boots-mystic-02",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-mystic-02.png",
+        "tags": [
+          "boots",
+          "mystic",
+          "float"
+        ]
+      },
+      {
+        "id": "boots-mystic-03",
+        "label": "배틀 그리브즈 (Battle Greaves)",
+        "runtimeId": "boots-mystic-03",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-mystic-03.png",
+        "tags": [
+          "boots",
+          "mystic",
+          "rune"
+        ]
+      },
+      {
+        "id": "boots-relic-01",
+        "label": "고스트 게이터즈 (Ghost Gaiters)",
+        "runtimeId": "boots-relic-01",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-relic-01.png",
+        "tags": [
+          "boots",
+          "relic",
+          "sun"
+        ]
+      },
+      {
+        "id": "boots-relic-02",
+        "label": "데몬하이드부츠 (Demonhide Boots)",
+        "runtimeId": "boots-relic-02",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-relic-02.png",
+        "tags": [
+          "boots",
+          "relic",
+          "halo"
+        ]
+      },
+      {
+        "id": "boots-relic-03",
+        "label": "스캐럽쉘 부츠 (Scarabshell Boots)",
+        "runtimeId": "boots-relic-03",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/boots/boots-relic-03.png",
+        "tags": [
+          "boots",
+          "relic",
+          "royal"
+        ]
+      }
+    ],
+    "planned": []
+  },
+  {
+    "id": "gloves",
+    "label": "장갑",
+    "targetCount": 20,
+    "implementedCount": 20,
+    "plannedCount": 0,
+    "entries": [
+      {
+        "id": "gloves-leather-01",
+        "label": "레더글러브 (Leather Gloves)",
+        "runtimeId": "gloves",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-leather-01.png",
+        "tags": [
+          "gloves",
+          "leather",
+          "dexterity"
+        ]
+      },
+      {
+        "id": "gloves-leather-02",
+        "label": "헤비글러브 (Heavy Gloves)",
+        "runtimeId": "gloves-leather-02",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-leather-02.png",
+        "tags": [
+          "gloves",
+          "leather",
+          "stitch"
+        ]
+      },
+      {
+        "id": "gloves-leather-03",
+        "label": "체인글러브 (Chain Gloves)",
+        "runtimeId": "gloves-leather-03",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-leather-03.png",
+        "tags": [
+          "gloves",
+          "leather",
+          "scout"
+        ]
+      },
+      {
+        "id": "gloves-leather-04",
+        "label": "라이트건틀릿 (Light Gauntlets)",
+        "runtimeId": "gloves-leather-04",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-leather-04.png",
+        "tags": [
+          "gloves",
+          "leather",
+          "grip"
+        ]
+      },
+      {
+        "id": "gloves-cloth-01",
+        "label": "건틀릿 (Gauntlets)",
+        "runtimeId": "gloves-cloth-01",
+        "family": "cloth",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-cloth-01.png",
+        "tags": [
+          "gloves",
+          "cloth",
+          "soft"
+        ]
+      },
+      {
+        "id": "gloves-cloth-02",
+        "label": "데몬하이드글러브 (Demonhide Gloves)",
+        "runtimeId": "gloves-cloth-02",
+        "family": "cloth",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-cloth-02.png",
+        "tags": [
+          "gloves",
+          "cloth",
+          "sage"
+        ]
+      },
+      {
+        "id": "gloves-cloth-03",
+        "label": "샤크스킨글러브 (Sharkskin Gloves)",
+        "runtimeId": "gloves-cloth-03",
+        "family": "cloth",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-cloth-03.png",
+        "tags": [
+          "gloves",
+          "cloth",
+          "ritual"
+        ]
+      },
+      {
+        "id": "gloves-gauntlet-01",
+        "label": "헤비브레이서 (Heavy Bracers)",
+        "runtimeId": "gloves-gauntlet-01",
+        "family": "gauntlet",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-gauntlet-01.png",
+        "tags": [
+          "gloves",
+          "gauntlet",
+          "plate"
+        ]
+      },
+      {
+        "id": "gloves-gauntlet-02",
+        "label": "배틀건틀릿 (Battle Gauntlets)",
+        "runtimeId": "gloves-gauntlet-02",
+        "family": "gauntlet",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-gauntlet-02.png",
+        "tags": [
+          "gloves",
+          "gauntlet",
+          "knight"
+        ]
+      },
+      {
+        "id": "gloves-gauntlet-03",
+        "label": "워건틀릿 (War Gauntlets)",
+        "runtimeId": "gloves-gauntlet-03",
+        "family": "gauntlet",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-gauntlet-03.png",
+        "tags": [
+          "gloves",
+          "gauntlet",
+          "heavy"
+        ]
+      },
+      {
+        "id": "gloves-gauntlet-04",
+        "label": "브램블 미트 (Bramble Mitts)",
+        "runtimeId": "gloves-gauntlet-04",
+        "family": "gauntlet",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-gauntlet-04.png",
+        "tags": [
+          "gloves",
+          "gauntlet",
+          "crest"
+        ]
+      },
+      {
+        "id": "gloves-claw-01",
+        "label": "뱀파이어본 글러브 (Vampirebone Gloves)",
+        "runtimeId": "gloves-claw-01",
+        "family": "claw",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-claw-01.png",
+        "tags": [
+          "gloves",
+          "claw",
+          "rogue"
+        ]
+      },
+      {
+        "id": "gloves-claw-02",
+        "label": "뱀브레이스 (Vambraces)",
+        "runtimeId": "gloves-claw-02",
+        "family": "claw",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-claw-02.png",
+        "tags": [
+          "gloves",
+          "claw",
+          "beast"
+        ]
+      },
+      {
+        "id": "gloves-claw-03",
+        "label": "오우거 건틀릿 (Ogre Gauntlets)",
+        "runtimeId": "gloves-claw-03",
+        "family": "claw",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-claw-03.png",
+        "tags": [
+          "gloves",
+          "claw",
+          "assassin"
+        ]
+      },
+      {
+        "id": "gloves-mystic-01",
+        "label": "스틸 건틀릿 (Steel Gauntlets)",
+        "runtimeId": "gloves-mystic-01",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-mystic-01.png",
+        "tags": [
+          "gloves",
+          "mystic",
+          "glyph"
+        ]
+      },
+      {
+        "id": "gloves-mystic-02",
+        "label": "크루세이더 건틀릿 (Crusader Gauntlets)",
+        "runtimeId": "gloves-mystic-02",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-mystic-02.png",
+        "tags": [
+          "gloves",
+          "mystic",
+          "orb"
+        ]
+      },
+      {
+        "id": "gloves-mystic-03",
+        "label": "오우거 건틀릿 (Ogre Gauntlets)",
+        "runtimeId": "gloves-mystic-03",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-mystic-03.png",
+        "tags": [
+          "gloves",
+          "mystic",
+          "veil"
+        ]
+      },
+      {
+        "id": "gloves-relic-01",
+        "label": "뱀브레이스 (Vambraces)",
+        "runtimeId": "gloves-relic-01",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-relic-01.png",
+        "tags": [
+          "gloves",
+          "relic",
+          "halo"
+        ]
+      },
+      {
+        "id": "gloves-relic-02",
+        "label": "스틸 건틀릿 (Steel Gauntlets)",
+        "runtimeId": "gloves-relic-02",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-relic-02.png",
+        "tags": [
+          "gloves",
+          "relic",
+          "radiant"
+        ]
+      },
+      {
+        "id": "gloves-relic-03",
+        "label": "워건틀릿 (War Gauntlets)",
+        "runtimeId": "gloves-relic-03",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/gloves/gloves-relic-03.png",
+        "tags": [
+          "gloves",
+          "relic",
+          "royal"
+        ]
+      }
+    ],
+    "planned": []
+  },
+  {
+    "id": "belt",
+    "label": "벨트",
+    "targetCount": 20,
+    "implementedCount": 20,
+    "plannedCount": 0,
+    "entries": [
+      {
+        "id": "belt-sash-01",
+        "label": "라이트벨트 (Light Belt)",
+        "runtimeId": "belt",
+        "family": "sash",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-sash-01.png",
+        "tags": [
+          "belt",
+          "sash",
+          "utility"
+        ]
+      },
+      {
+        "id": "belt-sash-02",
+        "label": "벨트 (Belt)",
+        "runtimeId": "belt-sash-02",
+        "family": "sash",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-sash-02.png",
+        "tags": [
+          "belt",
+          "sash",
+          "cloth"
+        ]
+      },
+      {
+        "id": "belt-sash-03",
+        "label": "헤비벨트 (Heavy Belt)",
+        "runtimeId": "belt-sash-03",
+        "family": "sash",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-sash-03.png",
+        "tags": [
+          "belt",
+          "sash",
+          "trim"
+        ]
+      },
+      {
+        "id": "belt-sash-04",
+        "label": "플레이트벨트 (Plated Belt)",
+        "runtimeId": "belt-sash-04",
+        "family": "sash",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-sash-04.png",
+        "tags": [
+          "belt",
+          "sash",
+          "ceremony"
+        ]
+      },
+      {
+        "id": "belt-leather-01",
+        "label": "메쉬벨트 (Mesh Belt)",
+        "runtimeId": "belt-leather-01",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-leather-01.png",
+        "tags": [
+          "belt",
+          "leather",
+          "buckle"
+        ]
+      },
+      {
+        "id": "belt-leather-02",
+        "label": "샤크스킨벨트 (Sharkskin Belt)",
+        "runtimeId": "belt-leather-02",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-leather-02.png",
+        "tags": [
+          "belt",
+          "leather",
+          "field"
+        ]
+      },
+      {
+        "id": "belt-leather-03",
+        "label": "배틀벨트 (Battle Belt)",
+        "runtimeId": "belt-leather-03",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-leather-03.png",
+        "tags": [
+          "belt",
+          "leather",
+          "stitched"
+        ]
+      },
+      {
+        "id": "belt-leather-04",
+        "label": "워벨트 (War Belt)",
+        "runtimeId": "belt-leather-04",
+        "family": "leather",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-leather-04.png",
+        "tags": [
+          "belt",
+          "leather",
+          "banded"
+        ]
+      },
+      {
+        "id": "belt-plated-01",
+        "label": "데몬하이드섀시 (Demonhide Sash)",
+        "runtimeId": "belt-plated-01",
+        "family": "plated",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-plated-01.png",
+        "tags": [
+          "belt",
+          "plate",
+          "guard"
+        ]
+      },
+      {
+        "id": "belt-plated-02",
+        "label": "스파이더웹 새시 (Spiderweb Sash)",
+        "runtimeId": "belt-plated-02",
+        "family": "plated",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-plated-02.png",
+        "tags": [
+          "belt",
+          "plate",
+          "knight"
+        ]
+      },
+      {
+        "id": "belt-plated-03",
+        "label": "뱀파이어팽 벨트 (Vampirefang Belt)",
+        "runtimeId": "belt-plated-03",
+        "family": "plated",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-plated-03.png",
+        "tags": [
+          "belt",
+          "plate",
+          "crest"
+        ]
+      },
+      {
+        "id": "belt-utility-01",
+        "label": "트롤 벨트 (Troll Belt)",
+        "runtimeId": "belt-utility-01",
+        "family": "utility",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-utility-01.png",
+        "tags": [
+          "belt",
+          "utility",
+          "pouch"
+        ]
+      },
+      {
+        "id": "belt-utility-02",
+        "label": "콜로서스 거들 (Colossus Girdle)",
+        "runtimeId": "belt-utility-02",
+        "family": "utility",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-utility-02.png",
+        "tags": [
+          "belt",
+          "utility",
+          "tools"
+        ]
+      },
+      {
+        "id": "belt-utility-03",
+        "label": "미스릴 코일 (Mithril Coil)",
+        "runtimeId": "belt-utility-03",
+        "family": "utility",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-utility-03.png",
+        "tags": [
+          "belt",
+          "utility",
+          "adventure"
+        ]
+      },
+      {
+        "id": "belt-mystic-01",
+        "label": "데몬하이드섀시 (Demonhide Sash)",
+        "runtimeId": "belt-mystic-01",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-mystic-01.png",
+        "tags": [
+          "belt",
+          "mystic",
+          "glyph"
+        ]
+      },
+      {
+        "id": "belt-mystic-02",
+        "label": "샤크스킨벨트 (Sharkskin Belt)",
+        "runtimeId": "belt-mystic-02",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-mystic-02.png",
+        "tags": [
+          "belt",
+          "mystic",
+          "orb"
+        ]
+      },
+      {
+        "id": "belt-mystic-03",
+        "label": "메쉬벨트 (Mesh Belt)",
+        "runtimeId": "belt-mystic-03",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-mystic-03.png",
+        "tags": [
+          "belt",
+          "mystic",
+          "rune"
+        ]
+      },
+      {
+        "id": "belt-relic-01",
+        "label": "배틀벨트 (Battle Belt)",
+        "runtimeId": "belt-relic-01",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-relic-01.png",
+        "tags": [
+          "belt",
+          "relic",
+          "sun"
+        ]
+      },
+      {
+        "id": "belt-relic-02",
+        "label": "워벨트 (War Belt)",
+        "runtimeId": "belt-relic-02",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-relic-02.png",
+        "tags": [
+          "belt",
+          "relic",
+          "royal"
+        ]
+      },
+      {
+        "id": "belt-relic-03",
+        "label": "플레이트벨트 (Plated Belt)",
+        "runtimeId": "belt-relic-03",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/belt/belt-relic-03.png",
+        "tags": [
+          "belt",
+          "relic",
+          "halo"
+        ]
+      }
+    ],
+    "planned": []
+  },
+  {
+    "id": "ring",
+    "label": "반지",
+    "targetCount": 20,
+    "implementedCount": 20,
+    "plannedCount": 0,
+    "entries": [
+      {
+        "id": "ring-plain-01",
+        "label": "나겔링 (Nagelring)",
+        "runtimeId": "ring",
+        "family": "plain",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-plain-01.png",
+        "tags": [
+          "ring",
+          "metal",
+          "simple"
+        ]
+      },
+      {
+        "id": "ring-plain-02",
+        "label": "마날드 힐 (Manald Heal)",
+        "runtimeId": "ring-plain-02",
+        "family": "plain",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-plain-02.png",
+        "tags": [
+          "ring",
+          "metal",
+          "band"
+        ]
+      },
+      {
+        "id": "ring-plain-03",
+        "label": "조던의 돌 (Stone of Jordan)",
+        "runtimeId": "ring-plain-03",
+        "family": "plain",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-plain-03.png",
+        "tags": [
+          "ring",
+          "metal",
+          "engraved"
+        ]
+      },
+      {
+        "id": "ring-plain-04",
+        "label": "드워프 스타 (Dwarf Star)",
+        "runtimeId": "ring-plain-04",
+        "family": "plain",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-plain-04.png",
+        "tags": [
+          "ring",
+          "metal",
+          "double"
+        ]
+      },
+      {
+        "id": "ring-gem-01",
+        "label": "레이븐 프로스트 (Raven Frost)",
+        "runtimeId": "ring-gem-01",
+        "family": "gem",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-gem-01.png",
+        "tags": [
+          "ring",
+          "gem",
+          "spark"
+        ]
+      },
+      {
+        "id": "ring-gem-02",
+        "label": "위스프 프로젝터 (Wisp Projector)",
+        "runtimeId": "ring-gem-02",
+        "family": "gem",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-gem-02.png",
+        "tags": [
+          "ring",
+          "gem",
+          "emerald"
+        ]
+      },
+      {
+        "id": "ring-gem-03",
+        "label": "네이처스 피스 (Nature's Peace)",
+        "runtimeId": "ring-gem-03",
+        "family": "gem",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-gem-03.png",
+        "tags": [
+          "ring",
+          "gem",
+          "ruby"
+        ]
+      },
+      {
+        "id": "ring-gem-04",
+        "label": "캐리온 윈드 (Carrion Wind)",
+        "runtimeId": "ring-gem-04",
+        "family": "gem",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-gem-04.png",
+        "tags": [
+          "ring",
+          "gem",
+          "sapphire"
+        ]
+      },
+      {
+        "id": "ring-royal-01",
+        "label": "불-카토스의 결혼반지 (Bul-Kathos' Wedding Band)",
+        "runtimeId": "ring-royal-01",
+        "family": "royal",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-royal-01.png",
+        "tags": [
+          "ring",
+          "royal",
+          "crown"
+        ]
+      },
+      {
+        "id": "ring-royal-02",
+        "label": "서펜트 스피어 (Serpent's Sphere)",
+        "runtimeId": "ring-royal-02",
+        "family": "royal",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-royal-02.png",
+        "tags": [
+          "ring",
+          "royal",
+          "crest"
+        ]
+      },
+      {
+        "id": "ring-royal-03",
+        "label": "초승달 (Crescent Moon)",
+        "runtimeId": "ring-royal-03",
+        "family": "royal",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-royal-03.png",
+        "tags": [
+          "ring",
+          "royal",
+          "sun"
+        ]
+      },
+      {
+        "id": "ring-signet-01",
+        "label": "고양이의 눈 (The Cat's Eye)",
+        "runtimeId": "ring-signet-01",
+        "family": "signet",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-signet-01.png",
+        "tags": [
+          "ring",
+          "signet",
+          "seal"
+        ]
+      },
+      {
+        "id": "ring-signet-02",
+        "label": "하이로드의 분노 (Highlord's Wrath)",
+        "runtimeId": "ring-signet-02",
+        "family": "signet",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-signet-02.png",
+        "tags": [
+          "ring",
+          "signet",
+          "house"
+        ]
+      },
+      {
+        "id": "ring-signet-03",
+        "label": "마라의 만화경 (Mara's Kaleidoscope)",
+        "runtimeId": "ring-signet-03",
+        "family": "signet",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-signet-03.png",
+        "tags": [
+          "ring",
+          "signet",
+          "authority"
+        ]
+      },
+      {
+        "id": "ring-mystic-01",
+        "label": "사라센의 기회 (Saracen's Chance)",
+        "runtimeId": "ring-mystic-01",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-mystic-01.png",
+        "tags": [
+          "ring",
+          "mystic",
+          "rune"
+        ]
+      },
+      {
+        "id": "ring-mystic-02",
+        "label": "마힘-오크 골동품 (The Mahim-Oak Curio)",
+        "runtimeId": "ring-mystic-02",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-mystic-02.png",
+        "tags": [
+          "ring",
+          "mystic",
+          "orb"
+        ]
+      },
+      {
+        "id": "ring-mystic-03",
+        "label": "노코잔 유물 (Nokozan Relic)",
+        "runtimeId": "ring-mystic-03",
+        "family": "mystic",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-mystic-03.png",
+        "tags": [
+          "ring",
+          "mystic",
+          "halo"
+        ]
+      },
+      {
+        "id": "ring-relic-01",
+        "label": "에틀리히의 눈 (The Eye of Etlich)",
+        "runtimeId": "ring-relic-01",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-relic-01.png",
+        "tags": [
+          "ring",
+          "relic",
+          "sun"
+        ]
+      },
+      {
+        "id": "ring-relic-02",
+        "label": "떠오르는 태양 (The Rising Sun)",
+        "runtimeId": "ring-relic-02",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-relic-02.png",
+        "tags": [
+          "ring",
+          "relic",
+          "altar"
+        ]
+      },
+      {
+        "id": "ring-relic-03",
+        "label": "드워프 스타 (Dwarf Star)",
+        "runtimeId": "ring-relic-03",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/ring/ring-relic-03.png",
+        "tags": [
+          "ring",
+          "relic",
+          "radiant"
+        ]
+      }
+    ],
+    "planned": []
+  },
+  {
+    "id": "amulet",
+    "label": "아뮬렛",
+    "targetCount": 20,
+    "implementedCount": 20,
+    "plannedCount": 0,
+    "entries": [
+      {
+        "id": "amulet-pendant-01",
+        "label": "아뮬렛 (Amulet)",
+        "runtimeId": "amulet",
+        "family": "pendant",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-pendant-01.png",
+        "tags": [
+          "amulet",
+          "pendant",
+          "jewel"
+        ]
+      },
+      {
+        "id": "amulet-pendant-02",
+        "label": "바이퍼의 아뮬렛 (Amulet of the Viper)",
+        "runtimeId": "amulet-pendant-02",
+        "family": "pendant",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-pendant-02.png",
+        "tags": [
+          "amulet",
+          "pendant",
+          "leaf"
+        ]
+      },
+      {
+        "id": "amulet-pendant-03",
+        "label": "에틀리히의 눈 (The Eye of Etlich)",
+        "runtimeId": "amulet-pendant-03",
+        "family": "pendant",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-pendant-03.png",
+        "tags": [
+          "amulet",
+          "pendant",
+          "sun"
+        ]
+      },
+      {
+        "id": "amulet-pendant-04",
+        "label": "마힘-오크 골동품 (The Mahim-Oak Curio)",
+        "runtimeId": "amulet-pendant-04",
+        "family": "pendant",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-pendant-04.png",
+        "tags": [
+          "amulet",
+          "pendant",
+          "drop"
+        ]
+      },
+      {
+        "id": "amulet-pendant-05",
+        "label": "노코잔 유물 (Nokozan Relic)",
+        "runtimeId": "amulet-pendant-05",
+        "family": "pendant",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-pendant-05.png",
+        "tags": [
+          "amulet",
+          "pendant",
+          "crest"
+        ]
+      },
+      {
+        "id": "amulet-talisman-01",
+        "label": "떠오르는 태양 (The Rising Sun)",
+        "runtimeId": "amulet-talisman-01",
+        "family": "talisman",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-talisman-01.png",
+        "tags": [
+          "amulet",
+          "talisman",
+          "paper"
+        ]
+      },
+      {
+        "id": "amulet-talisman-02",
+        "label": "초승달 (Crescent Moon)",
+        "runtimeId": "amulet-talisman-02",
+        "family": "talisman",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-talisman-02.png",
+        "tags": [
+          "amulet",
+          "talisman",
+          "seal"
+        ]
+      },
+      {
+        "id": "amulet-talisman-03",
+        "label": "고양이의 눈 (The Cat's Eye)",
+        "runtimeId": "amulet-talisman-03",
+        "family": "talisman",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-talisman-03.png",
+        "tags": [
+          "amulet",
+          "talisman",
+          "rope"
+        ]
+      },
+      {
+        "id": "amulet-talisman-04",
+        "label": "하이로드의 분노 (Highlord's Wrath)",
+        "runtimeId": "amulet-talisman-04",
+        "family": "talisman",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-talisman-04.png",
+        "tags": [
+          "amulet",
+          "talisman",
+          "ward"
+        ]
+      },
+      {
+        "id": "amulet-medallion-01",
+        "label": "마라의 만화경 (Mara's Kaleidoscope)",
+        "runtimeId": "amulet-medallion-01",
+        "family": "medallion",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-medallion-01.png",
+        "tags": [
+          "amulet",
+          "medallion",
+          "round"
+        ]
+      },
+      {
+        "id": "amulet-medallion-02",
+        "label": "사라센의 기회 (Saracen's Chance)",
+        "runtimeId": "amulet-medallion-02",
+        "family": "medallion",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-medallion-02.png",
+        "tags": [
+          "amulet",
+          "medallion",
+          "crest"
+        ]
+      },
+      {
+        "id": "amulet-medallion-03",
+        "label": "세라프의 찬송 (Seraph's Hymn)",
+        "runtimeId": "amulet-medallion-03",
+        "family": "medallion",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-medallion-03.png",
+        "tags": [
+          "amulet",
+          "medallion",
+          "royal"
+        ]
+      },
+      {
+        "id": "amulet-medallion-04",
+        "label": "메탈그리드 (Metalgrid)",
+        "runtimeId": "amulet-medallion-04",
+        "family": "medallion",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-medallion-04.png",
+        "tags": [
+          "amulet",
+          "medallion",
+          "sun"
+        ]
+      },
+      {
+        "id": "amulet-rune-01",
+        "label": "아트마의 흉터 (Atma's Scarab)",
+        "runtimeId": "amulet-rune-01",
+        "family": "rune",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-rune-01.png",
+        "tags": [
+          "amulet",
+          "rune",
+          "glyph"
+        ]
+      },
+      {
+        "id": "amulet-rune-02",
+        "label": "검투사의 저주 (The Gladiator's Bane)",
+        "runtimeId": "amulet-rune-02",
+        "family": "rune",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-rune-02.png",
+        "tags": [
+          "amulet",
+          "rune",
+          "mystic"
+        ]
+      },
+      {
+        "id": "amulet-rune-03",
+        "label": "고양이의 눈 (The Cat's Eye)",
+        "runtimeId": "amulet-rune-03",
+        "family": "rune",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-rune-03.png",
+        "tags": [
+          "amulet",
+          "rune",
+          "arcane"
+        ]
+      },
+      {
+        "id": "amulet-royal-01",
+        "label": "하이로드의 분노 (Highlord's Wrath)",
+        "runtimeId": "amulet-royal-01",
+        "family": "royal",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-royal-01.png",
+        "tags": [
+          "amulet",
+          "royal",
+          "crown"
+        ]
+      },
+      {
+        "id": "amulet-royal-02",
+        "label": "마라의 만화경 (Mara's Kaleidoscope)",
+        "runtimeId": "amulet-royal-02",
+        "family": "royal",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-royal-02.png",
+        "tags": [
+          "amulet",
+          "royal",
+          "gem"
+        ]
+      },
+      {
+        "id": "amulet-relic-01",
+        "label": "메탈그리드 (Metalgrid)",
+        "runtimeId": "amulet-relic-01",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-relic-01.png",
+        "tags": [
+          "amulet",
+          "relic",
+          "halo"
+        ]
+      },
+      {
+        "id": "amulet-relic-02",
+        "label": "사라센의 기회 (Saracen's Chance)",
+        "runtimeId": "amulet-relic-02",
+        "family": "relic",
+        "previewUrl": "assets/novel/item-icons/png/amulet/amulet-relic-02.png",
+        "tags": [
+          "amulet",
+          "relic",
+          "radiant"
+        ]
+      }
+    ],
+    "planned": []
+  }
+]

@@ -1,0 +1,49 @@
+group,legacyId,legacyEn,legacyKo,name,meaning,draft
+rune,r01,El,엘,심결,마음을 가다듬는 기초 결,false
+rune,r02,Eld,엘드,기결,기운을 운행하는 결,false
+rune,r03,Tir,티르,신결,신체를 단련하는 결,false
+rune,r04,Nef,네프,풍결,바람의 흐름을 타는 결,false
+rune,r05,Eth,에트,수결,물처럼 부드럽게 흘리는 결,false
+rune,r06,Ith,이더,화결,불꽃처럼 타오르는 열기의 결,false
+rune,r07,Tal,탈,토결,대지처럼 묵직하게 버티는 결,false
+rune,r08,Ral,랄,뇌결,우레와 벽력의 파동을 새긴 결,false
+rune,r09,Ort,오르트,금결,쇠의 단단함을 부여하는 결,false
+rune,r10,Thul,주울,빙결,서리꽃의 냉기를 품은 결,false
+rune,r11,Amn,앰,혈결,혈맥의 흐름을 북돋우는 결,false
+rune,r12,Sol,솔,광결,순양의 밝은 빛을 모으는 결,false
+rune,r13,Shael,샤엘,속인,눈보다 빠른 신법의 인,false
+rune,r14,Dol,돌,강인,부서지지 않는 호신의 인,false
+rune,r15,Hel,헬,화인,기운을 누그러뜨리고 조화롭게 하는 인,false
+rune,r16,Io,이오,정인,고요히 숨을 고르는 인,false
+rune,r17,Lum,룸,명인,어둠 속에서 밝은 혜안을 틔우는 인,false
+rune,r18,Ko,코,유인,지극한 부드러움으로 강함을 꺾는 인,false
+rune,r19,Fal,팔,역인,내력을 한 층 증폭시키는 인,false
+rune,r20,Lem,렘,복인,기연과 재물을 끌어당기는 인,false
+rune,r21,Pul,풀,철인,쇠를 두른 듯한 철벽의 인,false
+rune,r22,Um,움,파인,갑주를 찢는 서슬 푸른 예기의 인,false
+rune,r23,Mal,말,봉인,마기와 삿된 기운을 억누르는 인,false
+rune,r24,Ist,이스트,심문,숨겨진 보물을 찾아내는 감식의 문양,false
+rune,r25,Gul,굴,독문,독을 다스리고 해독하는 문양,false
+rune,r26,Vex,벡스,현문,깊고 그윽한 도가의 오묘한 문양,false
+rune,r27,Ohm,옴,패문,천하를 호령하는 패왕의 기백을 담은 문양,false
+rune,r28,Lo,로,살문,급소를 노리는 치명적인 살기의 문양,false
+rune,r29,Sur,수르,환문,적의 시야와 기척을 어지럽히는 환술의 문양,false
+rune,r30,Ber,베르,금강문,어떤 충격도 튕겨내는 금강불괴의 문양,false
+rune,r31,Jah,자,신행문,허공을 가로지르는 신행보의 문양,false
+rune,r32,Cham,참,무극문,얼어붙거나 멈추지 않는 무극의 문양,false
+rune,r33,Zod,조드,영생문,영원히 마모되거나 부서지지 않는 불멸의 문양,false
+equipment,weapon,weapon,무기,병기,손에 쥐는 무기류(팩 glossary slot.weapon과 일치),false
+equipment,armor,armor,갑옷,의복,몸에 걸치는 방어구(팩 glossary slot.armor와 일치),false
+equipment,helmet,helmet,투구,머리,머리를 보호하는 모자·투구(팩 glossary slot.helmet과 일치),false
+equipment,shield,shield,방패,보조,보조 손에 드는 방어구·패(팩 glossary slot.offhand와 일치),false
+equipment,boots,boots,신발,신발,발에 신는 신발류(팩 glossary slot.boots와 일치),false
+equipment,gloves,gloves,장갑,손,손에 착용하는 장갑·완갑(팩 glossary slot.gloves와 일치),false
+equipment,belt,belt,허리띠,허리,허리에 두르는 요대(팩 glossary slot.belt와 일치),false
+equipment,ring,ring,반지,가락지,손가락에 끼는 반지·가락지(팩 glossary slot.ring과 일치),false
+equipment,amulet,amulet,목걸이,패물,목이나 옷에 거는 노리개·목걸이(팩 glossary slot.amulet과 일치),false
+rarity,normal,normal,일반,범품,가장 흔한 기본 등급(팩 rarity common과 대응),false
+rarity,magic,magic,매직,양품,마법 속성이 깃든 중급 등급(팩 rarity fine과 대응),false
+rarity,rare,rare,레어,희귀,복수의 속성이 부여된 고급 등급(팩 rarity rare와 대응),false
+rarity,set,set,세트,세트,함께 모으면 공명이 발동하는 세트 장비,false
+rarity,unique,unique,고유,비보,천하에 유일무이한 고유 보물(D2 고유 아이템 대응),false
+rarity,runeword,runeword,룬워드,비결문,소켓에 룬을 순서대로 새겨 완성한 비결,false

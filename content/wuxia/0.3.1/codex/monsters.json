@@ -1,0 +1,1061 @@
+[
+  {
+    "id": "imp_swarm",
+    "name": "소악마 무리",
+    "level": 2,
+    "area": "폐가 지하",
+    "summary": "수십 마리가 떼로 달려드는 소악마. 개별 체력은 낮다.",
+    "badge": "Demon",
+    "creatureType": "demon",
+    "rosterSource": "sandbox",
+    "rank": "master",
+    "immunities": [
+      "cold"
+    ],
+    "strongTraits": [
+      "multishot",
+      "teleportation",
+      "extra_strong",
+      "extra_fast"
+    ]
+  },
+  {
+    "id": "swamp_toad",
+    "name": "늪지 두꺼비",
+    "level": 3,
+    "area": "저습지",
+    "summary": "점액을 뱉어 아군의 이동을 늦춘다.",
+    "badge": "Beast",
+    "creatureType": "beast",
+    "rosterSource": "sandbox",
+    "rank": "master",
+    "immunities": [
+      "cold"
+    ],
+    "strongTraits": [
+      "stone_skin",
+      "magic_resistant",
+      "cursed",
+      "aura_enchanted"
+    ]
+  },
+  {
+    "id": "wild_boar",
+    "name": "산돼지",
+    "level": 3,
+    "area": "북망산 초입",
+    "summary": "둔탁한 돌진으로 전열을 흔드는 야생 돼지.",
+    "badge": "Beast",
+    "creatureType": "beast",
+    "rosterSource": "sandbox",
+    "rank": "bronze",
+    "immunities": [],
+    "strongTraits": [
+      "multishot"
+    ]
+  },
+  {
+    "id": "corpse_crawler",
+    "name": "시체 기어",
+    "level": 3,
+    "area": "공동묘지 도랑",
+    "summary": "땅바닥을 기어 다니며 발목을 물어뜯는 시체.",
+    "badge": "Undead",
+    "creatureType": "undead",
+    "rosterSource": "sandbox",
+    "rank": "gold",
+    "immunities": [],
+    "strongTraits": [
+      "multishot",
+      "teleportation",
+      "extra_strong"
+    ]
+  },
+  {
+    "id": "brimstone_imp",
+    "name": "유황 임프",
+    "level": 3,
+    "area": "황무지 분화구",
+    "summary": "유황 연기를 뿜어 시야를 가리는 소형 악마.",
+    "badge": "Demon",
+    "creatureType": "demon",
+    "rosterSource": "sandbox",
+    "rank": "bronze",
+    "immunities": [],
+    "strongTraits": [
+      "cursed"
+    ]
+  },
+  {
+    "id": "fallen",
+    "name": "흑의자객",
+    "level": 3,
+    "area": "청림현 외곽",
+    "summary": "얼굴을 가린 채 떼로 습격하는 정체불명의 자객 무리. 초반 전열을 교란한다.",
+    "badge": "Act 1",
+    "creatureType": "demon",
+    "rosterSource": "story",
+    "rank": "bronze",
+    "immunities": [],
+    "strongTraits": [
+      "extra_strong"
+    ]
+  },
+  {
+    "id": "thorn_beetle",
+    "name": "가시 풍뎅이",
+    "level": 4,
+    "area": "가시덤불 굴",
+    "summary": "딱딱한 껍질과 가시로 반격하는 곤충.",
+    "badge": "Beast",
+    "creatureType": "beast",
+    "rosterSource": "sandbox",
+    "rank": "bronze",
+    "immunities": [],
+    "strongTraits": [
+      "extra_strong"
+    ]
+  },
+  {
+    "id": "shadow_fiend",
+    "name": "그림자 마",
+    "level": 4,
+    "area": "객잔 뒷골목",
+    "summary": "등불 빛이 닿지 않는 곳에서 튀어나오는 그림자 마.",
+    "badge": "Demon",
+    "creatureType": "demon",
+    "rosterSource": "sandbox",
+    "rank": "grandmaster",
+    "immunities": [
+      "poison",
+      "magic",
+      "physical"
+    ],
+    "strongTraits": [
+      "extra_fast",
+      "stone_skin",
+      "magic_resistant"
+    ]
+  },
+  {
+    "id": "viper",
+    "name": "독사",
+    "level": 4,
+    "area": "습지 굴",
+    "summary": "독니로 지속 피해를 입히는 뱀. 민첩하지만 체력은 낮다.",
+    "badge": "Beast",
+    "creatureType": "beast",
+    "rosterSource": "sandbox",
+    "rank": "silver",
+    "immunities": [],
+    "strongTraits": [
+      "extra_fast",
+      "stone_skin"
+    ]
+  },
+  {
+    "id": "wraith",
+    "name": "망령",
+    "level": 4,
+    "area": "북망산 묘지 안개",
+    "summary": "실체가 희미한 망령. 물리 공격에 잠시 저항한다.",
+    "badge": "Undead",
+    "creatureType": "undead",
+    "rosterSource": "sandbox",
+    "rank": "bronze",
+    "immunities": [],
+    "strongTraits": [
+      "extra_strong"
+    ]
+  },
+  {
+    "id": "grave_moss",
+    "name": "묘지 이끼귀",
+    "level": 4,
+    "area": "묘비 숲",
+    "summary": "묘비에 붙은 이끼가 사람 형상을 띠고 일어난다.",
+    "badge": "Undead",
+    "creatureType": "undead",
+    "rosterSource": "sandbox",
+    "rank": "diamond",
+    "immunities": [],
+    "strongTraits": [
+      "extra_fast",
+      "stone_skin",
+      "magic_resistant",
+      "cursed"
+    ]
+  },
+  {
+    "id": "mountain_wolf",
+    "name": "산늑대",
+    "level": 4,
+    "area": "북망산 능선",
+    "summary": "무리 지어 달려드는 산늑대. 고립된 아군을 노린다.",
+    "badge": "Beast",
+    "creatureType": "beast",
+    "rosterSource": "sandbox",
+    "rank": "gold",
+    "immunities": [],
+    "strongTraits": [
+      "cursed",
+      "aura_enchanted",
+      "multishot"
+    ]
+  },
+  {
+    "id": "zombie",
+    "name": "시귀",
+    "level": 4,
+    "area": "북망산 공동묘지 입구",
+    "summary": "사기에 잠식된 시체가 되살아난 괴물. 둔하지만 질기고 수가 많다.",
+    "badge": "Undead",
+    "creatureType": "undead",
+    "rosterSource": "story",
+    "rank": "silver",
+    "immunities": [],
+    "strongTraits": [
+      "magic_resistant",
+      "cursed"
+    ]
+  },
+  {
+    "id": "spite_lurker",
+    "name": "앙심 잠복마",
+    "level": 4,
+    "area": "폐허 지하실",
+    "summary": "벽 틈에 숨어 기습하는 악마. 첫 타격 피해가 크다.",
+    "badge": "Demon",
+    "creatureType": "demon",
+    "rosterSource": "sandbox",
+    "rank": "grandmaster",
+    "immunities": [
+      "poison",
+      "magic",
+      "physical"
+    ],
+    "strongTraits": [
+      "magic_resistant",
+      "cursed",
+      "aura_enchanted"
+    ]
+  },
+  {
+    "id": "skeleton_warrior",
+    "name": "백골검수",
+    "level": 5,
+    "area": "북망산 지하 석굴",
+    "summary": "녹슨 검을 휘두르는 백골 수호자. 쓰러진 뒤 한옥 수정검의 단서를 남긴다.",
+    "badge": "Elite Encounter",
+    "creatureType": "elite",
+    "rosterSource": "story",
+    "rank": "gold",
+    "immunities": [],
+    "strongTraits": [
+      "multishot",
+      "teleportation",
+      "extra_strong"
+    ]
+  },
+  {
+    "id": "rotting_brute",
+    "name": "부패 거구",
+    "level": 5,
+    "area": "묘지 깊은 곳",
+    "summary": "거대한 부패 시체. 느리지만 맞으면 전열이 흔들린다.",
+    "badge": "Undead",
+    "creatureType": "undead",
+    "rosterSource": "sandbox",
+    "rank": "silver",
+    "immunities": [],
+    "strongTraits": [
+      "aura_enchanted",
+      "multishot"
+    ]
+  },
+  {
+    "id": "horned_marauder",
+    "name": "뿔 달린 약탈자",
+    "level": 5,
+    "area": "산길 요새",
+    "summary": "뿔로 방패를 들이받는 중급 마인. 전열 붕괴에 특화.",
+    "badge": "Demon",
+    "creatureType": "demon",
+    "rosterSource": "sandbox",
+    "rank": "diamond",
+    "immunities": [],
+    "strongTraits": [
+      "aura_enchanted",
+      "multishot",
+      "teleportation",
+      "extra_strong"
+    ]
+  },
+  {
+    "id": "cliff_eagle",
+    "name": "절벽 독수리",
+    "level": 5,
+    "area": "절벽 난간",
+    "summary": "하강 공격으로 후방을 긁는 대형 조류.",
+    "badge": "Beast",
+    "creatureType": "beast",
+    "rosterSource": "sandbox",
+    "rank": "diamond",
+    "immunities": [],
+    "strongTraits": [
+      "teleportation",
+      "extra_strong",
+      "extra_fast",
+      "stone_skin"
+    ]
+  },
+  {
+    "id": "hellhound",
+    "name": "지옥견",
+    "level": 5,
+    "area": "청림현 외곽 암흑 골목",
+    "summary": "불꽃 숨결을 뿜는 하급 마수. 민가를 습격한다.",
+    "badge": "Demon",
+    "creatureType": "demon",
+    "rosterSource": "sandbox",
+    "rank": "diamond",
+    "immunities": [],
+    "strongTraits": [
+      "magic_resistant",
+      "cursed",
+      "aura_enchanted",
+      "multishot"
+    ]
+  },
+  {
+    "id": "skull_archer",
+    "name": "해골 궁수",
+    "level": 5,
+    "area": "석굴 상층",
+    "summary": "쇠뇌를 든 해골. 원거리에서 아군 전열을 견제한다.",
+    "badge": "Undead",
+    "creatureType": "undead",
+    "rosterSource": "sandbox",
+    "rank": "master",
+    "immunities": [
+      "cold"
+    ],
+    "strongTraits": [
+      "cursed",
+      "aura_enchanted",
+      "multishot",
+      "teleportation"
+    ]
+  },
+  {
+    "id": "feral_ape",
+    "name": "흉포 원숭이",
+    "level": 5,
+    "area": "깊은 계곡",
+    "summary": "돌을 던지며 원거리 교란을 시도하는 야수.",
+    "badge": "Beast",
+    "creatureType": "beast",
+    "rosterSource": "sandbox",
+    "rank": "silver",
+    "immunities": [],
+    "strongTraits": [
+      "magic_resistant",
+      "cursed"
+    ]
+  },
+  {
+    "id": "iron_boar",
+    "name": "강철 멧돼지",
+    "level": 6,
+    "area": "광산 입구",
+    "summary": "광석 먼지를 먹고 단단해진 멧돼지. 방어력이 높다.",
+    "badge": "Beast",
+    "creatureType": "beast",
+    "rosterSource": "sandbox",
+    "rank": "grandmaster",
+    "immunities": [
+      "poison",
+      "magic",
+      "physical"
+    ],
+    "strongTraits": [
+      "aura_enchanted",
+      "multishot",
+      "teleportation"
+    ]
+  },
+  {
+    "id": "tomb_wailer",
+    "name": "무덤 애곡자",
+    "level": 6,
+    "area": "지하 납골당",
+    "summary": "비명으로 아군의 사기를 깎는 언데드 영혼.",
+    "badge": "Undead",
+    "creatureType": "undead",
+    "rosterSource": "sandbox",
+    "rank": "grandmaster",
+    "immunities": [
+      "poison",
+      "magic",
+      "physical"
+    ],
+    "strongTraits": [
+      "teleportation",
+      "extra_strong",
+      "extra_fast"
+    ]
+  },
+  {
+    "id": "bone_shaman",
+    "name": "뼈 사제",
+    "level": 6,
+    "area": "북망산 지하 제단",
+    "summary": "백골을 소환해 전열을 채우는 언데드 사제.",
+    "badge": "Undead",
+    "creatureType": "undead",
+    "rosterSource": "sandbox",
+    "rank": "silver",
+    "immunities": [],
+    "strongTraits": [
+      "magic_resistant",
+      "cursed"
+    ]
+  },
+  {
+    "id": "stone_crab",
+    "name": "암석 게",
+    "level": 6,
+    "area": "강가 바위",
+    "summary": "바위처럼 딱딱한 껍데기. 좌우 집게 공격이 치명적.",
+    "badge": "Beast",
+    "creatureType": "beast",
+    "rosterSource": "sandbox",
+    "rank": "diamond",
+    "immunities": [],
+    "strongTraits": [
+      "extra_fast",
+      "stone_skin",
+      "magic_resistant",
+      "cursed"
+    ]
+  },
+  {
+    "id": "ghost_blade",
+    "name": "유령검",
+    "level": 6,
+    "area": "묘지 검각",
+    "summary": "검만 떠다니는 정예 검귀. 물리 방어를 무시한다.",
+    "badge": "Elite",
+    "creatureType": "elite",
+    "rosterSource": "sandbox",
+    "rank": "bronze",
+    "immunities": [],
+    "strongTraits": [
+      "stone_skin"
+    ]
+  },
+  {
+    "id": "curse_bringer",
+    "name": "저주 전령",
+    "level": 6,
+    "area": "폐사원",
+    "summary": "저주 문양을 새기며 아군의 회복을 방해한다.",
+    "badge": "Demon",
+    "creatureType": "demon",
+    "rosterSource": "sandbox",
+    "rank": "silver",
+    "immunities": [],
+    "strongTraits": [
+      "teleportation",
+      "extra_strong"
+    ]
+  },
+  {
+    "id": "spectral_duelist",
+    "name": "망령 결투자",
+    "level": 7,
+    "area": "결투장 유적",
+    "summary": "죽은 결투자의 망령. 연속 반격으로 위협한다.",
+    "badge": "Elite",
+    "creatureType": "elite",
+    "rosterSource": "sandbox",
+    "rank": "bronze",
+    "immunities": [],
+    "strongTraits": [
+      "cursed"
+    ]
+  },
+  {
+    "id": "jade_assassin",
+    "name": "비옥 자객",
+    "level": 7,
+    "area": "청림현 비밀 별장",
+    "summary": "비옥 단검을 쓰는 정예 자객. 첫 턴 기습 피해가 크다.",
+    "badge": "Elite",
+    "creatureType": "elite",
+    "rosterSource": "sandbox",
+    "rank": "master",
+    "immunities": [
+      "cold"
+    ],
+    "strongTraits": [
+      "cursed",
+      "aura_enchanted",
+      "multishot",
+      "teleportation"
+    ]
+  },
+  {
+    "id": "abyss_hound",
+    "name": "심연 사냥개",
+    "level": 7,
+    "area": "지하 균열",
+    "summary": "땅을 갈라 심연에서 올라온 사냥개. 돌진이 빠르다.",
+    "badge": "Demon",
+    "creatureType": "demon",
+    "rosterSource": "sandbox",
+    "rank": "gold",
+    "immunities": [],
+    "strongTraits": [
+      "stone_skin",
+      "magic_resistant",
+      "cursed"
+    ]
+  },
+  {
+    "id": "ash_phantom",
+    "name": "재령",
+    "level": 7,
+    "area": "화장터 유적",
+    "summary": "잿더미에서 일어난 환영. 공격을 회피한다.",
+    "badge": "Undead",
+    "creatureType": "undead",
+    "rosterSource": "sandbox",
+    "rank": "bronze",
+    "immunities": [],
+    "strongTraits": [
+      "stone_skin"
+    ]
+  },
+  {
+    "id": "mud_serpent",
+    "name": "진흙 대왕뱀",
+    "level": 7,
+    "area": "늪지 심층",
+    "summary": "몸을 휘감아 아군 한 명을 묶는 거대 뱀.",
+    "badge": "Beast",
+    "creatureType": "beast",
+    "rosterSource": "sandbox",
+    "rank": "gold",
+    "immunities": [],
+    "strongTraits": [
+      "multishot",
+      "teleportation",
+      "extra_strong"
+    ]
+  },
+  {
+    "id": "tomb_guardian",
+    "name": "묘지 수호대장",
+    "level": 8,
+    "area": "왕릉 앞마당",
+    "summary": "석상 갑주를 입은 수호자. 아군 공격을 맞아낸다.",
+    "badge": "Elite",
+    "creatureType": "elite",
+    "rosterSource": "sandbox",
+    "rank": "diamond",
+    "immunities": [],
+    "strongTraits": [
+      "magic_resistant",
+      "cursed",
+      "aura_enchanted",
+      "multishot"
+    ]
+  },
+  {
+    "id": "spirit_chain",
+    "name": "쇠사슬 원혼",
+    "level": 8,
+    "area": "지하 감옥",
+    "summary": "쇠사슬을 휘둘러 아군을 묶는 원혼.",
+    "badge": "Undead",
+    "creatureType": "undead",
+    "rosterSource": "sandbox",
+    "rank": "gold",
+    "immunities": [],
+    "strongTraits": [
+      "extra_strong",
+      "extra_fast",
+      "stone_skin"
+    ]
+  },
+  {
+    "id": "wuxia-monster-eumyang",
+    "name": "음양령녀",
+    "level": 8,
+    "area": "음산 폐가 터",
+    "summary": "방울 소리로 정신을 혼미하게 하여 아군의 검초를 무력화하는 무녀귀신.",
+    "badge": "무협",
+    "creatureType": "wuxia",
+    "rosterSource": "sandbox",
+    "rank": "silver",
+    "immunities": [],
+    "strongTraits": [
+      "extra_fast",
+      "stone_skin"
+    ]
+  },
+  {
+    "id": "ash_devil",
+    "name": "잿빛 마귀",
+    "level": 8,
+    "area": "불탄 마을",
+    "summary": "화재 잿더미에서 태어난 마귀. 화염 저항이 높다.",
+    "badge": "Demon",
+    "creatureType": "demon",
+    "rosterSource": "sandbox",
+    "rank": "master",
+    "immunities": [
+      "cold"
+    ],
+    "strongTraits": [
+      "extra_strong",
+      "extra_fast",
+      "stone_skin",
+      "magic_resistant"
+    ]
+  },
+  {
+    "id": "iron_general",
+    "name": "철갑 장군",
+    "level": 8,
+    "area": "산채 요새",
+    "summary": "중갑을 입은 정예 무장. 전열을 밀고 나선다.",
+    "badge": "Elite",
+    "creatureType": "elite",
+    "rosterSource": "sandbox",
+    "rank": "grandmaster",
+    "immunities": [
+      "poison",
+      "magic",
+      "physical"
+    ],
+    "strongTraits": [
+      "teleportation",
+      "extra_strong",
+      "extra_fast"
+    ]
+  },
+  {
+    "id": "fantasy-monster-harpy",
+    "name": "하피 사냥꾼",
+    "level": 8,
+    "area": "바람부는 절벽 둥지",
+    "summary": "날카로운 발톱과 찢어지는 고음으로 하늘에서 급강하하며 습격하는 비조.",
+    "badge": "판타지",
+    "creatureType": "fantasy",
+    "rosterSource": "sandbox",
+    "rank": "bronze",
+    "immunities": [],
+    "strongTraits": [
+      "extra_strong"
+    ]
+  },
+  {
+    "id": "fantasy-monster-siren",
+    "name": "세이렌 여왕",
+    "level": 9,
+    "area": "안개 낀 난파선 바다",
+    "summary": "매혹적인 노래로 나그네를 잠재우고 바다로 빠뜨려 정기를 빼앗는 요정.",
+    "badge": "판타지",
+    "creatureType": "fantasy",
+    "rosterSource": "sandbox",
+    "rank": "master",
+    "immunities": [
+      "cold"
+    ],
+    "strongTraits": [
+      "cursed",
+      "aura_enchanted",
+      "multishot",
+      "teleportation"
+    ]
+  },
+  {
+    "id": "wuxia-monster-yachal",
+    "name": "야찰녀",
+    "level": 9,
+    "area": "비오는 대나무숲",
+    "summary": "억울하게 죽어 붉은 옷을 입고 피의 복수를 감행하는 살수 원혼.",
+    "badge": "무협",
+    "creatureType": "wuxia",
+    "rosterSource": "sandbox",
+    "rank": "diamond",
+    "immunities": [],
+    "strongTraits": [
+      "aura_enchanted",
+      "multishot",
+      "teleportation",
+      "extra_strong"
+    ]
+  },
+  {
+    "id": "storm_ronin",
+    "name": "폭풍 낭인",
+    "level": 9,
+    "area": "절벽 길",
+    "summary": "바람을 타고 검을 휘두르는 정예 검객.",
+    "badge": "Elite",
+    "creatureType": "elite",
+    "rosterSource": "sandbox",
+    "rank": "master",
+    "immunities": [
+      "cold"
+    ],
+    "strongTraits": [
+      "multishot",
+      "teleportation",
+      "extra_strong",
+      "extra_fast"
+    ]
+  },
+  {
+    "id": "crimson_shaman",
+    "name": "혈사 샤먼",
+    "level": 9,
+    "area": "지하 제단",
+    "summary": "피를 바쳐 아군에게 저주를 거는 정예 주술사.",
+    "badge": "Elite",
+    "creatureType": "elite",
+    "rosterSource": "sandbox",
+    "rank": "silver",
+    "immunities": [],
+    "strongTraits": [
+      "aura_enchanted",
+      "multishot"
+    ]
+  },
+  {
+    "id": "wuxia-monster-sagwi",
+    "name": "사귀녀",
+    "level": 10,
+    "area": "모래 사원 유적",
+    "summary": "모래 폭풍 속에서 갈고리 손톱으로 나그네의 목숨을 낚아채는 귀신.",
+    "badge": "무협",
+    "creatureType": "wuxia",
+    "rosterSource": "sandbox",
+    "rank": "master",
+    "immunities": [
+      "cold"
+    ],
+    "strongTraits": [
+      "extra_strong",
+      "extra_fast",
+      "stone_skin",
+      "magic_resistant"
+    ]
+  },
+  {
+    "id": "abyss_knight",
+    "name": "심연 기사",
+    "level": 10,
+    "area": "균열 성채",
+    "summary": "검은 갑주의 정예 기사. 연속 베기로 전열을 붕괴시킨다.",
+    "badge": "Elite",
+    "creatureType": "elite",
+    "rosterSource": "sandbox",
+    "rank": "gold",
+    "immunities": [],
+    "strongTraits": [
+      "extra_strong",
+      "extra_fast",
+      "stone_skin"
+    ]
+  },
+  {
+    "id": "fantasy-monster-banshee",
+    "name": "울부짖는 밴시",
+    "level": 10,
+    "area": "귀곡의 공동묘지 지하",
+    "summary": "슬픔에 잠긴 죽음의 통곡소리로 광역 공포와 방어력 감소를 거는 영혼 귀신.",
+    "badge": "판타지",
+    "creatureType": "fantasy",
+    "rosterSource": "sandbox",
+    "rank": "diamond",
+    "immunities": [],
+    "strongTraits": [
+      "extra_fast",
+      "stone_skin",
+      "magic_resistant",
+      "cursed"
+    ]
+  },
+  {
+    "id": "wuxia-monster-spider",
+    "name": "독거미 요녀",
+    "level": 11,
+    "area": "만독곡 동굴 지하",
+    "summary": "화려한 여인의 상반신과 맹독 거미 하반신을 가진 기괴한 촉독의 거미 요괴.",
+    "badge": "무협",
+    "creatureType": "wuxia",
+    "rosterSource": "sandbox",
+    "rank": "bronze",
+    "immunities": [],
+    "strongTraits": [
+      "multishot"
+    ]
+  },
+  {
+    "id": "fantasy-monster-arachne",
+    "name": "아라크네",
+    "level": 11,
+    "area": "그림자 거미 숲",
+    "summary": "거미줄을 방출하여 적들의 신법을 봉쇄하고 한 번에 마비를 입히는 요수.",
+    "badge": "판타지",
+    "creatureType": "fantasy",
+    "rosterSource": "sandbox",
+    "rank": "silver",
+    "immunities": [],
+    "strongTraits": [
+      "magic_resistant",
+      "cursed"
+    ]
+  },
+  {
+    "id": "plague_lord",
+    "name": "역병 군주",
+    "level": 11,
+    "area": "역병 마을",
+    "summary": "역병 안개를 퍼뜨리는 보스급 정예. 지속 피해 특화.",
+    "badge": "Elite",
+    "creatureType": "elite",
+    "rosterSource": "sandbox",
+    "rank": "grandmaster",
+    "immunities": [
+      "poison",
+      "magic",
+      "physical"
+    ],
+    "strongTraits": [
+      "extra_fast",
+      "stone_skin",
+      "magic_resistant"
+    ]
+  },
+  {
+    "id": "wuxia-monster-gumiho",
+    "name": "구미호",
+    "level": 12,
+    "area": "천년 묵은 골짜기",
+    "summary": "인간의 형상으로 흘려 정기를 빨아들이는 전설의 아홉 꼬리 여우 요물.",
+    "badge": "무협",
+    "creatureType": "wuxia",
+    "rosterSource": "sandbox",
+    "rank": "silver",
+    "immunities": [],
+    "strongTraits": [
+      "teleportation",
+      "extra_strong"
+    ]
+  },
+  {
+    "id": "fantasy-monster-lamia",
+    "name": "사막의 라미아",
+    "level": 12,
+    "area": "불타는 모래 평원",
+    "summary": "사막의 뱀 몸통을 가지고 채찍을 휘둘러 모험가를 포획하는 사막 뱀여인.",
+    "badge": "판타지",
+    "creatureType": "fantasy",
+    "rosterSource": "sandbox",
+    "rank": "grandmaster",
+    "immunities": [
+      "poison",
+      "magic",
+      "physical"
+    ],
+    "strongTraits": [
+      "teleportation",
+      "extra_strong",
+      "extra_fast"
+    ]
+  },
+  {
+    "id": "fantasy-monster-darkelf",
+    "name": "다크엘프 추적자",
+    "level": 13,
+    "area": "심연의 어두운 동굴",
+    "summary": "어둠 속에 동화되어 은밀하게 맹독 활을 쏘아 적의 후방을 요격하는 암살자.",
+    "badge": "판타지",
+    "creatureType": "fantasy",
+    "rosterSource": "sandbox",
+    "rank": "silver",
+    "immunities": [],
+    "strongTraits": [
+      "aura_enchanted",
+      "multishot"
+    ]
+  },
+  {
+    "id": "wuxia-monster-gangshi",
+    "name": "홍의강시녀",
+    "level": 13,
+    "area": "암흑 의식 동굴",
+    "summary": "부적으로 조종되는 강력한 육체의 여강시. 단단한 피부로 칼을 튕겨낸다.",
+    "badge": "무협",
+    "creatureType": "wuxia",
+    "rosterSource": "sandbox",
+    "rank": "gold",
+    "immunities": [],
+    "strongTraits": [
+      "cursed",
+      "aura_enchanted",
+      "multishot"
+    ]
+  },
+  {
+    "id": "fantasy-monster-medusa",
+    "name": "메두사 여사제",
+    "level": 14,
+    "area": "폐허가 된 석화 신전",
+    "summary": "뱀 머리카락을 곤두세워 시선을 마주하는 자를 돌로 만드는 신전의 신수.",
+    "badge": "판타지",
+    "creatureType": "fantasy",
+    "rosterSource": "sandbox",
+    "rank": "gold",
+    "immunities": [],
+    "strongTraits": [
+      "multishot",
+      "teleportation",
+      "extra_strong"
+    ]
+  },
+  {
+    "id": "wuxia-monster-seolnyeo",
+    "name": "설녀 요괴",
+    "level": 14,
+    "area": "북해 설산 폭포",
+    "summary": "차가운 얼음 송곳을 날려 지나가는 무인들을 얼려 죽이는 혹한의 요물.",
+    "badge": "무협",
+    "creatureType": "wuxia",
+    "rosterSource": "sandbox",
+    "rank": "grandmaster",
+    "immunities": [
+      "poison",
+      "magic",
+      "physical"
+    ],
+    "strongTraits": [
+      "magic_resistant",
+      "cursed",
+      "aura_enchanted"
+    ]
+  },
+  {
+    "id": "fantasy-monster-succubus",
+    "name": "서큐버스",
+    "level": 15,
+    "area": "악마의 심연 성탑",
+    "summary": "유혹적인 눈빛과 키스로 아군의 마력을 빼앗고 공포를 심는 몽마 여왕.",
+    "badge": "판타지",
+    "creatureType": "fantasy",
+    "rosterSource": "sandbox",
+    "rank": "grandmaster",
+    "immunities": [
+      "poison",
+      "magic",
+      "physical"
+    ],
+    "strongTraits": [
+      "aura_enchanted",
+      "multishot",
+      "teleportation"
+    ]
+  },
+  {
+    "id": "wuxia-monster-cheolrang",
+    "name": "철랑랑",
+    "level": 15,
+    "area": "흑호림 숲 야영지",
+    "summary": "늑대 가죽을 머리에 쓰고 강철 손톱을 휘두르는 마교의 잔혹한 여수사.",
+    "badge": "무협",
+    "creatureType": "wuxia",
+    "rosterSource": "sandbox",
+    "rank": "diamond",
+    "immunities": [],
+    "strongTraits": [
+      "teleportation",
+      "extra_strong",
+      "extra_fast",
+      "stone_skin"
+    ]
+  },
+  {
+    "id": "wuxia-monster-hwahwa",
+    "name": "화화공주",
+    "level": 16,
+    "area": "산사 화산 계곡",
+    "summary": "신비로운 붉은 옷을 입고 화염 장막으로 대지를 불태우는 붉은 새의 화신.",
+    "badge": "무협",
+    "creatureType": "wuxia",
+    "rosterSource": "sandbox",
+    "rank": "master",
+    "immunities": [
+      "cold"
+    ],
+    "strongTraits": [
+      "stone_skin",
+      "magic_resistant",
+      "cursed",
+      "aura_enchanted"
+    ]
+  },
+  {
+    "id": "fantasy-monster-icequeen",
+    "name": "아이스 퀸",
+    "level": 17,
+    "area": "혹한의 얼음 요새",
+    "summary": "영원히 녹지 않는 빙결의 눈으로 온 세상을 서리로 뒤덮는 잔혹한 군주.",
+    "badge": "판타지",
+    "creatureType": "fantasy",
+    "rosterSource": "sandbox",
+    "rank": "bronze",
+    "immunities": [],
+    "strongTraits": [
+      "stone_skin"
+    ]
+  },
+  {
+    "id": "wuxia-monster-cheonma",
+    "name": "천마녀",
+    "level": 18,
+    "area": "마교 본단 심연",
+    "summary": "마교의 사악한 무공을 극성으로 익힌 매혹적이고 무자비한 성녀 전사.",
+    "badge": "무협",
+    "creatureType": "wuxia",
+    "rosterSource": "sandbox",
+    "rank": "gold",
+    "immunities": [],
+    "strongTraits": [
+      "stone_skin",
+      "magic_resistant",
+      "cursed"
+    ]
+  },
+  {
+    "id": "fantasy-monster-balrog",
+    "name": "발로그 마황녀",
+    "level": 19,
+    "area": "지옥 불길 분화구",
+    "summary": "지옥 심연의 불꽃 채찍을 휘둘러 범위 내의 모든 생명체를 소멸시키는 군주.",
+    "badge": "판타지",
+    "creatureType": "fantasy",
+    "rosterSource": "sandbox",
+    "rank": "gold",
+    "immunities": [],
+    "strongTraits": [
+      "extra_strong",
+      "extra_fast",
+      "stone_skin"
+    ]
+  }
+]

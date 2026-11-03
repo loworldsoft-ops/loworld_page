@@ -1,0 +1,4582 @@
+{
+  "PERSONALITY_CODEX_100_SAMPLE": [
+    {
+      "id": "virtues_sins",
+      "label": "7대 죄악 · 미덕",
+      "description": "인간 윤리와 욕망의 극단을 상징하는 근본 성격 속성 25종",
+      "entries": [
+        {
+          "id": "p_humility",
+          "name": "겸손",
+          "title": "자신을 낮추는 이성",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 3,
+          "icon": "🕊️",
+          "motto": "\"낮아짐으로써 진정한 유대를 맺는다.\"",
+          "description": "자신의 공적을 내세우지 않고 상대방을 정중히 존중하는 영혼의 그릇.",
+          "statBonus": {
+            "wisdom": 15,
+            "karma": 20,
+            "battleMorale": 10
+          },
+          "dialogueUnlock": "공경 및 정중한 설득 선택지 해금 (협상 성공률 +30%)",
+          "npcReaction": "정의로운 NPC 및 성기사 호감도 +30%, 무법자 NPC 경계 감소",
+          "combatTrigger": "아군 체력 30% 이하 시 아군 치유량 +20% 및 받는 피해 -15%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_kindness",
+          "name": "자애",
+          "title": "타인을 품는 헌신",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 2,
+          "icon": "❤️",
+          "motto": "\"타인의 아픔을 자신의 아픔으로 품는다.\"",
+          "description": "상처받은 이들을 차마 외면하지 못하는 숭고한 보듬음.",
+          "statBonus": {
+            "vitality": 12,
+            "karma": 15
+          },
+          "dialogueUnlock": "구원 및 화해 선택지 해금 (피난민 호감도 급상승)",
+          "npcReaction": "약자 및 마을 주민 호감도 +35%",
+          "combatTrigger": "치유 스킬 효과 +25%",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_patience",
+          "name": "인내",
+          "title": "폭풍을 견디는 바위",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 2,
+          "icon": "🛡️",
+          "motto": "\"폭풍 속에서도 흔들리지 않는 조용한 의지.\"",
+          "description": "어떤 고난과 도발에도 묵묵히 자리를 지키는 불굴의 정신력.",
+          "statBonus": {
+            "defense": 20,
+            "statResist": 15
+          },
+          "dialogueUnlock": "경청 및 대기 선택지 해금 (숨겨진 의도 파악)",
+          "npcReaction": "원로 및 노련한 장수 NPC 신뢰도 +25%",
+          "combatTrigger": "행동불능 이상 상태 지속시간 -30%",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_courage.png"
+        },
+        {
+          "id": "p_diligence",
+          "name": "근면",
+          "title": "쉬지 않는 성실함",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 2,
+          "icon": "🔨",
+          "motto": "\"쉬지 않는 발걸음이 산을 움직인다.\"",
+          "description": "매일의 수련과 과업을 게을리하지 않는 단단한 정성.",
+          "statBonus": {
+            "expGain": 15,
+            "stamina": 20
+          },
+          "dialogueUnlock": "노력 및 솔선수범 선택지 해금",
+          "npcReaction": "장인 및 대장장이 NPC 호감도 +30%",
+          "combatTrigger": "지속 스탯 지속시간 +25%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_charity",
+          "name": "자선",
+          "title": "아낌없이 내어줌",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 2,
+          "icon": "🤲",
+          "motto": "\"내어줄수록 영혼의 잔은 더 가득 채워진다.\"",
+          "description": "자신의 재물과 기회를 아낌없이 타인에게 기부하는 고결함.",
+          "statBonus": {
+            "karma": 30,
+            "charisma": 15
+          },
+          "dialogueUnlock": "기부 및 무료 구호 선택지 해금",
+          "npcReaction": "빈민 및 은혜 입은 이들의 충성도 +40%",
+          "combatTrigger": "골드 소모 시 20% 확률로 아군 전원 회복",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_temperance",
+          "name": "절제",
+          "title": "고결한 이성의 굴레",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 2,
+          "icon": "⚖️",
+          "motto": "\"욕망의 고삐를 쥐는 자가 진정한 자유를 얻는다.\"",
+          "description": "지나친 유혹과 흥분 속에서도 이성의 중심을 놓치지 않는 냉철함.",
+          "statBonus": {
+            "manaRegen": 20,
+            "statResist": 20
+          },
+          "dialogueUnlock": "거절 및 금욕 선택지 해금 (유혹 마법 무효화)",
+          "npcReaction": "현자 및 수도사 NPC 존경 +30%",
+          "combatTrigger": "자원 소비량 -15%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_chastity",
+          "name": "순결",
+          "title": "물들지 않는 맑은 영혼",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 3,
+          "icon": "🕯️",
+          "motto": "\"어떤 타락의 매혹에도 흔들리지 않는 맑은 샘물.\"",
+          "description": "세속의 때가 묻지 않은 고결하고 순수한 기운.",
+          "statBonus": {
+            "holyDamage": 25,
+            "statusResist": 25
+          },
+          "dialogueUnlock": "정화 및 성스러운 언약 선택지 해금",
+          "npcReaction": "성직자 및 엘프 족장 호감도 +35%",
+          "combatTrigger": "디버프 적용 시 35% 확률로 즉시 정화",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_magnanimity",
+          "name": "관용",
+          "title": "원수조차 포용하는 대량",
+          "category": "virtues_sins",
+          "subcategory": "고위미덕",
+          "tier": 3,
+          "icon": "🌸",
+          "motto": "\"진정한 승리는 용서함으로 완성된다.\"",
+          "description": "자신을 해하려 한 적조차 기꺼이 사면하는 넓은 품.",
+          "statBonus": {
+            "diplomacy": 30,
+            "karma": 25
+          },
+          "dialogueUnlock": "사면 및 기회 부여 선택지 해금 (적대 항복)",
+          "npcReaction": "패배한 적장 및 은혜 입은 항복자 호감도 +40%",
+          "combatTrigger": "적 사살 대신 30% 확률로 무력화 항복 유도",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_courage",
+          "name": "용맹",
+          "title": "두려움을 딛는 기상",
+          "category": "virtues_sins",
+          "subcategory": "고위미덕",
+          "tier": 2,
+          "icon": "🦁",
+          "motto": "\"두려움이 없어서가 아니라, 두려움을 넘어서기에 사자다.\"",
+          "description": "압도적인 거악 앞에서도 검을 집어 드는 담대함.",
+          "statBonus": {
+            "attack": 20,
+            "battleMorale": 25
+          },
+          "dialogueUnlock": "돌진 및 선전포고 선택지 해금",
+          "npcReaction": "용병단 및 기사단 호감도 +30%",
+          "combatTrigger": "공포 상태 면역 및 치명타 확률 +15%",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_courage.png"
+        },
+        {
+          "id": "p_sacrifice",
+          "name": "숭고한 희생",
+          "title": "등불이 되는 결의",
+          "category": "virtues_sins",
+          "subcategory": "고위미덕",
+          "tier": 3,
+          "icon": "🕯️",
+          "motto": "\"나 하나의 피로 동료들의 새벽을 연다.\"",
+          "description": "동료의 생명을 위해 자신의 육신을 아낌없이 던지는 성자의 의지.",
+          "statBonus": {
+            "maxHp": 25,
+            "damageReduction": 20
+          },
+          "dialogueUnlock": "대신 수감 및 희생 선택지 해금",
+          "npcReaction": "파티원 전원 호감도 최고치 달성",
+          "combatTrigger": "아군 치명상 시 방어력 100% 흡수 수호막 부여",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_honesty",
+          "name": "정직",
+          "title": "거짓을 거부하는 거울",
+          "category": "virtues_sins",
+          "subcategory": "고위미덕",
+          "tier": 1,
+          "icon": "🪞",
+          "motto": "\"어떤 손해 앞에서도 거짓을 말하지 않는다.\"",
+          "description": "자신의 이익을 위해 타인을 속이지 않는 곧은 언행.",
+          "statBonus": {
+            "trustGain": 25,
+            "wisdom": 10
+          },
+          "dialogueUnlock": "진실 고백 선택지 해금",
+          "npcReaction": "상인 및 원로 신뢰도 +30%",
+          "combatTrigger": "환영 및 환술 무효화",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_devotion",
+          "name": "신실",
+          "title": "단 한 번의 맹세",
+          "category": "virtues_sins",
+          "subcategory": "고위미덕",
+          "tier": 2,
+          "icon": "✨",
+          "motto": "\"한번 맺은 맹세는 죽음조래 갈라놓지 못한다.\"",
+          "description": "자신이 세운 신념과 주군을 향한 일편단심.",
+          "statBonus": {
+            "holyDamage": 15,
+            "statResist": 15
+          },
+          "dialogueUnlock": "충성 서약 선택지 해금",
+          "npcReaction": "주군 및 주교 NPC 호감도 +35%",
+          "combatTrigger": "신성 피해 +20%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_modesty",
+          "name": "소박",
+          "title": "검소한 삶의 안식",
+          "category": "virtues_sins",
+          "subcategory": "고위미덕",
+          "tier": 1,
+          "icon": "🌾",
+          "motto": "\"화려함보다 소박한 빵 한 조각이 마음을 덥힌다.\"",
+          "description": "탐욕스러운 부귀영화에 휘둘리지 않는 자족하는 삶.",
+          "statBonus": {
+            "stamina": 15,
+            "hpRegen": 15
+          },
+          "dialogueUnlock": "검소한 음식 나눔 선택지 해금",
+          "npcReaction": "농부 및 평민 친밀도 +30%",
+          "combatTrigger": "소모품 사용 효과 +30%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_pride",
+          "name": "교만",
+          "title": "왕좌의 오만",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 3,
+          "icon": "👑",
+          "motto": "\"모든 이 위에 군림하는 오만한 왕좌.\"",
+          "description": "스스로를 오직 최고로 여기며 타인을 굴복시키려는 강렬한 비상.",
+          "statBonus": {
+            "attack": 25,
+            "critChance": 10,
+            "karma": -15
+          },
+          "dialogueUnlock": "위압 및 명령 선택지 해금 (적 굴복 유도)",
+          "npcReaction": "귀족 NPC 존경 +20%, 평민 NPC 경계 +20%",
+          "combatTrigger": "체력 80% 이상 시 피해량 +25%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_pride.png"
+        },
+        {
+          "id": "p_envy",
+          "name": "질투",
+          "title": "잿빛 불꽃의 탐욕",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 2,
+          "icon": "🐍",
+          "motto": "\"타인의 빛을 탐하며 타오르는 불꽃.\"",
+          "description": "남이 가진 빛나는 재능과 재물을 참지 못하는 시기심.",
+          "statBonus": {
+            "critChance": 15,
+            "karma": -10
+          },
+          "dialogueUnlock": "질시 및 험담 선택지 해금",
+          "npcReaction": "라이벌 NPC 경계도 +35%",
+          "combatTrigger": "적의 유용한 버프 1개 훔쳐 오기 (20% 확률)",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_greed.png"
+        },
+        {
+          "id": "p_wrath",
+          "name": "분노",
+          "title": "모든 것을 태우는 맹화",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 2,
+          "icon": "🔥",
+          "motto": "\"모든 이성을 불태우는 붉은 맹화.\"",
+          "description": "억누를 수 없는 격노로 이성을 잃고 파괴를 분출함.",
+          "statBonus": {
+            "attack": 30,
+            "defense": -10
+          },
+          "dialogueUnlock": "협박 및 즉시 공격 선택지 해금",
+          "npcReaction": "온건파 NPC 위압감 +40%",
+          "combatTrigger": "공격 시 15% 확률로 광란 (공격속도 +35%)",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_wrath.png"
+        },
+        {
+          "id": "p_sloth",
+          "name": "나태",
+          "title": "굳어버린 안식",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 1,
+          "icon": "🦥",
+          "motto": "\"지나간 안식에 갇혀 움직이지 않는다.\"",
+          "description": "모든 만사가 귀찮고 무기력증에 빠져버린 정체.",
+          "statBonus": {
+            "damageReduction": 15,
+            "moveSpeed": -10
+          },
+          "dialogueUnlock": "대충 넘어감 선택지 해금",
+          "npcReaction": "엄격한 NPC 호감도 -20%",
+          "combatTrigger": "피격 피해 -15% (움직이지 않을 때)",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_greed.png"
+        },
+        {
+          "id": "p_greed",
+          "name": "탐욕",
+          "title": "끝없는 갈증",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 2,
+          "icon": "💎",
+          "motto": "\"채울 수 없는 욕망의 끝없는 굴레.\"",
+          "description": "세상의 모든 보화와 권력을 소유하고자 하는 탐욕.",
+          "statBonus": {
+            "goldFind": 35,
+            "magicFind": 20
+          },
+          "dialogueUnlock": "뇌물 및 보상 추가 요구 선택지 해금",
+          "npcReaction": "상인 NPC 호감도 +25%",
+          "combatTrigger": "적 처치 시 골드 및 아티팩트 드롭률 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_greed.png"
+        },
+        {
+          "id": "p_gluttony",
+          "name": "탐식",
+          "title": "삼켜버리는 갈증",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 1,
+          "icon": "🍖",
+          "motto": "\"세계조차 집어삼키하려는 원초적 갈증.\"",
+          "description": "육신의 모든 정수와 포만감을 탐하는 굶주림.",
+          "statBonus": {
+            "maxHp": 20,
+            "hpRegen": 15
+          },
+          "dialogueUnlock": "음식 탐닉 선택지 해금",
+          "npcReaction": "주점 주인 호감도 +30%",
+          "combatTrigger": "물약 회복 효과 +40%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_greed.png"
+        },
+        {
+          "id": "p_lust",
+          "name": "색욕",
+          "title": "매혹의 서곡",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 2,
+          "icon": "💋",
+          "motto": "\"이성을 마비시키는 붉은 유혹의 서곡.\"",
+          "description": "타인의 이성을 마비시키고 미혹하는 본능.",
+          "statBonus": {
+            "charisma": 25,
+            "charm": 20
+          },
+          "dialogueUnlock": "유혹 및 미혹 선택지 해금",
+          "npcReaction": "이성 NPC 호감도 +35%",
+          "combatTrigger": "적 1체 3초간 혼란/매혹 상태 부여",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_greed.png"
+        },
+        {
+          "id": "p_cruelty",
+          "name": "잔혹",
+          "title": "아비규환의 즐거움",
+          "category": "virtues_sins",
+          "subcategory": "죄악",
+          "tier": 2,
+          "icon": "🗡️",
+          "motto": "\"타인의 통곡 속에서 희열을 느낀다.\"",
+          "description": "적의 희생과 절규를 무자비하게 가학하는 비정함.",
+          "statBonus": {
+            "bleedDamage": 25,
+            "karma": -30
+          },
+          "dialogueUnlock": "고문 및 무자비한 집행 선택지 해금",
+          "npcReaction": "도적 및 악성향 NPC 호감도 +30%",
+          "combatTrigger": "출혈 상태 적 타격 시 치명타 100% 발동",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_wrath.png"
+        },
+        {
+          "id": "p_arrogance",
+          "name": "오만",
+          "title": "타인을 짓밟는 시선",
+          "category": "virtues_sins",
+          "subcategory": "죄악",
+          "tier": 2,
+          "icon": "👁️",
+          "motto": "\"너희 벌레 같은 무리와 논할 이성은 없다.\"",
+          "description": "자신 이외의 모든 생명체를 하찮게 내려다보는 업신여김.",
+          "statBonus": {
+            "attack": 15,
+            "defense": -5
+          },
+          "dialogueUnlock": "무시 및 단칼 거절 선택지 해금",
+          "npcReaction": "일반 주민 호감도 -25%",
+          "combatTrigger": "자신보다 레벨 낮은 적 상대 시 피해 +30%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_pride.png"
+        },
+        {
+          "id": "p_treachery",
+          "name": "배신",
+          "title": "차가운 맹세의 파기",
+          "category": "virtues_sins",
+          "subcategory": "죄악",
+          "tier": 3,
+          "icon": "🗡️",
+          "motto": "\"동맹이란 등에 칼을 찌르기 위한 명분에 불과하다.\"",
+          "description": "어떤 약속과 은혜도 이익 앞에 쉽게 던져버리는 비열함.",
+          "statBonus": {
+            "backstabDamage": 35,
+            "karma": -40
+          },
+          "dialogueUnlock": "기습 및 등뒤 찌르기 선택지 해금",
+          "npcReaction": "모든 동료 경계심 최고치",
+          "combatTrigger": "적의 후방 공격 시 피해 +40%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_distrust",
+          "name": "불신",
+          "title": "의심의 장막",
+          "category": "virtues_sins",
+          "subcategory": "죄악",
+          "tier": 1,
+          "icon": "🔍",
+          "motto": "\"세상에 어떤 타인도 완전한 호의를 갖지 않는다.\"",
+          "description": "모든 선의 뒤에 독이 숨겨져 있다고 의심하는 냉소.",
+          "statBonus": {
+            "trapDetect": 25,
+            "evasion": 10
+          },
+          "dialogueUnlock": "의문 제기 선택지 해금 (함정 회피)",
+          "npcReaction": "모든 NPC 친밀도 상승 속도 50% 감소",
+          "combatTrigger": "기습 당했을 때 피격 피해 -30%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_sadism",
+          "name": "가학",
+          "title": "피의 가학성",
+          "category": "virtues_sins",
+          "subcategory": "죄악",
+          "tier": 3,
+          "icon": "🩸",
+          "motto": "\"찢어지는 비명소리야말로 가장 달콤한 음악이다.\"",
+          "description": "상대방의 괴로움과 피흘림을 볼 때 본능이 타오르는 광기.",
+          "statBonus": {
+            "lifesteal": 15,
+            "attack": 20
+          },
+          "dialogueUnlock": "절단 및 잔혹 고문 선택지 해금",
+          "npcReaction": "선성향 NPC 공포감 +50%",
+          "combatTrigger": "적 HP 50% 이하 시 공격력 +35%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        }
+      ],
+      "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+    },
+    {
+      "id": "four_seven",
+      "label": "4단 7정",
+      "description": "동양 유가 사상에 기반한 인간 심성과 자연스러운 감정 25종",
+      "entries": [
+        {
+          "id": "p_compassion",
+          "name": "측은지심",
+          "title": "불쌍히 여기는 마음",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 3,
+          "icon": "🕯️",
+          "motto": "\"남의 불행을 차마 보지 못하는 인(仁)의 시작.\"",
+          "description": "타인의 고통을 차마 외면하지 못하고 함께 눈물짓는 본성.",
+          "statBonus": {
+            "healPower": 25,
+            "empathy": 20
+          },
+          "dialogueUnlock": "동정 및 구호 선택지 해금 (피난민 전용 퀘스트)",
+          "npcReaction": "의원 및 사제 NPC 호감도 +30%",
+          "combatTrigger": "아군 치명 피해 시 즉시 15% 치유",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_shame",
+          "name": "수오지심",
+          "title": "불의를 부끄러워함",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 3,
+          "icon": "⚖️",
+          "motto": "\"자신의 불의를 부끄러워하고 남의 불의를 미워하는 의(義)의 시작.\"",
+          "description": "불의에 대해 당당히 분노하고 올곧은 정의를 수호함.",
+          "statBonus": {
+            "holyDamage": 20,
+            "statusResist": 20
+          },
+          "dialogueUnlock": "단죄 및 정의 심판 선택지 해금",
+          "npcReaction": "기사단장 및 맹주 NPC 호감도 +30%",
+          "combatTrigger": "악 성향 적 타격 시 추가 피해 +20%",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_courtesy",
+          "name": "사양지심",
+          "title": "공경하고 양보함",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 2,
+          "icon": "🍵",
+          "motto": "\"남을 공경하고 자신을 양보하는 예(禮)의 시작.\"",
+          "description": "예의와 존중으로 사람을 대하고 다툼을 피하려는 겸양.",
+          "statBonus": {
+            "diplomacy": 25,
+            "charisma": 15
+          },
+          "dialogueUnlock": "양보 및 사과 선택지 해금",
+          "npcReaction": "외교관 및 원로 NPC 호감도 +25%",
+          "combatTrigger": "비전투 외교 성공률 +30%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_discernment",
+          "name": "시비지심",
+          "title": "옳고 그름을 가림",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 3,
+          "icon": "🔍",
+          "motto": "\"옳음과 그름을 명확히 분별하는 지(智)의 시작.\"",
+          "description": "감정에 휘둘리지 않고 진실과 거짓을 냉철하게 직관하는 혜안.",
+          "statBonus": {
+            "expGain": 15,
+            "insight": 25
+          },
+          "dialogueUnlock": "진실 간파 및 거짓 지적 선택지 해금",
+          "npcReaction": "학자 및 조사관 NPC 호감도 +30%",
+          "combatTrigger": "적 약점 자동 파악 및 치명타 피해 +20%",
+          "suggestedSlots": [
+            "secondary",
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_wisdom.png"
+        },
+        {
+          "id": "p_sincerity",
+          "name": "성실지심",
+          "title": "한결같은 진실함",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 2,
+          "icon": "📜",
+          "motto": "\"하늘과 땅 사이 한 치의 거짓도 없는 정성.\"",
+          "description": "주변 모든 소임을 한결같은 마음으로 마치는 신실함.",
+          "statBonus": {
+            "trustGain": 30,
+            "stamina": 15
+          },
+          "dialogueUnlock": "진실한 고백 선택지 해금",
+          "npcReaction": "마을 이장 및 촌장 호감도 +35%",
+          "combatTrigger": "연속 공격 성공 시 중첩 피해 +10%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_reverence",
+          "name": "경외지심",
+          "title": "하늘과 이치를 두려워함",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 2,
+          "icon": "🌌",
+          "motto": "\"우주의 거대한 섭리 앞에 절로 고개가 숙여진다.\"",
+          "description": "자연과 하늘의 거대한 운명 앞에 경건히 자리를 지킴.",
+          "statBonus": {
+            "holyDamage": 15,
+            "manaRegen": 20
+          },
+          "dialogueUnlock": "천도 인용 선택지 해금",
+          "npcReaction": "도인 및 사제 호감도 +30%",
+          "combatTrigger": "마법 저항력 +20%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_loyalty",
+          "name": "단심지심",
+          "title": "변치 않는 붉은 충절",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 2,
+          "icon": "🗡️",
+          "motto": "\"이 몸이 죽고 죽어 일편단심 가질 줄이 있으랴.\"",
+          "description": "자신의 맹세와 주군을 결코 저버리지 않는 강직함.",
+          "statBonus": {
+            "attack": 15,
+            "statResist": 20
+          },
+          "dialogueUnlock": "충절 맹세 선택지 해금",
+          "npcReaction": "주군 NPC 호감도 +40%",
+          "combatTrigger": "주군/파티장 보호 시 피해 -25%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_frugality",
+          "name": "검양지심",
+          "title": "과함을 경계하는 아낌",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 1,
+          "icon": "🎋",
+          "motto": "\"화려함을 지우고 아낌을 세우니 마음이 깨끗하다.\"",
+          "description": "지나친 물욕과 낭비를 스스로 통제하는 지혜.",
+          "statBonus": {
+            "goldFind": 20,
+            "stamina": 15
+          },
+          "dialogueUnlock": "절약 타협 선택지 해금",
+          "npcReaction": "상인 및 원로 호감도 +25%",
+          "combatTrigger": "아이템 수리비 50% 절감",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_candidness",
+          "name": "직언지심",
+          "title": "곧은 직언의 태도",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 2,
+          "icon": "🖊️",
+          "motto": "\"목에 칼이 들어와도 아닌 것은 아니다라 말한다.\"",
+          "description": "권력 앞에서도 아첨하지 않고 사실만을 곧게 고하는 강직함.",
+          "statBonus": {
+            "trustGain": 20,
+            "charisma": 15
+          },
+          "dialogueUnlock": "직언 선택지 해금 (아첨 거부)",
+          "npcReaction": "의로운 군주 호감도 +35%, 아첨꾼 호감도 -30%",
+          "combatTrigger": "적의 거짓 유혹 스킬 100% 반사",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_righteousness",
+          "name": "의기지심",
+          "title": "의로움을 향한 일어섬",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 3,
+          "icon": "🚩",
+          "motto": "\"의로운 일이라면 목숨을 걸고 나아간다.\"",
+          "description": "약자의 억울함을 풀기 위해 스스로 나서는 장렬함.",
+          "statBonus": {
+            "battleMorale": 30,
+            "attack": 15
+          },
+          "dialogueUnlock": "의병 모집 선택지 해금",
+          "npcReaction": "의병 및 민중 호감도 +40%",
+          "combatTrigger": "파티원 전원 사기 100% 유지",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_courage.png"
+        },
+        {
+          "id": "p_joy",
+          "name": "기쁨(喜)",
+          "title": "희열의 파동",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "☀️",
+          "motto": "\"삶의 매 순간에 감사하며 웃음 짓는 영혼.\"",
+          "description": "밝은 에너지로 주변 사람들의 사기를 북돋우는 환희.",
+          "statBonus": {
+            "partyMorale": 15,
+            "moveSpeed": 10
+          },
+          "dialogueUnlock": "유쾌한 입담 선택지 해금",
+          "npcReaction": "동료 호감도 상승 속도 +20%",
+          "combatTrigger": "전투 시작 시 파티원 이동속도 +15%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_anger",
+          "name": "노여움(怒)",
+          "title": "격동의 표효",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "⚡",
+          "motto": "\"부당함에 끓어오르는 의로운 분노.\"",
+          "description": "참을 수 없는 순간 솟구쳐 오르는 폭발적인 도파민.",
+          "statBonus": {
+            "attack": 15
+          },
+          "dialogueUnlock": "즉시 전투 개시 선택지 해금",
+          "npcReaction": "온건파 NPC 경계 +15%",
+          "combatTrigger": "피격 시 10초간 공격력 +15% 중첩",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_sorrow",
+          "name": "슬픔(哀)",
+          "title": "비통의 통곡",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "🌧️",
+          "motto": "\"가슴 깊이 굳어버린 애도의 눈물.\"",
+          "description": "잃어버린 존재를 향한 깊은 슬픔과 회한.",
+          "statBonus": {
+            "damageReduction": 15,
+            "attack": -5
+          },
+          "dialogueUnlock": "위로 요구 선택지 해금",
+          "npcReaction": "비통한 주민 호감도 +25%",
+          "combatTrigger": "피격 시 20% 확률로 피해 반사",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_fear",
+          "name": "두려움(懼)",
+          "title": "원초적 떨림",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "🌑",
+          "motto": "\"미지의 위험 앞에 떨리는 생존 본능.\"",
+          "description": "죽음과 미지에 대한 경계심으로 감각을 날카롭게 세움.",
+          "statBonus": {
+            "evasion": 20,
+            "hitRating": -5
+          },
+          "dialogueUnlock": "경계 및 도망 선택지 해금",
+          "npcReaction": "겁쟁이 NPC 동병상련 +20%",
+          "combatTrigger": "위험 도달 시 회피율 +30%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_love",
+          "name": "사랑(愛)",
+          "title": "숭고한 애호",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "💖",
+          "motto": "\"타인을 내 몸처럼 아끼는 끌림.\"",
+          "description": "세상과 동료를 향한 따스하고 헌신적인 사랑.",
+          "statBonus": {
+            "healPower": 20,
+            "charisma": 15
+          },
+          "dialogueUnlock": "고백 및 포옹 선택지 해금",
+          "npcReaction": "모든 동료 호감도 상승 +30%",
+          "combatTrigger": "아군 치유 시 지속 회복 부여",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_hatred",
+          "name": "미움(惡)",
+          "title": "증오의 가시",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "🖤",
+          "motto": "\"부패한 세상을 향해 세운 날카로운 가시.\"",
+          "description": "악행과 사악함을 용납하지 않는 증오의 마음.",
+          "statBonus": {
+            "attack": 15,
+            "karma": -5
+          },
+          "dialogueUnlock": "독설 선택지 해금",
+          "npcReaction": "적대 NPC 사기 저하",
+          "combatTrigger": "적 타격 시 방어 감소 디버프",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_wrath.png"
+        },
+        {
+          "id": "p_desire",
+          "name": "욕망(欲)",
+          "title": "끊임없는 갈망",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "🔥",
+          "motto": "\"꿈꾸는 것을 향해 멈추지 않는 갈망.\"",
+          "description": "목표와 안식을 얻고자 솟구치는 원초적 열망.",
+          "statBonus": {
+            "expGain": 10,
+            "stamina": 15
+          },
+          "dialogueUnlock": "욕구 표현 선택지 해금",
+          "npcReaction": "야심가 NPC 호감도 +20%",
+          "combatTrigger": "스킬 쿨타임 -8%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_delight",
+          "name": "희열",
+          "title": "승리의 순간",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "🎉",
+          "motto": "\"목표를 이뤄낸 순간 가슴 깊이 타오르는 기쁨.\"",
+          "description": "어려운 관문을 돌파할 때 솟아오르는 희열.",
+          "statBonus": {
+            "critChance": 12,
+            "moveSpeed": 10
+          },
+          "dialogueUnlock": "자축 선택지 해금",
+          "npcReaction": "동료 사기 +25%",
+          "combatTrigger": "적 처치 시 5초간 이동/공격속도 +20%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_grief",
+          "name": "비통",
+          "title": "굳어진 애도",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "🥀",
+          "motto": "\"다시는 돌아오지 않는 이를 향한 찬 가슴.\"",
+          "description": "깊은 애도 속에서 차갑게 무뎌진 영혼.",
+          "statBonus": {
+            "statResist": 25
+          },
+          "dialogueUnlock": "묵념 선택지 해금",
+          "npcReaction": "유가족 NPC 호감도 +35%",
+          "combatTrigger": "피격 시 정신 상태이상 면역",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_terror",
+          "name": "전율",
+          "title": "존재의 공포",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "👁️",
+          "motto": "\"심연을 들여다보았을 때 느껴지는 생생한 전율.\"",
+          "description": "미지의 고대 존재 앞에서 느끼는 처절한 떨림.",
+          "statBonus": {
+            "evasion": 25,
+            "attack": -10
+          },
+          "dialogueUnlock": "공포 고백 선택지 해금",
+          "npcReaction": "경험 많은 탐험가 동질감 +25%",
+          "combatTrigger": "위기 시 순간 이동/회피",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_affection",
+          "name": "애착",
+          "title": "연연하는 심상",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "🧸",
+          "motto": "\"손에 쥔 소중한 추억을 결코 놓지 않는다.\"",
+          "description": "추억이 담긴 물건과 장소에 깊게 연연함.",
+          "statBonus": {
+            "stamina": 20
+          },
+          "dialogueUnlock": "추억 소환 선택지 해금",
+          "npcReaction": "어린 시절 친구 호감도 +40%",
+          "combatTrigger": "기본 장비 사용 시 능력치 +15%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_abhorrence",
+          "name": "혐오",
+          "title": "차가운 배척",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "🤮",
+          "motto": "\"더럽고 부패한 모든 것에 대해 고개를 돌린다.\"",
+          "description": "불결함과 악취나는 부패를 생리적으로 거부함.",
+          "statBonus": {
+            "statusResist": 30
+          },
+          "dialogueUnlock": "거북함 표현 선택지 해금",
+          "npcReaction": "위생주의자 NPC 호감도 +30%",
+          "combatTrigger": "중독/질병 상태이상 100% 면역",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_yearning",
+          "name": "갈망",
+          "title": "닿지 않는 이상",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "🌟",
+          "motto": "\"눈앞의 현실 넘어 닿을 수 없는 꿈을 빈다.\"",
+          "description": "먼 이상향과 천상을 동경하며 눈물짓는 마음.",
+          "statBonus": {
+            "expGain": 15,
+            "manaRegen": 15
+          },
+          "dialogueUnlock": "꿈 이야기 선택지 해금",
+          "npcReaction": "시인 및 예술가 호감도 +35%",
+          "combatTrigger": "스킬 피해량 +15%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_cynicism",
+          "name": "염세",
+          "title": "허무의 혜안",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "🌫️",
+          "motto": "\"모든 영웅담과 비극은 허무의 부조리에 불과하다.\"",
+          "description": "세상의 가치와 기적을 덧없는 허상으로 봄.",
+          "statBonus": {
+            "statusResist": 20,
+            "charisma": -10
+          },
+          "dialogueUnlock": "염세적 분석 선택지 해금",
+          "npcReaction": "철학자 NPC 호감도 +30%",
+          "combatTrigger": "정신 공격 스킬 100% 무효화",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_euphoria",
+          "name": "황홀",
+          "title": "극락의 쾌감",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 3,
+          "icon": "🌌",
+          "motto": "\"이성의 고삐를 놓고 마법의 아우라에 몰입한다.\"",
+          "description": "절대적 마법이나 예술의 경지에서 느끼는 극락.",
+          "statBonus": {
+            "spellDamage": 30,
+            "manaRegen": 25
+          },
+          "dialogueUnlock": "황홀경 묘사 선택지 해금",
+          "npcReaction": "대마법사 NPC 존경 +35%",
+          "combatTrigger": "마법 사용 시 20% 확률로 쿨타임 초기화",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        }
+      ],
+      "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+    },
+    {
+      "id": "human_desires",
+      "label": "인간의 욕구",
+      "description": "행동의 근본 원동력이 되는 본능적·심리적 욕구 25종",
+      "entries": [
+        {
+          "id": "p_survival",
+          "name": "생존욕",
+          "title": "생명의 집착",
+          "category": "human_desires",
+          "subcategory": "본능",
+          "tier": 2,
+          "icon": "🌱",
+          "motto": "\"어떤 지옥 속에서도 살아남는 것이 최우선이다.\"",
+          "description": "죽음의 위협 앞에서 뿜어져 나오는 생명력.",
+          "statBonus": {
+            "maxHp": 15,
+            "evasion": 10
+          },
+          "dialogueUnlock": "후퇴 및 타협 선택지 해금",
+          "npcReaction": "생존자 NPC 호감도 +20%",
+          "combatTrigger": "체력 20% 이하 시 5초간 회피율 +50%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_ambition",
+          "name": "승부욕/정복욕",
+          "title": "정상의 야망",
+          "category": "human_desires",
+          "subcategory": "야망",
+          "tier": 3,
+          "icon": "⚔️",
+          "motto": "\"패배는 죽음보다 달콤하지 않다.\"",
+          "description": "모든 라이벌과 적을 꺾고 최강에 오르려는 도파민.",
+          "statBonus": {
+            "bossDamage": 25,
+            "attack": 15
+          },
+          "dialogueUnlock": "도전 및 결투 선택지 해금",
+          "npcReaction": "라이벌 NPC 호응 +25%",
+          "combatTrigger": "보스 몬스터 상대 시 데미지 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_pride.png"
+        },
+        {
+          "id": "p_curiosity",
+          "name": "지식욕/탐구심",
+          "title": "진리의 갈증",
+          "category": "human_desires",
+          "subcategory": "탐구",
+          "tier": 3,
+          "icon": "📚",
+          "motto": "\"세상의 비공을 해독할 때까지 멈추지 않는다.\"",
+          "description": "금지된 지식과 미지의 보물에 매료된 열망.",
+          "statBonus": {
+            "expGain": 20,
+            "manaRegen": 15
+          },
+          "dialogueUnlock": "고대 어언 해석 및 비밀 해금 선택지",
+          "npcReaction": "대학자 NPC 친밀도 +35%",
+          "combatTrigger": "스킬 쿨타임 -10%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_wisdom.png"
+        },
+        {
+          "id": "p_honor",
+          "name": "명예욕",
+          "title": "칭송받는 자존심",
+          "category": "human_desires",
+          "subcategory": "명예",
+          "tier": 2,
+          "icon": "🎖️",
+          "motto": "\"영웅의 이름은 칭송 속에서 영원하다.\"",
+          "description": "세상의 인정과 칭송을 얻기 위해 목숨을 바침.",
+          "statBonus": {
+            "fameGain": 30,
+            "charisma": 20
+          },
+          "dialogueUnlock": "공개 서약 선택지 해금",
+          "npcReaction": "시민 NPC 호감도 +30%",
+          "combatTrigger": "명예 점수에 비례해 아군 사기 상승",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_tranquility",
+          "name": "안식욕",
+          "title": "평온한 안식처",
+          "category": "human_desires",
+          "subcategory": "안식",
+          "tier": 1,
+          "icon": "🍃",
+          "motto": "\"모든 전쟁이 끝난 뒤 올 평온을 꿈꾼다.\"",
+          "description": "혼란과 살육을 피하고 따스한 평화를 되찾고 싶어 함.",
+          "statBonus": {
+            "hpRegen": 20,
+            "stamina": 15
+          },
+          "dialogueUnlock": "휴전 선택지 해금",
+          "npcReaction": "평화주의자 호감도 +25%",
+          "combatTrigger": "비전투 시 회복 속도 +50%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_dominance",
+          "name": "지배욕",
+          "title": "통제의 왕좌",
+          "category": "human_desires",
+          "subcategory": "지배",
+          "tier": 3,
+          "icon": "👑",
+          "motto": "\"나의 지휘 아래 굴복할 때 정돈된 세일이 열린다.\"",
+          "description": "모든 상황과 타인을 자신의 통제 아래 두려 함.",
+          "statBonus": {
+            "partyMorale": 25,
+            "attack": 15
+          },
+          "dialogueUnlock": "지휘 및 지배 선택지 해금",
+          "npcReaction": "부하 NPC 충성도 +35%",
+          "combatTrigger": "소환수/부하 공격력 +30%",
+          "suggestedSlots": [
+            "primary",
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_ostentation",
+          "name": "과시욕",
+          "title": "화려한 빛의 무대",
+          "category": "human_desires",
+          "subcategory": "과시",
+          "tier": 1,
+          "icon": "🦚",
+          "motto": "\"나의 부와 무공을 세상에 끊임없이 과시하리라.\"",
+          "description": "자신의 유니크 아이템과 업적을 남들에게 보여주고 싶어 함.",
+          "statBonus": {
+            "charisma": 20,
+            "goldFind": 15
+          },
+          "dialogueUnlock": "업적 과시 선택지 해금",
+          "npcReaction": "귀부인 NPC 호감도 +30%",
+          "combatTrigger": "화려한 스킬 사용 시 이펙트 및 피해 +15%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_creation",
+          "name": "창작욕",
+          "title": "미지의 빚어냄",
+          "category": "human_desires",
+          "subcategory": "창작",
+          "tier": 2,
+          "icon": "🎨",
+          "motto": "\"세상에 없던 새로운 마도 아티팩트를 연금한다.\"",
+          "description": "새로운 기술과 아이템, 연금술 레시피를 빚어내는 보람.",
+          "statBonus": {
+            "craftSuccess": 30,
+            "manaRegen": 15
+          },
+          "dialogueUnlock": "연금 제작 선택지 해금",
+          "npcReaction": "연금술사 NPC 호감도 +35%",
+          "combatTrigger": "연금 큐브 사용 시 결과물 등급 상승",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_freedom",
+          "name": "자유욕",
+          "title": "야생의 날개",
+          "category": "human_desires",
+          "subcategory": "자유",
+          "tier": 2,
+          "icon": "🦅",
+          "motto": "\"어떠한 율법과 족쇄도 나를 묶어둘 수 없다.\"",
+          "description": "규율과 제국의 법에 구속받지 않는 바람 같은 영혼.",
+          "statBonus": {
+            "moveSpeed": 20,
+            "evasion": 15
+          },
+          "dialogueUnlock": "구속 탈출 선택지 해금",
+          "npcReaction": "도적 및 방랑자 호감도 +30%",
+          "combatTrigger": "속박/기절 상태 이상 즉시 해제",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_belonging",
+          "name": "귀속욕",
+          "title": "공동체의 따스함",
+          "category": "human_desires",
+          "subcategory": "귀속",
+          "tier": 1,
+          "icon": "🏡",
+          "motto": "\"내가 돌아갈 무리와 가문이 있음에 감사한다.\"",
+          "description": "외로움을 피하고 문파나 기사단 무리에 속하고자 함.",
+          "statBonus": {
+            "partyMorale": 20,
+            "defense": 10
+          },
+          "dialogueUnlock": "가입 서약 선택지 해금",
+          "npcReaction": "길드 마스터 호감도 +35%",
+          "combatTrigger": "파티원 인접 시 방어력 +20%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_collection",
+          "name": "수집욕",
+          "title": "희귀 보화의 수집",
+          "category": "human_desires",
+          "subcategory": "수집",
+          "tier": 2,
+          "icon": "📦",
+          "motto": "\"전설 아이템과 도감을 모두 채우는 완성의 쾌감.\"",
+          "description": "세상의 모든 도감 엔트리와 보물을 수집함.",
+          "statBonus": {
+            "magicFind": 30,
+            "goldFind": 20
+          },
+          "dialogueUnlock": "보물 거래 선택지 해금",
+          "npcReaction": "수집가 NPC 호감도 +40%",
+          "combatTrigger": "도감 등록 항목 비례하여 능력치 상승",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_revenge",
+          "name": "복수심",
+          "title": "피의 칼날",
+          "category": "human_desires",
+          "subcategory": "복수",
+          "tier": 3,
+          "icon": "🗡️",
+          "motto": "\"원수의 목을 가져오기 전까지 나의 전쟁은 끝나지 않는다.\"",
+          "description": "과거의 원한과 비극을 피로 갚아주려는 서슬 푸른 칼날.",
+          "statBonus": {
+            "critDamage": 35,
+            "attack": 20,
+            "karma": -20
+          },
+          "dialogueUnlock": "원수 단죄 선택지 해금",
+          "npcReaction": "원한 품은 무리 호감도 +35%",
+          "combatTrigger": "자신에게 피해 준 적 지정 시 데미지 +40%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_wrath.png"
+        },
+        {
+          "id": "p_order_drive",
+          "name": "질서욕",
+          "title": "혼돈의 정리",
+          "category": "human_desires",
+          "subcategory": "질서",
+          "tier": 2,
+          "icon": "📜",
+          "motto": "\"무질서한 무법지대에 엄격한 율법을 세운다.\"",
+          "description": "혼란과 무질서를 정리하고 법률을 적용하려 함.",
+          "statBonus": {
+            "hitRating": 20,
+            "statusResist": 15
+          },
+          "dialogueUnlock": "법령 인용 선택지 해금",
+          "npcReaction": "경비대 및 집행관 호감도 +30%",
+          "combatTrigger": "혼돈/무법자 적 상대 시 피해 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_self_actualization",
+          "name": "자아실현",
+          "title": "한계의 파쇄",
+          "category": "human_desires",
+          "subcategory": "실현",
+          "tier": 3,
+          "icon": "🏔️",
+          "motto": "\"필멸자의 한계를 깨뜨리고 완성된 자아로 우뚝 선다.\"",
+          "description": "자신의 육체적·정신적 최경지를 개척하려는 도전.",
+          "statBonus": {
+            "allStats": 10,
+            "expGain": 20
+          },
+          "dialogueUnlock": "경지 승급 선택지 해금",
+          "npcReaction": "무도관 대지존 호감도 +40%",
+          "combatTrigger": "승급 수련 효율 +30%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_control_drive",
+          "name": "통제욕",
+          "title": "모든 변수의 조율",
+          "category": "human_desires",
+          "subcategory": "통제",
+          "tier": 2,
+          "icon": "♟️",
+          "motto": "\"체스판 위의 기물처럼 모든 전황을 조율한다.\"",
+          "description": "전투와 이야기의 모든 변수를 계산하고 통제함.",
+          "statBonus": {
+            "cooldownReduce": 15,
+            "insight": 20
+          },
+          "dialogueUnlock": "작전 통제 선택지 해금",
+          "npcReaction": "참모 및 군사 호감도 +35%",
+          "combatTrigger": "전투 함정 피해 100% 회피",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_faith_drive",
+          "name": "신앙욕",
+          "title": "절대적 헌신",
+          "category": "human_desires",
+          "subcategory": "신앙",
+          "tier": 2,
+          "icon": "⛪",
+          "motto": "\"신의 음성에 내 영혼 전체를 온전히 위임한다.\"",
+          "description": "자신의 이성보다 절대 신의 계시와 율법을 따름.",
+          "statBonus": {
+            "holyDamage": 25,
+            "healPower": 20
+          },
+          "dialogueUnlock": "기도 및 계시 수용 선택지 해금",
+          "npcReaction": "교황 및 대사제 호감도 +40%",
+          "combatTrigger": "신성 마법 치명타 20% 증가",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_solitude",
+          "name": "고독욕",
+          "title": "나만의 심연",
+          "category": "human_desires",
+          "subcategory": "고독",
+          "tier": 1,
+          "icon": "🌌",
+          "motto": "\"타인의 소음이 차단된 조용한 심연이 가장 안락하다.\"",
+          "description": "사람들의 시선과 무리를 피해 혼자 사색하길 바람.",
+          "statBonus": {
+            "damageReduction": 20,
+            "moveSpeed": 10
+          },
+          "dialogueUnlock": "단독 행동 선택지 해금",
+          "npcReaction": "은둔자 NPC 호감도 +30%",
+          "combatTrigger": "솔로 플레이 시 능력치 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_discovery",
+          "name": "모험욕",
+          "title": "미지의 개척",
+          "category": "human_desires",
+          "subcategory": "모험",
+          "tier": 2,
+          "icon": "🧭",
+          "motto": "\"지도에 적히지 않은 미지의 땅으로 발걸음을 옮긴다.\"",
+          "description": "숨겨진 고대 던전과 유적을 찾아 나서는 열정.",
+          "statBonus": {
+            "mapRadius": 30,
+            "moveSpeed": 15
+          },
+          "dialogueUnlock": "탐사 개시 선택지 해금",
+          "npcReaction": "탐험가 길드 호감도 +35%",
+          "combatTrigger": "새 장소 진입 시 10분간 능력치 상승",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_preservation",
+          "name": "보존욕",
+          "title": "유산의 수호",
+          "category": "human_desires",
+          "subcategory": "보존",
+          "tier": 1,
+          "icon": "🏺",
+          "motto": "\"수천 년 고대 유산과 문헌을 파괴로부터 지킨다.\"",
+          "description": "전쟁과 타락으로부터 고대 문명 유산을 보호함.",
+          "statBonus": {
+            "defense": 15,
+            "wisdom": 15
+          },
+          "dialogueUnlock": "유적 보호 선택지 해금",
+          "npcReaction": "박물관장 및 고고학자 호감도 +35%",
+          "combatTrigger": "유적 전장 피해 -20%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_competition",
+          "name": "경쟁욕",
+          "title": "라이벌과의 혈전",
+          "category": "human_desires",
+          "subcategory": "경쟁",
+          "tier": 2,
+          "icon": "🥊",
+          "motto": "\"동등한 숙적과의 일전이야말로 삶의 진정한 의미다.\"",
+          "description": "자신과 대등한 라이벌을 찾아 교련하려는 열망.",
+          "statBonus": {
+            "attack": 20,
+            "critChance": 10
+          },
+          "dialogueUnlock": "대련 신청 선택지 해금",
+          "npcReaction": "무도가 NPC 호감도 +30%",
+          "combatTrigger": "유저 및 인간형 라이벌 타격 시 피해 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_transcendence",
+          "name": "초월욕",
+          "title": "필멸의 탈피",
+          "category": "human_desires",
+          "subcategory": "초월",
+          "tier": 3,
+          "icon": "🌌",
+          "motto": "\"필멸자의 육신을 벗어던지고 신성에 다다른다.\"",
+          "description": "인간의 한계를 벗어나 신성이나 마도의 초월체가 됨.",
+          "statBonus": {
+            "allStats": 15,
+            "spellDamage": 25
+          },
+          "dialogueUnlock": "신성/마도 초월 선택지 해금",
+          "npcReaction": "초월체 존재들 경각심 +40%",
+          "combatTrigger": "변신/초월 시 능력치 50% 폭발",
+          "suggestedSlots": [
+            "primary",
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_indulgence",
+          "name": "쾌락욕",
+          "title": "순간의 탐닉",
+          "category": "human_desires",
+          "subcategory": "쾌락",
+          "tier": 1,
+          "icon": "🍷",
+          "motto": "\"내일의 비극보다 오늘 밤의 향락이 중요하다.\"",
+          "description": "미래의 걱정보다 현재의 주색잡기와 쾌락을 즐김.",
+          "statBonus": {
+            "stamina": 20,
+            "hpRegen": 15
+          },
+          "dialogueUnlock": "향락 탐닉 선택지 해금",
+          "npcReaction": "주점 단골 호감도 +30%",
+          "combatTrigger": "주류/음식 도핑 시 버프 지속시간 2배",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_providence",
+          "name": "섭리욕",
+          "title": "천도의 순응",
+          "category": "human_desires",
+          "subcategory": "섭리",
+          "tier": 2,
+          "icon": "☯️",
+          "motto": "\"흘러가는 강물처럼 우주의 섭리에 몸을 맡긴다.\"",
+          "description": "인위적인 욕심을 내려놓고 자연의 순리에 맡김.",
+          "statBonus": {
+            "statusResist": 25,
+            "manaRegen": 20
+          },
+          "dialogueUnlock": "순리 방관 선택지 해금",
+          "npcReaction": "도사 NPC 호감도 +35%",
+          "combatTrigger": "자연계 속성 피해 20% 감소",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_protection",
+          "name": "수호욕",
+          "title": "소중한 이의 파수꾼",
+          "category": "human_desires",
+          "subcategory": "수호",
+          "tier": 3,
+          "icon": "🛡️",
+          "motto": "\"내 목숨을 태워서라도 너를 반드시 지켜낸다.\"",
+          "description": "자신의 전부를 바쳐 소중한 동료와 연인을 보호함.",
+          "statBonus": {
+            "maxHp": 30,
+            "damageReduction": 20
+          },
+          "dialogueUnlock": "수호 서약 선택지 해금",
+          "npcReaction": "지켜진 이의 호감도 100% 달성",
+          "combatTrigger": "지정한 아군 피해 100% 대신 받기",
+          "suggestedSlots": [
+            "primary",
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_ascetism",
+          "name": "금욕",
+          "title": "고통을 통한 고결",
+          "category": "human_desires",
+          "subcategory": "금욕",
+          "tier": 2,
+          "icon": "🪨",
+          "motto": "\"육신의 육욕을 제어할 때 영혼의 안식이 차오른다.\"",
+          "description": "스스로 육신의 편안함과 맛난 음식을 거절함.",
+          "statBonus": {
+            "statusResist": 30,
+            "wisdom": 20
+          },
+          "dialogueUnlock": "단식 고행 선택지 해금",
+          "npcReaction": "고행 수도사 호감도 +40%",
+          "combatTrigger": "상태이상 완벽 저항 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        }
+      ],
+      "imageUrl": "/assets/novel/personality/seal_desires.png"
+    },
+    {
+      "id": "moral_alignment",
+      "label": "선악 및 성향",
+      "description": "세계관 관점과 신념을 결정하는 극적 도덕 성향 25종",
+      "entries": [
+        {
+          "id": "p_pure_good",
+          "name": "절대 선",
+          "title": "빛의 인도자",
+          "category": "moral_alignment",
+          "subcategory": "선",
+          "tier": 3,
+          "icon": "🌟",
+          "motto": "\"세상의 모든 어둠을 거두는 숭고한 사명.\"",
+          "description": "개인의 이익을 버리고 오직 세계의 평화와 선을 위해 헌신함.",
+          "statBonus": {
+            "holyDamage": 30,
+            "damageReduction": 15
+          },
+          "dialogueUnlock": "성스러운 결의 선택지 해금",
+          "npcReaction": "선 성향 NPC 호감도 최상급 (+40%)",
+          "combatTrigger": "언데드/악마 계열 적 상대 시 데미지 +35%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_lawful_good",
+          "name": "질서 선",
+          "title": "정의의 기사단장",
+          "category": "moral_alignment",
+          "subcategory": "선",
+          "tier": 3,
+          "icon": "⚖️",
+          "motto": "\"율법과 법률 아래 올곧은 정의를 구현한다.\"",
+          "description": "제국의 법과 공의를 바르게 수호하며 약자를 돕는 성향.",
+          "statBonus": {
+            "holyDamage": 25,
+            "defense": 15
+          },
+          "dialogueUnlock": "공의 집행 선택지 해금",
+          "npcReaction": "성기사단 호감도 +35%",
+          "combatTrigger": "법률 위반 악인 적 상대 시 피해 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_neutral_good",
+          "name": "중립 선",
+          "title": "따스한 조력자",
+          "category": "moral_alignment",
+          "subcategory": "선",
+          "tier": 2,
+          "icon": "🕊️",
+          "motto": "\"법보다 중요한 것은 사람의 행복과 안전이다.\"",
+          "description": "경직된 율법보다 실제 사람들의 생명과 구원을 우선함.",
+          "statBonus": {
+            "healPower": 20,
+            "charisma": 15
+          },
+          "dialogueUnlock": "유연한 구호 선택지 해금",
+          "npcReaction": "마을 이장 및 난민 호감도 +35%",
+          "combatTrigger": "아군 치료 및 버프 효과 +20%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_chaotic_good",
+          "name": "혼돈 선",
+          "title": "자유의 의적",
+          "category": "moral_alignment",
+          "subcategory": "선",
+          "tier": 2,
+          "icon": "🏹",
+          "motto": "\"부패한 제국 법은 부수고 약자의 웃음을 찾는다.\"",
+          "description": "부패한 기득권의 법을 무시하고 정의를 행동으로 보여줌.",
+          "statBonus": {
+            "critChance": 15,
+            "moveSpeed": 15
+          },
+          "dialogueUnlock": "의적 약탈 나누기 선택지 해금",
+          "npcReaction": "의적단 및 민중 호감도 +40%",
+          "combatTrigger": "권력자/영주 적 상대 시 피해 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_lawful_neutral",
+          "name": "질서 중립",
+          "title": "법과 율법의 집행자",
+          "category": "moral_alignment",
+          "subcategory": "중립",
+          "tier": 2,
+          "icon": "📜",
+          "motto": "\"감정이 아닌 율법과 약속만이 인류를 지킨다.\"",
+          "description": "사사로운 감정을 배제하고 오직 규율에 맞추는 냉철함.",
+          "statBonus": {
+            "hitRating": 20,
+            "statResist": 15
+          },
+          "dialogueUnlock": "공정한 판결 선택지 해금",
+          "npcReaction": "재판관 및 집행관 호감도 +30%",
+          "combatTrigger": "규칙 위반 적 상태 시 피해 +20%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_true_neutral",
+          "name": "진정한 중립",
+          "title": "자연과 조화의 추",
+          "category": "moral_alignment",
+          "subcategory": "중립",
+          "tier": 2,
+          "icon": "☯️",
+          "motto": "\"선도 악도 우주의 거대한 생태계 일부일 뿐이다.\"",
+          "description": "어느 한쪽 극단에 치우치지 않고 균형을 지키는 관조.",
+          "statBonus": {
+            "statusResist": 25,
+            "defense": 10
+          },
+          "dialogueUnlock": "중립 중재 선택지 해금",
+          "npcReaction": "드루이드 및 중립 사제 호감도 +35%",
+          "combatTrigger": "모든 속성 피해 15% 감소",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_chaotic_neutral",
+          "name": "혼돈 중립",
+          "title": "자유로운 방랑자",
+          "category": "moral_alignment",
+          "subcategory": "중립",
+          "tier": 2,
+          "icon": "🎲",
+          "motto": "\"내 내키는 대로 살 테니 그 누구도 날 간섭마라.\"",
+          "description": "오직 자신의 본능과 직관을 따르는 바람 같은 자유인.",
+          "statBonus": {
+            "evasion": 20,
+            "critDamage": 20
+          },
+          "dialogueUnlock": "마이웨이 선택지 해금",
+          "npcReaction": "자유 용병 호감도 +30%",
+          "combatTrigger": "랜덤 치명타 데미지 최대 50% 발동",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_lawful_evil",
+          "name": "질서 악",
+          "title": "철혈의 폭군",
+          "category": "moral_alignment",
+          "subcategory": "악",
+          "tier": 3,
+          "icon": "🏰",
+          "motto": "\"피의 법률과 계약으로 나의 제국을 다스린다.\"",
+          "description": "철저한 합법적 계약과 제국의 규율로 정적을 지배함.",
+          "statBonus": {
+            "attack": 25,
+            "partyMorale": 20,
+            "karma": -30
+          },
+          "dialogueUnlock": "악마의 계약 선택지 해금",
+          "npcReaction": "악마 소환사 및 귀족 호감도 +35%",
+          "combatTrigger": "계약 이행 시 적 즉사 10%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_neutral_evil",
+          "name": "중립 악",
+          "title": "순수한 이기주의자",
+          "category": "moral_alignment",
+          "subcategory": "악",
+          "tier": 2,
+          "icon": "🕷️",
+          "motto": "\"이익이 된다면 악마와도 손을 잡는다.\"",
+          "description": "오직 자신만의 이익을 위해 타인과 규율을 이용함.",
+          "statBonus": {
+            "lifesteal": 15,
+            "goldFind": 20,
+            "karma": -25
+          },
+          "dialogueUnlock": "배신 타협 선택지 해금",
+          "npcReaction": "암시장 상인 호감도 +30%",
+          "combatTrigger": "피격 피해의 20% 아군에게 전가",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_chaotic_evil",
+          "name": "혼돈 악",
+          "title": "심연의 파괴자",
+          "category": "moral_alignment",
+          "subcategory": "악",
+          "tier": 3,
+          "icon": "☠️",
+          "motto": "\"질서와 규율 따위는 잿더미에 불과하다.\"",
+          "description": "자신의 파괴 본능을 위해 모든 수단을 가리지 않는 참혹함.",
+          "statBonus": {
+            "attack": 35,
+            "lifesteal": 15,
+            "karma": -50
+          },
+          "dialogueUnlock": "약탈 및 배신 선택지 해금",
+          "npcReaction": "도적단 호감도 +35%, 정규군 적대화",
+          "combatTrigger": "적 처치 시 생명력 20% 흡수",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_sacred_devotion",
+          "name": "순백의 헌신",
+          "title": "성스러운 불꽃",
+          "category": "moral_alignment",
+          "subcategory": "헌신",
+          "tier": 3,
+          "icon": "🕊️",
+          "motto": "\"나의 빛으로 세상의 온갖 어둠을 깨끗이 정화하리라.\"",
+          "description": "타락한 세상에 신성한 불꽃으로 구원을 가져옴.",
+          "statBonus": {
+            "holyDamage": 30,
+            "healPower": 25
+          },
+          "dialogueUnlock": "성령 축복 선택지 해금",
+          "npcReaction": "대사제 호감도 +40%",
+          "combatTrigger": "언데드 적 전체 정화 마법 발동",
+          "suggestedSlots": [
+            "primary",
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_abyssal_madness",
+          "name": "칠흑의 광기",
+          "title": "심연의 음성",
+          "category": "moral_alignment",
+          "subcategory": "광기",
+          "tier": 3,
+          "icon": "👁️",
+          "motto": "\"심연의 위대한 존재가 내 속삭임에 답한다.\"",
+          "description": "고대 심연의 음성에 사로잡혀 이성을 내려놓은 광기.",
+          "statBonus": {
+            "spellDamage": 35,
+            "karma": -45
+          },
+          "dialogueUnlock": "광란의 소환 선택지 해금",
+          "npcReaction": "이교도 NPC 호감도 +45%",
+          "combatTrigger": "암흑 피해 40% 폭발",
+          "suggestedSlots": [
+            "primary",
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_abyssal_oath",
+          "name": "심연의 맹세",
+          "title": "어둠의 혈계",
+          "category": "moral_alignment",
+          "subcategory": "맹세",
+          "tier": 3,
+          "icon": "🩸",
+          "motto": "\"피로 새긴 맹세는 죽음조차 파기할 수 없다.\"",
+          "description": "어둠의 군주와 맺은 혈계 마법의 수호.",
+          "statBonus": {
+            "attack": 25,
+            "lifesteal": 20
+          },
+          "dialogueUnlock": "혈계 소환 선택지 해금",
+          "npcReaction": "마족 NPC 호감도 +40%",
+          "combatTrigger": "적 사살 시 생명력 30% 즉시 회복",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_soul_atonement",
+          "name": "영혼의 속죄",
+          "title": "죄업의 씻김",
+          "category": "moral_alignment",
+          "subcategory": "속죄",
+          "tier": 2,
+          "icon": "🌊",
+          "motto": "\"내가 지은 피의 죄업을 피로써 씻어내리라.\"",
+          "description": "과거의 살육을 참회하고 속죄하기 위해 나선 기사.",
+          "statBonus": {
+            "damageReduction": 20,
+            "karma": 20
+          },
+          "dialogueUnlock": "속죄 고백 선택지 해금",
+          "npcReaction": "성기사단 호감도 +35%",
+          "combatTrigger": "피격 시 아군 방어막 형성",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_fanaticism",
+          "name": "마도적 광신",
+          "title": "맹목의 전차",
+          "category": "moral_alignment",
+          "subcategory": "광신",
+          "tier": 3,
+          "icon": "🔥",
+          "motto": "\"나의 교리를 방해하는 자는 누구든 화형대 위에 세운다.\"",
+          "description": "자신의 종교나 교리를 위해 타인의 도덕을 마비시킴.",
+          "statBonus": {
+            "fireDamage": 30,
+            "attack": 20
+          },
+          "dialogueUnlock": "이단 심판 선택지 해금",
+          "npcReaction": "광신도 호감도 +45%",
+          "combatTrigger": "화염 피해 30% 증가",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_solitary_wolf",
+          "name": "고독한 늑대",
+          "title": "오직 나의 검",
+          "category": "moral_alignment",
+          "subcategory": "방랑",
+          "tier": 2,
+          "icon": "🐺",
+          "motto": "\"세상의 어떤 문파도 나에게 자리를 내어주지 않는다.\"",
+          "description": "그 누구에게도 기대지 않고 혼자 황야를 걷는 검객.",
+          "statBonus": {
+            "attack": 25,
+            "evasion": 15
+          },
+          "dialogueUnlock": "고독한 거절 선택지 해금",
+          "npcReaction": "방랑 무사 호감도 +35%",
+          "combatTrigger": "솔로 전투 시 치명타 25% 상승",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_apocalyptic",
+          "name": "멸망의 관조",
+          "title": "종말의 아우라",
+          "category": "moral_alignment",
+          "subcategory": "관조",
+          "tier": 3,
+          "icon": "☄️",
+          "motto": "\"어차피 이 세계는 정해진 수순에 따라 멸망한다.\"",
+          "description": "세상 종말의 비극을 정돈되고 담담한 눈으로 바라봄.",
+          "statBonus": {
+            "statusResist": 30,
+            "spellDamage": 20
+          },
+          "dialogueUnlock": "종말 예언 선택지 해금",
+          "npcReaction": "예언자 NPC 호감도 +40%",
+          "combatTrigger": "전장 전체 적 사기 30% 깎음",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_righteous_rebel",
+          "name": "의로운 반역자",
+          "title": "왕좌의 파괴자",
+          "category": "moral_alignment",
+          "subcategory": "반역",
+          "tier": 2,
+          "icon": "🔨",
+          "motto": "\"부패한 황제의 머리통을 망치로 내리친다.\"",
+          "description": "부패하고 썩어빠진 조정과 왕좌를 부수려는 혁명가.",
+          "statBonus": {
+            "bossDamage": 30,
+            "attack": 15
+          },
+          "dialogueUnlock": "혁명 선동 선택지 해금",
+          "npcReaction": "혁명군 호감도 +40%",
+          "combatTrigger": "보스 및 영주 적 피해 +30%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_tyrant_will",
+          "name": "폭군의 의지",
+          "title": "철혈의 정복",
+          "category": "moral_alignment",
+          "subcategory": "폭정",
+          "tier": 3,
+          "icon": "👑",
+          "motto": "\"자비는 약자의 핑계요, 오직 철혈만이 제국을 통일한다.\"",
+          "description": "강력한 무력과 공포 정치로 모든 대륙을 억누름.",
+          "statBonus": {
+            "attack": 30,
+            "partyMorale": 25
+          },
+          "dialogueUnlock": "철혈 정복 선택지 해금",
+          "npcReaction": "정복군 호감도 +40%",
+          "combatTrigger": "공포 상태 적 상대 시 피해 +35%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_martyr_flame",
+          "name": "순교자의 성화",
+          "title": "불꽃의 등불",
+          "category": "moral_alignment",
+          "subcategory": "순교",
+          "tier": 3,
+          "icon": "🕯️",
+          "motto": "\"내가 화형대의 불길에 휩싸여도 기적은 피어난다.\"",
+          "description": "자신의 목숨을 바쳐 세상을 밝히는 성스러운 불꽃.",
+          "statBonus": {
+            "holyDamage": 35,
+            "maxHp": 20
+          },
+          "dialogueUnlock": "순교 고백 선택지 해금",
+          "npcReaction": "모든 성직자 호감도 100%",
+          "combatTrigger": "사망 시 전장 전체 아군 완전 부활 및 치유",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_shadow_walker",
+          "name": "그림자 방랑자",
+          "title": "경계선의 파수꾼",
+          "category": "moral_alignment",
+          "subcategory": "그림자",
+          "tier": 2,
+          "icon": "🌑",
+          "motto": "\"빛이 도달하지 못하는 곳에서 어둠으로 어둠을 사냥한다.\"",
+          "description": "빛과 어둠 사이의 경계선에서 세상을 지키는 암살자.",
+          "statBonus": {
+            "critDamage": 30,
+            "stealth": 25
+          },
+          "dialogueUnlock": "암살 암호 선택지 해금",
+          "npcReaction": "그림자 길드 호감도 +40%",
+          "combatTrigger": "은신 공격 시 피해 50% 폭발",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_cosmic_observer",
+          "name": "운명의 관조자",
+          "title": "천도의 눈",
+          "category": "moral_alignment",
+          "subcategory": "관조",
+          "tier": 3,
+          "icon": "🌌",
+          "motto": "\"수만 년의 운명 수레바퀴를 조용히 지켜본다.\"",
+          "description": "인간사의 흥망성쇠를 시공간 밖에서 관조함.",
+          "statBonus": {
+            "insight": 35,
+            "expGain": 25
+          },
+          "dialogueUnlock": "운명 인지 선택지 해금",
+          "npcReaction": "고대 점술가 호감도 +40%",
+          "combatTrigger": "적 스킬 패턴 100% 사전 예측",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_blood_pact",
+          "name": "혈혈단신",
+          "title": "피의 결속",
+          "category": "moral_alignment",
+          "subcategory": "결속",
+          "tier": 2,
+          "icon": "🩸",
+          "motto": "\"우리 의형제의 피는 죽음보다 짙다.\"",
+          "description": "피로 맺은 사형제와의 끊어지지 않는 결속.",
+          "statBonus": {
+            "partyMorale": 30,
+            "attack": 15
+          },
+          "dialogueUnlock": "의형제 맹세 선택지 해금",
+          "npcReaction": "사형제 동료 호감도 100%",
+          "combatTrigger": "의형제 부상 시 공격력 +40%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_dragon_soul",
+          "name": "용의 의지",
+          "title": "절대자의 기상",
+          "category": "moral_alignment",
+          "subcategory": "절대자",
+          "tier": 3,
+          "icon": "🐉",
+          "motto": "\"태고의 드래곤에 비견되는 강대한 용의 의지.\"",
+          "description": "필멸자를 압도하는 태고의 웅장한 드래곤 아우라.",
+          "statBonus": {
+            "allStats": 20,
+            "fireDamage": 30
+          },
+          "dialogueUnlock": "용의 용언 선택지 해금",
+          "npcReaction": "모든 몬스터 계열 적 위압 감지",
+          "combatTrigger": "용언 브레스 범위 마법 발동",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_void_embrace",
+          "name": "허무의 포용",
+          "title": "존재하지 않는 안식",
+          "category": "moral_alignment",
+          "subcategory": "허무",
+          "tier": 3,
+          "icon": "🌌",
+          "motto": "\"모든 물질과 영혼이 허무의 고요로 돌아가리라.\"",
+          "description": "세상의 모든 분쟁이 결국 허무로 돌아간다는 진리.",
+          "statBonus": {
+            "statusResist": 35,
+            "damageReduction": 25
+          },
+          "dialogueUnlock": "허무 방관 선택지 해금",
+          "npcReaction": "허무의 사제 호감도 +40%",
+          "combatTrigger": "적 치명타 공격 완전 무효화",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        }
+      ],
+      "imageUrl": "/assets/novel/personality/seal_morality.png"
+    }
+  ],
+  "PERSONALITY_CODEX_CATEGORIES_SAMPLE": [
+    {
+      "id": "virtues_sins",
+      "label": "7대 죄악 · 미덕",
+      "description": "인간 윤리와 욕망의 극단을 상징하는 근본 성격 속성 25종",
+      "entries": [
+        {
+          "id": "p_humility",
+          "name": "겸손",
+          "title": "자신을 낮추는 이성",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 3,
+          "icon": "🕊️",
+          "motto": "\"낮아짐으로써 진정한 유대를 맺는다.\"",
+          "description": "자신의 공적을 내세우지 않고 상대방을 정중히 존중하는 영혼의 그릇.",
+          "statBonus": {
+            "wisdom": 15,
+            "karma": 20,
+            "battleMorale": 10
+          },
+          "dialogueUnlock": "공경 및 정중한 설득 선택지 해금 (협상 성공률 +30%)",
+          "npcReaction": "정의로운 NPC 및 성기사 호감도 +30%, 무법자 NPC 경계 감소",
+          "combatTrigger": "아군 체력 30% 이하 시 아군 치유량 +20% 및 받는 피해 -15%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_kindness",
+          "name": "자애",
+          "title": "타인을 품는 헌신",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 2,
+          "icon": "❤️",
+          "motto": "\"타인의 아픔을 자신의 아픔으로 품는다.\"",
+          "description": "상처받은 이들을 차마 외면하지 못하는 숭고한 보듬음.",
+          "statBonus": {
+            "vitality": 12,
+            "karma": 15
+          },
+          "dialogueUnlock": "구원 및 화해 선택지 해금 (피난민 호감도 급상승)",
+          "npcReaction": "약자 및 마을 주민 호감도 +35%",
+          "combatTrigger": "치유 스킬 효과 +25%",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_patience",
+          "name": "인내",
+          "title": "폭풍을 견디는 바위",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 2,
+          "icon": "🛡️",
+          "motto": "\"폭풍 속에서도 흔들리지 않는 조용한 의지.\"",
+          "description": "어떤 고난과 도발에도 묵묵히 자리를 지키는 불굴의 정신력.",
+          "statBonus": {
+            "defense": 20,
+            "statResist": 15
+          },
+          "dialogueUnlock": "경청 및 대기 선택지 해금 (숨겨진 의도 파악)",
+          "npcReaction": "원로 및 노련한 장수 NPC 신뢰도 +25%",
+          "combatTrigger": "행동불능 이상 상태 지속시간 -30%",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_courage.png"
+        },
+        {
+          "id": "p_diligence",
+          "name": "근면",
+          "title": "쉬지 않는 성실함",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 2,
+          "icon": "🔨",
+          "motto": "\"쉬지 않는 발걸음이 산을 움직인다.\"",
+          "description": "매일의 수련과 과업을 게을리하지 않는 단단한 정성.",
+          "statBonus": {
+            "expGain": 15,
+            "stamina": 20
+          },
+          "dialogueUnlock": "노력 및 솔선수범 선택지 해금",
+          "npcReaction": "장인 및 대장장이 NPC 호감도 +30%",
+          "combatTrigger": "지속 스탯 지속시간 +25%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_charity",
+          "name": "자선",
+          "title": "아낌없이 내어줌",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 2,
+          "icon": "🤲",
+          "motto": "\"내어줄수록 영혼의 잔은 더 가득 채워진다.\"",
+          "description": "자신의 재물과 기회를 아낌없이 타인에게 기부하는 고결함.",
+          "statBonus": {
+            "karma": 30,
+            "charisma": 15
+          },
+          "dialogueUnlock": "기부 및 무료 구호 선택지 해금",
+          "npcReaction": "빈민 및 은혜 입은 이들의 충성도 +40%",
+          "combatTrigger": "골드 소모 시 20% 확률로 아군 전원 회복",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_temperance",
+          "name": "절제",
+          "title": "고결한 이성의 굴레",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 2,
+          "icon": "⚖️",
+          "motto": "\"욕망의 고삐를 쥐는 자가 진정한 자유를 얻는다.\"",
+          "description": "지나친 유혹과 흥분 속에서도 이성의 중심을 놓치지 않는 냉철함.",
+          "statBonus": {
+            "manaRegen": 20,
+            "statResist": 20
+          },
+          "dialogueUnlock": "거절 및 금욕 선택지 해금 (유혹 마법 무효화)",
+          "npcReaction": "현자 및 수도사 NPC 존경 +30%",
+          "combatTrigger": "자원 소비량 -15%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_chastity",
+          "name": "순결",
+          "title": "물들지 않는 맑은 영혼",
+          "category": "virtues_sins",
+          "subcategory": "7미덕",
+          "tier": 3,
+          "icon": "🕯️",
+          "motto": "\"어떤 타락의 매혹에도 흔들리지 않는 맑은 샘물.\"",
+          "description": "세속의 때가 묻지 않은 고결하고 순수한 기운.",
+          "statBonus": {
+            "holyDamage": 25,
+            "statusResist": 25
+          },
+          "dialogueUnlock": "정화 및 성스러운 언약 선택지 해금",
+          "npcReaction": "성직자 및 엘프 족장 호감도 +35%",
+          "combatTrigger": "디버프 적용 시 35% 확률로 즉시 정화",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_magnanimity",
+          "name": "관용",
+          "title": "원수조차 포용하는 대량",
+          "category": "virtues_sins",
+          "subcategory": "고위미덕",
+          "tier": 3,
+          "icon": "🌸",
+          "motto": "\"진정한 승리는 용서함으로 완성된다.\"",
+          "description": "자신을 해하려 한 적조차 기꺼이 사면하는 넓은 품.",
+          "statBonus": {
+            "diplomacy": 30,
+            "karma": 25
+          },
+          "dialogueUnlock": "사면 및 기회 부여 선택지 해금 (적대 항복)",
+          "npcReaction": "패배한 적장 및 은혜 입은 항복자 호감도 +40%",
+          "combatTrigger": "적 사살 대신 30% 확률로 무력화 항복 유도",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_courage",
+          "name": "용맹",
+          "title": "두려움을 딛는 기상",
+          "category": "virtues_sins",
+          "subcategory": "고위미덕",
+          "tier": 2,
+          "icon": "🦁",
+          "motto": "\"두려움이 없어서가 아니라, 두려움을 넘어서기에 사자다.\"",
+          "description": "압도적인 거악 앞에서도 검을 집어 드는 담대함.",
+          "statBonus": {
+            "attack": 20,
+            "battleMorale": 25
+          },
+          "dialogueUnlock": "돌진 및 선전포고 선택지 해금",
+          "npcReaction": "용병단 및 기사단 호감도 +30%",
+          "combatTrigger": "공포 상태 면역 및 치명타 확률 +15%",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_courage.png"
+        },
+        {
+          "id": "p_sacrifice",
+          "name": "숭고한 희생",
+          "title": "등불이 되는 결의",
+          "category": "virtues_sins",
+          "subcategory": "고위미덕",
+          "tier": 3,
+          "icon": "🕯️",
+          "motto": "\"나 하나의 피로 동료들의 새벽을 연다.\"",
+          "description": "동료의 생명을 위해 자신의 육신을 아낌없이 던지는 성자의 의지.",
+          "statBonus": {
+            "maxHp": 25,
+            "damageReduction": 20
+          },
+          "dialogueUnlock": "대신 수감 및 희생 선택지 해금",
+          "npcReaction": "파티원 전원 호감도 최고치 달성",
+          "combatTrigger": "아군 치명상 시 방어력 100% 흡수 수호막 부여",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_honesty",
+          "name": "정직",
+          "title": "거짓을 거부하는 거울",
+          "category": "virtues_sins",
+          "subcategory": "고위미덕",
+          "tier": 1,
+          "icon": "🪞",
+          "motto": "\"어떤 손해 앞에서도 거짓을 말하지 않는다.\"",
+          "description": "자신의 이익을 위해 타인을 속이지 않는 곧은 언행.",
+          "statBonus": {
+            "trustGain": 25,
+            "wisdom": 10
+          },
+          "dialogueUnlock": "진실 고백 선택지 해금",
+          "npcReaction": "상인 및 원로 신뢰도 +30%",
+          "combatTrigger": "환영 및 환술 무효화",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_devotion",
+          "name": "신실",
+          "title": "단 한 번의 맹세",
+          "category": "virtues_sins",
+          "subcategory": "고위미덕",
+          "tier": 2,
+          "icon": "✨",
+          "motto": "\"한번 맺은 맹세는 죽음조래 갈라놓지 못한다.\"",
+          "description": "자신이 세운 신념과 주군을 향한 일편단심.",
+          "statBonus": {
+            "holyDamage": 15,
+            "statResist": 15
+          },
+          "dialogueUnlock": "충성 서약 선택지 해금",
+          "npcReaction": "주군 및 주교 NPC 호감도 +35%",
+          "combatTrigger": "신성 피해 +20%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_modesty",
+          "name": "소박",
+          "title": "검소한 삶의 안식",
+          "category": "virtues_sins",
+          "subcategory": "고위미덕",
+          "tier": 1,
+          "icon": "🌾",
+          "motto": "\"화려함보다 소박한 빵 한 조각이 마음을 덥힌다.\"",
+          "description": "탐욕스러운 부귀영화에 휘둘리지 않는 자족하는 삶.",
+          "statBonus": {
+            "stamina": 15,
+            "hpRegen": 15
+          },
+          "dialogueUnlock": "검소한 음식 나눔 선택지 해금",
+          "npcReaction": "농부 및 평민 친밀도 +30%",
+          "combatTrigger": "소모품 사용 효과 +30%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_pride",
+          "name": "교만",
+          "title": "왕좌의 오만",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 3,
+          "icon": "👑",
+          "motto": "\"모든 이 위에 군림하는 오만한 왕좌.\"",
+          "description": "스스로를 오직 최고로 여기며 타인을 굴복시키려는 강렬한 비상.",
+          "statBonus": {
+            "attack": 25,
+            "critChance": 10,
+            "karma": -15
+          },
+          "dialogueUnlock": "위압 및 명령 선택지 해금 (적 굴복 유도)",
+          "npcReaction": "귀족 NPC 존경 +20%, 평민 NPC 경계 +20%",
+          "combatTrigger": "체력 80% 이상 시 피해량 +25%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_pride.png"
+        },
+        {
+          "id": "p_envy",
+          "name": "질투",
+          "title": "잿빛 불꽃의 탐욕",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 2,
+          "icon": "🐍",
+          "motto": "\"타인의 빛을 탐하며 타오르는 불꽃.\"",
+          "description": "남이 가진 빛나는 재능과 재물을 참지 못하는 시기심.",
+          "statBonus": {
+            "critChance": 15,
+            "karma": -10
+          },
+          "dialogueUnlock": "질시 및 험담 선택지 해금",
+          "npcReaction": "라이벌 NPC 경계도 +35%",
+          "combatTrigger": "적의 유용한 버프 1개 훔쳐 오기 (20% 확률)",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_greed.png"
+        },
+        {
+          "id": "p_wrath",
+          "name": "분노",
+          "title": "모든 것을 태우는 맹화",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 2,
+          "icon": "🔥",
+          "motto": "\"모든 이성을 불태우는 붉은 맹화.\"",
+          "description": "억누를 수 없는 격노로 이성을 잃고 파괴를 분출함.",
+          "statBonus": {
+            "attack": 30,
+            "defense": -10
+          },
+          "dialogueUnlock": "협박 및 즉시 공격 선택지 해금",
+          "npcReaction": "온건파 NPC 위압감 +40%",
+          "combatTrigger": "공격 시 15% 확률로 광란 (공격속도 +35%)",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_wrath.png"
+        },
+        {
+          "id": "p_sloth",
+          "name": "나태",
+          "title": "굳어버린 안식",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 1,
+          "icon": "🦥",
+          "motto": "\"지나간 안식에 갇혀 움직이지 않는다.\"",
+          "description": "모든 만사가 귀찮고 무기력증에 빠져버린 정체.",
+          "statBonus": {
+            "damageReduction": 15,
+            "moveSpeed": -10
+          },
+          "dialogueUnlock": "대충 넘어감 선택지 해금",
+          "npcReaction": "엄격한 NPC 호감도 -20%",
+          "combatTrigger": "피격 피해 -15% (움직이지 않을 때)",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_greed.png"
+        },
+        {
+          "id": "p_greed",
+          "name": "탐욕",
+          "title": "끝없는 갈증",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 2,
+          "icon": "💎",
+          "motto": "\"채울 수 없는 욕망의 끝없는 굴레.\"",
+          "description": "세상의 모든 보화와 권력을 소유하고자 하는 탐욕.",
+          "statBonus": {
+            "goldFind": 35,
+            "magicFind": 20
+          },
+          "dialogueUnlock": "뇌물 및 보상 추가 요구 선택지 해금",
+          "npcReaction": "상인 NPC 호감도 +25%",
+          "combatTrigger": "적 처치 시 골드 및 아티팩트 드롭률 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_greed.png"
+        },
+        {
+          "id": "p_gluttony",
+          "name": "탐식",
+          "title": "삼켜버리는 갈증",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 1,
+          "icon": "🍖",
+          "motto": "\"세계조차 집어삼키하려는 원초적 갈증.\"",
+          "description": "육신의 모든 정수와 포만감을 탐하는 굶주림.",
+          "statBonus": {
+            "maxHp": 20,
+            "hpRegen": 15
+          },
+          "dialogueUnlock": "음식 탐닉 선택지 해금",
+          "npcReaction": "주점 주인 호감도 +30%",
+          "combatTrigger": "물약 회복 효과 +40%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_greed.png"
+        },
+        {
+          "id": "p_lust",
+          "name": "색욕",
+          "title": "매혹의 서곡",
+          "category": "virtues_sins",
+          "subcategory": "7죄악",
+          "tier": 2,
+          "icon": "💋",
+          "motto": "\"이성을 마비시키는 붉은 유혹의 서곡.\"",
+          "description": "타인의 이성을 마비시키고 미혹하는 본능.",
+          "statBonus": {
+            "charisma": 25,
+            "charm": 20
+          },
+          "dialogueUnlock": "유혹 및 미혹 선택지 해금",
+          "npcReaction": "이성 NPC 호감도 +35%",
+          "combatTrigger": "적 1체 3초간 혼란/매혹 상태 부여",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_greed.png"
+        },
+        {
+          "id": "p_cruelty",
+          "name": "잔혹",
+          "title": "아비규환의 즐거움",
+          "category": "virtues_sins",
+          "subcategory": "죄악",
+          "tier": 2,
+          "icon": "🗡️",
+          "motto": "\"타인의 통곡 속에서 희열을 느낀다.\"",
+          "description": "적의 희생과 절규를 무자비하게 가학하는 비정함.",
+          "statBonus": {
+            "bleedDamage": 25,
+            "karma": -30
+          },
+          "dialogueUnlock": "고문 및 무자비한 집행 선택지 해금",
+          "npcReaction": "도적 및 악성향 NPC 호감도 +30%",
+          "combatTrigger": "출혈 상태 적 타격 시 치명타 100% 발동",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_wrath.png"
+        },
+        {
+          "id": "p_arrogance",
+          "name": "오만",
+          "title": "타인을 짓밟는 시선",
+          "category": "virtues_sins",
+          "subcategory": "죄악",
+          "tier": 2,
+          "icon": "👁️",
+          "motto": "\"너희 벌레 같은 무리와 논할 이성은 없다.\"",
+          "description": "자신 이외의 모든 생명체를 하찮게 내려다보는 업신여김.",
+          "statBonus": {
+            "attack": 15,
+            "defense": -5
+          },
+          "dialogueUnlock": "무시 및 단칼 거절 선택지 해금",
+          "npcReaction": "일반 주민 호감도 -25%",
+          "combatTrigger": "자신보다 레벨 낮은 적 상대 시 피해 +30%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_pride.png"
+        },
+        {
+          "id": "p_treachery",
+          "name": "배신",
+          "title": "차가운 맹세의 파기",
+          "category": "virtues_sins",
+          "subcategory": "죄악",
+          "tier": 3,
+          "icon": "🗡️",
+          "motto": "\"동맹이란 등에 칼을 찌르기 위한 명분에 불과하다.\"",
+          "description": "어떤 약속과 은혜도 이익 앞에 쉽게 던져버리는 비열함.",
+          "statBonus": {
+            "backstabDamage": 35,
+            "karma": -40
+          },
+          "dialogueUnlock": "기습 및 등뒤 찌르기 선택지 해금",
+          "npcReaction": "모든 동료 경계심 최고치",
+          "combatTrigger": "적의 후방 공격 시 피해 +40%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_distrust",
+          "name": "불신",
+          "title": "의심의 장막",
+          "category": "virtues_sins",
+          "subcategory": "죄악",
+          "tier": 1,
+          "icon": "🔍",
+          "motto": "\"세상에 어떤 타인도 완전한 호의를 갖지 않는다.\"",
+          "description": "모든 선의 뒤에 독이 숨겨져 있다고 의심하는 냉소.",
+          "statBonus": {
+            "trapDetect": 25,
+            "evasion": 10
+          },
+          "dialogueUnlock": "의문 제기 선택지 해금 (함정 회피)",
+          "npcReaction": "모든 NPC 친밀도 상승 속도 50% 감소",
+          "combatTrigger": "기습 당했을 때 피격 피해 -30%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        },
+        {
+          "id": "p_sadism",
+          "name": "가학",
+          "title": "피의 가학성",
+          "category": "virtues_sins",
+          "subcategory": "죄악",
+          "tier": 3,
+          "icon": "🩸",
+          "motto": "\"찢어지는 비명소리야말로 가장 달콤한 음악이다.\"",
+          "description": "상대방의 괴로움과 피흘림을 볼 때 본능이 타오르는 광기.",
+          "statBonus": {
+            "lifesteal": 15,
+            "attack": 20
+          },
+          "dialogueUnlock": "절단 및 잔혹 고문 선택지 해금",
+          "npcReaction": "선성향 NPC 공포감 +50%",
+          "combatTrigger": "적 HP 50% 이하 시 공격력 +35%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+        }
+      ],
+      "imageUrl": "/assets/novel/personality/seal_virtues_sins.png"
+    },
+    {
+      "id": "four_seven",
+      "label": "4단 7정",
+      "description": "동양 유가 사상에 기반한 인간 심성과 자연스러운 감정 25종",
+      "entries": [
+        {
+          "id": "p_compassion",
+          "name": "측은지심",
+          "title": "불쌍히 여기는 마음",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 3,
+          "icon": "🕯️",
+          "motto": "\"남의 불행을 차마 보지 못하는 인(仁)의 시작.\"",
+          "description": "타인의 고통을 차마 외면하지 못하고 함께 눈물짓는 본성.",
+          "statBonus": {
+            "healPower": 25,
+            "empathy": 20
+          },
+          "dialogueUnlock": "동정 및 구호 선택지 해금 (피난민 전용 퀘스트)",
+          "npcReaction": "의원 및 사제 NPC 호감도 +30%",
+          "combatTrigger": "아군 치명 피해 시 즉시 15% 치유",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_humility.png"
+        },
+        {
+          "id": "p_shame",
+          "name": "수오지심",
+          "title": "불의를 부끄러워함",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 3,
+          "icon": "⚖️",
+          "motto": "\"자신의 불의를 부끄러워하고 남의 불의를 미워하는 의(義)의 시작.\"",
+          "description": "불의에 대해 당당히 분노하고 올곧은 정의를 수호함.",
+          "statBonus": {
+            "holyDamage": 20,
+            "statusResist": 20
+          },
+          "dialogueUnlock": "단죄 및 정의 심판 선택지 해금",
+          "npcReaction": "기사단장 및 맹주 NPC 호감도 +30%",
+          "combatTrigger": "악 성향 적 타격 시 추가 피해 +20%",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_courtesy",
+          "name": "사양지심",
+          "title": "공경하고 양보함",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 2,
+          "icon": "🍵",
+          "motto": "\"남을 공경하고 자신을 양보하는 예(禮)의 시작.\"",
+          "description": "예의와 존중으로 사람을 대하고 다툼을 피하려는 겸양.",
+          "statBonus": {
+            "diplomacy": 25,
+            "charisma": 15
+          },
+          "dialogueUnlock": "양보 및 사과 선택지 해금",
+          "npcReaction": "외교관 및 원로 NPC 호감도 +25%",
+          "combatTrigger": "비전투 외교 성공률 +30%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_discernment",
+          "name": "시비지심",
+          "title": "옳고 그름을 가림",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 3,
+          "icon": "🔍",
+          "motto": "\"옳음과 그름을 명확히 분별하는 지(智)의 시작.\"",
+          "description": "감정에 휘둘리지 않고 진실과 거짓을 냉철하게 직관하는 혜안.",
+          "statBonus": {
+            "expGain": 15,
+            "insight": 25
+          },
+          "dialogueUnlock": "진실 간파 및 거짓 지적 선택지 해금",
+          "npcReaction": "학자 및 조사관 NPC 호감도 +30%",
+          "combatTrigger": "적 약점 자동 파악 및 치명타 피해 +20%",
+          "suggestedSlots": [
+            "secondary",
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_wisdom.png"
+        },
+        {
+          "id": "p_sincerity",
+          "name": "성실지심",
+          "title": "한결같은 진실함",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 2,
+          "icon": "📜",
+          "motto": "\"하늘과 땅 사이 한 치의 거짓도 없는 정성.\"",
+          "description": "주변 모든 소임을 한결같은 마음으로 마치는 신실함.",
+          "statBonus": {
+            "trustGain": 30,
+            "stamina": 15
+          },
+          "dialogueUnlock": "진실한 고백 선택지 해금",
+          "npcReaction": "마을 이장 및 촌장 호감도 +35%",
+          "combatTrigger": "연속 공격 성공 시 중첩 피해 +10%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_reverence",
+          "name": "경외지심",
+          "title": "하늘과 이치를 두려워함",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 2,
+          "icon": "🌌",
+          "motto": "\"우주의 거대한 섭리 앞에 절로 고개가 숙여진다.\"",
+          "description": "자연과 하늘의 거대한 운명 앞에 경건히 자리를 지킴.",
+          "statBonus": {
+            "holyDamage": 15,
+            "manaRegen": 20
+          },
+          "dialogueUnlock": "천도 인용 선택지 해금",
+          "npcReaction": "도인 및 사제 호감도 +30%",
+          "combatTrigger": "마법 저항력 +20%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_loyalty",
+          "name": "단심지심",
+          "title": "변치 않는 붉은 충절",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 2,
+          "icon": "🗡️",
+          "motto": "\"이 몸이 죽고 죽어 일편단심 가질 줄이 있으랴.\"",
+          "description": "자신의 맹세와 주군을 결코 저버리지 않는 강직함.",
+          "statBonus": {
+            "attack": 15,
+            "statResist": 20
+          },
+          "dialogueUnlock": "충절 맹세 선택지 해금",
+          "npcReaction": "주군 NPC 호감도 +40%",
+          "combatTrigger": "주군/파티장 보호 시 피해 -25%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_frugality",
+          "name": "검양지심",
+          "title": "과함을 경계하는 아낌",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 1,
+          "icon": "🎋",
+          "motto": "\"화려함을 지우고 아낌을 세우니 마음이 깨끗하다.\"",
+          "description": "지나친 물욕과 낭비를 스스로 통제하는 지혜.",
+          "statBonus": {
+            "goldFind": 20,
+            "stamina": 15
+          },
+          "dialogueUnlock": "절약 타협 선택지 해금",
+          "npcReaction": "상인 및 원로 호감도 +25%",
+          "combatTrigger": "아이템 수리비 50% 절감",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_candidness",
+          "name": "직언지심",
+          "title": "곧은 직언의 태도",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 2,
+          "icon": "🖊️",
+          "motto": "\"목에 칼이 들어와도 아닌 것은 아니다라 말한다.\"",
+          "description": "권력 앞에서도 아첨하지 않고 사실만을 곧게 고하는 강직함.",
+          "statBonus": {
+            "trustGain": 20,
+            "charisma": 15
+          },
+          "dialogueUnlock": "직언 선택지 해금 (아첨 거부)",
+          "npcReaction": "의로운 군주 호감도 +35%, 아첨꾼 호감도 -30%",
+          "combatTrigger": "적의 거짓 유혹 스킬 100% 반사",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_righteousness",
+          "name": "의기지심",
+          "title": "의로움을 향한 일어섬",
+          "category": "four_seven",
+          "subcategory": "4단",
+          "tier": 3,
+          "icon": "🚩",
+          "motto": "\"의로운 일이라면 목숨을 걸고 나아간다.\"",
+          "description": "약자의 억울함을 풀기 위해 스스로 나서는 장렬함.",
+          "statBonus": {
+            "battleMorale": 30,
+            "attack": 15
+          },
+          "dialogueUnlock": "의병 모집 선택지 해금",
+          "npcReaction": "의병 및 민중 호감도 +40%",
+          "combatTrigger": "파티원 전원 사기 100% 유지",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_courage.png"
+        },
+        {
+          "id": "p_joy",
+          "name": "기쁨(喜)",
+          "title": "희열의 파동",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "☀️",
+          "motto": "\"삶의 매 순간에 감사하며 웃음 짓는 영혼.\"",
+          "description": "밝은 에너지로 주변 사람들의 사기를 북돋우는 환희.",
+          "statBonus": {
+            "partyMorale": 15,
+            "moveSpeed": 10
+          },
+          "dialogueUnlock": "유쾌한 입담 선택지 해금",
+          "npcReaction": "동료 호감도 상승 속도 +20%",
+          "combatTrigger": "전투 시작 시 파티원 이동속도 +15%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_anger",
+          "name": "노여움(怒)",
+          "title": "격동의 표효",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "⚡",
+          "motto": "\"부당함에 끓어오르는 의로운 분노.\"",
+          "description": "참을 수 없는 순간 솟구쳐 오르는 폭발적인 도파민.",
+          "statBonus": {
+            "attack": 15
+          },
+          "dialogueUnlock": "즉시 전투 개시 선택지 해금",
+          "npcReaction": "온건파 NPC 경계 +15%",
+          "combatTrigger": "피격 시 10초간 공격력 +15% 중첩",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_sorrow",
+          "name": "슬픔(哀)",
+          "title": "비통의 통곡",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "🌧️",
+          "motto": "\"가슴 깊이 굳어버린 애도의 눈물.\"",
+          "description": "잃어버린 존재를 향한 깊은 슬픔과 회한.",
+          "statBonus": {
+            "damageReduction": 15,
+            "attack": -5
+          },
+          "dialogueUnlock": "위로 요구 선택지 해금",
+          "npcReaction": "비통한 주민 호감도 +25%",
+          "combatTrigger": "피격 시 20% 확률로 피해 반사",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_fear",
+          "name": "두려움(懼)",
+          "title": "원초적 떨림",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "🌑",
+          "motto": "\"미지의 위험 앞에 떨리는 생존 본능.\"",
+          "description": "죽음과 미지에 대한 경계심으로 감각을 날카롭게 세움.",
+          "statBonus": {
+            "evasion": 20,
+            "hitRating": -5
+          },
+          "dialogueUnlock": "경계 및 도망 선택지 해금",
+          "npcReaction": "겁쟁이 NPC 동병상련 +20%",
+          "combatTrigger": "위험 도달 시 회피율 +30%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_love",
+          "name": "사랑(愛)",
+          "title": "숭고한 애호",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "💖",
+          "motto": "\"타인을 내 몸처럼 아끼는 끌림.\"",
+          "description": "세상과 동료를 향한 따스하고 헌신적인 사랑.",
+          "statBonus": {
+            "healPower": 20,
+            "charisma": 15
+          },
+          "dialogueUnlock": "고백 및 포옹 선택지 해금",
+          "npcReaction": "모든 동료 호감도 상승 +30%",
+          "combatTrigger": "아군 치유 시 지속 회복 부여",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_hatred",
+          "name": "미움(惡)",
+          "title": "증오의 가시",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "🖤",
+          "motto": "\"부패한 세상을 향해 세운 날카로운 가시.\"",
+          "description": "악행과 사악함을 용납하지 않는 증오의 마음.",
+          "statBonus": {
+            "attack": 15,
+            "karma": -5
+          },
+          "dialogueUnlock": "독설 선택지 해금",
+          "npcReaction": "적대 NPC 사기 저하",
+          "combatTrigger": "적 타격 시 방어 감소 디버프",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_wrath.png"
+        },
+        {
+          "id": "p_desire",
+          "name": "욕망(欲)",
+          "title": "끊임없는 갈망",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "🔥",
+          "motto": "\"꿈꾸는 것을 향해 멈추지 않는 갈망.\"",
+          "description": "목표와 안식을 얻고자 솟구치는 원초적 열망.",
+          "statBonus": {
+            "expGain": 10,
+            "stamina": 15
+          },
+          "dialogueUnlock": "욕구 표현 선택지 해금",
+          "npcReaction": "야심가 NPC 호감도 +20%",
+          "combatTrigger": "스킬 쿨타임 -8%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_delight",
+          "name": "희열",
+          "title": "승리의 순간",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "🎉",
+          "motto": "\"목표를 이뤄낸 순간 가슴 깊이 타오르는 기쁨.\"",
+          "description": "어려운 관문을 돌파할 때 솟아오르는 희열.",
+          "statBonus": {
+            "critChance": 12,
+            "moveSpeed": 10
+          },
+          "dialogueUnlock": "자축 선택지 해금",
+          "npcReaction": "동료 사기 +25%",
+          "combatTrigger": "적 처치 시 5초간 이동/공격속도 +20%",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_grief",
+          "name": "비통",
+          "title": "굳어진 애도",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "🥀",
+          "motto": "\"다시는 돌아오지 않는 이를 향한 찬 가슴.\"",
+          "description": "깊은 애도 속에서 차갑게 무뎌진 영혼.",
+          "statBonus": {
+            "statResist": 25
+          },
+          "dialogueUnlock": "묵념 선택지 해금",
+          "npcReaction": "유가족 NPC 호감도 +35%",
+          "combatTrigger": "피격 시 정신 상태이상 면역",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_terror",
+          "name": "전율",
+          "title": "존재의 공포",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "👁️",
+          "motto": "\"심연을 들여다보았을 때 느껴지는 생생한 전율.\"",
+          "description": "미지의 고대 존재 앞에서 느끼는 처절한 떨림.",
+          "statBonus": {
+            "evasion": 25,
+            "attack": -10
+          },
+          "dialogueUnlock": "공포 고백 선택지 해금",
+          "npcReaction": "경험 많은 탐험가 동질감 +25%",
+          "combatTrigger": "위기 시 순간 이동/회피",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_affection",
+          "name": "애착",
+          "title": "연연하는 심상",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 1,
+          "icon": "🧸",
+          "motto": "\"손에 쥔 소중한 추억을 결코 놓지 않는다.\"",
+          "description": "추억이 담긴 물건과 장소에 깊게 연연함.",
+          "statBonus": {
+            "stamina": 20
+          },
+          "dialogueUnlock": "추억 소환 선택지 해금",
+          "npcReaction": "어린 시절 친구 호감도 +40%",
+          "combatTrigger": "기본 장비 사용 시 능력치 +15%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_abhorrence",
+          "name": "혐오",
+          "title": "차가운 배척",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "🤮",
+          "motto": "\"더럽고 부패한 모든 것에 대해 고개를 돌린다.\"",
+          "description": "불결함과 악취나는 부패를 생리적으로 거부함.",
+          "statBonus": {
+            "statusResist": 30
+          },
+          "dialogueUnlock": "거북함 표현 선택지 해금",
+          "npcReaction": "위생주의자 NPC 호감도 +30%",
+          "combatTrigger": "중독/질병 상태이상 100% 면역",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_yearning",
+          "name": "갈망",
+          "title": "닿지 않는 이상",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "🌟",
+          "motto": "\"눈앞의 현실 넘어 닿을 수 없는 꿈을 빈다.\"",
+          "description": "먼 이상향과 천상을 동경하며 눈물짓는 마음.",
+          "statBonus": {
+            "expGain": 15,
+            "manaRegen": 15
+          },
+          "dialogueUnlock": "꿈 이야기 선택지 해금",
+          "npcReaction": "시인 및 예술가 호감도 +35%",
+          "combatTrigger": "스킬 피해량 +15%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_cynicism",
+          "name": "염세",
+          "title": "허무의 혜안",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 2,
+          "icon": "🌫️",
+          "motto": "\"모든 영웅담과 비극은 허무의 부조리에 불과하다.\"",
+          "description": "세상의 가치와 기적을 덧없는 허상으로 봄.",
+          "statBonus": {
+            "statusResist": 20,
+            "charisma": -10
+          },
+          "dialogueUnlock": "염세적 분석 선택지 해금",
+          "npcReaction": "철학자 NPC 호감도 +30%",
+          "combatTrigger": "정신 공격 스킬 100% 무효화",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        },
+        {
+          "id": "p_euphoria",
+          "name": "황홀",
+          "title": "극락의 쾌감",
+          "category": "four_seven",
+          "subcategory": "7정",
+          "tier": 3,
+          "icon": "🌌",
+          "motto": "\"이성의 고삐를 놓고 마법의 아우라에 몰입한다.\"",
+          "description": "절대적 마법이나 예술의 경지에서 느끼는 극락.",
+          "statBonus": {
+            "spellDamage": 30,
+            "manaRegen": 25
+          },
+          "dialogueUnlock": "황홀경 묘사 선택지 해금",
+          "npcReaction": "대마법사 NPC 존경 +35%",
+          "combatTrigger": "마법 사용 시 20% 확률로 쿨타임 초기화",
+          "suggestedSlots": [
+            "primary",
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+        }
+      ],
+      "imageUrl": "/assets/novel/personality/seal_four_seven.png"
+    },
+    {
+      "id": "human_desires",
+      "label": "인간의 욕구",
+      "description": "행동의 근본 원동력이 되는 본능적·심리적 욕구 25종",
+      "entries": [
+        {
+          "id": "p_survival",
+          "name": "생존욕",
+          "title": "생명의 집착",
+          "category": "human_desires",
+          "subcategory": "본능",
+          "tier": 2,
+          "icon": "🌱",
+          "motto": "\"어떤 지옥 속에서도 살아남는 것이 최우선이다.\"",
+          "description": "죽음의 위협 앞에서 뿜어져 나오는 생명력.",
+          "statBonus": {
+            "maxHp": 15,
+            "evasion": 10
+          },
+          "dialogueUnlock": "후퇴 및 타협 선택지 해금",
+          "npcReaction": "생존자 NPC 호감도 +20%",
+          "combatTrigger": "체력 20% 이하 시 5초간 회피율 +50%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_ambition",
+          "name": "승부욕/정복욕",
+          "title": "정상의 야망",
+          "category": "human_desires",
+          "subcategory": "야망",
+          "tier": 3,
+          "icon": "⚔️",
+          "motto": "\"패배는 죽음보다 달콤하지 않다.\"",
+          "description": "모든 라이벌과 적을 꺾고 최강에 오르려는 도파민.",
+          "statBonus": {
+            "bossDamage": 25,
+            "attack": 15
+          },
+          "dialogueUnlock": "도전 및 결투 선택지 해금",
+          "npcReaction": "라이벌 NPC 호응 +25%",
+          "combatTrigger": "보스 몬스터 상대 시 데미지 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_pride.png"
+        },
+        {
+          "id": "p_curiosity",
+          "name": "지식욕/탐구심",
+          "title": "진리의 갈증",
+          "category": "human_desires",
+          "subcategory": "탐구",
+          "tier": 3,
+          "icon": "📚",
+          "motto": "\"세상의 비공을 해독할 때까지 멈추지 않는다.\"",
+          "description": "금지된 지식과 미지의 보물에 매료된 열망.",
+          "statBonus": {
+            "expGain": 20,
+            "manaRegen": 15
+          },
+          "dialogueUnlock": "고대 어언 해석 및 비밀 해금 선택지",
+          "npcReaction": "대학자 NPC 친밀도 +35%",
+          "combatTrigger": "스킬 쿨타임 -10%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_wisdom.png"
+        },
+        {
+          "id": "p_honor",
+          "name": "명예욕",
+          "title": "칭송받는 자존심",
+          "category": "human_desires",
+          "subcategory": "명예",
+          "tier": 2,
+          "icon": "🎖️",
+          "motto": "\"영웅의 이름은 칭송 속에서 영원하다.\"",
+          "description": "세상의 인정과 칭송을 얻기 위해 목숨을 바침.",
+          "statBonus": {
+            "fameGain": 30,
+            "charisma": 20
+          },
+          "dialogueUnlock": "공개 서약 선택지 해금",
+          "npcReaction": "시민 NPC 호감도 +30%",
+          "combatTrigger": "명예 점수에 비례해 아군 사기 상승",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_tranquility",
+          "name": "안식욕",
+          "title": "평온한 안식처",
+          "category": "human_desires",
+          "subcategory": "안식",
+          "tier": 1,
+          "icon": "🍃",
+          "motto": "\"모든 전쟁이 끝난 뒤 올 평온을 꿈꾼다.\"",
+          "description": "혼란과 살육을 피하고 따스한 평화를 되찾고 싶어 함.",
+          "statBonus": {
+            "hpRegen": 20,
+            "stamina": 15
+          },
+          "dialogueUnlock": "휴전 선택지 해금",
+          "npcReaction": "평화주의자 호감도 +25%",
+          "combatTrigger": "비전투 시 회복 속도 +50%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_dominance",
+          "name": "지배욕",
+          "title": "통제의 왕좌",
+          "category": "human_desires",
+          "subcategory": "지배",
+          "tier": 3,
+          "icon": "👑",
+          "motto": "\"나의 지휘 아래 굴복할 때 정돈된 세일이 열린다.\"",
+          "description": "모든 상황과 타인을 자신의 통제 아래 두려 함.",
+          "statBonus": {
+            "partyMorale": 25,
+            "attack": 15
+          },
+          "dialogueUnlock": "지휘 및 지배 선택지 해금",
+          "npcReaction": "부하 NPC 충성도 +35%",
+          "combatTrigger": "소환수/부하 공격력 +30%",
+          "suggestedSlots": [
+            "primary",
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_ostentation",
+          "name": "과시욕",
+          "title": "화려한 빛의 무대",
+          "category": "human_desires",
+          "subcategory": "과시",
+          "tier": 1,
+          "icon": "🦚",
+          "motto": "\"나의 부와 무공을 세상에 끊임없이 과시하리라.\"",
+          "description": "자신의 유니크 아이템과 업적을 남들에게 보여주고 싶어 함.",
+          "statBonus": {
+            "charisma": 20,
+            "goldFind": 15
+          },
+          "dialogueUnlock": "업적 과시 선택지 해금",
+          "npcReaction": "귀부인 NPC 호감도 +30%",
+          "combatTrigger": "화려한 스킬 사용 시 이펙트 및 피해 +15%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_creation",
+          "name": "창작욕",
+          "title": "미지의 빚어냄",
+          "category": "human_desires",
+          "subcategory": "창작",
+          "tier": 2,
+          "icon": "🎨",
+          "motto": "\"세상에 없던 새로운 마도 아티팩트를 연금한다.\"",
+          "description": "새로운 기술과 아이템, 연금술 레시피를 빚어내는 보람.",
+          "statBonus": {
+            "craftSuccess": 30,
+            "manaRegen": 15
+          },
+          "dialogueUnlock": "연금 제작 선택지 해금",
+          "npcReaction": "연금술사 NPC 호감도 +35%",
+          "combatTrigger": "연금 큐브 사용 시 결과물 등급 상승",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_freedom",
+          "name": "자유욕",
+          "title": "야생의 날개",
+          "category": "human_desires",
+          "subcategory": "자유",
+          "tier": 2,
+          "icon": "🦅",
+          "motto": "\"어떠한 율법과 족쇄도 나를 묶어둘 수 없다.\"",
+          "description": "규율과 제국의 법에 구속받지 않는 바람 같은 영혼.",
+          "statBonus": {
+            "moveSpeed": 20,
+            "evasion": 15
+          },
+          "dialogueUnlock": "구속 탈출 선택지 해금",
+          "npcReaction": "도적 및 방랑자 호감도 +30%",
+          "combatTrigger": "속박/기절 상태 이상 즉시 해제",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_belonging",
+          "name": "귀속욕",
+          "title": "공동체의 따스함",
+          "category": "human_desires",
+          "subcategory": "귀속",
+          "tier": 1,
+          "icon": "🏡",
+          "motto": "\"내가 돌아갈 무리와 가문이 있음에 감사한다.\"",
+          "description": "외로움을 피하고 문파나 기사단 무리에 속하고자 함.",
+          "statBonus": {
+            "partyMorale": 20,
+            "defense": 10
+          },
+          "dialogueUnlock": "가입 서약 선택지 해금",
+          "npcReaction": "길드 마스터 호감도 +35%",
+          "combatTrigger": "파티원 인접 시 방어력 +20%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_collection",
+          "name": "수집욕",
+          "title": "희귀 보화의 수집",
+          "category": "human_desires",
+          "subcategory": "수집",
+          "tier": 2,
+          "icon": "📦",
+          "motto": "\"전설 아이템과 도감을 모두 채우는 완성의 쾌감.\"",
+          "description": "세상의 모든 도감 엔트리와 보물을 수집함.",
+          "statBonus": {
+            "magicFind": 30,
+            "goldFind": 20
+          },
+          "dialogueUnlock": "보물 거래 선택지 해금",
+          "npcReaction": "수집가 NPC 호감도 +40%",
+          "combatTrigger": "도감 등록 항목 비례하여 능력치 상승",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_revenge",
+          "name": "복수심",
+          "title": "피의 칼날",
+          "category": "human_desires",
+          "subcategory": "복수",
+          "tier": 3,
+          "icon": "🗡️",
+          "motto": "\"원수의 목을 가져오기 전까지 나의 전쟁은 끝나지 않는다.\"",
+          "description": "과거의 원한과 비극을 피로 갚아주려는 서슬 푸른 칼날.",
+          "statBonus": {
+            "critDamage": 35,
+            "attack": 20,
+            "karma": -20
+          },
+          "dialogueUnlock": "원수 단죄 선택지 해금",
+          "npcReaction": "원한 품은 무리 호감도 +35%",
+          "combatTrigger": "자신에게 피해 준 적 지정 시 데미지 +40%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/entries/p_wrath.png"
+        },
+        {
+          "id": "p_order_drive",
+          "name": "질서욕",
+          "title": "혼돈의 정리",
+          "category": "human_desires",
+          "subcategory": "질서",
+          "tier": 2,
+          "icon": "📜",
+          "motto": "\"무질서한 무법지대에 엄격한 율법을 세운다.\"",
+          "description": "혼란과 무질서를 정리하고 법률을 적용하려 함.",
+          "statBonus": {
+            "hitRating": 20,
+            "statusResist": 15
+          },
+          "dialogueUnlock": "법령 인용 선택지 해금",
+          "npcReaction": "경비대 및 집행관 호감도 +30%",
+          "combatTrigger": "혼돈/무법자 적 상대 시 피해 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_self_actualization",
+          "name": "자아실현",
+          "title": "한계의 파쇄",
+          "category": "human_desires",
+          "subcategory": "실현",
+          "tier": 3,
+          "icon": "🏔️",
+          "motto": "\"필멸자의 한계를 깨뜨리고 완성된 자아로 우뚝 선다.\"",
+          "description": "자신의 육체적·정신적 최경지를 개척하려는 도전.",
+          "statBonus": {
+            "allStats": 10,
+            "expGain": 20
+          },
+          "dialogueUnlock": "경지 승급 선택지 해금",
+          "npcReaction": "무도관 대지존 호감도 +40%",
+          "combatTrigger": "승급 수련 효율 +30%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_control_drive",
+          "name": "통제욕",
+          "title": "모든 변수의 조율",
+          "category": "human_desires",
+          "subcategory": "통제",
+          "tier": 2,
+          "icon": "♟️",
+          "motto": "\"체스판 위의 기물처럼 모든 전황을 조율한다.\"",
+          "description": "전투와 이야기의 모든 변수를 계산하고 통제함.",
+          "statBonus": {
+            "cooldownReduce": 15,
+            "insight": 20
+          },
+          "dialogueUnlock": "작전 통제 선택지 해금",
+          "npcReaction": "참모 및 군사 호감도 +35%",
+          "combatTrigger": "전투 함정 피해 100% 회피",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_faith_drive",
+          "name": "신앙욕",
+          "title": "절대적 헌신",
+          "category": "human_desires",
+          "subcategory": "신앙",
+          "tier": 2,
+          "icon": "⛪",
+          "motto": "\"신의 음성에 내 영혼 전체를 온전히 위임한다.\"",
+          "description": "자신의 이성보다 절대 신의 계시와 율법을 따름.",
+          "statBonus": {
+            "holyDamage": 25,
+            "healPower": 20
+          },
+          "dialogueUnlock": "기도 및 계시 수용 선택지 해금",
+          "npcReaction": "교황 및 대사제 호감도 +40%",
+          "combatTrigger": "신성 마법 치명타 20% 증가",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_solitude",
+          "name": "고독욕",
+          "title": "나만의 심연",
+          "category": "human_desires",
+          "subcategory": "고독",
+          "tier": 1,
+          "icon": "🌌",
+          "motto": "\"타인의 소음이 차단된 조용한 심연이 가장 안락하다.\"",
+          "description": "사람들의 시선과 무리를 피해 혼자 사색하길 바람.",
+          "statBonus": {
+            "damageReduction": 20,
+            "moveSpeed": 10
+          },
+          "dialogueUnlock": "단독 행동 선택지 해금",
+          "npcReaction": "은둔자 NPC 호감도 +30%",
+          "combatTrigger": "솔로 플레이 시 능력치 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_discovery",
+          "name": "모험욕",
+          "title": "미지의 개척",
+          "category": "human_desires",
+          "subcategory": "모험",
+          "tier": 2,
+          "icon": "🧭",
+          "motto": "\"지도에 적히지 않은 미지의 땅으로 발걸음을 옮긴다.\"",
+          "description": "숨겨진 고대 던전과 유적을 찾아 나서는 열정.",
+          "statBonus": {
+            "mapRadius": 30,
+            "moveSpeed": 15
+          },
+          "dialogueUnlock": "탐사 개시 선택지 해금",
+          "npcReaction": "탐험가 길드 호감도 +35%",
+          "combatTrigger": "새 장소 진입 시 10분간 능력치 상승",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_preservation",
+          "name": "보존욕",
+          "title": "유산의 수호",
+          "category": "human_desires",
+          "subcategory": "보존",
+          "tier": 1,
+          "icon": "🏺",
+          "motto": "\"수천 년 고대 유산과 문헌을 파괴로부터 지킨다.\"",
+          "description": "전쟁과 타락으로부터 고대 문명 유산을 보호함.",
+          "statBonus": {
+            "defense": 15,
+            "wisdom": 15
+          },
+          "dialogueUnlock": "유적 보호 선택지 해금",
+          "npcReaction": "박물관장 및 고고학자 호감도 +35%",
+          "combatTrigger": "유적 전장 피해 -20%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_competition",
+          "name": "경쟁욕",
+          "title": "라이벌과의 혈전",
+          "category": "human_desires",
+          "subcategory": "경쟁",
+          "tier": 2,
+          "icon": "🥊",
+          "motto": "\"동등한 숙적과의 일전이야말로 삶의 진정한 의미다.\"",
+          "description": "자신과 대등한 라이벌을 찾아 교련하려는 열망.",
+          "statBonus": {
+            "attack": 20,
+            "critChance": 10
+          },
+          "dialogueUnlock": "대련 신청 선택지 해금",
+          "npcReaction": "무도가 NPC 호감도 +30%",
+          "combatTrigger": "유저 및 인간형 라이벌 타격 시 피해 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_transcendence",
+          "name": "초월욕",
+          "title": "필멸의 탈피",
+          "category": "human_desires",
+          "subcategory": "초월",
+          "tier": 3,
+          "icon": "🌌",
+          "motto": "\"필멸자의 육신을 벗어던지고 신성에 다다른다.\"",
+          "description": "인간의 한계를 벗어나 신성이나 마도의 초월체가 됨.",
+          "statBonus": {
+            "allStats": 15,
+            "spellDamage": 25
+          },
+          "dialogueUnlock": "신성/마도 초월 선택지 해금",
+          "npcReaction": "초월체 존재들 경각심 +40%",
+          "combatTrigger": "변신/초월 시 능력치 50% 폭발",
+          "suggestedSlots": [
+            "primary",
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_indulgence",
+          "name": "쾌락욕",
+          "title": "순간의 탐닉",
+          "category": "human_desires",
+          "subcategory": "쾌락",
+          "tier": 1,
+          "icon": "🍷",
+          "motto": "\"내일의 비극보다 오늘 밤의 향락이 중요하다.\"",
+          "description": "미래의 걱정보다 현재의 주색잡기와 쾌락을 즐김.",
+          "statBonus": {
+            "stamina": 20,
+            "hpRegen": 15
+          },
+          "dialogueUnlock": "향락 탐닉 선택지 해금",
+          "npcReaction": "주점 단골 호감도 +30%",
+          "combatTrigger": "주류/음식 도핑 시 버프 지속시간 2배",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_providence",
+          "name": "섭리욕",
+          "title": "천도의 순응",
+          "category": "human_desires",
+          "subcategory": "섭리",
+          "tier": 2,
+          "icon": "☯️",
+          "motto": "\"흘러가는 강물처럼 우주의 섭리에 몸을 맡긴다.\"",
+          "description": "인위적인 욕심을 내려놓고 자연의 순리에 맡김.",
+          "statBonus": {
+            "statusResist": 25,
+            "manaRegen": 20
+          },
+          "dialogueUnlock": "순리 방관 선택지 해금",
+          "npcReaction": "도사 NPC 호감도 +35%",
+          "combatTrigger": "자연계 속성 피해 20% 감소",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_protection",
+          "name": "수호욕",
+          "title": "소중한 이의 파수꾼",
+          "category": "human_desires",
+          "subcategory": "수호",
+          "tier": 3,
+          "icon": "🛡️",
+          "motto": "\"내 목숨을 태워서라도 너를 반드시 지켜낸다.\"",
+          "description": "자신의 전부를 바쳐 소중한 동료와 연인을 보호함.",
+          "statBonus": {
+            "maxHp": 30,
+            "damageReduction": 20
+          },
+          "dialogueUnlock": "수호 서약 선택지 해금",
+          "npcReaction": "지켜진 이의 호감도 100% 달성",
+          "combatTrigger": "지정한 아군 피해 100% 대신 받기",
+          "suggestedSlots": [
+            "primary",
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        },
+        {
+          "id": "p_ascetism",
+          "name": "금욕",
+          "title": "고통을 통한 고결",
+          "category": "human_desires",
+          "subcategory": "금욕",
+          "tier": 2,
+          "icon": "🪨",
+          "motto": "\"육신의 육욕을 제어할 때 영혼의 안식이 차오른다.\"",
+          "description": "스스로 육신의 편안함과 맛난 음식을 거절함.",
+          "statBonus": {
+            "statusResist": 30,
+            "wisdom": 20
+          },
+          "dialogueUnlock": "단식 고행 선택지 해금",
+          "npcReaction": "고행 수도사 호감도 +40%",
+          "combatTrigger": "상태이상 완벽 저항 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_desires.png"
+        }
+      ],
+      "imageUrl": "/assets/novel/personality/seal_desires.png"
+    },
+    {
+      "id": "moral_alignment",
+      "label": "선악 및 성향",
+      "description": "세계관 관점과 신념을 결정하는 극적 도덕 성향 25종",
+      "entries": [
+        {
+          "id": "p_pure_good",
+          "name": "절대 선",
+          "title": "빛의 인도자",
+          "category": "moral_alignment",
+          "subcategory": "선",
+          "tier": 3,
+          "icon": "🌟",
+          "motto": "\"세상의 모든 어둠을 거두는 숭고한 사명.\"",
+          "description": "개인의 이익을 버리고 오직 세계의 평화와 선을 위해 헌신함.",
+          "statBonus": {
+            "holyDamage": 30,
+            "damageReduction": 15
+          },
+          "dialogueUnlock": "성스러운 결의 선택지 해금",
+          "npcReaction": "선 성향 NPC 호감도 최상급 (+40%)",
+          "combatTrigger": "언데드/악마 계열 적 상대 시 데미지 +35%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_lawful_good",
+          "name": "질서 선",
+          "title": "정의의 기사단장",
+          "category": "moral_alignment",
+          "subcategory": "선",
+          "tier": 3,
+          "icon": "⚖️",
+          "motto": "\"율법과 법률 아래 올곧은 정의를 구현한다.\"",
+          "description": "제국의 법과 공의를 바르게 수호하며 약자를 돕는 성향.",
+          "statBonus": {
+            "holyDamage": 25,
+            "defense": 15
+          },
+          "dialogueUnlock": "공의 집행 선택지 해금",
+          "npcReaction": "성기사단 호감도 +35%",
+          "combatTrigger": "법률 위반 악인 적 상대 시 피해 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_neutral_good",
+          "name": "중립 선",
+          "title": "따스한 조력자",
+          "category": "moral_alignment",
+          "subcategory": "선",
+          "tier": 2,
+          "icon": "🕊️",
+          "motto": "\"법보다 중요한 것은 사람의 행복과 안전이다.\"",
+          "description": "경직된 율법보다 실제 사람들의 생명과 구원을 우선함.",
+          "statBonus": {
+            "healPower": 20,
+            "charisma": 15
+          },
+          "dialogueUnlock": "유연한 구호 선택지 해금",
+          "npcReaction": "마을 이장 및 난민 호감도 +35%",
+          "combatTrigger": "아군 치료 및 버프 효과 +20%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_chaotic_good",
+          "name": "혼돈 선",
+          "title": "자유의 의적",
+          "category": "moral_alignment",
+          "subcategory": "선",
+          "tier": 2,
+          "icon": "🏹",
+          "motto": "\"부패한 제국 법은 부수고 약자의 웃음을 찾는다.\"",
+          "description": "부패한 기득권의 법을 무시하고 정의를 행동으로 보여줌.",
+          "statBonus": {
+            "critChance": 15,
+            "moveSpeed": 15
+          },
+          "dialogueUnlock": "의적 약탈 나누기 선택지 해금",
+          "npcReaction": "의적단 및 민중 호감도 +40%",
+          "combatTrigger": "권력자/영주 적 상대 시 피해 +25%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_lawful_neutral",
+          "name": "질서 중립",
+          "title": "법과 율법의 집행자",
+          "category": "moral_alignment",
+          "subcategory": "중립",
+          "tier": 2,
+          "icon": "📜",
+          "motto": "\"감정이 아닌 율법과 약속만이 인류를 지킨다.\"",
+          "description": "사사로운 감정을 배제하고 오직 규율에 맞추는 냉철함.",
+          "statBonus": {
+            "hitRating": 20,
+            "statResist": 15
+          },
+          "dialogueUnlock": "공정한 판결 선택지 해금",
+          "npcReaction": "재판관 및 집행관 호감도 +30%",
+          "combatTrigger": "규칙 위반 적 상태 시 피해 +20%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_true_neutral",
+          "name": "진정한 중립",
+          "title": "자연과 조화의 추",
+          "category": "moral_alignment",
+          "subcategory": "중립",
+          "tier": 2,
+          "icon": "☯️",
+          "motto": "\"선도 악도 우주의 거대한 생태계 일부일 뿐이다.\"",
+          "description": "어느 한쪽 극단에 치우치지 않고 균형을 지키는 관조.",
+          "statBonus": {
+            "statusResist": 25,
+            "defense": 10
+          },
+          "dialogueUnlock": "중립 중재 선택지 해금",
+          "npcReaction": "드루이드 및 중립 사제 호감도 +35%",
+          "combatTrigger": "모든 속성 피해 15% 감소",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_chaotic_neutral",
+          "name": "혼돈 중립",
+          "title": "자유로운 방랑자",
+          "category": "moral_alignment",
+          "subcategory": "중립",
+          "tier": 2,
+          "icon": "🎲",
+          "motto": "\"내 내키는 대로 살 테니 그 누구도 날 간섭마라.\"",
+          "description": "오직 자신의 본능과 직관을 따르는 바람 같은 자유인.",
+          "statBonus": {
+            "evasion": 20,
+            "critDamage": 20
+          },
+          "dialogueUnlock": "마이웨이 선택지 해금",
+          "npcReaction": "자유 용병 호감도 +30%",
+          "combatTrigger": "랜덤 치명타 데미지 최대 50% 발동",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_lawful_evil",
+          "name": "질서 악",
+          "title": "철혈의 폭군",
+          "category": "moral_alignment",
+          "subcategory": "악",
+          "tier": 3,
+          "icon": "🏰",
+          "motto": "\"피의 법률과 계약으로 나의 제국을 다스린다.\"",
+          "description": "철저한 합법적 계약과 제국의 규율로 정적을 지배함.",
+          "statBonus": {
+            "attack": 25,
+            "partyMorale": 20,
+            "karma": -30
+          },
+          "dialogueUnlock": "악마의 계약 선택지 해금",
+          "npcReaction": "악마 소환사 및 귀족 호감도 +35%",
+          "combatTrigger": "계약 이행 시 적 즉사 10%",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_neutral_evil",
+          "name": "중립 악",
+          "title": "순수한 이기주의자",
+          "category": "moral_alignment",
+          "subcategory": "악",
+          "tier": 2,
+          "icon": "🕷️",
+          "motto": "\"이익이 된다면 악마와도 손을 잡는다.\"",
+          "description": "오직 자신만의 이익을 위해 타인과 규율을 이용함.",
+          "statBonus": {
+            "lifesteal": 15,
+            "goldFind": 20,
+            "karma": -25
+          },
+          "dialogueUnlock": "배신 타협 선택지 해금",
+          "npcReaction": "암시장 상인 호감도 +30%",
+          "combatTrigger": "피격 피해의 20% 아군에게 전가",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_chaotic_evil",
+          "name": "혼돈 악",
+          "title": "심연의 파괴자",
+          "category": "moral_alignment",
+          "subcategory": "악",
+          "tier": 3,
+          "icon": "☠️",
+          "motto": "\"질서와 규율 따위는 잿더미에 불과하다.\"",
+          "description": "자신의 파괴 본능을 위해 모든 수단을 가리지 않는 참혹함.",
+          "statBonus": {
+            "attack": 35,
+            "lifesteal": 15,
+            "karma": -50
+          },
+          "dialogueUnlock": "약탈 및 배신 선택지 해금",
+          "npcReaction": "도적단 호감도 +35%, 정규군 적대화",
+          "combatTrigger": "적 처치 시 생명력 20% 흡수",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_sacred_devotion",
+          "name": "순백의 헌신",
+          "title": "성스러운 불꽃",
+          "category": "moral_alignment",
+          "subcategory": "헌신",
+          "tier": 3,
+          "icon": "🕊️",
+          "motto": "\"나의 빛으로 세상의 온갖 어둠을 깨끗이 정화하리라.\"",
+          "description": "타락한 세상에 신성한 불꽃으로 구원을 가져옴.",
+          "statBonus": {
+            "holyDamage": 30,
+            "healPower": 25
+          },
+          "dialogueUnlock": "성령 축복 선택지 해금",
+          "npcReaction": "대사제 호감도 +40%",
+          "combatTrigger": "언데드 적 전체 정화 마법 발동",
+          "suggestedSlots": [
+            "primary",
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_abyssal_madness",
+          "name": "칠흑의 광기",
+          "title": "심연의 음성",
+          "category": "moral_alignment",
+          "subcategory": "광기",
+          "tier": 3,
+          "icon": "👁️",
+          "motto": "\"심연의 위대한 존재가 내 속삭임에 답한다.\"",
+          "description": "고대 심연의 음성에 사로잡혀 이성을 내려놓은 광기.",
+          "statBonus": {
+            "spellDamage": 35,
+            "karma": -45
+          },
+          "dialogueUnlock": "광란의 소환 선택지 해금",
+          "npcReaction": "이교도 NPC 호감도 +45%",
+          "combatTrigger": "암흑 피해 40% 폭발",
+          "suggestedSlots": [
+            "primary",
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_abyssal_oath",
+          "name": "심연의 맹세",
+          "title": "어둠의 혈계",
+          "category": "moral_alignment",
+          "subcategory": "맹세",
+          "tier": 3,
+          "icon": "🩸",
+          "motto": "\"피로 새긴 맹세는 죽음조차 파기할 수 없다.\"",
+          "description": "어둠의 군주와 맺은 혈계 마법의 수호.",
+          "statBonus": {
+            "attack": 25,
+            "lifesteal": 20
+          },
+          "dialogueUnlock": "혈계 소환 선택지 해금",
+          "npcReaction": "마족 NPC 호감도 +40%",
+          "combatTrigger": "적 사살 시 생명력 30% 즉시 회복",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_soul_atonement",
+          "name": "영혼의 속죄",
+          "title": "죄업의 씻김",
+          "category": "moral_alignment",
+          "subcategory": "속죄",
+          "tier": 2,
+          "icon": "🌊",
+          "motto": "\"내가 지은 피의 죄업을 피로써 씻어내리라.\"",
+          "description": "과거의 살육을 참회하고 속죄하기 위해 나선 기사.",
+          "statBonus": {
+            "damageReduction": 20,
+            "karma": 20
+          },
+          "dialogueUnlock": "속죄 고백 선택지 해금",
+          "npcReaction": "성기사단 호감도 +35%",
+          "combatTrigger": "피격 시 아군 방어막 형성",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_fanaticism",
+          "name": "마도적 광신",
+          "title": "맹목의 전차",
+          "category": "moral_alignment",
+          "subcategory": "광신",
+          "tier": 3,
+          "icon": "🔥",
+          "motto": "\"나의 교리를 방해하는 자는 누구든 화형대 위에 세운다.\"",
+          "description": "자신의 종교나 교리를 위해 타인의 도덕을 마비시킴.",
+          "statBonus": {
+            "fireDamage": 30,
+            "attack": 20
+          },
+          "dialogueUnlock": "이단 심판 선택지 해금",
+          "npcReaction": "광신도 호감도 +45%",
+          "combatTrigger": "화염 피해 30% 증가",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_solitary_wolf",
+          "name": "고독한 늑대",
+          "title": "오직 나의 검",
+          "category": "moral_alignment",
+          "subcategory": "방랑",
+          "tier": 2,
+          "icon": "🐺",
+          "motto": "\"세상의 어떤 문파도 나에게 자리를 내어주지 않는다.\"",
+          "description": "그 누구에게도 기대지 않고 혼자 황야를 걷는 검객.",
+          "statBonus": {
+            "attack": 25,
+            "evasion": 15
+          },
+          "dialogueUnlock": "고독한 거절 선택지 해금",
+          "npcReaction": "방랑 무사 호감도 +35%",
+          "combatTrigger": "솔로 전투 시 치명타 25% 상승",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_apocalyptic",
+          "name": "멸망의 관조",
+          "title": "종말의 아우라",
+          "category": "moral_alignment",
+          "subcategory": "관조",
+          "tier": 3,
+          "icon": "☄️",
+          "motto": "\"어차피 이 세계는 정해진 수순에 따라 멸망한다.\"",
+          "description": "세상 종말의 비극을 정돈되고 담담한 눈으로 바라봄.",
+          "statBonus": {
+            "statusResist": 30,
+            "spellDamage": 20
+          },
+          "dialogueUnlock": "종말 예언 선택지 해금",
+          "npcReaction": "예언자 NPC 호감도 +40%",
+          "combatTrigger": "전장 전체 적 사기 30% 깎음",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_righteous_rebel",
+          "name": "의로운 반역자",
+          "title": "왕좌의 파괴자",
+          "category": "moral_alignment",
+          "subcategory": "반역",
+          "tier": 2,
+          "icon": "🔨",
+          "motto": "\"부패한 황제의 머리통을 망치로 내리친다.\"",
+          "description": "부패하고 썩어빠진 조정과 왕좌를 부수려는 혁명가.",
+          "statBonus": {
+            "bossDamage": 30,
+            "attack": 15
+          },
+          "dialogueUnlock": "혁명 선동 선택지 해금",
+          "npcReaction": "혁명군 호감도 +40%",
+          "combatTrigger": "보스 및 영주 적 피해 +30%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_tyrant_will",
+          "name": "폭군의 의지",
+          "title": "철혈의 정복",
+          "category": "moral_alignment",
+          "subcategory": "폭정",
+          "tier": 3,
+          "icon": "👑",
+          "motto": "\"자비는 약자의 핑계요, 오직 철혈만이 제국을 통일한다.\"",
+          "description": "강력한 무력과 공포 정치로 모든 대륙을 억누름.",
+          "statBonus": {
+            "attack": 30,
+            "partyMorale": 25
+          },
+          "dialogueUnlock": "철혈 정복 선택지 해금",
+          "npcReaction": "정복군 호감도 +40%",
+          "combatTrigger": "공포 상태 적 상대 시 피해 +35%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_martyr_flame",
+          "name": "순교자의 성화",
+          "title": "불꽃의 등불",
+          "category": "moral_alignment",
+          "subcategory": "순교",
+          "tier": 3,
+          "icon": "🕯️",
+          "motto": "\"내가 화형대의 불길에 휩싸여도 기적은 피어난다.\"",
+          "description": "자신의 목숨을 바쳐 세상을 밝히는 성스러운 불꽃.",
+          "statBonus": {
+            "holyDamage": 35,
+            "maxHp": 20
+          },
+          "dialogueUnlock": "순교 고백 선택지 해금",
+          "npcReaction": "모든 성직자 호감도 100%",
+          "combatTrigger": "사망 시 전장 전체 아군 완전 부활 및 치유",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_shadow_walker",
+          "name": "그림자 방랑자",
+          "title": "경계선의 파수꾼",
+          "category": "moral_alignment",
+          "subcategory": "그림자",
+          "tier": 2,
+          "icon": "🌑",
+          "motto": "\"빛이 도달하지 못하는 곳에서 어둠으로 어둠을 사냥한다.\"",
+          "description": "빛과 어둠 사이의 경계선에서 세상을 지키는 암살자.",
+          "statBonus": {
+            "critDamage": 30,
+            "stealth": 25
+          },
+          "dialogueUnlock": "암살 암호 선택지 해금",
+          "npcReaction": "그림자 길드 호감도 +40%",
+          "combatTrigger": "은신 공격 시 피해 50% 폭발",
+          "suggestedSlots": [
+            "secondary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_cosmic_observer",
+          "name": "운명의 관조자",
+          "title": "천도의 눈",
+          "category": "moral_alignment",
+          "subcategory": "관조",
+          "tier": 3,
+          "icon": "🌌",
+          "motto": "\"수만 년의 운명 수레바퀴를 조용히 지켜본다.\"",
+          "description": "인간사의 흥망성쇠를 시공간 밖에서 관조함.",
+          "statBonus": {
+            "insight": 35,
+            "expGain": 25
+          },
+          "dialogueUnlock": "운명 인지 선택지 해금",
+          "npcReaction": "고대 점술가 호감도 +40%",
+          "combatTrigger": "적 스킬 패턴 100% 사전 예측",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_blood_pact",
+          "name": "혈혈단신",
+          "title": "피의 결속",
+          "category": "moral_alignment",
+          "subcategory": "결속",
+          "tier": 2,
+          "icon": "🩸",
+          "motto": "\"우리 의형제의 피는 죽음보다 짙다.\"",
+          "description": "피로 맺은 사형제와의 끊어지지 않는 결속.",
+          "statBonus": {
+            "partyMorale": 30,
+            "attack": 15
+          },
+          "dialogueUnlock": "의형제 맹세 선택지 해금",
+          "npcReaction": "사형제 동료 호감도 100%",
+          "combatTrigger": "의형제 부상 시 공격력 +40%",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_dragon_soul",
+          "name": "용의 의지",
+          "title": "절대자의 기상",
+          "category": "moral_alignment",
+          "subcategory": "절대자",
+          "tier": 3,
+          "icon": "🐉",
+          "motto": "\"태고의 드래곤에 비견되는 강대한 용의 의지.\"",
+          "description": "필멸자를 압도하는 태고의 웅장한 드래곤 아우라.",
+          "statBonus": {
+            "allStats": 20,
+            "fireDamage": 30
+          },
+          "dialogueUnlock": "용의 용언 선택지 해금",
+          "npcReaction": "모든 몬스터 계열 적 위압 감지",
+          "combatTrigger": "용언 브레스 범위 마법 발동",
+          "suggestedSlots": [
+            "primary"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        },
+        {
+          "id": "p_void_embrace",
+          "name": "허무의 포용",
+          "title": "존재하지 않는 안식",
+          "category": "moral_alignment",
+          "subcategory": "허무",
+          "tier": 3,
+          "icon": "🌌",
+          "motto": "\"모든 물질과 영혼이 허무의 고요로 돌아가리라.\"",
+          "description": "세상의 모든 분쟁이 결국 허무로 돌아간다는 진리.",
+          "statBonus": {
+            "statusResist": 35,
+            "damageReduction": 25
+          },
+          "dialogueUnlock": "허무 방관 선택지 해금",
+          "npcReaction": "허무의 사제 호감도 +40%",
+          "combatTrigger": "적 치명타 공격 완전 무효화",
+          "suggestedSlots": [
+            "innerDesire"
+          ],
+          "imageUrl": "/assets/novel/personality/seal_morality.png"
+        }
+      ],
+      "imageUrl": "/assets/novel/personality/seal_morality.png"
+    }
+  ],
+  "PERSONALITY_RESONANCE_RULES_SAMPLE": [
+    {
+      "id": "res_saint_virtue",
+      "title": "성자의 도의 (Saint's Virtue)",
+      "requiredEntryIds": [
+        "p_humility",
+        "p_compassion",
+        "p_tranquility"
+      ],
+      "effectDescription": "아군 치유 효과 +25%, 전투 불능 1회 방지, 설득/협상 성공률 +30%",
+      "dialogueBonus": "★ [성자의 도의] 모든 NPC 호감도 대폭 상승 및 평화 타협 옵션 상시 개방",
+      "statBonus": {
+        "healPower": 25,
+        "holyDamage": 20,
+        "damageReduction": 15
+      }
+    },
+    {
+      "id": "res_overlord_authority",
+      "title": "패왕의 패기 (Overlord's Authority)",
+      "requiredEntryIds": [
+        "p_pride",
+        "p_ambition",
+        "p_chaotic_evil"
+      ],
+      "effectDescription": "공격력 +30%, 치명타 확률 +20%, 적 복종/위협 선택지 즉시 성공",
+      "dialogueBonus": "★ [패왕의 패기] 적대 세력 두목 항복 유도 및 공포의 위압감 발동",
+      "statBonus": {
+        "attack": 30,
+        "critChance": 20,
+        "lifesteal": 10
+      }
+    },
+    {
+      "id": "res_sage_insight",
+      "title": "현자의 통찰 (Sage's Insight)",
+      "requiredEntryIds": [
+        "p_discernment",
+        "p_curiosity",
+        "p_lawful_neutral"
+      ],
+      "effectDescription": "경험치 획득 +20%, 숨겨진 트랩/비공/퀘스트 힌트 자동 탐지",
+      "dialogueBonus": "★ [현자의 통찰] 상대의 모든 거짓말 감지 및 숨겨진 고대 장치 자동 해제",
+      "statBonus": {
+        "expGain": 20,
+        "insight": 30,
+        "cooldownReduce": 10
+      }
+    },
+    {
+      "id": "res_righteous_crusade",
+      "title": "정의의 성전 (Righteous Crusade)",
+      "requiredEntryIds": [
+        "p_shame",
+        "p_righteousness",
+        "p_lawful_good"
+      ],
+      "effectDescription": "악 성향 적 타격 시 추가 피해 +40%, 악마/언데드 즉시 정화 파동",
+      "dialogueBonus": "★ [정의의 성전] 법률 및 신성 재판 선택지 대폭 성공률 상승",
+      "statBonus": {
+        "holyDamage": 35,
+        "attack": 25,
+        "statusResist": 20
+      }
+    },
+    {
+      "id": "res_shadow_assassin",
+      "title": "그림자 결사 (Shadow Brotherhood)",
+      "requiredEntryIds": [
+        "p_treachery",
+        "p_revenge",
+        "p_shadow_walker"
+      ],
+      "effectDescription": "후방 기습 피해 +50%, 치명타 확률 +30%, 은신 즉시 발동",
+      "dialogueBonus": "★ [그림자 결사] 암살 및 블랙마켓 비밀 장치 해금",
+      "statBonus": {
+        "critDamage": 40,
+        "backstabDamage": 35,
+        "moveSpeed": 20
+      }
+    }
+  ]
+}

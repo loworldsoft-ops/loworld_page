@@ -1,0 +1,238 @@
+{
+  "RPG_RUNE_NAMES_KO": {
+    "r01": {
+      "ko": "엘",
+      "en": "El"
+    },
+    "r02": {
+      "ko": "엘드",
+      "en": "Eld"
+    },
+    "r03": {
+      "ko": "티르",
+      "en": "Tir"
+    },
+    "r04": {
+      "ko": "네프",
+      "en": "Nef"
+    },
+    "r05": {
+      "ko": "에트",
+      "en": "Eth"
+    },
+    "r06": {
+      "ko": "이더",
+      "en": "Ith"
+    },
+    "r07": {
+      "ko": "탈",
+      "en": "Tal"
+    },
+    "r08": {
+      "ko": "랄",
+      "en": "Ral"
+    },
+    "r09": {
+      "ko": "오르트",
+      "en": "Ort"
+    },
+    "r10": {
+      "ko": "주울",
+      "en": "Thul"
+    },
+    "r11": {
+      "ko": "앰",
+      "en": "Amn"
+    },
+    "r12": {
+      "ko": "솔",
+      "en": "Sol"
+    },
+    "r13": {
+      "ko": "샤엘",
+      "en": "Shael"
+    },
+    "r14": {
+      "ko": "돌",
+      "en": "Dol"
+    },
+    "r15": {
+      "ko": "헬",
+      "en": "Hel"
+    },
+    "r16": {
+      "ko": "이오",
+      "en": "Io"
+    },
+    "r17": {
+      "ko": "룸",
+      "en": "Lum"
+    },
+    "r18": {
+      "ko": "코",
+      "en": "Ko"
+    },
+    "r19": {
+      "ko": "팔",
+      "en": "Fal"
+    },
+    "r20": {
+      "ko": "렘",
+      "en": "Lem"
+    },
+    "r21": {
+      "ko": "풀",
+      "en": "Pul"
+    },
+    "r22": {
+      "ko": "움",
+      "en": "Um"
+    },
+    "r23": {
+      "ko": "말",
+      "en": "Mal"
+    },
+    "r24": {
+      "ko": "이스트",
+      "en": "Ist"
+    },
+    "r25": {
+      "ko": "굴",
+      "en": "Gul"
+    },
+    "r26": {
+      "ko": "벡스",
+      "en": "Vex"
+    },
+    "r27": {
+      "ko": "옴",
+      "en": "Ohm"
+    },
+    "r28": {
+      "ko": "로",
+      "en": "Lo"
+    },
+    "r29": {
+      "ko": "수르",
+      "en": "Sur"
+    },
+    "r30": {
+      "ko": "베르",
+      "en": "Ber"
+    },
+    "r31": {
+      "ko": "자",
+      "en": "Jah"
+    },
+    "r32": {
+      "ko": "참",
+      "en": "Cham"
+    },
+    "r33": {
+      "ko": "조드",
+      "en": "Zod"
+    }
+  },
+  "RPG_RUNEWORD_NAMES_KO": {
+    "Ancients' Pledge": "고대인의 맹세",
+    "Armageddon": "아마겟돈",
+    "Authority": "권위",
+    "Beast": "야수",
+    "Black": "어둠",
+    "Bone": "뼈",
+    "Bramble": "가시넝쿨",
+    "Brand": "낙인",
+    "Breath of the Dying": "죽음의 숨결",
+    "Bulwark": "방벽",
+    "Call to Arms": "소환의 으뜸",
+    "Chains of Honor": "명예의 굴레",
+    "Chaos": "혼돈",
+    "Coven": "마녀단",
+    "Crescent Moon": "초승달",
+    "Cure": "치료",
+    "Darkness": "어둠",
+    "Death": "죽음",
+    "Delirium": "착란",
+    "Destruction": "파괴",
+    "Doom": "파멸",
+    "Dragon": "용",
+    "Duress": "협박",
+    "Edge": "모서리",
+    "Enigma": "수수께끼",
+    "Enlightenment": "계몽",
+    "Eternity": "영원",
+    "Exile": "망명",
+    "Faith": "신념",
+    "Famine": "기근",
+    "Flickering Flame": "꺼져가는 촛불",
+    "Fortitude": "인내",
+    "Gloom": "우울",
+    "Grief": "슬픔",
+    "Ground": "접지",
+    "Hand of Justice": "정의의 손길",
+    "Harmony": "조화",
+    "Heart of the Oak": "오크의 심장",
+    "Hearth": "화로",
+    "Heaven's Will": "천상의 의지",
+    "Holy Thunder": "신성한 번개",
+    "Honor": "명예",
+    "Hustle (armor)": "투지 (갑옷)",
+    "Hustle (weapon)": "투지 (무기)",
+    "Ice": "얼음",
+    "Infinity": "무한",
+    "Insight": "통찰",
+    "King's Grace": "국왕의 은혜",
+    "Kingslayer": "왕도살자",
+    "Last Wish": "마지막 소망",
+    "Lawbringer": "법률집행자",
+    "Leaf": "잎새",
+    "Lionheart": "사자심장",
+    "Lore": "전승",
+    "Malice": "악의",
+    "Melody": "멜로디",
+    "Memory": "기억",
+    "Metamorphosis": "탈태",
+    "Mist": "안개",
+    "Mosaic": "모자이크",
+    "Myth": "신화",
+    "Nadir": "절망",
+    "Oath": "맹세",
+    "Obedience": "순종",
+    "Obsession": "집착",
+    "Passion": "열정",
+    "Pattern": "문양",
+    "Peace": "평화",
+    "Phoenix": "불사조",
+    "Plague": "역병",
+    "Pride": "긍지",
+    "Principle": "원칙",
+    "Prudence": "신중",
+    "Radiance": "광휘",
+    "Rain": "비",
+    "Rhyme": "각운",
+    "Rift": "균열",
+    "Ritual": "의식",
+    "Sanctuary": "성역",
+    "Silence": "침묵",
+    "Smoke": "연기",
+    "Spirit": "영혼",
+    "Splendor": "찬란",
+    "Stealth": "스텔스",
+    "Steel": "강철",
+    "Stone": "스톤",
+    "Strength": "힘",
+    "Temper": "담금질",
+    "Treachery": "배신",
+    "Unbending Will": "불굴의 의지",
+    "Venom": "독",
+    "Vigilance": "경계",
+    "Voice of Reason": "이성의 소리",
+    "Void": "허무",
+    "Wealth": "부",
+    "White": "순백",
+    "Wind": "바람",
+    "Wisdom": "지혜",
+    "Wrath": "진노",
+    "Zephyr": "세피르"
+  }
+}
