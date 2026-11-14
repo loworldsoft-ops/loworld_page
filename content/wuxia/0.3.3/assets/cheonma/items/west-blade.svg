@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><defs>
+<radialGradient id="p" cx=".42" cy=".36" r=".85"><stop offset="0" stop-color="#efe5d0"/><stop offset="1" stop-color="#dccfb4"/></radialGradient>
+<linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a443d" stop-opacity=".1"/><stop offset="1" stop-color="#4a443d" stop-opacity=".62"/></linearGradient>
+<filter id="i" x="-8%" y="-8%" width="116%" height="116%"><feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="3" seed="7"/><feDisplacementMap in="SourceGraphic" scale="3.2"/></filter>
+</defs><rect width="128" height="128" rx="10.24" fill="url(#p)"/><g filter="url(#i)"><g transform="rotate(38 64 64)"><path d="M64 20 L73 34 L70.3 92 L57.7 92 L55 34 Z" fill="#1b1917"/><rect x="50" y="92" width="28" height="6" rx="2" fill="#a4281e"/><rect x="60" y="98" width="8" height="20" fill="#1b1917"/></g><g transform="rotate(38 64 64)"><circle cx="64" cy="50" r="3" fill="#efe5d0"/><circle cx="64" cy="66" r="3" fill="#efe5d0"/></g></g></svg>

@@ -1,0 +1,1 @@
+import {cm as N}from'./main-ZXAX2S3N.js';var i=new N("HW_MAP_RENDERER");function a(r){if(!r)return "\u{1F310}";let e=r.trim().toUpperCase();if(!/^[A-Z]{2}$/.test(e))return "\u{1F310}";let o=127462;return String.fromCodePoint(o+(e.charCodeAt(0)-65),o+(e.charCodeAt(1)-65))}export{a,i};

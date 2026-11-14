@@ -1,0 +1,2210 @@
+{
+  "RPG_CUBE_RECIPE_CATEGORIES": [
+    {
+      "id": "all",
+      "label": "전체 보기",
+      "icon": "📜",
+      "description": "모든 큐브 조합법 & 전 룬워드 모아보기"
+    },
+    {
+      "id": "rw-weapon",
+      "label": "⚔️ 룬워드: 무기",
+      "icon": "⚔️",
+      "description": "슬픔(고뇌), 오심, 죽숨, 마지막소망, 모자이크, 파멸, 통찰 등"
+    },
+    {
+      "id": "rw-armor",
+      "label": "🛡️ 룬워드: 갑옷",
+      "icon": "🛡️",
+      "description": "수수께끼, 인내, 명예의굴레, 협박, 배신, 스텔스 등"
+    },
+    {
+      "id": "rw-helm",
+      "label": "👑 룬워드: 투구",
+      "icon": "👑",
+      "description": "치료, 학식, 착란, 꺼져가는불길, 방벽, 지혜 등"
+    },
+    {
+      "id": "rw-shield",
+      "label": "🔰 룬워드: 방패",
+      "icon": "🔰",
+      "description": "영혼(스피리트), 불사조, 망명, 고대인의맹세, 성역 등"
+    },
+    {
+      "id": "rw-missile",
+      "label": "🏹 룬워드: 원거리",
+      "icon": "🏹",
+      "description": "신념(신뢰), 조화, 모서리, 얼음, 안개 등"
+    },
+    {
+      "id": "rune",
+      "label": "🪨 룬 승급",
+      "icon": "🪨",
+      "description": "하위 룬을 상위 룬으로 승급 (1~33번 룬)"
+    },
+    {
+      "id": "gem",
+      "label": "💎 보석 합성",
+      "icon": "💎",
+      "description": "최하급부터 완벽한 보석까지 합성"
+    },
+    {
+      "id": "socket",
+      "label": "⚙️ 소켓 뚫기/비우기",
+      "icon": "⚙️",
+      "description": "노말 벅큐빙 소켓 추가 및 헬룬 소켓 초기화"
+    },
+    {
+      "id": "upgrade",
+      "label": "⬆️ 장비 승급",
+      "icon": "⬆️",
+      "description": "노말/익셉셔널 유니크·레어를 상위 티어로 승급"
+    },
+    {
+      "id": "craft",
+      "label": "🩸 크래프트 제작",
+      "icon": "🩸",
+      "description": "캐스터 패캐 아뮬, 블러드 강타 장갑 등 명품 제작"
+    },
+    {
+      "id": "reroll",
+      "label": "🎲 리롤/옵션 재설정",
+      "icon": "🎲",
+      "description": "퍼보 바알참 리롤 및 레어 해골 리롤"
+    },
+    {
+      "id": "special",
+      "label": "🌀 카우방/특수 포탈",
+      "icon": "🌀",
+      "description": "비밀의 젖소방 및 카나이의 함 추출"
+    }
+  ],
+  "RPG_CUBE_BASE_RECIPES": [
+    {
+      "id": "rune_01_09",
+      "category": "rune",
+      "name": "하급 룬 승급 (엘 ~ 오르트)",
+      "nameEn": "Low Runes Upgrading (El to Ort)",
+      "ingredients": [
+        "동일한 룬 3개"
+      ],
+      "result": "다음 상위 룬 1개",
+      "description": "3 엘(El) → 1 엘드(Eld) / 3 엘드 → 1 티르 / 3 티르 → 1 네프 / 3 네프 → 1 에트 / 3 에트 → 1 이더 / 3 이더 → 1 탈 / 3 탈 → 1 랄 / 3 랄 → 1 오르트 / 3 오르트 → 1 주울",
+      "tags": [
+        "룬",
+        "엘",
+        "엘드",
+        "티르",
+        "네프",
+        "에트",
+        "이더",
+        "탈",
+        "랄",
+        "오르트",
+        "주울"
+      ],
+      "tip": "1번~9번 룬은 보석 없이 룬 3개만 넣고 돌리면 다음 룬으로 변환됩니다."
+    },
+    {
+      "id": "rune_10_thul",
+      "category": "rune",
+      "name": "10번 주울(Thul) → 11번 앰(Amn)",
+      "ingredients": [
+        "주울(Thul) 룬 3개",
+        "최하급 토파즈 1개"
+      ],
+      "result": "앰(Amn) 룬 1개",
+      "description": "주울 룬 3개와 최하급 토파즈를 조합하여 앰 룬을 만듭니다.",
+      "tags": [
+        "주울",
+        "앰",
+        "최하급 토파즈",
+        "룬합성"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_11_amn",
+      "category": "rune",
+      "name": "11번 앰(Amn) → 12번 솔(Sol)",
+      "ingredients": [
+        "앰(Amn) 룬 3개",
+        "최하급 자수정 1개"
+      ],
+      "result": "솔(Sol) 룬 1개",
+      "description": "앰 룬 3개와 최하급 자수정을 조합하여 솔 룬을 만듭니다.",
+      "tags": [
+        "앰",
+        "솔",
+        "최하급 자수정",
+        "룬합성",
+        "통찰재료"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_12_sol",
+      "category": "rune",
+      "name": "12번 솔(Sol) → 13번 샤엘(Shael)",
+      "ingredients": [
+        "솔(Sol) 룬 3개",
+        "최하급 사파이어 1개"
+      ],
+      "result": "샤엘(Shael) 룬 1개",
+      "description": "솔 룬 3개와 최하급 사파이어를 조합하여 샤엘 룬을 만듭니다.",
+      "tags": [
+        "솔",
+        "샤엘",
+        "최하급 사파이어",
+        "룬합성"
+      ]
+    },
+    {
+      "id": "rune_13_shael",
+      "category": "rune",
+      "name": "13번 샤엘(Shael) → 14번 돌(Dol)",
+      "ingredients": [
+        "샤엘(Shael) 룬 3개",
+        "최하급 루비 1개"
+      ],
+      "result": "돌(Dol) 룬 1개",
+      "description": "샤엘 룬 3개와 최하급 루비를 조합하여 돌 룬을 만듭니다.",
+      "tags": [
+        "샤엘",
+        "돌",
+        "최하급 루비",
+        "룬합성"
+      ]
+    },
+    {
+      "id": "rune_14_dol",
+      "category": "rune",
+      "name": "14번 돌(Dol) → 15번 헬(Hel)",
+      "ingredients": [
+        "돌(Dol) 룬 3개",
+        "최하급 에메랄드 1개"
+      ],
+      "result": "헬(Hel) 룬 1개",
+      "description": "돌 룬 3개와 최하급 에메랄드를 조합하여 소켓 초기화에 유용한 헬 룬을 만듭니다.",
+      "tags": [
+        "돌",
+        "헬",
+        "최하급 에메랄드",
+        "소켓비우기",
+        "룬합성"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_15_hel",
+      "category": "rune",
+      "name": "15번 헬(Hel) → 16번 이오(Io)",
+      "ingredients": [
+        "헬(Hel) 룬 3개",
+        "최하급 다이아몬드 1개"
+      ],
+      "result": "이오(Io) 룬 1개",
+      "description": "헬 룬 3개와 최하급 다이아몬드를 조합하여 이오 룬을 만듭니다.",
+      "tags": [
+        "헬",
+        "이오",
+        "최하급 다이아몬드"
+      ]
+    },
+    {
+      "id": "rune_16_io",
+      "category": "rune",
+      "name": "16번 이오(Io) → 17번 룸(Lum)",
+      "ingredients": [
+        "이오(Io) 룬 3개",
+        "하급 토파즈 1개"
+      ],
+      "result": "룸(Lum) 룬 1개",
+      "description": "이오 룬 3개와 하급 토파즈를 조합하여 룸 룬을 만듭니다.",
+      "tags": [
+        "이오",
+        "룸",
+        "하급 토파즈"
+      ]
+    },
+    {
+      "id": "rune_17_lum",
+      "category": "rune",
+      "name": "17번 룸(Lum) → 18번 코(Ko)",
+      "ingredients": [
+        "룸(Lum) 룬 3개",
+        "하급 자수정 1개"
+      ],
+      "result": "코(Ko) 룬 1개",
+      "description": "룸 룬 3개와 하급 자수정을 조합하여 코 룬을 만듭니다.",
+      "tags": [
+        "룸",
+        "코",
+        "하급 자수정"
+      ]
+    },
+    {
+      "id": "rune_18_ko",
+      "category": "rune",
+      "name": "18번 코(Ko) → 19번 팔(Fal)",
+      "ingredients": [
+        "코(Ko) 룬 3개",
+        "하급 사파이어 1개"
+      ],
+      "result": "팔(Fal) 룬 1개",
+      "description": "코 룬 3개와 하급 사파이어를 조합하여 팔 룬을 만듭니다.",
+      "tags": [
+        "코",
+        "팔",
+        "하급 사파이어"
+      ]
+    },
+    {
+      "id": "rune_19_fal",
+      "category": "rune",
+      "name": "19번 팔(Fal) → 20번 렘(Lem)",
+      "ingredients": [
+        "팔(Fal) 룬 3개",
+        "하급 루비 1개"
+      ],
+      "result": "렘(Lem) 룬 1개",
+      "description": "팔 룬 3개와 하급 루비를 조합하여 삥밥 필수 렘 룬을 만듭니다.",
+      "tags": [
+        "팔",
+        "렘",
+        "하급 루비",
+        "삥밥",
+        "트랫셔리"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_20_lem",
+      "category": "rune",
+      "name": "20번 렘(Lem) → 21번 풀(Pul)",
+      "ingredients": [
+        "렘(Lem) 룬 3개",
+        "하급 에메랄드 1개"
+      ],
+      "result": "풀(Pul) 룬 1개",
+      "description": "렘 룬 3개와 하급 에메랄드를 조합하여 풀 룬을 만듭니다.",
+      "tags": [
+        "렘",
+        "풀",
+        "하급 에메랄드"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_21_pul",
+      "category": "rune",
+      "name": "21번 풀(Pul) → 22번 움(Um)",
+      "ingredients": [
+        "풀(Pul) 룬 2개",
+        "하급 다이아몬드 1개"
+      ],
+      "result": "움(Um) 룬 1개",
+      "description": "풀 룬 2개와 하급 다이아몬드를 조합하여 올레지 필수 움 룬을 만듭니다.",
+      "tags": [
+        "풀",
+        "움",
+        "하급 다이아몬드",
+        "올레지"
+      ],
+      "tip": "21번 풀 룬부터는 룬이 2개만 필요합니다.",
+      "highlight": true
+    },
+    {
+      "id": "rune_22_um",
+      "category": "rune",
+      "name": "22번 움(Um) → 23번 말(Mal)",
+      "ingredients": [
+        "움(Um) 룬 2개",
+        "일반 토파즈 1개"
+      ],
+      "result": "말(Mal) 룬 1개",
+      "description": "움 룬 2개와 일반 토파즈를 조합하여 말 룬을 만듭니다.",
+      "tags": [
+        "움",
+        "말",
+        "일반 토파즈",
+        "콜투재료"
+      ]
+    },
+    {
+      "id": "rune_23_mal",
+      "category": "rune",
+      "name": "23번 말(Mal) → 24번 이스트(Ist)",
+      "ingredients": [
+        "말(Mal) 룬 2개",
+        "일반 자수정 1개"
+      ],
+      "result": "이스트(Ist) 룬 1개",
+      "description": "말 룬 2개와 일반 자수정을 조합하여 매찬 극대화 이스트 룬을 만듭니다.",
+      "tags": [
+        "말",
+        "이스트",
+        "일반 자수정",
+        "매찬",
+        "콜투재료"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_24_ist",
+      "category": "rune",
+      "name": "24번 이스트(Ist) → 25번 굴(Gul)",
+      "ingredients": [
+        "이스트(Ist) 룬 2개",
+        "일반 사파이어 1개"
+      ],
+      "result": "굴(Gul) 룬 1개",
+      "description": "이스트 룬 2개와 일반 사파이어를 조합하여 굴 룬을 만듭니다.",
+      "tags": [
+        "이스트",
+        "굴",
+        "일반 사파이어"
+      ]
+    },
+    {
+      "id": "rune_25_gul",
+      "category": "rune",
+      "name": "25번 굴(Gul) → 26번 벡스(Vex)",
+      "ingredients": [
+        "굴(Gul) 룬 2개",
+        "일반 루비 1개"
+      ],
+      "result": "벡스(Vex) 룬 1개",
+      "description": "굴 룬 2개와 일반 루비를 조합하여 오심(Heart of the Oak) 필수 벡스 룬을 만듭니다.",
+      "tags": [
+        "굴",
+        "벡스",
+        "일반 루비",
+        "오심",
+        "고급룬"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_26_vex",
+      "category": "rune",
+      "name": "26번 벡스(Vex) → 27번 옴(Ohm)",
+      "ingredients": [
+        "벡스(Vex) 룬 2개",
+        "일반 에메랄드 1개"
+      ],
+      "result": "옴(Ohm) 룬 1개",
+      "description": "벡스 룬 2개와 일반 에메랄드를 조합하여 콜투(CTA) 필수 옴 룬을 만듭니다.",
+      "tags": [
+        "벡스",
+        "옴",
+        "일반 에메랄드",
+        "콜투암스",
+        "고급룬"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_27_ohm",
+      "category": "rune",
+      "name": "27번 옴(Ohm) → 28번 로(Lo)",
+      "ingredients": [
+        "옴(Ohm) 룬 2개",
+        "일반 다이아몬드 1개"
+      ],
+      "result": "로(Lo) 룬 1개",
+      "description": "옴 룬 2개와 일반 다이아몬드를 조합하여 고뇌/인내 필수 로 룬을 만듭니다.",
+      "tags": [
+        "옴",
+        "로",
+        "일반 다이아몬드",
+        "슬픔",
+        "인내",
+        "고급룬"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_28_lo",
+      "category": "rune",
+      "name": "28번 로(Lo) → 29번 수르(Sur)",
+      "ingredients": [
+        "로(Lo) 룬 2개",
+        "상급 토파즈 1개"
+      ],
+      "result": "수르(Sur) 룬 1개",
+      "description": "로 룬 2개와 상급 토파즈를 조합하여 수르 룬을 만듭니다.",
+      "tags": [
+        "로",
+        "수르",
+        "상급 토파즈",
+        "베르합성"
+      ]
+    },
+    {
+      "id": "rune_29_sur",
+      "category": "rune",
+      "name": "29번 수르(Sur) → 30번 베르(Ber)",
+      "ingredients": [
+        "수르(Sur) 룬 2개",
+        "상급 자수정 1개"
+      ],
+      "result": "베르(Ber) 룬 1개",
+      "description": "수르 룬 2개와 상급 자수정을 조합하여 수수께끼/무한 필수 최고급 베르 룬을 만듭니다.",
+      "tags": [
+        "수르",
+        "베르",
+        "상급 자수정",
+        "수수께끼",
+        "무한",
+        "최고급룬"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_30_ber",
+      "category": "rune",
+      "name": "30번 베르(Ber) → 31번 자(Jah)",
+      "ingredients": [
+        "베르(Ber) 룬 2개",
+        "상급 사파이어 1개"
+      ],
+      "result": "자(Jah) 룬 1개",
+      "description": "베르 룬 2개와 상급 사파이어를 조합하여 수수께끼/신념 필수 자 룬을 만듭니다.",
+      "tags": [
+        "베르",
+        "자",
+        "상급 사파이어",
+        "수수께끼",
+        "신념",
+        "최고급룬"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_31_jah",
+      "category": "rune",
+      "name": "31번 자(Jah) → 32번 참(Cham)",
+      "ingredients": [
+        "자(Jah) 룬 2개",
+        "상급 루비 1개"
+      ],
+      "result": "참(Cham) 룬 1개",
+      "description": "자 룬 2개와 상급 루비를 조합하여 결빙방지 참 룬을 만듭니다.",
+      "tags": [
+        "자",
+        "참",
+        "상급 루비",
+        "결빙방지"
+      ]
+    },
+    {
+      "id": "rune_32_cham",
+      "category": "rune",
+      "name": "32번 참(Cham) → 33번 조드(Zod)",
+      "ingredients": [
+        "참(Cham) 룬 2개",
+        "상급 에메랄드 1개"
+      ],
+      "result": "조드(Zod) 룬 1개",
+      "description": "참 룬 2개와 상급 에메랄드를 조합하여 파괴불가 최종 33번 조드 룬을 만듭니다.",
+      "tags": [
+        "참",
+        "조드",
+        "상급 에메랄드",
+        "파괴불가",
+        "에테죽숨"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "gem_chipped_to_flawed",
+      "category": "gem",
+      "name": "최하급 보석 3개 → 하급 보석",
+      "ingredients": [
+        "동일한 최하급 보석 3개 (루비/사파이어/토파즈/에메랄드/자수정/다이아/해골)"
+      ],
+      "result": "해당 종류 하급 보석 1개",
+      "description": "동일한 최하급 보석 3개를 조합하여 한 단계 상위인 하급 보석 1개를 획득합니다.",
+      "tags": [
+        "보석",
+        "최하급",
+        "하급"
+      ]
+    },
+    {
+      "id": "gem_flawed_to_normal",
+      "category": "gem",
+      "name": "하급 보석 3개 → 일반 보석",
+      "ingredients": [
+        "동일한 하급 보석 3개"
+      ],
+      "result": "해당 종류 일반 보석 1개",
+      "description": "동일한 하급 보석 3개를 조합하여 일반 보석 1개를 획득합니다.",
+      "tags": [
+        "보석",
+        "하급",
+        "일반"
+      ]
+    },
+    {
+      "id": "gem_normal_to_flawless",
+      "category": "gem",
+      "name": "일반 보석 3개 → 상급 보석 (Flawless)",
+      "ingredients": [
+        "동일한 일반 보석 3개"
+      ],
+      "result": "해당 종류 상급(무결점) 보석 1개",
+      "description": "동일한 일반 보석 3개를 조합하여 상급 보석 1개를 획득합니다.",
+      "tags": [
+        "보석",
+        "일반",
+        "상급"
+      ]
+    },
+    {
+      "id": "gem_flawless_to_perfect",
+      "category": "gem",
+      "name": "상급 보석 3개 → 완벽한 보석 (Perfect Gem)",
+      "ingredients": [
+        "동일한 상급 보석 3개"
+      ],
+      "result": "해당 종류 완벽한 보석(퍼보) 1개",
+      "description": "상급 보석 3개를 조합하여 최상급인 완벽한 보석(퍼보) 1개를 만듭니다.",
+      "tags": [
+        "보석",
+        "상급",
+        "완벽한 보석",
+        "퍼보",
+        "크래프트재료",
+        "리롤재료"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "socket_armor_ebug",
+      "category": "socket",
+      "name": "일반 갑옷 소켓 뚫기 (큐빙)",
+      "ingredients": [
+        "노말/에테리얼 일반 갑옷 1개",
+        "탈(Tal) 룬 1개",
+        "주울(Thul) 룬 1개",
+        "완벽한 토파즈 1개"
+      ],
+      "result": "소켓 뚫린 갑옷 (1~4소켓 랜덤)",
+      "description": "소켓이 없는 일반 갑옷에 무작위 개수의 소켓을 뚫습니다. (고급/슈페리어 장비는 불가)",
+      "tags": [
+        "소켓",
+        "갑옷",
+        "탈",
+        "주울",
+        "퍼토",
+        "용병갑옷",
+        "인내재료"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "socket_weapon",
+      "category": "socket",
+      "name": "일반 무기 소켓 뚫기 (큐빙)",
+      "ingredients": [
+        "노말/에테리얼 일반 무기 1개",
+        "랄(Ral) 룬 1개",
+        "앰(Amn) 룬 1개",
+        "완벽한 자수정 1개"
+      ],
+      "result": "소켓 뚫린 무기 (1~6소켓 랜덤)",
+      "description": "소켓이 없는 일반 무기에 무작위 개수의 소켓을 뚫습니다. (통찰/무한용 폴암 큐빙)",
+      "tags": [
+        "소켓",
+        "무기",
+        "랄",
+        "앰",
+        "퍼자",
+        "통찰재료",
+        "무한재료"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "socket_helm",
+      "category": "socket",
+      "name": "일반 투구 소켓 뚫기 (큐빙)",
+      "ingredients": [
+        "노말/에테리얼 일반 투구 1개",
+        "랄(Ral) 룬 1개",
+        "주울(Thul) 룬 1개",
+        "완벽한 사파이어 1개"
+      ],
+      "result": "소켓 뚫린 투구 (1~3소켓 랜덤)",
+      "description": "소켓이 없는 일반 투구에 무작위 개수의 소켓을 뚫습니다.",
+      "tags": [
+        "소켓",
+        "투구",
+        "랄",
+        "주울",
+        "퍼사",
+        "치료재료",
+        "학식재료"
+      ]
+    },
+    {
+      "id": "socket_shield",
+      "category": "socket",
+      "name": "일반 방패 소켓 뚫기 (큐빙)",
+      "ingredients": [
+        "노말/에테리얼 일반 방패 1개",
+        "탈(Tal) 룬 1개",
+        "앰(Amn) 룬 1개",
+        "완벽한 루비 1개"
+      ],
+      "result": "소켓 뚫린 방패 (1~4소켓 랜덤)",
+      "description": "소켓이 없는 일반 방패에 무작위 개수의 소켓을 뚫습니다. (모너크 4소켓 영혼/스피릿 큐빙)",
+      "tags": [
+        "소켓",
+        "방패",
+        "탈",
+        "앰",
+        "퍼루",
+        "모너크",
+        "스피리트"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "unsocket_clean",
+      "category": "socket",
+      "name": "소켓 아이템 비우기 (룬/보석 제거)",
+      "ingredients": [
+        "소켓이 채워진 장비 1개",
+        "헬(Hel) 룬 1개",
+        "마을 차원문 주문서(TP Scroll) 1개"
+      ],
+      "result": "소켓이 비워진 기본 베이스 장비 (룬/보석 파괴)",
+      "description": "장비에 이미 박혀있는 룬, 보석, 주얼을 완전히 제거하여 소켓을 깨끗이 비웁니다. (박혀있던 재료는 파괴됨)",
+      "tags": [
+        "소켓비우기",
+        "헬",
+        "포탈스크롤",
+        "룬워드재시도"
+      ],
+      "tip": "잘못 제작한 룬워드나 옵션 수치가 낮게 뜬 룬워드 베이스를 재사용할 때 필수적입니다.",
+      "highlight": true
+    },
+    {
+      "id": "upgrade_unique_armor_normal_to_exceptional",
+      "category": "upgrade",
+      "name": "노말 유니크 방어구 → 익셉셔널 승급",
+      "ingredients": [
+        "노말 유니크 방어구 1개",
+        "탈(Tal) 룬 1개",
+        "샤엘(Shael) 룬 1개",
+        "완벽한 다이아몬드 1개"
+      ],
+      "result": "익셉셔널 등급 유니크 방어구 (방어력 대폭 상승)",
+      "description": "메이지피스트(마수), 골드랩(금박허리띠) 등 노말 유니크 방어구를 익셉셔널로 업그레이드합니다.",
+      "tags": [
+        "승급",
+        "유니크",
+        "방어구",
+        "탈",
+        "샤엘",
+        "퍼다",
+        "마수",
+        "골드랩"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "upgrade_unique_armor_exceptional_to_elite",
+      "category": "upgrade",
+      "name": "익셉셔널 유니크 방어구 → 엘리트 승급",
+      "ingredients": [
+        "익셉셔널 유니크 방어구 1개",
+        "코(Ko) 룬 1개",
+        "렘(Lem) 룬 1개",
+        "완벽한 다이아몬드 1개"
+      ],
+      "result": "엘리트 등급 유니크 방어구 (최고 방어력)",
+      "description": "구교복(독사마술사의 가죽), 자카룸의 전령(길리엄), 슬가(아랫니 투구) 등을 엘리트로 최종 승급합니다.",
+      "tags": [
+        "승급",
+        "유니크",
+        "방어구",
+        "코",
+        "렘",
+        "퍼다",
+        "구교복",
+        "자카룸"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "upgrade_unique_weapon_normal_to_exceptional",
+      "category": "upgrade",
+      "name": "노말 유니크 무기 → 익셉셔널 승급",
+      "ingredients": [
+        "노말 유니크 무기 1개",
+        "랄(Ral) 룬 1개",
+        "솔(Sol) 룬 1개",
+        "완벽한 에메랄드 1개"
+      ],
+      "result": "익셉셔널 등급 유니크 무기 (기본 데미지 증가)",
+      "description": "뼈자르개, 활 등 노말 유니크 무기의 베이스 데미지를 익셉셔널로 상향합니다.",
+      "tags": [
+        "승급",
+        "유니크",
+        "무기",
+        "랄",
+        "솔",
+        "퍼에"
+      ]
+    },
+    {
+      "id": "upgrade_unique_weapon_exceptional_to_elite",
+      "category": "upgrade",
+      "name": "익셉셔널 유니크 무기 → 엘리트 승급",
+      "ingredients": [
+        "익셉셔널 유니크 무기 1개",
+        "룸(Lum) 룬 1개",
+        "풀(Pul) 룬 1개",
+        "완벽한 에메랄드 1개"
+      ],
+      "result": "엘리트 등급 유니크 무기 (최고 데미지)",
+      "description": "타이탄의 복수(거인의 복수 에테 타이탄), 립크래커(갈비뼈분쇄기), 마녀림 등 주력 무기를 엘리트로 승급합니다.",
+      "tags": [
+        "승급",
+        "유니크",
+        "무기",
+        "룸",
+        "풀",
+        "퍼에",
+        "타이탄",
+        "립크래커"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "upgrade_rare_armor_normal_to_exceptional",
+      "category": "upgrade",
+      "name": "노말 레어 방어구 → 익셉셔널 승급",
+      "ingredients": [
+        "노말 레어 방어구 1개",
+        "랄(Ral) 룬 1개",
+        "주울(Thul) 룬 1개",
+        "완벽한 자수정 1개"
+      ],
+      "result": "익셉셔널 등급 레어 방어구",
+      "description": "노말 레어 장갑/신발/벨트/투구의 방어력을 익셉셔널로 상승시킵니다.",
+      "tags": [
+        "승급",
+        "레어",
+        "방어구",
+        "랄",
+        "주울",
+        "퍼자"
+      ]
+    },
+    {
+      "id": "upgrade_rare_armor_exceptional_to_elite",
+      "category": "upgrade",
+      "name": "익셉셔널 레어 방어구 → 엘리트 승급",
+      "ingredients": [
+        "익셉셔널 레어 방어구 1개",
+        "코(Ko) 룬 1개",
+        "풀(Pul) 룬 1개",
+        "완벽한 자수정 1개"
+      ],
+      "result": "엘리트 등급 레어 방어구",
+      "description": "명품 2스킬 20패캐 레어 서클릿이나 30달려 3레지 레어 부츠를 엘리트로 승급합니다.",
+      "tags": [
+        "승급",
+        "레어",
+        "방어구",
+        "코",
+        "풀",
+        "퍼자",
+        "레어부츠",
+        "레어서클릿"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "craft_caster_amulet",
+      "category": "craft",
+      "name": "캐스터 아뮬렛 (패캐 20% / 2스킬 명품 목걸이)",
+      "ingredients": [
+        "매직 아뮬렛 (숨렙 90+ 권장)",
+        "랄(Ral) 룬 1개",
+        "완벽한 자수정 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 캐스터 목걸이 (패캐 +5~20%, 마나재생, 마나, +스킬 등)",
+      "description": "디아블로2 최고의 엔드게임 목걸이를 제작하는 공식 조합법입니다. 2스킬 + 20패캐 + 올레지 졸업옵션 가능.",
+      "tags": [
+        "크래프트",
+        "캐스터",
+        "아뮬렛",
+        "랄",
+        "퍼자",
+        "주얼",
+        "패캐",
+        "2스킬",
+        "엔드게임"
+      ],
+      "tip": "93레벨 이상 캐릭터가 겜블로 뽑은 매직 아뮬렛으로 큐빙 시 2스킬 옵션이 확정 출현 가능합니다.",
+      "highlight": true
+    },
+    {
+      "id": "craft_caster_belt",
+      "category": "craft",
+      "name": "캐스터 벨트 (패캐 10% / 마나재생)",
+      "ingredients": [
+        "매직 라이트벨트/샤크스킨/뱀파이어팽 1개",
+        "이더(Ith) 룬 1개",
+        "완벽한 자수정 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 캐스터 벨트 (패캐 5~10%, 마나재생, 힘, 생명력)",
+      "description": "스웹(스파이더웹새시) 대체용 패캐 벨트로 고레벨 프레임 맞출 때 사용합니다.",
+      "tags": [
+        "크래프트",
+        "캐스터",
+        "벨트",
+        "이더",
+        "퍼자",
+        "주얼",
+        "패캐"
+      ]
+    },
+    {
+      "id": "craft_caster_boots",
+      "category": "craft",
+      "name": "캐스터 부츠 (마나 뻥튀기 / 마나재생)",
+      "ingredients": [
+        "매직 부츠/데몬하이드/와이번부츠 1개",
+        "주울(Thul) 룬 1개",
+        "완벽한 자수정 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 캐스터 신발 (최대마나 2~5%, 마나재생, 달려, 레지)",
+      "description": "에쉴 소서리스(에너지 실드)의 마나통을 극대화하는 신발을 제작합니다.",
+      "tags": [
+        "크래프트",
+        "캐스터",
+        "부츠",
+        "주울",
+        "퍼자",
+        "주얼",
+        "에쉴소서"
+      ]
+    },
+    {
+      "id": "craft_blood_gloves",
+      "category": "craft",
+      "name": "블러드 장갑 (강타 10% / 흡혈 / 공속 20%)",
+      "ingredients": [
+        "매직 헤비글러브/샤크스킨/뱀브레이스 1개",
+        "네프(Nef) 룬 1개",
+        "완벽한 루비 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 블러드 장갑 (강타 5~10%, 라이프흡혈 1~3%, 생명력 10~20, 20공속 등)",
+      "description": "활아마, 질딘, 킥씬의 종결 장갑! 2자벨/2패시브 + 20공속 + 10강타 + 스탯 명품 탄생.",
+      "tags": [
+        "크래프트",
+        "블러드",
+        "장갑",
+        "네프",
+        "퍼루",
+        "주얼",
+        "강타",
+        "20공속",
+        "활아마",
+        "질딘"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "craft_blood_ring",
+      "category": "craft",
+      "name": "블러드 링 (피흡 11% / 힘 / 생명력)",
+      "ingredients": [
+        "매직 링 1개",
+        "솔(Sol) 룬 1개",
+        "완벽한 루비 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 블러드 반지 (라이프흡혈 1~3% 기본 + 최대 8% 추가, 힘 1~5, 생명력)",
+      "description": "물리 딜러용 듀얼흡혈 및 고스탯 명품 반지를 제작합니다.",
+      "tags": [
+        "크래프트",
+        "블러드",
+        "링",
+        "반지",
+        "솔",
+        "퍼루",
+        "주얼",
+        "피흡",
+        "듀얼링"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "craft_blood_helm",
+      "category": "craft",
+      "name": "블러드 투구 (치명타 10% / 라이프)",
+      "ingredients": [
+        "매직 헬름/카스크/아멧 1개",
+        "랄(Ral) 룬 1개",
+        "완벽한 루비 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 블러드 투구 (치명적타격 5~10%, 라이프흡혈, 생명력)",
+      "description": "치명적 타격(Deadly Strike)을 제공하는 물리 딜러용 크래프트 투구입니다.",
+      "tags": [
+        "크래프트",
+        "블러드",
+        "투구",
+        "랄",
+        "퍼루",
+        "주얼",
+        "치명타"
+      ]
+    },
+    {
+      "id": "craft_hit_power_gloves",
+      "category": "craft",
+      "name": "히트파워 장갑 (밀쳐내기 / 넉백 장갑)",
+      "ingredients": [
+        "매직 체인글러브/헤비브레이서/뱀브레이스 1개",
+        "오르트(Ort) 룬 1개",
+        "완벽한 사파이어 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 넉백 장갑 (넉백/밀쳐내기, 반격시 프로스트노바, 20공속)",
+      "description": "활아마존 필수 생존 옵션인 밀쳐내기(Knockback) 장갑을 제작합니다.",
+      "tags": [
+        "크래프트",
+        "히트파워",
+        "장갑",
+        "오르트",
+        "퍼사",
+        "주얼",
+        "넉백",
+        "활아마존"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "reroll_magic_baal_charm",
+      "category": "reroll",
+      "name": "바알참/거대부적 매직 리롤 (3 퍼보)",
+      "ingredients": [
+        "매직 아이템 1개 (그랜드참/모너크/다이어뎀 등)",
+        "완벽한 보석(종류 무관) 3개"
+      ],
+      "result": "동일 숨렙의 새로운 무작위 옵션 매직 아이템",
+      "description": "바알/디아/닐라탁이 드랍한 99숨렙 거대부적을 퍼보 3개로 무한 리롤하여 1스킬 45피참을 노립니다.",
+      "tags": [
+        "리롤",
+        "매직",
+        "바알참",
+        "스킬피참",
+        "퍼보",
+        "완벽한보석"
+      ],
+      "tip": "완벽한 해골(퍼스컬)도 완벽한 보석으로 취급되어 3개 리롤에 사용 가능합니다.",
+      "highlight": true
+    },
+    {
+      "id": "reroll_rare_six_skulls",
+      "category": "reroll",
+      "name": "레어 아이템 리롤 (6 퍼스컬)",
+      "ingredients": [
+        "레어 아이템 1개",
+        "완벽한 해골 6개"
+      ],
+      "result": "새로운 무작위 옵션 레어 아이템",
+      "description": "레어 다이어뎀(다이아뎀은 숨렙 하락 없음) 등의 레어 아이템을 완벽한 해골 6개로 무한 리롤합니다.",
+      "tags": [
+        "리롤",
+        "레어",
+        "퍼스컬",
+        "완벽한해골",
+        "다이어뎀"
+      ],
+      "tip": "다이어뎀은 마법 레벨 보정(qlvl 85, mlvl 18) 덕분에 6퍼스컬 리롤을 무한 반복해도 항상 최고급 옵션(2스킬 20패캐 2소켓)이 뜹니다.",
+      "highlight": true
+    },
+    {
+      "id": "repair_weapon_ort",
+      "category": "reroll",
+      "name": "무기 즉시 완전 수리 (골드 0원)",
+      "ingredients": [
+        "내구도 손상된 무기 1개",
+        "오르트(Ort) 룬 1개"
+      ],
+      "result": "내구도가 100% 완전 수리된 무기",
+      "description": "수리비가 수십만 골드씩 드는 고급 슈페리어 룬워드 무기를 오르트 룬 1개로 즉시 수리합니다.",
+      "tags": [
+        "수리",
+        "무기",
+        "오르트",
+        "수리비절약"
+      ]
+    },
+    {
+      "id": "repair_armor_ral",
+      "category": "reroll",
+      "name": "방어구 즉시 완전 수리 (골드 0원)",
+      "ingredients": [
+        "내구도 손상된 방어구 1개",
+        "랄(Ral) 룬 1개"
+      ],
+      "result": "내구도가 100% 완전 수리된 방어구",
+      "description": "수리비가 비싼 슈페리어 인내나 수수께끼 갑옷을 랄 룬 1개로 즉시 완전 수리합니다.",
+      "tags": [
+        "수리",
+        "방어구",
+        "랄",
+        "수리비절약",
+        "수수께끼수리"
+      ]
+    },
+    {
+      "id": "portal_secret_cow_level",
+      "category": "special",
+      "name": "비밀의 젖소방 (시크릿 카우 레벨 포탈)",
+      "ingredients": [
+        "워트의 의족 1개 (트리스트럼 루팅)",
+        "마을 차원문 책(Tome of Town Portal) 1개"
+      ],
+      "result": "붉은색 카우 레벨 포탈 생성 (액트 1 로그 캠프)",
+      "description": "해당 난이도의 바알을 처치한 후, 액트 1 마을에서 워트의 의족과 포탈책을 조합하여 카우방을 엽니다.",
+      "tags": [
+        "카우방",
+        "비밀의젖소방",
+        "워트의의족",
+        "포탈책",
+        "액트1",
+        "소몰이"
+      ],
+      "tip": "디아블로2 레저렉션에서는 카우킹(젖소 왕)을 잡아도 계속 다시 카우방을 열 수 있습니다!",
+      "highlight": true
+    },
+    {
+      "id": "portal_uber_pandemonium",
+      "category": "special",
+      "name": "횃불 퀘스트 3대 포탈 (판데모니엄 이벤트)",
+      "ingredients": [
+        "공포의 열쇠 1개",
+        "증오의 열쇠 1개",
+        "파괴의 열쇠 1개"
+      ],
+      "result": "붉은 포탈 1개 (고통의 용광로 / 잊혀진 모래사막 / 감시자의 소굴 중 랜덤)",
+      "description": "액트 5 해롤개스 마을에서 열쇠 3종 세트를 조합하여 우버 보스 장기(디아블로의 뿔, 메피스토의 뇌, 바알의 눈)를 수집합니다.",
+      "tags": [
+        "우버",
+        "횃불",
+        "열쇠",
+        "공포",
+        "증오",
+        "파괴",
+        "판데모니엄",
+        "장기셋"
+      ],
+      "tip": "장기 3개를 다시 큐브에 넣고 돌리면 최종 지옥의 트리스트럼(지옥의 횃불 큰 부적 획득) 포탈이 열립니다.",
+      "highlight": true
+    },
+    {
+      "id": "special_kanai_extract",
+      "category": "special",
+      "name": "카나이의 함 — 전설 고유 능력 추출",
+      "ingredients": [
+        "추출 가능한 전설/유니크 장비 1개",
+        "칸두라스 룬 1개",
+        "칼데움 밤나비 1개",
+        "아리앗 보석 1개",
+        "타락한 천사의 살점 1개",
+        "서부원정지 성수 1개",
+        "죽음의 숨결 5개"
+      ],
+      "result": "카나이의 함 전설 능력 영구 해금 (무기/방어구/장신구 슬롯 장착 가능)",
+      "description": "전설 아이템의 고유 특수 주황색 옵션을 영구 추출하여 캐릭터가 장착하지 않고도 효과를 누립니다.",
+      "tags": [
+        "카나이의함",
+        "전설추출",
+        "카나이능력",
+        "죽음의숨결",
+        "큐브"
+      ],
+      "highlight": true
+    }
+  ],
+  "RPG_CUBE_RECIPES": [
+    {
+      "id": "rune_01_09",
+      "category": "rune",
+      "name": "하급 룬 승급 (엘 ~ 오르트)",
+      "nameEn": "Low Runes Upgrading (El to Ort)",
+      "ingredients": [
+        "동일한 룬 3개"
+      ],
+      "result": "다음 상위 룬 1개",
+      "description": "3 엘(El) → 1 엘드(Eld) / 3 엘드 → 1 티르 / 3 티르 → 1 네프 / 3 네프 → 1 에트 / 3 에트 → 1 이더 / 3 이더 → 1 탈 / 3 탈 → 1 랄 / 3 랄 → 1 오르트 / 3 오르트 → 1 주울",
+      "tags": [
+        "룬",
+        "엘",
+        "엘드",
+        "티르",
+        "네프",
+        "에트",
+        "이더",
+        "탈",
+        "랄",
+        "오르트",
+        "주울"
+      ],
+      "tip": "1번~9번 룬은 보석 없이 룬 3개만 넣고 돌리면 다음 룬으로 변환됩니다."
+    },
+    {
+      "id": "rune_10_thul",
+      "category": "rune",
+      "name": "10번 주울(Thul) → 11번 앰(Amn)",
+      "ingredients": [
+        "주울(Thul) 룬 3개",
+        "최하급 토파즈 1개"
+      ],
+      "result": "앰(Amn) 룬 1개",
+      "description": "주울 룬 3개와 최하급 토파즈를 조합하여 앰 룬을 만듭니다.",
+      "tags": [
+        "주울",
+        "앰",
+        "최하급 토파즈",
+        "룬합성"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_11_amn",
+      "category": "rune",
+      "name": "11번 앰(Amn) → 12번 솔(Sol)",
+      "ingredients": [
+        "앰(Amn) 룬 3개",
+        "최하급 자수정 1개"
+      ],
+      "result": "솔(Sol) 룬 1개",
+      "description": "앰 룬 3개와 최하급 자수정을 조합하여 솔 룬을 만듭니다.",
+      "tags": [
+        "앰",
+        "솔",
+        "최하급 자수정",
+        "룬합성",
+        "통찰재료"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_12_sol",
+      "category": "rune",
+      "name": "12번 솔(Sol) → 13번 샤엘(Shael)",
+      "ingredients": [
+        "솔(Sol) 룬 3개",
+        "최하급 사파이어 1개"
+      ],
+      "result": "샤엘(Shael) 룬 1개",
+      "description": "솔 룬 3개와 최하급 사파이어를 조합하여 샤엘 룬을 만듭니다.",
+      "tags": [
+        "솔",
+        "샤엘",
+        "최하급 사파이어",
+        "룬합성"
+      ]
+    },
+    {
+      "id": "rune_13_shael",
+      "category": "rune",
+      "name": "13번 샤엘(Shael) → 14번 돌(Dol)",
+      "ingredients": [
+        "샤엘(Shael) 룬 3개",
+        "최하급 루비 1개"
+      ],
+      "result": "돌(Dol) 룬 1개",
+      "description": "샤엘 룬 3개와 최하급 루비를 조합하여 돌 룬을 만듭니다.",
+      "tags": [
+        "샤엘",
+        "돌",
+        "최하급 루비",
+        "룬합성"
+      ]
+    },
+    {
+      "id": "rune_14_dol",
+      "category": "rune",
+      "name": "14번 돌(Dol) → 15번 헬(Hel)",
+      "ingredients": [
+        "돌(Dol) 룬 3개",
+        "최하급 에메랄드 1개"
+      ],
+      "result": "헬(Hel) 룬 1개",
+      "description": "돌 룬 3개와 최하급 에메랄드를 조합하여 소켓 초기화에 유용한 헬 룬을 만듭니다.",
+      "tags": [
+        "돌",
+        "헬",
+        "최하급 에메랄드",
+        "소켓비우기",
+        "룬합성"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_15_hel",
+      "category": "rune",
+      "name": "15번 헬(Hel) → 16번 이오(Io)",
+      "ingredients": [
+        "헬(Hel) 룬 3개",
+        "최하급 다이아몬드 1개"
+      ],
+      "result": "이오(Io) 룬 1개",
+      "description": "헬 룬 3개와 최하급 다이아몬드를 조합하여 이오 룬을 만듭니다.",
+      "tags": [
+        "헬",
+        "이오",
+        "최하급 다이아몬드"
+      ]
+    },
+    {
+      "id": "rune_16_io",
+      "category": "rune",
+      "name": "16번 이오(Io) → 17번 룸(Lum)",
+      "ingredients": [
+        "이오(Io) 룬 3개",
+        "하급 토파즈 1개"
+      ],
+      "result": "룸(Lum) 룬 1개",
+      "description": "이오 룬 3개와 하급 토파즈를 조합하여 룸 룬을 만듭니다.",
+      "tags": [
+        "이오",
+        "룸",
+        "하급 토파즈"
+      ]
+    },
+    {
+      "id": "rune_17_lum",
+      "category": "rune",
+      "name": "17번 룸(Lum) → 18번 코(Ko)",
+      "ingredients": [
+        "룸(Lum) 룬 3개",
+        "하급 자수정 1개"
+      ],
+      "result": "코(Ko) 룬 1개",
+      "description": "룸 룬 3개와 하급 자수정을 조합하여 코 룬을 만듭니다.",
+      "tags": [
+        "룸",
+        "코",
+        "하급 자수정"
+      ]
+    },
+    {
+      "id": "rune_18_ko",
+      "category": "rune",
+      "name": "18번 코(Ko) → 19번 팔(Fal)",
+      "ingredients": [
+        "코(Ko) 룬 3개",
+        "하급 사파이어 1개"
+      ],
+      "result": "팔(Fal) 룬 1개",
+      "description": "코 룬 3개와 하급 사파이어를 조합하여 팔 룬을 만듭니다.",
+      "tags": [
+        "코",
+        "팔",
+        "하급 사파이어"
+      ]
+    },
+    {
+      "id": "rune_19_fal",
+      "category": "rune",
+      "name": "19번 팔(Fal) → 20번 렘(Lem)",
+      "ingredients": [
+        "팔(Fal) 룬 3개",
+        "하급 루비 1개"
+      ],
+      "result": "렘(Lem) 룬 1개",
+      "description": "팔 룬 3개와 하급 루비를 조합하여 삥밥 필수 렘 룬을 만듭니다.",
+      "tags": [
+        "팔",
+        "렘",
+        "하급 루비",
+        "삥밥",
+        "트랫셔리"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_20_lem",
+      "category": "rune",
+      "name": "20번 렘(Lem) → 21번 풀(Pul)",
+      "ingredients": [
+        "렘(Lem) 룬 3개",
+        "하급 에메랄드 1개"
+      ],
+      "result": "풀(Pul) 룬 1개",
+      "description": "렘 룬 3개와 하급 에메랄드를 조합하여 풀 룬을 만듭니다.",
+      "tags": [
+        "렘",
+        "풀",
+        "하급 에메랄드"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_21_pul",
+      "category": "rune",
+      "name": "21번 풀(Pul) → 22번 움(Um)",
+      "ingredients": [
+        "풀(Pul) 룬 2개",
+        "하급 다이아몬드 1개"
+      ],
+      "result": "움(Um) 룬 1개",
+      "description": "풀 룬 2개와 하급 다이아몬드를 조합하여 올레지 필수 움 룬을 만듭니다.",
+      "tags": [
+        "풀",
+        "움",
+        "하급 다이아몬드",
+        "올레지"
+      ],
+      "tip": "21번 풀 룬부터는 룬이 2개만 필요합니다.",
+      "highlight": true
+    },
+    {
+      "id": "rune_22_um",
+      "category": "rune",
+      "name": "22번 움(Um) → 23번 말(Mal)",
+      "ingredients": [
+        "움(Um) 룬 2개",
+        "일반 토파즈 1개"
+      ],
+      "result": "말(Mal) 룬 1개",
+      "description": "움 룬 2개와 일반 토파즈를 조합하여 말 룬을 만듭니다.",
+      "tags": [
+        "움",
+        "말",
+        "일반 토파즈",
+        "콜투재료"
+      ]
+    },
+    {
+      "id": "rune_23_mal",
+      "category": "rune",
+      "name": "23번 말(Mal) → 24번 이스트(Ist)",
+      "ingredients": [
+        "말(Mal) 룬 2개",
+        "일반 자수정 1개"
+      ],
+      "result": "이스트(Ist) 룬 1개",
+      "description": "말 룬 2개와 일반 자수정을 조합하여 매찬 극대화 이스트 룬을 만듭니다.",
+      "tags": [
+        "말",
+        "이스트",
+        "일반 자수정",
+        "매찬",
+        "콜투재료"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_24_ist",
+      "category": "rune",
+      "name": "24번 이스트(Ist) → 25번 굴(Gul)",
+      "ingredients": [
+        "이스트(Ist) 룬 2개",
+        "일반 사파이어 1개"
+      ],
+      "result": "굴(Gul) 룬 1개",
+      "description": "이스트 룬 2개와 일반 사파이어를 조합하여 굴 룬을 만듭니다.",
+      "tags": [
+        "이스트",
+        "굴",
+        "일반 사파이어"
+      ]
+    },
+    {
+      "id": "rune_25_gul",
+      "category": "rune",
+      "name": "25번 굴(Gul) → 26번 벡스(Vex)",
+      "ingredients": [
+        "굴(Gul) 룬 2개",
+        "일반 루비 1개"
+      ],
+      "result": "벡스(Vex) 룬 1개",
+      "description": "굴 룬 2개와 일반 루비를 조합하여 오심(Heart of the Oak) 필수 벡스 룬을 만듭니다.",
+      "tags": [
+        "굴",
+        "벡스",
+        "일반 루비",
+        "오심",
+        "고급룬"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_26_vex",
+      "category": "rune",
+      "name": "26번 벡스(Vex) → 27번 옴(Ohm)",
+      "ingredients": [
+        "벡스(Vex) 룬 2개",
+        "일반 에메랄드 1개"
+      ],
+      "result": "옴(Ohm) 룬 1개",
+      "description": "벡스 룬 2개와 일반 에메랄드를 조합하여 콜투(CTA) 필수 옴 룬을 만듭니다.",
+      "tags": [
+        "벡스",
+        "옴",
+        "일반 에메랄드",
+        "콜투암스",
+        "고급룬"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_27_ohm",
+      "category": "rune",
+      "name": "27번 옴(Ohm) → 28번 로(Lo)",
+      "ingredients": [
+        "옴(Ohm) 룬 2개",
+        "일반 다이아몬드 1개"
+      ],
+      "result": "로(Lo) 룬 1개",
+      "description": "옴 룬 2개와 일반 다이아몬드를 조합하여 고뇌/인내 필수 로 룬을 만듭니다.",
+      "tags": [
+        "옴",
+        "로",
+        "일반 다이아몬드",
+        "슬픔",
+        "인내",
+        "고급룬"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_28_lo",
+      "category": "rune",
+      "name": "28번 로(Lo) → 29번 수르(Sur)",
+      "ingredients": [
+        "로(Lo) 룬 2개",
+        "상급 토파즈 1개"
+      ],
+      "result": "수르(Sur) 룬 1개",
+      "description": "로 룬 2개와 상급 토파즈를 조합하여 수르 룬을 만듭니다.",
+      "tags": [
+        "로",
+        "수르",
+        "상급 토파즈",
+        "베르합성"
+      ]
+    },
+    {
+      "id": "rune_29_sur",
+      "category": "rune",
+      "name": "29번 수르(Sur) → 30번 베르(Ber)",
+      "ingredients": [
+        "수르(Sur) 룬 2개",
+        "상급 자수정 1개"
+      ],
+      "result": "베르(Ber) 룬 1개",
+      "description": "수르 룬 2개와 상급 자수정을 조합하여 수수께끼/무한 필수 최고급 베르 룬을 만듭니다.",
+      "tags": [
+        "수르",
+        "베르",
+        "상급 자수정",
+        "수수께끼",
+        "무한",
+        "최고급룬"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_30_ber",
+      "category": "rune",
+      "name": "30번 베르(Ber) → 31번 자(Jah)",
+      "ingredients": [
+        "베르(Ber) 룬 2개",
+        "상급 사파이어 1개"
+      ],
+      "result": "자(Jah) 룬 1개",
+      "description": "베르 룬 2개와 상급 사파이어를 조합하여 수수께끼/신념 필수 자 룬을 만듭니다.",
+      "tags": [
+        "베르",
+        "자",
+        "상급 사파이어",
+        "수수께끼",
+        "신념",
+        "최고급룬"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "rune_31_jah",
+      "category": "rune",
+      "name": "31번 자(Jah) → 32번 참(Cham)",
+      "ingredients": [
+        "자(Jah) 룬 2개",
+        "상급 루비 1개"
+      ],
+      "result": "참(Cham) 룬 1개",
+      "description": "자 룬 2개와 상급 루비를 조합하여 결빙방지 참 룬을 만듭니다.",
+      "tags": [
+        "자",
+        "참",
+        "상급 루비",
+        "결빙방지"
+      ]
+    },
+    {
+      "id": "rune_32_cham",
+      "category": "rune",
+      "name": "32번 참(Cham) → 33번 조드(Zod)",
+      "ingredients": [
+        "참(Cham) 룬 2개",
+        "상급 에메랄드 1개"
+      ],
+      "result": "조드(Zod) 룬 1개",
+      "description": "참 룬 2개와 상급 에메랄드를 조합하여 파괴불가 최종 33번 조드 룬을 만듭니다.",
+      "tags": [
+        "참",
+        "조드",
+        "상급 에메랄드",
+        "파괴불가",
+        "에테죽숨"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "gem_chipped_to_flawed",
+      "category": "gem",
+      "name": "최하급 보석 3개 → 하급 보석",
+      "ingredients": [
+        "동일한 최하급 보석 3개 (루비/사파이어/토파즈/에메랄드/자수정/다이아/해골)"
+      ],
+      "result": "해당 종류 하급 보석 1개",
+      "description": "동일한 최하급 보석 3개를 조합하여 한 단계 상위인 하급 보석 1개를 획득합니다.",
+      "tags": [
+        "보석",
+        "최하급",
+        "하급"
+      ]
+    },
+    {
+      "id": "gem_flawed_to_normal",
+      "category": "gem",
+      "name": "하급 보석 3개 → 일반 보석",
+      "ingredients": [
+        "동일한 하급 보석 3개"
+      ],
+      "result": "해당 종류 일반 보석 1개",
+      "description": "동일한 하급 보석 3개를 조합하여 일반 보석 1개를 획득합니다.",
+      "tags": [
+        "보석",
+        "하급",
+        "일반"
+      ]
+    },
+    {
+      "id": "gem_normal_to_flawless",
+      "category": "gem",
+      "name": "일반 보석 3개 → 상급 보석 (Flawless)",
+      "ingredients": [
+        "동일한 일반 보석 3개"
+      ],
+      "result": "해당 종류 상급(무결점) 보석 1개",
+      "description": "동일한 일반 보석 3개를 조합하여 상급 보석 1개를 획득합니다.",
+      "tags": [
+        "보석",
+        "일반",
+        "상급"
+      ]
+    },
+    {
+      "id": "gem_flawless_to_perfect",
+      "category": "gem",
+      "name": "상급 보석 3개 → 완벽한 보석 (Perfect Gem)",
+      "ingredients": [
+        "동일한 상급 보석 3개"
+      ],
+      "result": "해당 종류 완벽한 보석(퍼보) 1개",
+      "description": "상급 보석 3개를 조합하여 최상급인 완벽한 보석(퍼보) 1개를 만듭니다.",
+      "tags": [
+        "보석",
+        "상급",
+        "완벽한 보석",
+        "퍼보",
+        "크래프트재료",
+        "리롤재료"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "socket_armor_ebug",
+      "category": "socket",
+      "name": "일반 갑옷 소켓 뚫기 (큐빙)",
+      "ingredients": [
+        "노말/에테리얼 일반 갑옷 1개",
+        "탈(Tal) 룬 1개",
+        "주울(Thul) 룬 1개",
+        "완벽한 토파즈 1개"
+      ],
+      "result": "소켓 뚫린 갑옷 (1~4소켓 랜덤)",
+      "description": "소켓이 없는 일반 갑옷에 무작위 개수의 소켓을 뚫습니다. (고급/슈페리어 장비는 불가)",
+      "tags": [
+        "소켓",
+        "갑옷",
+        "탈",
+        "주울",
+        "퍼토",
+        "용병갑옷",
+        "인내재료"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "socket_weapon",
+      "category": "socket",
+      "name": "일반 무기 소켓 뚫기 (큐빙)",
+      "ingredients": [
+        "노말/에테리얼 일반 무기 1개",
+        "랄(Ral) 룬 1개",
+        "앰(Amn) 룬 1개",
+        "완벽한 자수정 1개"
+      ],
+      "result": "소켓 뚫린 무기 (1~6소켓 랜덤)",
+      "description": "소켓이 없는 일반 무기에 무작위 개수의 소켓을 뚫습니다. (통찰/무한용 폴암 큐빙)",
+      "tags": [
+        "소켓",
+        "무기",
+        "랄",
+        "앰",
+        "퍼자",
+        "통찰재료",
+        "무한재료"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "socket_helm",
+      "category": "socket",
+      "name": "일반 투구 소켓 뚫기 (큐빙)",
+      "ingredients": [
+        "노말/에테리얼 일반 투구 1개",
+        "랄(Ral) 룬 1개",
+        "주울(Thul) 룬 1개",
+        "완벽한 사파이어 1개"
+      ],
+      "result": "소켓 뚫린 투구 (1~3소켓 랜덤)",
+      "description": "소켓이 없는 일반 투구에 무작위 개수의 소켓을 뚫습니다.",
+      "tags": [
+        "소켓",
+        "투구",
+        "랄",
+        "주울",
+        "퍼사",
+        "치료재료",
+        "학식재료"
+      ]
+    },
+    {
+      "id": "socket_shield",
+      "category": "socket",
+      "name": "일반 방패 소켓 뚫기 (큐빙)",
+      "ingredients": [
+        "노말/에테리얼 일반 방패 1개",
+        "탈(Tal) 룬 1개",
+        "앰(Amn) 룬 1개",
+        "완벽한 루비 1개"
+      ],
+      "result": "소켓 뚫린 방패 (1~4소켓 랜덤)",
+      "description": "소켓이 없는 일반 방패에 무작위 개수의 소켓을 뚫습니다. (모너크 4소켓 영혼/스피릿 큐빙)",
+      "tags": [
+        "소켓",
+        "방패",
+        "탈",
+        "앰",
+        "퍼루",
+        "모너크",
+        "스피리트"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "unsocket_clean",
+      "category": "socket",
+      "name": "소켓 아이템 비우기 (룬/보석 제거)",
+      "ingredients": [
+        "소켓이 채워진 장비 1개",
+        "헬(Hel) 룬 1개",
+        "마을 차원문 주문서(TP Scroll) 1개"
+      ],
+      "result": "소켓이 비워진 기본 베이스 장비 (룬/보석 파괴)",
+      "description": "장비에 이미 박혀있는 룬, 보석, 주얼을 완전히 제거하여 소켓을 깨끗이 비웁니다. (박혀있던 재료는 파괴됨)",
+      "tags": [
+        "소켓비우기",
+        "헬",
+        "포탈스크롤",
+        "룬워드재시도"
+      ],
+      "tip": "잘못 제작한 룬워드나 옵션 수치가 낮게 뜬 룬워드 베이스를 재사용할 때 필수적입니다.",
+      "highlight": true
+    },
+    {
+      "id": "upgrade_unique_armor_normal_to_exceptional",
+      "category": "upgrade",
+      "name": "노말 유니크 방어구 → 익셉셔널 승급",
+      "ingredients": [
+        "노말 유니크 방어구 1개",
+        "탈(Tal) 룬 1개",
+        "샤엘(Shael) 룬 1개",
+        "완벽한 다이아몬드 1개"
+      ],
+      "result": "익셉셔널 등급 유니크 방어구 (방어력 대폭 상승)",
+      "description": "메이지피스트(마수), 골드랩(금박허리띠) 등 노말 유니크 방어구를 익셉셔널로 업그레이드합니다.",
+      "tags": [
+        "승급",
+        "유니크",
+        "방어구",
+        "탈",
+        "샤엘",
+        "퍼다",
+        "마수",
+        "골드랩"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "upgrade_unique_armor_exceptional_to_elite",
+      "category": "upgrade",
+      "name": "익셉셔널 유니크 방어구 → 엘리트 승급",
+      "ingredients": [
+        "익셉셔널 유니크 방어구 1개",
+        "코(Ko) 룬 1개",
+        "렘(Lem) 룬 1개",
+        "완벽한 다이아몬드 1개"
+      ],
+      "result": "엘리트 등급 유니크 방어구 (최고 방어력)",
+      "description": "구교복(독사마술사의 가죽), 자카룸의 전령(길리엄), 슬가(아랫니 투구) 등을 엘리트로 최종 승급합니다.",
+      "tags": [
+        "승급",
+        "유니크",
+        "방어구",
+        "코",
+        "렘",
+        "퍼다",
+        "구교복",
+        "자카룸"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "upgrade_unique_weapon_normal_to_exceptional",
+      "category": "upgrade",
+      "name": "노말 유니크 무기 → 익셉셔널 승급",
+      "ingredients": [
+        "노말 유니크 무기 1개",
+        "랄(Ral) 룬 1개",
+        "솔(Sol) 룬 1개",
+        "완벽한 에메랄드 1개"
+      ],
+      "result": "익셉셔널 등급 유니크 무기 (기본 데미지 증가)",
+      "description": "뼈자르개, 활 등 노말 유니크 무기의 베이스 데미지를 익셉셔널로 상향합니다.",
+      "tags": [
+        "승급",
+        "유니크",
+        "무기",
+        "랄",
+        "솔",
+        "퍼에"
+      ]
+    },
+    {
+      "id": "upgrade_unique_weapon_exceptional_to_elite",
+      "category": "upgrade",
+      "name": "익셉셔널 유니크 무기 → 엘리트 승급",
+      "ingredients": [
+        "익셉셔널 유니크 무기 1개",
+        "룸(Lum) 룬 1개",
+        "풀(Pul) 룬 1개",
+        "완벽한 에메랄드 1개"
+      ],
+      "result": "엘리트 등급 유니크 무기 (최고 데미지)",
+      "description": "타이탄의 복수(거인의 복수 에테 타이탄), 립크래커(갈비뼈분쇄기), 마녀림 등 주력 무기를 엘리트로 승급합니다.",
+      "tags": [
+        "승급",
+        "유니크",
+        "무기",
+        "룸",
+        "풀",
+        "퍼에",
+        "타이탄",
+        "립크래커"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "upgrade_rare_armor_normal_to_exceptional",
+      "category": "upgrade",
+      "name": "노말 레어 방어구 → 익셉셔널 승급",
+      "ingredients": [
+        "노말 레어 방어구 1개",
+        "랄(Ral) 룬 1개",
+        "주울(Thul) 룬 1개",
+        "완벽한 자수정 1개"
+      ],
+      "result": "익셉셔널 등급 레어 방어구",
+      "description": "노말 레어 장갑/신발/벨트/투구의 방어력을 익셉셔널로 상승시킵니다.",
+      "tags": [
+        "승급",
+        "레어",
+        "방어구",
+        "랄",
+        "주울",
+        "퍼자"
+      ]
+    },
+    {
+      "id": "upgrade_rare_armor_exceptional_to_elite",
+      "category": "upgrade",
+      "name": "익셉셔널 레어 방어구 → 엘리트 승급",
+      "ingredients": [
+        "익셉셔널 레어 방어구 1개",
+        "코(Ko) 룬 1개",
+        "풀(Pul) 룬 1개",
+        "완벽한 자수정 1개"
+      ],
+      "result": "엘리트 등급 레어 방어구",
+      "description": "명품 2스킬 20패캐 레어 서클릿이나 30달려 3레지 레어 부츠를 엘리트로 승급합니다.",
+      "tags": [
+        "승급",
+        "레어",
+        "방어구",
+        "코",
+        "풀",
+        "퍼자",
+        "레어부츠",
+        "레어서클릿"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "craft_caster_amulet",
+      "category": "craft",
+      "name": "캐스터 아뮬렛 (패캐 20% / 2스킬 명품 목걸이)",
+      "ingredients": [
+        "매직 아뮬렛 (숨렙 90+ 권장)",
+        "랄(Ral) 룬 1개",
+        "완벽한 자수정 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 캐스터 목걸이 (패캐 +5~20%, 마나재생, 마나, +스킬 등)",
+      "description": "디아블로2 최고의 엔드게임 목걸이를 제작하는 공식 조합법입니다. 2스킬 + 20패캐 + 올레지 졸업옵션 가능.",
+      "tags": [
+        "크래프트",
+        "캐스터",
+        "아뮬렛",
+        "랄",
+        "퍼자",
+        "주얼",
+        "패캐",
+        "2스킬",
+        "엔드게임"
+      ],
+      "tip": "93레벨 이상 캐릭터가 겜블로 뽑은 매직 아뮬렛으로 큐빙 시 2스킬 옵션이 확정 출현 가능합니다.",
+      "highlight": true
+    },
+    {
+      "id": "craft_caster_belt",
+      "category": "craft",
+      "name": "캐스터 벨트 (패캐 10% / 마나재생)",
+      "ingredients": [
+        "매직 라이트벨트/샤크스킨/뱀파이어팽 1개",
+        "이더(Ith) 룬 1개",
+        "완벽한 자수정 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 캐스터 벨트 (패캐 5~10%, 마나재생, 힘, 생명력)",
+      "description": "스웹(스파이더웹새시) 대체용 패캐 벨트로 고레벨 프레임 맞출 때 사용합니다.",
+      "tags": [
+        "크래프트",
+        "캐스터",
+        "벨트",
+        "이더",
+        "퍼자",
+        "주얼",
+        "패캐"
+      ]
+    },
+    {
+      "id": "craft_caster_boots",
+      "category": "craft",
+      "name": "캐스터 부츠 (마나 뻥튀기 / 마나재생)",
+      "ingredients": [
+        "매직 부츠/데몬하이드/와이번부츠 1개",
+        "주울(Thul) 룬 1개",
+        "완벽한 자수정 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 캐스터 신발 (최대마나 2~5%, 마나재생, 달려, 레지)",
+      "description": "에쉴 소서리스(에너지 실드)의 마나통을 극대화하는 신발을 제작합니다.",
+      "tags": [
+        "크래프트",
+        "캐스터",
+        "부츠",
+        "주울",
+        "퍼자",
+        "주얼",
+        "에쉴소서"
+      ]
+    },
+    {
+      "id": "craft_blood_gloves",
+      "category": "craft",
+      "name": "블러드 장갑 (강타 10% / 흡혈 / 공속 20%)",
+      "ingredients": [
+        "매직 헤비글러브/샤크스킨/뱀브레이스 1개",
+        "네프(Nef) 룬 1개",
+        "완벽한 루비 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 블러드 장갑 (강타 5~10%, 라이프흡혈 1~3%, 생명력 10~20, 20공속 등)",
+      "description": "활아마, 질딘, 킥씬의 종결 장갑! 2자벨/2패시브 + 20공속 + 10강타 + 스탯 명품 탄생.",
+      "tags": [
+        "크래프트",
+        "블러드",
+        "장갑",
+        "네프",
+        "퍼루",
+        "주얼",
+        "강타",
+        "20공속",
+        "활아마",
+        "질딘"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "craft_blood_ring",
+      "category": "craft",
+      "name": "블러드 링 (피흡 11% / 힘 / 생명력)",
+      "ingredients": [
+        "매직 링 1개",
+        "솔(Sol) 룬 1개",
+        "완벽한 루비 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 블러드 반지 (라이프흡혈 1~3% 기본 + 최대 8% 추가, 힘 1~5, 생명력)",
+      "description": "물리 딜러용 듀얼흡혈 및 고스탯 명품 반지를 제작합니다.",
+      "tags": [
+        "크래프트",
+        "블러드",
+        "링",
+        "반지",
+        "솔",
+        "퍼루",
+        "주얼",
+        "피흡",
+        "듀얼링"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "craft_blood_helm",
+      "category": "craft",
+      "name": "블러드 투구 (치명타 10% / 라이프)",
+      "ingredients": [
+        "매직 헬름/카스크/아멧 1개",
+        "랄(Ral) 룬 1개",
+        "완벽한 루비 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 블러드 투구 (치명적타격 5~10%, 라이프흡혈, 생명력)",
+      "description": "치명적 타격(Deadly Strike)을 제공하는 물리 딜러용 크래프트 투구입니다.",
+      "tags": [
+        "크래프트",
+        "블러드",
+        "투구",
+        "랄",
+        "퍼루",
+        "주얼",
+        "치명타"
+      ]
+    },
+    {
+      "id": "craft_hit_power_gloves",
+      "category": "craft",
+      "name": "히트파워 장갑 (밀쳐내기 / 넉백 장갑)",
+      "ingredients": [
+        "매직 체인글러브/헤비브레이서/뱀브레이스 1개",
+        "오르트(Ort) 룬 1개",
+        "완벽한 사파이어 1개",
+        "아무 매직 주얼 1개"
+      ],
+      "result": "크래프트 넉백 장갑 (넉백/밀쳐내기, 반격시 프로스트노바, 20공속)",
+      "description": "활아마존 필수 생존 옵션인 밀쳐내기(Knockback) 장갑을 제작합니다.",
+      "tags": [
+        "크래프트",
+        "히트파워",
+        "장갑",
+        "오르트",
+        "퍼사",
+        "주얼",
+        "넉백",
+        "활아마존"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "reroll_magic_baal_charm",
+      "category": "reroll",
+      "name": "바알참/거대부적 매직 리롤 (3 퍼보)",
+      "ingredients": [
+        "매직 아이템 1개 (그랜드참/모너크/다이어뎀 등)",
+        "완벽한 보석(종류 무관) 3개"
+      ],
+      "result": "동일 숨렙의 새로운 무작위 옵션 매직 아이템",
+      "description": "바알/디아/닐라탁이 드랍한 99숨렙 거대부적을 퍼보 3개로 무한 리롤하여 1스킬 45피참을 노립니다.",
+      "tags": [
+        "리롤",
+        "매직",
+        "바알참",
+        "스킬피참",
+        "퍼보",
+        "완벽한보석"
+      ],
+      "tip": "완벽한 해골(퍼스컬)도 완벽한 보석으로 취급되어 3개 리롤에 사용 가능합니다.",
+      "highlight": true
+    },
+    {
+      "id": "reroll_rare_six_skulls",
+      "category": "reroll",
+      "name": "레어 아이템 리롤 (6 퍼스컬)",
+      "ingredients": [
+        "레어 아이템 1개",
+        "완벽한 해골 6개"
+      ],
+      "result": "새로운 무작위 옵션 레어 아이템",
+      "description": "레어 다이어뎀(다이아뎀은 숨렙 하락 없음) 등의 레어 아이템을 완벽한 해골 6개로 무한 리롤합니다.",
+      "tags": [
+        "리롤",
+        "레어",
+        "퍼스컬",
+        "완벽한해골",
+        "다이어뎀"
+      ],
+      "tip": "다이어뎀은 마법 레벨 보정(qlvl 85, mlvl 18) 덕분에 6퍼스컬 리롤을 무한 반복해도 항상 최고급 옵션(2스킬 20패캐 2소켓)이 뜹니다.",
+      "highlight": true
+    },
+    {
+      "id": "repair_weapon_ort",
+      "category": "reroll",
+      "name": "무기 즉시 완전 수리 (골드 0원)",
+      "ingredients": [
+        "내구도 손상된 무기 1개",
+        "오르트(Ort) 룬 1개"
+      ],
+      "result": "내구도가 100% 완전 수리된 무기",
+      "description": "수리비가 수십만 골드씩 드는 고급 슈페리어 룬워드 무기를 오르트 룬 1개로 즉시 수리합니다.",
+      "tags": [
+        "수리",
+        "무기",
+        "오르트",
+        "수리비절약"
+      ]
+    },
+    {
+      "id": "repair_armor_ral",
+      "category": "reroll",
+      "name": "방어구 즉시 완전 수리 (골드 0원)",
+      "ingredients": [
+        "내구도 손상된 방어구 1개",
+        "랄(Ral) 룬 1개"
+      ],
+      "result": "내구도가 100% 완전 수리된 방어구",
+      "description": "수리비가 비싼 슈페리어 인내나 수수께끼 갑옷을 랄 룬 1개로 즉시 완전 수리합니다.",
+      "tags": [
+        "수리",
+        "방어구",
+        "랄",
+        "수리비절약",
+        "수수께끼수리"
+      ]
+    },
+    {
+      "id": "portal_secret_cow_level",
+      "category": "special",
+      "name": "비밀의 젖소방 (시크릿 카우 레벨 포탈)",
+      "ingredients": [
+        "워트의 의족 1개 (트리스트럼 루팅)",
+        "마을 차원문 책(Tome of Town Portal) 1개"
+      ],
+      "result": "붉은색 카우 레벨 포탈 생성 (액트 1 로그 캠프)",
+      "description": "해당 난이도의 바알을 처치한 후, 액트 1 마을에서 워트의 의족과 포탈책을 조합하여 카우방을 엽니다.",
+      "tags": [
+        "카우방",
+        "비밀의젖소방",
+        "워트의의족",
+        "포탈책",
+        "액트1",
+        "소몰이"
+      ],
+      "tip": "디아블로2 레저렉션에서는 카우킹(젖소 왕)을 잡아도 계속 다시 카우방을 열 수 있습니다!",
+      "highlight": true
+    },
+    {
+      "id": "portal_uber_pandemonium",
+      "category": "special",
+      "name": "횃불 퀘스트 3대 포탈 (판데모니엄 이벤트)",
+      "ingredients": [
+        "공포의 열쇠 1개",
+        "증오의 열쇠 1개",
+        "파괴의 열쇠 1개"
+      ],
+      "result": "붉은 포탈 1개 (고통의 용광로 / 잊혀진 모래사막 / 감시자의 소굴 중 랜덤)",
+      "description": "액트 5 해롤개스 마을에서 열쇠 3종 세트를 조합하여 우버 보스 장기(디아블로의 뿔, 메피스토의 뇌, 바알의 눈)를 수집합니다.",
+      "tags": [
+        "우버",
+        "횃불",
+        "열쇠",
+        "공포",
+        "증오",
+        "파괴",
+        "판데모니엄",
+        "장기셋"
+      ],
+      "tip": "장기 3개를 다시 큐브에 넣고 돌리면 최종 지옥의 트리스트럼(지옥의 횃불 큰 부적 획득) 포탈이 열립니다.",
+      "highlight": true
+    },
+    {
+      "id": "special_kanai_extract",
+      "category": "special",
+      "name": "카나이의 함 — 전설 고유 능력 추출",
+      "ingredients": [
+        "추출 가능한 전설/유니크 장비 1개",
+        "칸두라스 룬 1개",
+        "칼데움 밤나비 1개",
+        "아리앗 보석 1개",
+        "타락한 천사의 살점 1개",
+        "서부원정지 성수 1개",
+        "죽음의 숨결 5개"
+      ],
+      "result": "카나이의 함 전설 능력 영구 해금 (무기/방어구/장신구 슬롯 장착 가능)",
+      "description": "전설 아이템의 고유 특수 주황색 옵션을 영구 추출하여 캐릭터가 장착하지 않고도 효과를 누립니다.",
+      "tags": [
+        "카나이의함",
+        "전설추출",
+        "카나이능력",
+        "죽음의숨결",
+        "큐브"
+      ],
+      "highlight": true
+    }
+  ]
+}

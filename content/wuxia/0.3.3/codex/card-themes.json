@@ -1,0 +1,56 @@
+{
+  "light": {
+    "themeId": "light",
+    "bgImage": "/assets/novel/cards/codex-card-front-light.jpg",
+    "borderColor": "rgba(217, 119, 6, 0.45)",
+    "innerBg": "transparent",
+    "textColor": "#0f172a",
+    "textSoftColor": "#475569",
+    "loreBg": "rgba(245, 158, 11, 0.08)"
+  },
+  "dark": {
+    "themeId": "dark",
+    "bgImage": "/assets/novel/cards/codex-card-front-dark.jpg",
+    "borderColor": "rgba(245, 158, 11, 0.4)",
+    "innerBg": "transparent",
+    "textColor": "#f8fafc",
+    "textSoftColor": "#cbd5e1",
+    "loreBg": "rgba(10, 14, 26, 0.7)"
+  },
+  "parchment": {
+    "themeId": "parchment",
+    "bgImage": "/assets/novel/cards/codex-card-front-parchment.jpg",
+    "borderColor": "rgba(180, 83, 9, 0.5)",
+    "innerBg": "transparent",
+    "textColor": "#451a03",
+    "textSoftColor": "#78350f",
+    "loreBg": "rgba(217, 119, 6, 0.1)"
+  },
+  "newspaper": {
+    "themeId": "newspaper",
+    "bgImage": "/assets/novel/cards/codex-card-front-newspaper.jpg",
+    "borderColor": "rgba(68, 64, 60, 0.45)",
+    "innerBg": "transparent",
+    "textColor": "#1c1917",
+    "textSoftColor": "#44403c",
+    "loreBg": "rgba(153, 27, 27, 0.08)"
+  },
+  "global": {
+    "themeId": "global",
+    "bgImage": "/assets/novel/cards/codex-card-front-light.jpg",
+    "borderColor": "rgba(217, 119, 6, 0.45)",
+    "innerBg": "transparent",
+    "textColor": "#0f172a",
+    "textSoftColor": "#475569",
+    "loreBg": "rgba(245, 158, 11, 0.08)"
+  },
+  "glassmorphism": {
+    "themeId": "glassmorphism",
+    "bgImage": "/assets/novel/cards/codex-card-front-light.jpg",
+    "borderColor": "rgba(255, 255, 255, 0.5)",
+    "innerBg": "rgba(255, 255, 255, 0.88)",
+    "textColor": "#0f172a",
+    "textSoftColor": "#475569",
+    "loreBg": "rgba(255, 255, 255, 0.35)"
+  }
+}

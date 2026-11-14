@@ -1,0 +1,3190 @@
+{
+  "aldur's advance": {
+    "ko": "알더의 어드벤스",
+    "en": "Aldur's Advance"
+  },
+  "aldur's deception": {
+    "ko": "알더의 디셉션",
+    "en": "Aldur's Deception"
+  },
+  "aldur's gauntlet": {
+    "ko": "알더의 리듬",
+    "en": "Aldur's Gauntlet"
+  },
+  "aldur's stony gaze": {
+    "ko": "알더의 스토니 게이즈",
+    "en": "Aldur's Stony Gaze"
+  },
+  "aldur's watchtower": {
+    "ko": "알더의 와치타워",
+    "en": "Aldur's Watchtower"
+  },
+  "alma negra": {
+    "ko": "알마 네그라",
+    "en": "Alma Negra"
+  },
+  "amity": {
+    "ko": "우정",
+    "en": "Amity"
+  },
+  "amulet of the viper": {
+    "ko": "아뮬렛 오브 더 바이퍼",
+    "en": "Amulet of the Viper"
+  },
+  "ancients' pledge": {
+    "ko": "고대인의 서약",
+    "en": "Ancients' Pledge"
+  },
+  "andariel's visage": {
+    "ko": "안다리엘의 비지스",
+    "en": "Andariel's Visage"
+  },
+  "angelic halo": {
+    "ko": "엔젤릭 헤일로우",
+    "en": "Angelic Halo"
+  },
+  "angelic mantle": {
+    "ko": "엔젤릭 맨틀",
+    "en": "Angelic Mantle"
+  },
+  "angelic sickle": {
+    "ko": "엔젤릭 시클",
+    "en": "Angelic Sickle"
+  },
+  "angelic wings": {
+    "ko": "엔젤릭 윙",
+    "en": "Angelic Wings"
+  },
+  "angelical raiment": {
+    "ko": "엔젤릭 레이먼트",
+    "en": "Angelical Raiment"
+  },
+  "annihilus": {
+    "ko": "애니힐러스",
+    "en": "Annihilus"
+  },
+  "arachnid mesh": {
+    "ko": "아라크니드 메쉬",
+    "en": "Arachnid Mesh"
+  },
+  "arcanna's deathwand": {
+    "ko": "아칸나의 데쓰원드",
+    "en": "Arcanna's Deathwand"
+  },
+  "arcanna's flesh": {
+    "ko": "아칸나의 플레쉬",
+    "en": "Arcanna's Flesh"
+  },
+  "arcanna's head": {
+    "ko": "아칸나의 헤드",
+    "en": "Arcanna's Head"
+  },
+  "arcanna's sign": {
+    "ko": "아칸나의 싸인",
+    "en": "Arcanna's Sign"
+  },
+  "arcanna's tricks": {
+    "ko": "아칸나 트릭스",
+    "en": "Arcanna's Tricks"
+  },
+  "arch-devil's": {
+    "ko": "대악마의",
+    "en": "Arch-Devil's"
+  },
+  "arctic binding": {
+    "ko": "아틱 바인딩",
+    "en": "Arctic Binding"
+  },
+  "arctic furs": {
+    "ko": "아틱 퍼스",
+    "en": "Arctic Furs"
+  },
+  "arctic gear": {
+    "ko": "아틱 기어",
+    "en": "Arctic Gear"
+  },
+  "arctic horn": {
+    "ko": "아틱 혼",
+    "en": "Arctic Horn"
+  },
+  "arctic mitts": {
+    "ko": "아틱 미트",
+    "en": "Arctic Mitts"
+  },
+  "arioc's needle": {
+    "ko": "아리어의 니들",
+    "en": "Arioc's Needle"
+  },
+  "arkaine's valor": {
+    "ko": "아케인의 발러",
+    "en": "Arkaine's Valor"
+  },
+  "arm of king leoric": {
+    "ko": "암 오브 킹 로릭",
+    "en": "Arm of King Leoric"
+  },
+  "armageddon": {
+    "ko": "아마게돈",
+    "en": "Armageddon"
+  },
+  "arreat's face": {
+    "ko": "아리앗의 페이스",
+    "en": "Arreat's Face"
+  },
+  "ars al'diablolos": {
+    "ko": "아르스 알 디아블로로스",
+    "en": "Ars Al'Diablolos"
+  },
+  "ars dul'mephistos": {
+    "ko": "아르스 둘 메피스토스",
+    "en": "Ars Dul'Mephistos"
+  },
+  "ars tor'baalos": {
+    "ko": "아르스 토르 바알로스",
+    "en": "Ars Tor'Baalos"
+  },
+  "athena's wrath": {
+    "ko": "아테네의 래쓰",
+    "en": "Athena's Wrath"
+  },
+  "atma's scarab": {
+    "ko": "아트마의 스캐럽",
+    "en": "Atma's Scarab"
+  },
+  "atma's wail": {
+    "ko": "아트마의 와일",
+    "en": "Atma's Wail"
+  },
+  "authority": {
+    "ko": "권위",
+    "en": "Authority"
+  },
+  "azurewrath": {
+    "ko": "에이져래쓰",
+    "en": "Azurewrath"
+  },
+  "baezil's vortex": {
+    "ko": "배질의 보어텍스",
+    "en": "Baezil's Vortex"
+  },
+  "bane ash": {
+    "ko": "베인 애쉬",
+    "en": "Bane Ash"
+  },
+  "bane's authority": {
+    "ko": "재앙의 권위",
+    "en": "Bane's Authority"
+  },
+  "bane's garments": {
+    "ko": "재앙의 복장",
+    "en": "Bane's Garments"
+  },
+  "bane's oathmaker": {
+    "ko": "재앙의 맹약자",
+    "en": "Bane's Oathmaker"
+  },
+  "bane's wraithskin": {
+    "ko": "재앙의 망령껍질",
+    "en": "Bane's Wraithskin"
+  },
+  "baranar's star": {
+    "ko": "바라나의 별",
+    "en": "Baranar's Star"
+  },
+  "beast": {
+    "ko": "야수",
+    "en": "Beast"
+  },
+  "beauty": {
+    "ko": "미",
+    "en": "Beauty"
+  },
+  "berserker's garb": {
+    "ko": "버서커 아스널",
+    "en": "Berserker's Garb"
+  },
+  "berserker's hatchet": {
+    "ko": "버서커의 헤칫",
+    "en": "Berserker's Hatchet"
+  },
+  "berserker's hauberk": {
+    "ko": "버서커의 허버크",
+    "en": "Berserker's Hauberk"
+  },
+  "berserker's headgear": {
+    "ko": "버서커의 헤드기어",
+    "en": "Berserker's Headgear"
+  },
+  "bing sz wang": {
+    "ko": "빙 쯔 왕",
+    "en": "Bing Sz Wang"
+  },
+  "black": {
+    "ko": "블랙",
+    "en": "Black"
+  },
+  "black cleft": {
+    "ko": "칠흑의 천공",
+    "en": "Black Cleft"
+  },
+  "black hades": {
+    "ko": "블랙 하이드스",
+    "en": "Black Hades"
+  },
+  "blackbog's sharp": {
+    "ko": "블랙보그의 샤프",
+    "en": "Blackbog's Sharp"
+  },
+  "blackhand key": {
+    "ko": "블랙핸드 키",
+    "en": "Blackhand Key"
+  },
+  "blackhorn's face": {
+    "ko": "블랙혼의 페이스",
+    "en": "Blackhorn's Face"
+  },
+  "blackleach blade": {
+    "ko": "블랙리취 블레이드",
+    "en": "Blackleach Blade"
+  },
+  "blackoak shield": {
+    "ko": "블랙오크 쉴드",
+    "en": "Blackoak Shield"
+  },
+  "blacktongue": {
+    "ko": "블랙텅",
+    "en": "Blacktongue"
+  },
+  "blade of ali baba": {
+    "ko": "블레이드 오브 알리바바",
+    "en": "Blade of Ali Baba"
+  },
+  "bladebone": {
+    "ko": "블레이드본",
+    "en": "Bladebone"
+  },
+  "bladebuckle": {
+    "ko": "브레이드버클",
+    "en": "Bladebuckle"
+  },
+  "blastbark": {
+    "ko": "블래스트바크",
+    "en": "Blastbark"
+  },
+  "blinkbats form": {
+    "ko": "블링크뱃스 폼",
+    "en": "Blinkbats Form"
+  },
+  "blood": {
+    "ko": "블러드",
+    "en": "Blood"
+  },
+  "blood crescent": {
+    "ko": "블러드 크레센트",
+    "en": "Blood Crescent"
+  },
+  "bloodfist": {
+    "ko": "블러드피스트",
+    "en": "Bloodfist"
+  },
+  "bloodletter": {
+    "ko": "블러드레터",
+    "en": "Bloodletter"
+  },
+  "bloodmoon": {
+    "ko": "블러드문",
+    "en": "Bloodmoon"
+  },
+  "bloodpact shard": {
+    "ko": "혈맹 파편",
+    "en": "Bloodpact Shard"
+  },
+  "bloodraven's charge": {
+    "ko": "블러드 레이븐의 차지",
+    "en": "Bloodraven's Charge"
+  },
+  "bloodrise": {
+    "ko": "블러드라이즈",
+    "en": "Bloodrise"
+  },
+  "bloodthief": {
+    "ko": "블러드씨프",
+    "en": "Bloodthief"
+  },
+  "bloodtree stump": {
+    "ko": "블러드트리 스텀프",
+    "en": "Bloodtree Stump"
+  },
+  "bone": {
+    "ko": "본",
+    "en": "Bone"
+  },
+  "bone break": {
+    "ko": "뼈의 분쇄",
+    "en": "Bone Break"
+  },
+  "boneflame": {
+    "ko": "본플레임",
+    "en": "Boneflame"
+  },
+  "boneflesh": {
+    "ko": "본플레쉬",
+    "en": "Boneflesh"
+  },
+  "bonehew": {
+    "ko": "본휴",
+    "en": "Bonehew"
+  },
+  "boneshade": {
+    "ko": "본쉐이드",
+    "en": "Boneshade"
+  },
+  "boneslayer blade": {
+    "ko": "본슬레이어 블레이드",
+    "en": "Boneslayer Blade"
+  },
+  "bonesob": {
+    "ko": "본스냅",
+    "en": "Bonesob"
+  },
+  "brainhew": {
+    "ko": "브레인휴",
+    "en": "Brainhew"
+  },
+  "bramble": {
+    "ko": "검은딸기",
+    "en": "Bramble"
+  },
+  "brand": {
+    "ko": "인두",
+    "en": "Brand"
+  },
+  "breath of the dying": {
+    "ko": "죽음의 숨결",
+    "en": "Breath of the Dying"
+  },
+  "broken promise": {
+    "ko": "깨어진 약속",
+    "en": "Broken Promise"
+  },
+  "bul katho's wedding band": {
+    "ko": "발카서스의 웨딩 밴드",
+    "en": "Bul Katho's Wedding Band"
+  },
+  "bul-kathos' children": {
+    "ko": "발카서스의 칠드런",
+    "en": "Bul-Kathos' Children"
+  },
+  "bul-kathos' sacred charge": {
+    "ko": "발카서스의 세이크리드 차지",
+    "en": "Bul-Kathos' Sacred Charge"
+  },
+  "bul-kathos' tribal guardian": {
+    "ko": "발카서스의 트라이벌 가디안",
+    "en": "Bul-Kathos' Tribal Guardian"
+  },
+  "bulwark": {
+    "ko": "방벽",
+    "en": "Bulwark"
+  },
+  "buriza-do kyanon": {
+    "ko": "부리자-도 캬논",
+    "en": "Buriza-Do Kyanon"
+  },
+  "butcher's pupil": {
+    "ko": "부쳐의 퓨필",
+    "en": "Butcher's Pupil"
+  },
+  "bverrit keep": {
+    "ko": "브베리트 킵",
+    "en": "Bverrit Keep"
+  },
+  "call to arms": {
+    "ko": "콜 투 암스",
+    "en": "Call to Arms"
+  },
+  "carin shard": {
+    "ko": "캐린 샤드",
+    "en": "Carin Shard"
+  },
+  "carrion wind": {
+    "ko": "캐리언 윈드",
+    "en": "Carrion Wind"
+  },
+  "cathan's mesh": {
+    "ko": "캐산의 메쉬",
+    "en": "Cathan's Mesh"
+  },
+  "cathan's rule": {
+    "ko": "캐산의 룰",
+    "en": "Cathan's Rule"
+  },
+  "cathan's seal": {
+    "ko": "캐산의 씨일",
+    "en": "Cathan's Seal"
+  },
+  "cathan's sigil": {
+    "ko": "캐산의 씨질",
+    "en": "Cathan's Sigil"
+  },
+  "cathan's traps": {
+    "ko": "캐산 트랩",
+    "en": "Cathan's Traps"
+  },
+  "cathan's visage": {
+    "ko": "캐산의 비지즈",
+    "en": "Cathan's Visage"
+  },
+  "cerebus": {
+    "ko": "케레버스 바이트",
+    "en": "Cerebus"
+  },
+  "chains of honor": {
+    "ko": "명예의 굴레",
+    "en": "Chains of Honor"
+  },
+  "chance": {
+    "ko": "기회",
+    "en": "Chance"
+  },
+  "chance guards": {
+    "ko": "챈스 가드",
+    "en": "Chance Guards"
+  },
+  "chaos": {
+    "ko": "혼돈",
+    "en": "Chaos"
+  },
+  "chromatic ire": {
+    "ko": "크로마틱 아이어",
+    "en": "Chromatic Ire"
+  },
+  "civerb's cudgel": {
+    "ko": "시버브의 커질",
+    "en": "Civerb's Cudgel"
+  },
+  "civerb's icon": {
+    "ko": "시버브의 아이콘",
+    "en": "Civerb's Icon"
+  },
+  "civerb's vestments": {
+    "ko": "시버브 베스트먼트",
+    "en": "Civerb's Vestments"
+  },
+  "civerb's ward": {
+    "ko": "시버브의 워드",
+    "en": "Civerb's Ward"
+  },
+  "cleglaw's brace": {
+    "ko": "클레글로우 브레이스",
+    "en": "Cleglaw's Brace"
+  },
+  "cleglaw's claw": {
+    "ko": "클레그로우의 클러",
+    "en": "Cleglaw's Claw"
+  },
+  "cleglaw's pincers": {
+    "ko": "클레그로우의 핀서즈",
+    "en": "Cleglaw's Pincers"
+  },
+  "cleglaw's tooth": {
+    "ko": "클레그로우의 투쓰",
+    "en": "Cleglaw's Tooth"
+  },
+  "cliffkiller": {
+    "ko": "클리프킬러",
+    "en": "Cliffkiller"
+  },
+  "cloudcrack": {
+    "ko": "클라우드크랙",
+    "en": "Cloudcrack"
+  },
+  "coif of glory": {
+    "ko": "커이프 오브 글로리",
+    "en": "Coif of Glory"
+  },
+  "cold rupture": {
+    "ko": "추위의 파열",
+    "en": "Cold Rupture"
+  },
+  "coldkill": {
+    "ko": "콜드킬",
+    "en": "Coldkill"
+  },
+  "coldsteel eye": {
+    "ko": "콜드스틸 아이",
+    "en": "Coldsteel Eye"
+  },
+  "constricting ring": {
+    "ko": "컨스트릭팅 링",
+    "en": "Constricting Ring"
+  },
+  "corpsemourn": {
+    "ko": "커프스모온",
+    "en": "Corpsemourn"
+  },
+  "coven": {
+    "ko": "마녀단",
+    "en": "Coven"
+  },
+  "cow king's hide": {
+    "ko": "카우 킹의 하이드",
+    "en": "Cow King's Hide"
+  },
+  "cow king's hoofs": {
+    "ko": "카우 킹의 후브",
+    "en": "Cow King's Hoofs"
+  },
+  "cow king's horns": {
+    "ko": "카우 킹의 혼스",
+    "en": "Cow King's Horns"
+  },
+  "cow king's leathers": {
+    "ko": "카우 킹의 레더",
+    "en": "Cow King's Leathers"
+  },
+  "crack of the heavens": {
+    "ko": "천상의 틈",
+    "en": "Crack of the Heavens"
+  },
+  "crafted black cleft": {
+    "ko": "제작 칠흑의 천공",
+    "en": "Crafted Black Cleft"
+  },
+  "crafted bone break": {
+    "ko": "제작 뼈의 분쇄",
+    "en": "Crafted Bone Break"
+  },
+  "crafted cold rupture": {
+    "ko": "제작 추위의 파열",
+    "en": "Crafted Cold Rupture"
+  },
+  "crafted crack of the heavens": {
+    "ko": "제작 천상의 틈",
+    "en": "Crafted Crack of the Heavens"
+  },
+  "crafted flame rift": {
+    "ko": "제작 불길의 균열",
+    "en": "Crafted Flame Rift"
+  },
+  "crafted rotting fissure": {
+    "ko": "제작 부패의 분열",
+    "en": "Crafted Rotting Fissure"
+  },
+  "crainte vomir": {
+    "ko": "크래인트 보미르",
+    "en": "Crainte Vomir"
+  },
+  "cranebeak": {
+    "ko": "크레인비크",
+    "en": "Cranebeak"
+  },
+  "credendum": {
+    "ko": "크리덴덤",
+    "en": "Credendum"
+  },
+  "crescent moon": {
+    "ko": "초승달",
+    "en": "Crescent Moon"
+  },
+  "crow caw": {
+    "ko": "크로우 코우",
+    "en": "Crow Caw"
+  },
+  "crown of ages": {
+    "ko": "크라운 오브 에이지스",
+    "en": "Crown of Ages"
+  },
+  "crown of thieves": {
+    "ko": "크라운 오브 디브스",
+    "en": "Crown of Thieves"
+  },
+  "crushflange": {
+    "ko": "크러쉬플랜지",
+    "en": "Crushflange"
+  },
+  "culwens point": {
+    "ko": "컬웬즈 포인트",
+    "en": "Culwens Point"
+  },
+  "cure": {
+    "ko": "치료",
+    "en": "Cure"
+  },
+  "cutthroat1": {
+    "ko": "바르턱스의 촙촙",
+    "en": "Cutthroat1"
+  },
+  "dangoon's teaching": {
+    "ko": "단군의 가르침",
+    "en": "Dangoon's Teaching"
+  },
+  "dark clan crusher": {
+    "ko": "다크 클랜 크러셔",
+    "en": "Dark Clan Crusher"
+  },
+  "darkfear": {
+    "ko": "다크피어",
+    "en": "Darkfear"
+  },
+  "darkforge spawn": {
+    "ko": "타크포스 스폰",
+    "en": "Darkforge Spawn"
+  },
+  "darkglow": {
+    "ko": "다크글로우",
+    "en": "Darkglow"
+  },
+  "darkness": {
+    "ko": "어둠",
+    "en": "Darkness"
+  },
+  "darksight helm": {
+    "ko": "다크사이트 헬름",
+    "en": "Darksight Helm"
+  },
+  "daylight": {
+    "ko": "낮",
+    "en": "Daylight"
+  },
+  "death": {
+    "ko": "죽음",
+    "en": "Death"
+  },
+  "death's disguise": {
+    "ko": "데쓰 디스가이즈",
+    "en": "Death's Disguise"
+  },
+  "death's guard": {
+    "ko": "데쓰 가드",
+    "en": "Death's Guard"
+  },
+  "death's hand": {
+    "ko": "데쓰 핸드",
+    "en": "Death's Hand"
+  },
+  "death's touch": {
+    "ko": "데쓰 터치",
+    "en": "Death's Touch"
+  },
+  "deathbit": {
+    "ko": "데쓰비트",
+    "en": "Deathbit"
+  },
+  "deathcleaver": {
+    "ko": "데쓰 클리버",
+    "en": "Deathcleaver"
+  },
+  "deaths's web": {
+    "ko": "데쓰 웹",
+    "en": "Deaths's Web"
+  },
+  "deathspade": {
+    "ko": "데쓰스페이드",
+    "en": "Deathspade"
+  },
+  "deception": {
+    "ko": "속임수",
+    "en": "Deception"
+  },
+  "defender's bile": {
+    "ko": "수호자의 담즙",
+    "en": "Defender's Bile"
+  },
+  "defender's fire": {
+    "ko": "수호자의 화염",
+    "en": "Defender's Fire"
+  },
+  "delirium": {
+    "ko": "대표위원",
+    "en": "Delirium"
+  },
+  "demon machine": {
+    "ko": "데몬 머신",
+    "en": "Demon Machine"
+  },
+  "demon's arch": {
+    "ko": "데몬스 아치",
+    "en": "Demon's Arch"
+  },
+  "demonhorn's edge": {
+    "ko": "데몬혼스 엣지",
+    "en": "Demonhorn's Edge"
+  },
+  "demonlimb": {
+    "ko": "데몬 림",
+    "en": "Demonlimb"
+  },
+  "desire": {
+    "ko": "욕망",
+    "en": "Desire"
+  },
+  "despair": {
+    "ko": "실망",
+    "en": "Despair"
+  },
+  "destruction": {
+    "ko": "파괴",
+    "en": "Destruction"
+  },
+  "devil's": {
+    "ko": "악마의",
+    "en": "Devil's"
+  },
+  "dimoaks hew": {
+    "ko": "디모악스 휴",
+    "en": "Dimoaks Hew"
+  },
+  "djinnslayer": {
+    "ko": "진 슬레이어",
+    "en": "Djinnslayer"
+  },
+  "doom": {
+    "ko": "파멸",
+    "en": "Doom"
+  },
+  "doombringer": {
+    "ko": "둠브링거",
+    "en": "Doombringer"
+  },
+  "doomspittle": {
+    "ko": "둠슬링어",
+    "en": "Doomspittle"
+  },
+  "dracul's grasp": {
+    "ko": "드라큘의 그래스프",
+    "en": "Dracul's Grasp"
+  },
+  "dragon": {
+    "ko": "드레곤",
+    "en": "Dragon"
+  },
+  "dragonscale": {
+    "ko": "드래곤스케일",
+    "en": "Dragonscale"
+  },
+  "dread": {
+    "ko": "근심",
+    "en": "Dread"
+  },
+  "dreadfang": {
+    "ko": "레전드 소드",
+    "en": "Dreadfang"
+  },
+  "dreadful": {
+    "ko": "공포스러운",
+    "en": "Dreadful"
+  },
+  "dream": {
+    "ko": "꿈",
+    "en": "Dream"
+  },
+  "duress": {
+    "ko": "협박",
+    "en": "Duress"
+  },
+  "duriel's shell": {
+    "ko": "듀리엘의 쉘",
+    "en": "Duriel's Shell"
+  },
+  "duskdeep": {
+    "ko": "더스크디프",
+    "en": "Duskdeep"
+  },
+  "dwarf star": {
+    "ko": "드와프 스타",
+    "en": "Dwarf Star"
+  },
+  "eaglehorn": {
+    "ko": "이글혼",
+    "en": "Eaglehorn"
+  },
+  "earthshaker": {
+    "ko": "어스쉐이커",
+    "en": "Earthshaker"
+  },
+  "earthshifter": {
+    "ko": "어스 쉬프터",
+    "en": "Earthshifter"
+  },
+  "edge": {
+    "ko": "모서리",
+    "en": "Edge"
+  },
+  "elation": {
+    "ko": "흔쾌한 기분",
+    "en": "Elation"
+  },
+  "endlesshail": {
+    "ko": "앤드리스해일",
+    "en": "Endlesshail"
+  },
+  "enigma": {
+    "ko": "수수께끼",
+    "en": "Enigma"
+  },
+  "enlightenment": {
+    "ko": "계몽",
+    "en": "Enlightenment"
+  },
+  "entropy locket": {
+    "ko": "아뮬렛",
+    "en": "Entropy Locket"
+  },
+  "envy": {
+    "ko": "시샘",
+    "en": "Envy"
+  },
+  "erratic": {
+    "ko": "불규칙한",
+    "en": "Erratic"
+  },
+  "eschuta's temper": {
+    "ko": "에슈타스 템퍼",
+    "en": "Eschuta's temper"
+  },
+  "eternity": {
+    "ko": "불멸",
+    "en": "Eternity"
+  },
+  "ethereal edge": {
+    "ko": "에테리얼 엣지",
+    "en": "Ethereal Edge"
+  },
+  "executioner's justice": {
+    "ko": "엑시큐셔너의 저스티스",
+    "en": "Executioner's Justice"
+  },
+  "exile": {
+    "ko": "망명",
+    "en": "Exile"
+  },
+  "faith": {
+    "ko": "신뢰",
+    "en": "Faith"
+  },
+  "famine": {
+    "ko": "기근",
+    "en": "Famine"
+  },
+  "fathom": {
+    "ko": "데쓰 패썸",
+    "en": "Fathom"
+  },
+  "fechmars axe": {
+    "ko": "액스 오브 페크마",
+    "en": "Fechmars Axe"
+  },
+  "felloak": {
+    "ko": "펠오크",
+    "en": "Felloak"
+  },
+  "fiendish": {
+    "ko": "마귀 같은",
+    "en": "Fiendish"
+  },
+  "firelizard's talons": {
+    "ko": "파이어리저드의 탤런스",
+    "en": "Firelizard's Talons"
+  },
+  "flame rift": {
+    "ko": "불길의 균열",
+    "en": "Flame Rift"
+  },
+  "flamebellow": {
+    "ko": "플레임벨로우",
+    "en": "Flamebellow"
+  },
+  "fleshrender": {
+    "ko": "플레쉬렌더",
+    "en": "Fleshrender"
+  },
+  "fleshripper": {
+    "ko": "플레쉬리퍼",
+    "en": "Fleshripper"
+  },
+  "flickering flame": {
+    "ko": "불꽃",
+    "en": "Flickering Flame"
+  },
+  "forbidden": {
+    "ko": "금지된",
+    "en": "Forbidden"
+  },
+  "fortitude": {
+    "ko": "인내",
+    "en": "Fortitude"
+  },
+  "fortune": {
+    "ko": "행운",
+    "en": "Fortune"
+  },
+  "frostburn": {
+    "ko": "프로스트번",
+    "en": "Frostburn"
+  },
+  "frostwind": {
+    "ko": "프로스트윈드",
+    "en": "Frostwind"
+  },
+  "fury": {
+    "ko": "원한",
+    "en": "Fury"
+  },
+  "gargoyle's bite": {
+    "ko": "가고일 바이트",
+    "en": "Gargoyle's Bite"
+  },
+  "gheed's fortune": {
+    "ko": "기드의 포츈",
+    "en": "Gheed's Fortune"
+  },
+  "gheed's wager": {
+    "ko": "트롤 벨트",
+    "en": "Gheed's Wager"
+  },
+  "ghostflame": {
+    "ko": "고스트플레임",
+    "en": "Ghostflame"
+  },
+  "ghoulhide": {
+    "ko": "구울하이드",
+    "en": "Ghoulhide"
+  },
+  "giantmaimer": {
+    "ko": "자이언트 마임머",
+    "en": "Giantmaimer"
+  },
+  "giantskull": {
+    "ko": "자이언트 스컬",
+    "en": "Giantskull"
+  },
+  "gimmershred": {
+    "ko": "김머쉬레드",
+    "en": "Gimmershred"
+  },
+  "ginther's rift": {
+    "ko": "진저스 리프트",
+    "en": "Ginther's Rift"
+  },
+  "gleamscythe": {
+    "ko": "글림싸이드",
+    "en": "Gleamscythe"
+  },
+  "gloom": {
+    "ko": "우울",
+    "en": "Gloom"
+  },
+  "gloomstrap": {
+    "ko": "글룸스 트랩",
+    "en": "Gloomstrap"
+  },
+  "glory": {
+    "ko": "영광",
+    "en": "Glory"
+  },
+  "goblin toe": {
+    "ko": "고블린 토우",
+    "en": "Goblin Toe"
+  },
+  "godstrike arch": {
+    "ko": "골드스트라이크 아치",
+    "en": "Godstrike Arch"
+  },
+  "goldskin": {
+    "ko": "골드스킨",
+    "en": "Goldskin"
+  },
+  "goldwrap": {
+    "ko": "골드랩",
+    "en": "Goldwrap"
+  },
+  "gore ripper": {
+    "ko": "고어 리퍼",
+    "en": "Gore Ripper"
+  },
+  "gorefoot": {
+    "ko": "고어풋",
+    "en": "Gorefoot"
+  },
+  "gorerider": {
+    "ko": "고어 라이더",
+    "en": "Gorerider"
+  },
+  "goreshovel": {
+    "ko": "고어셔벌",
+    "en": "Goreshovel"
+  },
+  "gravenspine": {
+    "ko": "그레이븐스파인",
+    "en": "Gravenspine"
+  },
+  "gravepalm": {
+    "ko": "그레이브팜",
+    "en": "Gravepalm"
+  },
+  "greyform": {
+    "ko": "글레이폼",
+    "en": "Greyform"
+  },
+  "grief": {
+    "ko": "깊은 고뇌",
+    "en": "Grief"
+  },
+  "griffon's eye": {
+    "ko": "그리폰의 아이",
+    "en": "Griffon's Eye"
+  },
+  "grim's burning dead": {
+    "ko": "그림의 버닝 데드",
+    "en": "Grim's Burning Dead"
+  },
+  "griswold's heart": {
+    "ko": "그리스월드의 하트",
+    "en": "Griswold's Heart"
+  },
+  "griswold's honor": {
+    "ko": "그리스월드의 아너",
+    "en": "Griswold's Honor"
+  },
+  "griswold's legacy": {
+    "ko": "그리스월드의 리가시",
+    "en": "Griswold's Legacy"
+  },
+  "griswold's valor": {
+    "ko": "그리스월드의 밸러",
+    "en": "Griswold's Valor"
+  },
+  "griswolds edge": {
+    "ko": "그리스월즈엣지",
+    "en": "Griswolds Edge"
+  },
+  "griswolds's redemption": {
+    "ko": "그리스월드의 리뎀프션",
+    "en": "Griswolds's Redemption"
+  },
+  "ground": {
+    "ko": "접지",
+    "en": "Ground"
+  },
+  "guardian angel": {
+    "ko": "가디안 엔젤",
+    "en": "Guardian Angel"
+  },
+  "guardian naga": {
+    "ko": "가디안 나가",
+    "en": "Guardian Naga"
+  },
+  "guardian's light": {
+    "ko": "수호자의 빛",
+    "en": "Guardian's Light"
+  },
+  "guardian's thunder": {
+    "ko": "수호자의 번개",
+    "en": "Guardian's Thunder"
+  },
+  "guillaume's face": {
+    "ko": "길리엄의 페이스",
+    "en": "Guillaume's Face"
+  },
+  "gull": {
+    "ko": "걸",
+    "en": "Gull"
+  },
+  "gutsiphon": {
+    "ko": "구트 쉬폰",
+    "en": "Gutsiphon"
+  },
+  "haemosu's adament": {
+    "ko": "해모수의 강직",
+    "en": "Haemosu's Adament"
+  },
+  "halaberd's reign": {
+    "ko": "할라버드의 레인",
+    "en": "Halaberd's Reign"
+  },
+  "hand of blessed light": {
+    "ko": "핸드 오브 블레스드 라이트",
+    "en": "Hand of Blessed Light"
+  },
+  "hand of justice": {
+    "ko": "정의의 손길",
+    "en": "Hand of Justice"
+  },
+  "harlequin crest": {
+    "ko": "할리퀸 크레스트",
+    "en": "Harlequin Crest"
+  },
+  "harmony": {
+    "ko": "조화",
+    "en": "Harmony"
+  },
+  "hatred": {
+    "ko": "증오",
+    "en": "Hatred"
+  },
+  "hawkmail": {
+    "ko": "호크메일",
+    "en": "Hawkmail"
+  },
+  "headhunter's glory": {
+    "ko": "헤드 헌터의 글로리",
+    "en": "Headhunter's Glory"
+  },
+  "headstriker": {
+    "ko": "헤드스트라이커",
+    "en": "Headstriker"
+  },
+  "heart carver": {
+    "ko": "하트 카버",
+    "en": "Heart Carver"
+  },
+  "heart of the oak": {
+    "ko": "오크의 심장",
+    "en": "Heart of the Oak"
+  },
+  "hearth": {
+    "ko": "화로",
+    "en": "Hearth"
+  },
+  "heaven's brethren": {
+    "ko": "천인의 형제",
+    "en": "Heaven's Brethren"
+  },
+  "heaven's light": {
+    "ko": "헤븐의 라이트",
+    "en": "Heaven's Light"
+  },
+  "heaven's taebaek": {
+    "ko": "태백의 영광",
+    "en": "Heaven's Taebaek"
+  },
+  "heaven's will": {
+    "ko": "천국의 의지",
+    "en": "Heaven's Will"
+  },
+  "heavenly garb": {
+    "ko": "헤븐리 가브",
+    "en": "Heavenly Garb"
+  },
+  "hell forge hammer": {
+    "ko": "헬 포지 해머",
+    "en": "Hell Forge Hammer"
+  },
+  "hellcast": {
+    "ko": "헬캐스트",
+    "en": "Hellcast"
+  },
+  "hellclap": {
+    "ko": "헬캡",
+    "en": "Hellclap"
+  },
+  "hellfire torch": {
+    "ko": "지옥의 횃불",
+    "en": "Hellfire Torch"
+  },
+  "hellmouth": {
+    "ko": "헬마우쓰",
+    "en": "Hellmouth"
+  },
+  "hellplague": {
+    "ko": "헬플레이그",
+    "en": "Hellplague"
+  },
+  "hellrack": {
+    "ko": "헬랙",
+    "en": "Hellrack"
+  },
+  "hellslayer": {
+    "ko": "헬슬레이어",
+    "en": "Hellslayer"
+  },
+  "herald of zakarum": {
+    "ko": "헤럴드 오브 자카럼",
+    "en": "Herald of Zakarum"
+  },
+  "hexfire": {
+    "ko": "헥스파이어",
+    "en": "Hexfire"
+  },
+  "highlord's wrath": {
+    "ko": "하이로드의 래쓰",
+    "en": "Highlord's Wrath"
+  },
+  "holy tears": {
+    "ko": "신성한 눈물",
+    "en": "Holy Tears"
+  },
+  "holy thunder": {
+    "ko": "신성한 번개",
+    "en": "Holy Thunder"
+  },
+  "homunculus": {
+    "ko": "호우먼컬러스",
+    "en": "Homunculus"
+  },
+  "hone sundan": {
+    "ko": "혼 선단",
+    "en": "Hone Sundan"
+  },
+  "honor": {
+    "ko": "명예",
+    "en": "Honor"
+  },
+  "horadric staff": {
+    "ko": "호라드릭 스태프",
+    "en": "Horadric Staff"
+  },
+  "horazon's countenance": {
+    "ko": "호라즌의 얼굴",
+    "en": "Horazon's Countenance"
+  },
+  "horazon's dominion": {
+    "ko": "호라즌의 지배",
+    "en": "Horazon's Dominion"
+  },
+  "horazon's hold": {
+    "ko": "호라즌의 움켜쥠",
+    "en": "Horazon's Hold"
+  },
+  "horazon's legacy": {
+    "ko": "호라즌의 유산",
+    "en": "Horazon's Legacy"
+  },
+  "horazon's secrets": {
+    "ko": "호라즌의 비밀",
+    "en": "Horazon's Secrets"
+  },
+  "horazon's splendor": {
+    "ko": "호라즌의 찬란",
+    "en": "Horazon's Splendor"
+  },
+  "horizon's tornado": {
+    "ko": "호라즌의 토네이도",
+    "en": "Horizon's Tornado"
+  },
+  "hotspur": {
+    "ko": "핫스퍼",
+    "en": "Hotspur"
+  },
+  "howltusk": {
+    "ko": "하울터스크",
+    "en": "Howltusk"
+  },
+  "hsarus' defense": {
+    "ko": "사루의 디펜스",
+    "en": "Hsarus' Defense"
+  },
+  "hsarus' iron fist": {
+    "ko": "사루의 아이언 피스트",
+    "en": "Hsarus' Iron Fist"
+  },
+  "hsarus' iron heel": {
+    "ko": "사루의 아이언 힐",
+    "en": "Hsarus' Iron Heel"
+  },
+  "hsarus' iron stay": {
+    "ko": "사루의 아이언 스테이",
+    "en": "Hsarus' Iron Stay"
+  },
+  "humility": {
+    "ko": "겸손",
+    "en": "Humility"
+  },
+  "hunger": {
+    "ko": "기아",
+    "en": "Hunger"
+  },
+  "husoldal evo": {
+    "ko": "휴솔달 에보",
+    "en": "Husoldal Evo"
+  },
+  "hustle (armor)": {
+    "ko": "투지 (갑옷)",
+    "en": "Hustle (armor)"
+  },
+  "hustle (weapon)": {
+    "ko": "투지 (무기)",
+    "en": "Hustle (weapon)"
+  },
+  "hwanin's justice": {
+    "ko": "한인의 정의",
+    "en": "Hwanin's Justice"
+  },
+  "hwanin's majesty": {
+    "ko": "한인의 위엄",
+    "en": "Hwanin's Majesty"
+  },
+  "hwanin's refuge": {
+    "ko": "한인의 보호",
+    "en": "Hwanin's Refuge"
+  },
+  "hwanin's seal": {
+    "ko": "한인의 축복",
+    "en": "Hwanin's Seal"
+  },
+  "hwanin's splendor": {
+    "ko": "한인의 광채",
+    "en": "Hwanin's Splendor"
+  },
+  "ice": {
+    "ko": "얼음",
+    "en": "Ice"
+  },
+  "iceblink": {
+    "ko": "아이스블링크",
+    "en": "Iceblink"
+  },
+  "ichorsting": {
+    "ko": "아이커스팅",
+    "en": "Ichorsting"
+  },
+  "immortal king": {
+    "ko": "임모틀 킹",
+    "en": "Immortal King"
+  },
+  "immortal king's detail": {
+    "ko": "임모틀 킹의 디테일",
+    "en": "Immortal King's Detail"
+  },
+  "immortal king's forge": {
+    "ko": "임모틀 킹의 포지",
+    "en": "Immortal King's Forge"
+  },
+  "immortal king's pillar": {
+    "ko": "임모틀 킹의 필라",
+    "en": "Immortal King's Pillar"
+  },
+  "immortal king's soul cage": {
+    "ko": "임모틀 킹의 소울 케이지",
+    "en": "Immortal King's Soul Cage"
+  },
+  "immortal king's stone crusher": {
+    "ko": "임모틀 킹의 스톤 크러셔",
+    "en": "Immortal King's Stone Crusher"
+  },
+  "immortal king's will": {
+    "ko": "임모틀 킹의 윌",
+    "en": "Immortal King's Will"
+  },
+  "infernal cranium": {
+    "ko": "인퍼널 크래니엄",
+    "en": "Infernal Cranium"
+  },
+  "infernal sign": {
+    "ko": "인퍼널 싸인",
+    "en": "Infernal Sign"
+  },
+  "infernal tools": {
+    "ko": "인퍼널 툴스",
+    "en": "Infernal Tools"
+  },
+  "infernal torch": {
+    "ko": "인퍼널 토치",
+    "en": "Infernal Torch"
+  },
+  "infernostride": {
+    "ko": "인페르노스트라이드",
+    "en": "Infernostride"
+  },
+  "infinity": {
+    "ko": "무한의 공간",
+    "en": "Infinity"
+  },
+  "innocence": {
+    "ko": "결백",
+    "en": "Innocence"
+  },
+  "insight": {
+    "ko": "통찰력",
+    "en": "Insight"
+  },
+  "iratha's coil": {
+    "ko": "이라사의 코일",
+    "en": "Iratha's Coil"
+  },
+  "iratha's collar": {
+    "ko": "이라사의 칼러",
+    "en": "Iratha's Collar"
+  },
+  "iratha's cord": {
+    "ko": "이라사의 코드",
+    "en": "Iratha's Cord"
+  },
+  "iratha's cuff": {
+    "ko": "이라사의 커프",
+    "en": "Iratha's Cuff"
+  },
+  "iratha's finery": {
+    "ko": "이라사 파이너리",
+    "en": "Iratha's Finery"
+  },
+  "irices shard": {
+    "ko": "스펙트럴 샤드",
+    "en": "Irices Shard"
+  },
+  "ironpelt": {
+    "ko": "아이언 펠트",
+    "en": "Ironpelt"
+  },
+  "ironstone": {
+    "ko": "아이언스톤",
+    "en": "Ironstone"
+  },
+  "ironward": {
+    "ko": "애스트리언의 아이언 워드",
+    "en": "Ironward"
+  },
+  "iros torch": {
+    "ko": "토치 오브 이로",
+    "en": "Iros Torch"
+  },
+  "isenhart's armory": {
+    "ko": "아이젠하트 아머리",
+    "en": "Isenhart's Armory"
+  },
+  "isenhart's case": {
+    "ko": "아이젠하트의 케이스",
+    "en": "Isenhart's Case"
+  },
+  "isenhart's horns": {
+    "ko": "아이젠하트의 혼즈",
+    "en": "Isenhart's Horns"
+  },
+  "isenhart's lightbrand": {
+    "ko": "아이젠하트의 라이트브랜드",
+    "en": "Isenhart's Lightbrand"
+  },
+  "isenhart's parry": {
+    "ko": "아이젠하트의 패리",
+    "en": "Isenhart's Parry"
+  },
+  "islestrike": {
+    "ko": "아일스트라이크",
+    "en": "Islestrike"
+  },
+  "jadetalon": {
+    "ko": "제이드 탈런",
+    "en": "Jadetalon"
+  },
+  "jalal's mane": {
+    "ko": "잘알의 메인",
+    "en": "Jalal's Mane"
+  },
+  "jealousy": {
+    "ko": "질투",
+    "en": "Jealousy"
+  },
+  "judgment": {
+    "ko": "심판",
+    "en": "Judgment"
+  },
+  "kelpie snare": {
+    "ko": "켈피 스네어",
+    "en": "Kelpie Snare"
+  },
+  "kerke's sanctuary": {
+    "ko": "게르크의 생츄어리",
+    "en": "Kerke's Sanctuary"
+  },
+  "khalimflail": {
+    "ko": "칼림스 프레일",
+    "en": "KhalimFlail"
+  },
+  "kinemils awl": {
+    "ko": "키네밀즈 얼",
+    "en": "Kinemils Awl"
+  },
+  "king's grace": {
+    "ko": "왕의 자비",
+    "en": "King's Grace"
+  },
+  "kingslayer": {
+    "ko": "킹슬레이어",
+    "en": "Kingslayer"
+  },
+  "kira's guardian": {
+    "ko": "기라의 가디안",
+    "en": "Kira's Guardian"
+  },
+  "knell striker": {
+    "ko": "넬 스트라이커",
+    "en": "Knell Striker"
+  },
+  "knight's vigil": {
+    "ko": "기사의 불침번",
+    "en": "Knight's Vigil"
+  },
+  "knowledge": {
+    "ko": "지식",
+    "en": "Knowledge"
+  },
+  "krintizs skewer": {
+    "ko": "스큐어 오브 크린티즈",
+    "en": "Krintizs Skewer"
+  },
+  "kuko shakaku": {
+    "ko": "쿠코 샤카쿠",
+    "en": "Kuko Shakaku"
+  },
+  "lacerator": {
+    "ko": "래서레이트",
+    "en": "Lacerator"
+  },
+  "lance guard": {
+    "ko": "랜스 가드",
+    "en": "Lance Guard"
+  },
+  "lance of yaggai": {
+    "ko": "랜스 오브 야가이",
+    "en": "Lance of Yaggai"
+  },
+  "langer briser": {
+    "ko": "랭거 브리저",
+    "en": "Langer Briser"
+  },
+  "larzuk's champion": {
+    "ko": "라주크의 챔피언",
+    "en": "Larzuk's Champion"
+  },
+  "last wish": {
+    "ko": "마지막 소원",
+    "en": "Last Wish"
+  },
+  "latent black cleft": {
+    "ko": "잠복하는 칠흑의 천공",
+    "en": "Latent Black Cleft"
+  },
+  "lavagout": {
+    "ko": "라바 가우트",
+    "en": "Lavagout"
+  },
+  "law": {
+    "ko": "법",
+    "en": "Law"
+  },
+  "lawbringer": {
+    "ko": "법률위반",
+    "en": "Lawbringer"
+  },
+  "laying of hands": {
+    "ko": "레잉 오브 핸즈",
+    "en": "Laying of Hands"
+  },
+  "lazarus spire": {
+    "ko": "스파이어 오브 라자루스",
+    "en": "Lazarus Spire"
+  },
+  "leadcrow": {
+    "ko": "리드크로우",
+    "en": "Leadcrow"
+  },
+  "leaf": {
+    "ko": "꽃잎",
+    "en": "Leaf"
+  },
+  "lenyms cord": {
+    "ko": "레니모",
+    "en": "Lenyms Cord"
+  },
+  "leviathan": {
+    "ko": "레비아탄",
+    "en": "Leviathan"
+  },
+  "lidless wall": {
+    "ko": "리드리스 월",
+    "en": "Lidless Wall"
+  },
+  "lightning": {
+    "ko": "빛",
+    "en": "Lightning"
+  },
+  "lightsabre": {
+    "ko": "라이트세이버",
+    "en": "Lightsabre"
+  },
+  "lionheart": {
+    "ko": "용맹한자",
+    "en": "Lionheart"
+  },
+  "lore": {
+    "ko": "학식",
+    "en": "Lore"
+  },
+  "love": {
+    "ko": "사랑",
+    "en": "Love"
+  },
+  "loyalty": {
+    "ko": "충성",
+    "en": "Loyalty"
+  },
+  "lust": {
+    "ko": "욕망",
+    "en": "Lust"
+  },
+  "lycander's aim": {
+    "ko": "라이캔더의 에임",
+    "en": "Lycander's Aim"
+  },
+  "lycander's flank": {
+    "ko": "라이캔더스 플랭크",
+    "en": "Lycander's Flank"
+  },
+  "m'avina's battle hymn": {
+    "ko": "마비나의 배틀 힘",
+    "en": "M'avina's Battle Hymn"
+  },
+  "m'avina's caster": {
+    "ko": "마비나의 캐스터",
+    "en": "M'avina's Caster"
+  },
+  "m'avina's embrace": {
+    "ko": "마비나의 엠브레스",
+    "en": "M'avina's Embrace"
+  },
+  "m'avina's icy clutch": {
+    "ko": "마비나의 아이시 클러쳐",
+    "en": "M'avina's Icy Clutch"
+  },
+  "m'avina's tenet": {
+    "ko": "마비나의 테너트",
+    "en": "M'avina's Tenet"
+  },
+  "m'avina's true sight": {
+    "ko": "마비나의 트루 사이트",
+    "en": "M'avina's True Sight"
+  },
+  "madness": {
+    "ko": "광기",
+    "en": "Madness"
+  },
+  "maelstromwrath": {
+    "ko": "메일스트럼",
+    "en": "Maelstromwrath"
+  },
+  "magefist": {
+    "ko": "메이지피스트",
+    "en": "Magefist"
+  },
+  "magewrath": {
+    "ko": "메이지래쓰",
+    "en": "Magewrath"
+  },
+  "magnus' skin": {
+    "ko": "메이그너스의 스킨",
+    "en": "Magnus' Skin"
+  },
+  "malevolent": {
+    "ko": "악의적인",
+    "en": "Malevolent"
+  },
+  "malice": {
+    "ko": "원환",
+    "en": "Malice"
+  },
+  "manald heal": {
+    "ko": "머날드 힐",
+    "en": "Manald Heal"
+  },
+  "mang song's lesson": {
+    "ko": "망 송의 레슨",
+    "en": "Mang Song's Lesson"
+  },
+  "mara's kaleidoscope": {
+    "ko": "마라의 컬라이더스코프",
+    "en": "Mara's Kaleidoscope"
+  },
+  "marrowwalk": {
+    "ko": "메로우워커",
+    "en": "Marrowwalk"
+  },
+  "mcauley's folly": {
+    "ko": "샌더의 폴리",
+    "en": "McAuley's Folly"
+  },
+  "mcauley's paragon": {
+    "ko": "샌더의 파라곤",
+    "en": "McAuley's Paragon"
+  },
+  "mcauley's riprap": {
+    "ko": "샌더의 립랩",
+    "en": "McAuley's Riprap"
+  },
+  "mcauley's superstition": {
+    "ko": "샌더의 수퍼스티션",
+    "en": "McAuley's Superstition"
+  },
+  "mcauley's taboo": {
+    "ko": "샌더의 타부",
+    "en": "McAuley's Taboo"
+  },
+  "measured wrath": {
+    "ko": "억제된 분노",
+    "en": "Measured Wrath"
+  },
+  "medusa's gaze": {
+    "ko": "메두사의 게이즈",
+    "en": "Medusa's Gaze"
+  },
+  "melody": {
+    "ko": "멜로디",
+    "en": "Melody"
+  },
+  "memory": {
+    "ko": "기억",
+    "en": "Memory"
+  },
+  "merman's speed": {
+    "ko": "머맨스 스프라킷",
+    "en": "Merman's Speed"
+  },
+  "messerschmidt's reaver": {
+    "ko": "메서슈미트의 리버",
+    "en": "Messerschmidt's Reaver"
+  },
+  "metalgrid": {
+    "ko": "메탈그리드",
+    "en": "Metalgrid"
+  },
+  "metamorphosis": {
+    "ko": "탈태",
+    "en": "Metamorphosis"
+  },
+  "milabrega's diadem": {
+    "ko": "밀라브레가의 다이어뎀",
+    "en": "Milabrega's Diadem"
+  },
+  "milabrega's orb": {
+    "ko": "밀라브레가의 오브",
+    "en": "Milabrega's Orb"
+  },
+  "milabrega's regalia": {
+    "ko": "밀라브레가 리게일리어",
+    "en": "Milabrega's Regalia"
+  },
+  "milabrega's robe": {
+    "ko": "밀라브레가의 로브",
+    "en": "Milabrega's Robe"
+  },
+  "milabrega's rod": {
+    "ko": "밀라브레가의 로드",
+    "en": "Milabrega's Rod"
+  },
+  "mindrend": {
+    "ko": "스컬 스플리터",
+    "en": "Mindrend"
+  },
+  "mist": {
+    "ko": "엷은 안개",
+    "en": "Mist"
+  },
+  "moonfall": {
+    "ko": "문폴",
+    "en": "Moonfall"
+  },
+  "morning": {
+    "ko": "아침",
+    "en": "Morning"
+  },
+  "mosaic": {
+    "ko": "모자이크",
+    "en": "Mosaic"
+  },
+  "mosers blessed circle": {
+    "ko": "모세의 블레스드 서클",
+    "en": "Mosers Blessed Circle"
+  },
+  "mystery": {
+    "ko": "미스테리",
+    "en": "Mystery"
+  },
+  "myth": {
+    "ko": "신화",
+    "en": "Myth"
+  },
+  "nadir": {
+    "ko": "천저",
+    "en": "Nadir"
+  },
+  "nagelring": {
+    "ko": "나겔링",
+    "en": "Nagelring"
+  },
+  "naj's ancient set": {
+    "ko": "나즈 앤션트 베스티지",
+    "en": "Naj's Ancient Set"
+  },
+  "naj's circlet": {
+    "ko": "나즈 서클리트",
+    "en": "Naj's Circlet"
+  },
+  "naj's light plate": {
+    "ko": "나즈 라이트 플레이트",
+    "en": "Naj's Light Plate"
+  },
+  "naj's puzzler": {
+    "ko": "나즈 퍼즐",
+    "en": "Naj's Puzzler"
+  },
+  "natalya's mark": {
+    "ko": "나탈리아의 마크",
+    "en": "Natalya's Mark"
+  },
+  "natalya's odium": {
+    "ko": "나탈리아의 오디엄",
+    "en": "Natalya's Odium"
+  },
+  "natalya's shadow": {
+    "ko": "나탈리아의 쉐도우",
+    "en": "Natalya's Shadow"
+  },
+  "natalya's soul": {
+    "ko": "나탈리아의 소울",
+    "en": "Natalya's Soul"
+  },
+  "natalya's totem": {
+    "ko": "나탈리아의 토템",
+    "en": "Natalya's Totem"
+  },
+  "nature's kingdom": {
+    "ko": "자연의 왕국",
+    "en": "Nature's Kingdom"
+  },
+  "nature's peace": {
+    "ko": "네이춰스 피스",
+    "en": "Nature's Peace"
+  },
+  "nethercrow": {
+    "ko": "네써크로우",
+    "en": "Nethercrow"
+  },
+  "night": {
+    "ko": "밤",
+    "en": "Night"
+  },
+  "nightsmoke": {
+    "ko": "나이트스모크",
+    "en": "Nightsmoke"
+  },
+  "nightwing's veil": {
+    "ko": "나이트윙의 베일",
+    "en": "Nightwing's Veil"
+  },
+  "nokozan relic": {
+    "ko": "노코잔 렐릭",
+    "en": "Nokozan Relic"
+  },
+  "nord's tenderizer": {
+    "ko": "노드의 텐더라이저",
+    "en": "Nord's Tenderizer"
+  },
+  "nosferatu's coil": {
+    "ko": "노스페라투의 코일",
+    "en": "Nosferatu's Coil"
+  },
+  "oath": {
+    "ko": "서약",
+    "en": "Oath"
+  },
+  "obedience": {
+    "ko": "순종",
+    "en": "Obedience"
+  },
+  "oblivion": {
+    "ko": "망각",
+    "en": "Oblivion"
+  },
+  "obsession": {
+    "ko": "집념",
+    "en": "Obsession"
+  },
+  "odium": {
+    "ko": "오우디엄",
+    "en": "Odium"
+  },
+  "of apocalypse": {
+    "ko": "종말의",
+    "en": "of Apocalypse"
+  },
+  "of lethargy": {
+    "ko": "무기력의",
+    "en": "of Lethargy"
+  },
+  "of miasma bolt": {
+    "ko": "독안개 번개의",
+    "en": "of Miasma Bolt"
+  },
+  "of rancor": {
+    "ko": "원한의",
+    "en": "of Rancor"
+  },
+  "ondal's almighty": {
+    "ko": "온달의 사랑",
+    "en": "Ondal's Almighty"
+  },
+  "ondal's wisdom": {
+    "ko": "온달의 지혜",
+    "en": "Ondal's Wisdom"
+  },
+  "opalvein": {
+    "ko": "링",
+    "en": "Opalvein"
+  },
+  "ormus' robes": {
+    "ko": "오르무스 로브",
+    "en": "Ormus' Robes"
+  },
+  "orphan's call": {
+    "ko": "오펀의 콜",
+    "en": "Orphan's Call"
+  },
+  "passion": {
+    "ko": "열정",
+    "en": "Passion"
+  },
+  "patience": {
+    "ko": "인내",
+    "en": "Patience"
+  },
+  "pattern": {
+    "ko": "은어",
+    "en": "Pattern"
+  },
+  "peace": {
+    "ko": "평화",
+    "en": "Peace"
+  },
+  "peasent crown": {
+    "ko": "페전트 크라운",
+    "en": "Peasent Crown"
+  },
+  "pelta lunata": {
+    "ko": "펠타 루나타",
+    "en": "Pelta Lunata"
+  },
+  "penitence": {
+    "ko": "속죄",
+    "en": "Penitence"
+  },
+  "peril": {
+    "ko": "위기",
+    "en": "Peril"
+  },
+  "pestilence": {
+    "ko": "전염병",
+    "en": "Pestilence"
+  },
+  "phoenix": {
+    "ko": "불사조",
+    "en": "Phoenix"
+  },
+  "piercerib": {
+    "ko": "로그스 보우",
+    "en": "Piercerib"
+  },
+  "pierre tombale couant": {
+    "ko": "피에르 톰 콘",
+    "en": "Pierre Tombale Couant"
+  },
+  "piety": {
+    "ko": "경건",
+    "en": "Piety"
+  },
+  "pillar of faith": {
+    "ko": "믿음의 중심",
+    "en": "Pillar of Faith"
+  },
+  "plague": {
+    "ko": "페스트",
+    "en": "Plague"
+  },
+  "plague bearer": {
+    "ko": "플레이그 베어러",
+    "en": "Plague Bearer"
+  },
+  "pluckeye": {
+    "ko": "플럭아이",
+    "en": "Pluckeye"
+  },
+  "pompe's wrath": {
+    "ko": "폼페이의 래쓰",
+    "en": "Pompe's Wrath"
+  },
+  "praise": {
+    "ko": "찬사",
+    "en": "Praise"
+  },
+  "prayer": {
+    "ko": "기원",
+    "en": "Prayer"
+  },
+  "precrafted black cleft": {
+    "ko": "그랜드 차암",
+    "en": "PreCrafted Black Cleft"
+  },
+  "precrafted bone break": {
+    "ko": "그랜드 차암",
+    "en": "PreCrafted Bone Break"
+  },
+  "precrafted cold rupture": {
+    "ko": "그랜드 차암",
+    "en": "PreCrafted Cold Rupture"
+  },
+  "precrafted crack of the heavens": {
+    "ko": "그랜드 차암",
+    "en": "PreCrafted Crack of the Heavens"
+  },
+  "precrafted flame rift": {
+    "ko": "그랜드 차암",
+    "en": "PreCrafted Flame Rift"
+  },
+  "precrafted rotting fissure": {
+    "ko": "그랜드 차암",
+    "en": "PreCrafted Rotting Fissure"
+  },
+  "pride": {
+    "ko": "자존심",
+    "en": "Pride"
+  },
+  "principle": {
+    "ko": "원리원칙",
+    "en": "Principle"
+  },
+  "protector's frost": {
+    "ko": "보호자의 서리",
+    "en": "Protector's Frost"
+  },
+  "protector's stone": {
+    "ko": "보호자의 돌",
+    "en": "Protector's Stone"
+  },
+  "prowess in battle": {
+    "ko": "전장의 역량",
+    "en": "Prowess in Battle"
+  },
+  "prudence": {
+    "ko": "현명",
+    "en": "Prudence"
+  },
+  "pullspite": {
+    "ko": "스톰스트라이크",
+    "en": "Pullspite"
+  },
+  "punishment": {
+    "ko": "처벌",
+    "en": "Punishment"
+  },
+  "purity": {
+    "ko": "순수",
+    "en": "Purity"
+  },
+  "pus spiter": {
+    "ko": "퍼스 스피터",
+    "en": "Pus Spiter"
+  },
+  "que-hegan's wisdon": {
+    "ko": "퀘-히간의 위즈덤",
+    "en": "Que-Hegan's Wisdon"
+  },
+  "question": {
+    "ko": "의문",
+    "en": "Question"
+  },
+  "radiance": {
+    "ko": "찬란한 빛",
+    "en": "Radiance"
+  },
+  "radimant's sphere": {
+    "ko": "라다만트의 스피어",
+    "en": "Radimant's Sphere"
+  },
+  "rain": {
+    "ko": "비",
+    "en": "Rain"
+  },
+  "rainbow facet": {
+    "ko": "레인보우 패시트",
+    "en": "Rainbow Facet"
+  },
+  "rakescar": {
+    "ko": "레이크스카",
+    "en": "Rakescar"
+  },
+  "rattlecage": {
+    "ko": "래틀케이지",
+    "en": "Rattlecage"
+  },
+  "raven frost": {
+    "ko": "레이븐 프로스트",
+    "en": "Raven Frost"
+  },
+  "ravenlore": {
+    "ko": "레이븐로어",
+    "en": "Ravenlore"
+  },
+  "razoredge": {
+    "ko": "레이저스 엣지",
+    "en": "Razoredge"
+  },
+  "razorswitch": {
+    "ko": "레이저스위치",
+    "en": "Razorswitch"
+  },
+  "razortail": {
+    "ko": "레이저테일",
+    "en": "Razortail"
+  },
+  "razortine": {
+    "ko": "레이저타인",
+    "en": "Razortine"
+  },
+  "reason": {
+    "ko": "변명",
+    "en": "Reason"
+  },
+  "red": {
+    "ko": "레드",
+    "en": "Red"
+  },
+  "renewed black cleft": {
+    "ko": "새로워진 칠흑의 천공",
+    "en": "Renewed Black Cleft"
+  },
+  "revenge": {
+    "ko": "복수",
+    "en": "Revenge"
+  },
+  "rhyme": {
+    "ko": "제왕 운시",
+    "en": "Rhyme"
+  },
+  "ribcracker": {
+    "ko": "립크래커",
+    "en": "Ribcracker"
+  },
+  "rift": {
+    "ko": "균열",
+    "en": "Rift"
+  },
+  "rimeraven": {
+    "ko": "레이븐 클러",
+    "en": "Rimeraven"
+  },
+  "riphook": {
+    "ko": "립후크",
+    "en": "Riphook"
+  },
+  "ripsaw": {
+    "ko": "립서어",
+    "en": "Ripsaw"
+  },
+  "rite of passage": {
+    "ko": "고대인의 통과의례",
+    "en": "Rite of Passage"
+  },
+  "ritual": {
+    "ko": "의식",
+    "en": "Ritual"
+  },
+  "rixots keen": {
+    "ko": "릭잣즈 킨",
+    "en": "Rixots Keen"
+  },
+  "rockfleece": {
+    "ko": "락플리스",
+    "en": "Rockfleece"
+  },
+  "rockstopper": {
+    "ko": "록스토퍼",
+    "en": "Rockstopper"
+  },
+  "rotting fissure": {
+    "ko": "부패의 분열",
+    "en": "Rotting Fissure"
+  },
+  "runemaster": {
+    "ko": "룬 마스터",
+    "en": "Runemaster"
+  },
+  "rusthandle": {
+    "ko": "러스트 핸들",
+    "en": "Rusthandle"
+  },
+  "sanctuary": {
+    "ko": "성역",
+    "en": "Sanctuary"
+  },
+  "sandstorm trek": {
+    "ko": "샌드스톰 트랙",
+    "en": "Sandstorm Trek"
+  },
+  "saracen's chance": {
+    "ko": "사라센의 찬스",
+    "en": "Saracen's Chance"
+  },
+  "sazabi's cobalt redeemer": {
+    "ko": "사자바이의 코발트 리디머르",
+    "en": "Sazabi's Cobalt Redeemer"
+  },
+  "sazabi's ghost liberator": {
+    "ko": "사자바이의 고스트 리버레이터",
+    "en": "Sazabi's Ghost Liberator"
+  },
+  "sazabi's grand tribute": {
+    "ko": "사자바이의 그랜드 트라이뷰트",
+    "en": "Sazabi's Grand Tribute"
+  },
+  "sazabi's mental sheath": {
+    "ko": "사자바이의 멘틀 쉬쓰",
+    "en": "Sazabi's Mental Sheath"
+  },
+  "schaefer's hammer": {
+    "ko": "쉐퍼의 해머",
+    "en": "Schaefer's Hammer"
+  },
+  "seraph's hymn": {
+    "ko": "세라프의 힘",
+    "en": "Seraph's Hymn"
+  },
+  "serendipity": {
+    "ko": "세런디퍼티",
+    "en": "Serendipity"
+  },
+  "serpent lord": {
+    "ko": "서펀트 로드",
+    "en": "Serpent Lord"
+  },
+  "shadow": {
+    "ko": "그림자",
+    "en": "Shadow"
+  },
+  "shadow of doubt": {
+    "ko": "의심의 그림자",
+    "en": "Shadow of Doubt"
+  },
+  "shadowdancer": {
+    "ko": "쉐도우 댄서",
+    "en": "Shadowdancer"
+  },
+  "shadowfang": {
+    "ko": "쉐도우팽",
+    "en": "Shadowfang"
+  },
+  "shadowkiller": {
+    "ko": "쉐도우 킬러",
+    "en": "Shadowkiller"
+  },
+  "shaftstop": {
+    "ko": "샤프트스톱",
+    "en": "Shaftstop"
+  },
+  "sigon's complete steel": {
+    "ko": "사이곤 컴플릿스틸",
+    "en": "Sigon's Complete Steel"
+  },
+  "sigon's gage": {
+    "ko": "사이곤의 게이지",
+    "en": "Sigon's Gage"
+  },
+  "sigon's guard": {
+    "ko": "사이곤의 가드",
+    "en": "Sigon's Guard"
+  },
+  "sigon's sabot": {
+    "ko": "사이곤의 새보우",
+    "en": "Sigon's Sabot"
+  },
+  "sigon's shelter": {
+    "ko": "사이곤의 쉘터",
+    "en": "Sigon's Shelter"
+  },
+  "sigon's visor": {
+    "ko": "사이곤의 바이저",
+    "en": "Sigon's Visor"
+  },
+  "sigon's wrap": {
+    "ko": "사이곤의 랩",
+    "en": "Sigon's Wrap"
+  },
+  "sigurd's staunch": {
+    "ko": "시가드의 스텔스",
+    "en": "Sigurd's Staunch"
+  },
+  "silence": {
+    "ko": "침묵",
+    "en": "Silence"
+  },
+  "silkweave": {
+    "ko": "실크위버",
+    "en": "Silkweave"
+  },
+  "siren's song": {
+    "ko": "사이렌의 노래",
+    "en": "Siren's Song"
+  },
+  "skin of the flayerd one": {
+    "ko": "스킨 오브 플라이드 원",
+    "en": "Skin of the Flayerd One"
+  },
+  "skin of the vipermagi": {
+    "ko": "스킨 오브 바이퍼마이자이",
+    "en": "Skin of the Vipermagi"
+  },
+  "skullcollector": {
+    "ko": "스컬 콜렉터",
+    "en": "Skullcollector"
+  },
+  "skullder's ire": {
+    "ko": "스컬더의 아이어",
+    "en": "Skullder's Ire"
+  },
+  "skystrike": {
+    "ko": "스카이스트라이크",
+    "en": "Skystrike"
+  },
+  "sling": {
+    "ko": "링",
+    "en": "Sling"
+  },
+  "smoke": {
+    "ko": "연기",
+    "en": "Smoke"
+  },
+  "snakecord": {
+    "ko": "스네이크코드",
+    "en": "Snakecord"
+  },
+  "snowclash": {
+    "ko": "스노우클래쉬",
+    "en": "Snowclash"
+  },
+  "sorrow": {
+    "ko": "소로우",
+    "en": "Sorrow"
+  },
+  "soul harvest": {
+    "ko": "소울 하베스트",
+    "en": "Soul Harvest"
+  },
+  "souldrain": {
+    "ko": "소울 드레이너",
+    "en": "Souldrain"
+  },
+  "soulfeast tine": {
+    "ko": "소울피스트 타인",
+    "en": "Soulfeast Tine"
+  },
+  "soulflay": {
+    "ko": "소울플레이",
+    "en": "Soulflay"
+  },
+  "sparking mail": {
+    "ko": "스파킹 메일",
+    "en": "Sparking Mail"
+  },
+  "spellsteel": {
+    "ko": "스펠스틸",
+    "en": "Spellsteel"
+  },
+  "spike thorn": {
+    "ko": "스파이크 쏜",
+    "en": "Spike Thorn"
+  },
+  "spineripper": {
+    "ko": "스파인리퍼",
+    "en": "Spineripper"
+  },
+  "spire of honor": {
+    "ko": "스파이어 오브 아너",
+    "en": "Spire of Honor"
+  },
+  "spirit": {
+    "ko": "스피리트",
+    "en": "Spirit"
+  },
+  "spirit ward": {
+    "ko": "스피리트 워드",
+    "en": "Spirit Ward"
+  },
+  "spiritforge": {
+    "ko": "스피리트 포지",
+    "en": "Spiritforge"
+  },
+  "spiritkeeper": {
+    "ko": "스피리트 키퍼",
+    "en": "Spiritkeeper"
+  },
+  "spiritual custodian": {
+    "ko": "다크 애드히어런트",
+    "en": "Spiritual Custodian"
+  },
+  "splendor": {
+    "ko": "스플렌더",
+    "en": "Splendor"
+  },
+  "staff of kings": {
+    "ko": "스태프 오브 킹스",
+    "en": "Staff of Kings"
+  },
+  "starlight": {
+    "ko": "스타라이트",
+    "en": "Starlight"
+  },
+  "stealskull": {
+    "ko": "스틸스컬",
+    "en": "Stealskull"
+  },
+  "stealth": {
+    "ko": "스텔스",
+    "en": "Stealth"
+  },
+  "steel": {
+    "ko": "스틸",
+    "en": "Steel"
+  },
+  "steel carapice": {
+    "ko": "스틸 캐러패이스",
+    "en": "Steel Carapice"
+  },
+  "steelclash": {
+    "ko": "스틸클래쉬",
+    "en": "Steelclash"
+  },
+  "steeldriver": {
+    "ko": "스틸드라이버",
+    "en": "Steeldriver"
+  },
+  "steelgoad": {
+    "ko": "스틸고드",
+    "en": "Steelgoad"
+  },
+  "steelpillar": {
+    "ko": "스틸 필라",
+    "en": "Steelpillar"
+  },
+  "steelrend": {
+    "ko": "스틸렌드",
+    "en": "Steelrend"
+  },
+  "steelshade": {
+    "ko": "스틸 쉐이드",
+    "en": "Steelshade"
+  },
+  "still water": {
+    "ko": "스틸 워터",
+    "en": "Still Water"
+  },
+  "sting": {
+    "ko": "스팅",
+    "en": "Sting"
+  },
+  "stone": {
+    "ko": "스톤",
+    "en": "Stone"
+  },
+  "stone crusher": {
+    "ko": "스톤 크러셔",
+    "en": "Stone Crusher"
+  },
+  "stoneraven": {
+    "ko": "스톤레이븐",
+    "en": "Stoneraven"
+  },
+  "storm": {
+    "ko": "스톰",
+    "en": "Storm"
+  },
+  "stormchaser": {
+    "ko": "스톰체이서",
+    "en": "Stormchaser"
+  },
+  "stormeye": {
+    "ko": "스톰아이",
+    "en": "Stormeye"
+  },
+  "stormguild": {
+    "ko": "스톰길드",
+    "en": "Stormguild"
+  },
+  "stormlash": {
+    "ko": "스톰래쉬",
+    "en": "Stormlash"
+  },
+  "stormrider": {
+    "ko": "스톰라이더",
+    "en": "Stormrider"
+  },
+  "stormshield": {
+    "ko": "스톰쉴드",
+    "en": "Stormshield"
+  },
+  "stormspike": {
+    "ko": "스톰스파이크",
+    "en": "Stormspike"
+  },
+  "stormspire": {
+    "ko": "스톰스파이어",
+    "en": "Stormspire"
+  },
+  "stoutnail": {
+    "ko": "스타우트네일",
+    "en": "Stoutnail"
+  },
+  "strength": {
+    "ko": "스트랭쓰",
+    "en": "Strength"
+  },
+  "string of ears": {
+    "ko": "스트링 오브 이어스",
+    "en": "String of Ears"
+  },
+  "suicide branch": {
+    "ko": "수어사이드 브랜치",
+    "en": "Suicide Branch"
+  },
+  "sullied": {
+    "ko": "더럽혀진",
+    "en": "Sullied"
+  },
+  "superkhalimflail": {
+    "ko": "칼림스 윌",
+    "en": "SuperKhalimFlail"
+  },
+  "sureshrill frost": {
+    "ko": "수어쉬릴 프로스트",
+    "en": "Sureshrill Frost"
+  },
+  "swordback hold": {
+    "ko": "소드백 홀드",
+    "en": "Swordback Hold"
+  },
+  "swordguard": {
+    "ko": "소드가드",
+    "en": "Swordguard"
+  },
+  "taintedaffix": {
+    "ko": "오염된",
+    "en": "TaintedAffix"
+  },
+  "tal rasha's adjudication": {
+    "ko": "탈 라샤의 어쥬디케이션",
+    "en": "Tal Rasha's Adjudication"
+  },
+  "tal rasha's fire-spun cloth": {
+    "ko": "탈 라샤의 파인-스펀 클로쓰",
+    "en": "Tal Rasha's Fire-Spun Cloth"
+  },
+  "tal rasha's horadric crest": {
+    "ko": "탈 라샤의 호라드릭 크레스트",
+    "en": "Tal Rasha's Horadric Crest"
+  },
+  "tal rasha's howling wind": {
+    "ko": "탈 라샤의 가이언쉽",
+    "en": "Tal Rasha's Howling Wind"
+  },
+  "tal rasha's lidless eye": {
+    "ko": "탈 라샤의 리드리스 아이",
+    "en": "Tal Rasha's Lidless Eye"
+  },
+  "tal rasha's wrappings": {
+    "ko": "탈 라샤의 래핑스",
+    "en": "Tal Rasha's Wrappings"
+  },
+  "tancred's battlegear": {
+    "ko": "탄크레드 배틀기어",
+    "en": "Tancred's Battlegear"
+  },
+  "tancred's crowbill": {
+    "ko": "탄크레드의 크로우빌",
+    "en": "Tancred's Crowbill"
+  },
+  "tancred's hobnails": {
+    "ko": "탄크레드의 헙네일즈",
+    "en": "Tancred's Hobnails"
+  },
+  "tancred's skull": {
+    "ko": "탄크레드의 스컬",
+    "en": "Tancred's Skull"
+  },
+  "tancred's spine": {
+    "ko": "탄크레드의 스파인",
+    "en": "Tancred's Spine"
+  },
+  "tancred's weird": {
+    "ko": "탄크레드의 와이어드",
+    "en": "Tancred's Weird"
+  },
+  "tarnhelm": {
+    "ko": "탄헬름",
+    "en": "Tarnhelm"
+  },
+  "tearhaunch": {
+    "ko": "티어헌치",
+    "en": "Tearhaunch"
+  },
+  "telling of beads": {
+    "ko": "텔링 오브 비드",
+    "en": "Telling of Beads"
+  },
+  "temper": {
+    "ko": "담금질",
+    "en": "Temper"
+  },
+  "tempest": {
+    "ko": "템페스트",
+    "en": "Tempest"
+  },
+  "templar's might": {
+    "ko": "템플러의 마이트",
+    "en": "Templar's Might"
+  },
+  "temptation": {
+    "ko": "템프테이션",
+    "en": "Temptation"
+  },
+  "terror": {
+    "ko": "테러",
+    "en": "Terror"
+  },
+  "the atlantian": {
+    "ko": "애틀랜티언",
+    "en": "The Atlantian"
+  },
+  "the battlebranch": {
+    "ko": "더 배틀브랜치",
+    "en": "The Battlebranch"
+  },
+  "the cat's eye": {
+    "ko": "캐츠 아이",
+    "en": "The Cat's Eye"
+  },
+  "the centurion": {
+    "ko": "더 센츄리언",
+    "en": "The Centurion"
+  },
+  "the chieftan": {
+    "ko": "더 치프턴",
+    "en": "The Chieftan"
+  },
+  "the cranium basher": {
+    "ko": "크레이니엄 배셔",
+    "en": "The Cranium Basher"
+  },
+  "the diggler": {
+    "ko": "더 디글러",
+    "en": "The Diggler"
+  },
+  "the disciple": {
+    "ko": "디싸이플",
+    "en": "The Disciple"
+  },
+  "the dragon chang": {
+    "ko": "운사의 용봉창",
+    "en": "The Dragon Chang"
+  },
+  "the eye of etlich": {
+    "ko": "더 아이 오브 에틀릭",
+    "en": "The Eye of Etlich"
+  },
+  "the face of horror": {
+    "ko": "더 페이스 오브 호러",
+    "en": "The Face of Horror"
+  },
+  "the fetid sprinkler": {
+    "ko": "페티드 스프링클러",
+    "en": "The Fetid Sprinkler"
+  },
+  "the gavel of pain": {
+    "ko": "게벌 오브 페인",
+    "en": "The Gavel of Pain"
+  },
+  "the generals tan do li ga": {
+    "ko": "치우천왕의 철퇴",
+    "en": "The Generals Tan Do Li Ga"
+  },
+  "the gladiator's bane": {
+    "ko": "글래디에이터의 베인",
+    "en": "The Gladiator's Bane"
+  },
+  "the gnasher": {
+    "ko": "더 내셔",
+    "en": "The Gnasher"
+  },
+  "the grandfather": {
+    "ko": "그랜드파더",
+    "en": "The Grandfather"
+  },
+  "the grim reaper": {
+    "ko": "더 그림 리퍼",
+    "en": "The Grim Reaper"
+  },
+  "the hand of broc": {
+    "ko": "더 헨드 오브 브록",
+    "en": "The Hand of Broc"
+  },
+  "the humongous": {
+    "ko": "휴멍거스",
+    "en": "The Humongous"
+  },
+  "the impaler": {
+    "ko": "임페일러",
+    "en": "The Impaler"
+  },
+  "the iron jang bong": {
+    "ko": "풍사의 철장봉",
+    "en": "The Iron Jang Bong"
+  },
+  "the jade tan do": {
+    "ko": "아사달의 단도",
+    "en": "The Jade Tan Do"
+  },
+  "the mahim-oak curio": {
+    "ko": "더 마힘 오크 큐리오우",
+    "en": "The Mahim-Oak Curio"
+  },
+  "the meat scraper": {
+    "ko": "미트 스크레이퍼",
+    "en": "The Meat Scraper"
+  },
+  "the minataur": {
+    "ko": "미노타우로스",
+    "en": "The Minataur"
+  },
+  "the oculus": {
+    "ko": "오큘러스",
+    "en": "The Oculus"
+  },
+  "the patriarch": {
+    "ko": "더 페이트리악",
+    "en": "The Patriarch"
+  },
+  "the reaper's toll": {
+    "ko": "리퍼스 톨",
+    "en": "The Reaper's Toll"
+  },
+  "the reedeemer": {
+    "ko": "리디머르",
+    "en": "The Reedeemer"
+  },
+  "the rising sun": {
+    "ko": "라이징 선",
+    "en": "The Rising Sun"
+  },
+  "the salamander": {
+    "ko": "더 샐러맨더",
+    "en": "The Salamander"
+  },
+  "the scalper": {
+    "ko": "스캘퍼",
+    "en": "The Scalper"
+  },
+  "the spirit shroud": {
+    "ko": "스피리트 슈라우드",
+    "en": "The Spirit Shroud"
+  },
+  "the stone of jordan": {
+    "ko": "더 스톤 오브 조던",
+    "en": "The Stone of Jordan"
+  },
+  "the tannr gorerod": {
+    "ko": "더 탄르 고어라드",
+    "en": "The Tannr Gorerod"
+  },
+  "the vile husk": {
+    "ko": "바일 하스크",
+    "en": "The Vile Husk"
+  },
+  "the ward": {
+    "ko": "더 워드",
+    "en": "The Ward"
+  },
+  "thirst": {
+    "ko": "써스트",
+    "en": "Thirst"
+  },
+  "thought": {
+    "ko": "쏘우트",
+    "en": "Thought"
+  },
+  "thudergod's vigor": {
+    "ko": "선더갓의 비거",
+    "en": "Thudergod's Vigor"
+  },
+  "thunder": {
+    "ko": "선더",
+    "en": "Thunder"
+  },
+  "thunderstroke": {
+    "ko": "선더스트로크",
+    "en": "Thunderstroke"
+  },
+  "tiamat's rebuke": {
+    "ko": "티아마트의 리뷰크",
+    "en": "Tiamat's Rebuke"
+  },
+  "time": {
+    "ko": "타임",
+    "en": "Time"
+  },
+  "titan's revenge": {
+    "ko": "타이탄의 리벤지",
+    "en": "Titan's Revenge"
+  },
+  "todesfaelle flamme": {
+    "ko": "토즈팰러 플렘",
+    "en": "Todesfaelle Flamme"
+  },
+  "tomb reaver": {
+    "ko": "툼 리버",
+    "en": "Tomb Reaver"
+  },
+  "toothrow": {
+    "ko": "투쓰로",
+    "en": "Toothrow"
+  },
+  "torrid": {
+    "ko": "작열하는",
+    "en": "Torrid"
+  },
+  "tradition": {
+    "ko": "트래디션",
+    "en": "Tradition"
+  },
+  "trang-oul's avatar": {
+    "ko": "트랑-울의 아바타",
+    "en": "Trang-Oul's Avatar"
+  },
+  "trang-oul's claws": {
+    "ko": "트랑-울의 클러스",
+    "en": "Trang-Oul's Claws"
+  },
+  "trang-oul's girth": {
+    "ko": "트랑-울의 거즈",
+    "en": "Trang-Oul's Girth"
+  },
+  "trang-oul's guise": {
+    "ko": "트랑-울의 가이즈",
+    "en": "Trang-Oul's Guise"
+  },
+  "trang-oul's scales": {
+    "ko": "트랑-울의 스케일스",
+    "en": "Trang-Oul's Scales"
+  },
+  "trang-oul's wing": {
+    "ko": "트랑-울의 윙",
+    "en": "Trang-Oul's Wing"
+  },
+  "treachery": {
+    "ko": "트랫셔리",
+    "en": "Treachery"
+  },
+  "treads of cthon": {
+    "ko": "트레츠 오브 크던",
+    "en": "Treads of Cthon"
+  },
+  "trust": {
+    "ko": "트러스트",
+    "en": "Trust"
+  },
+  "truth": {
+    "ko": "트루쓰",
+    "en": "Truth"
+  },
+  "twitchthroe": {
+    "ko": "트윗치쓰로",
+    "en": "Twitchthroe"
+  },
+  "tyrael's might": {
+    "ko": "티리얼의 마이트",
+    "en": "Tyrael's Might"
+  },
+  "umbral disk": {
+    "ko": "엄브럴 디스크",
+    "en": "Umbral Disk"
+  },
+  "umes lament": {
+    "ko": "우메즈 러먼트",
+    "en": "Umes Lament"
+  },
+  "unbending": {
+    "ko": "불굴",
+    "en": "Unbending"
+  },
+  "unbending will": {
+    "ko": "언벤딩 윌",
+    "en": "Unbending Will"
+  },
+  "undead crown": {
+    "ko": "언데드 크라운",
+    "en": "Undead Crown"
+  },
+  "unique warlock helm": {
+    "ko": "데스마스크",
+    "en": "Unique Warlock Helm"
+  },
+  "valkiry wing": {
+    "ko": "발키리 윙",
+    "en": "Valkiry Wing"
+  },
+  "valor": {
+    "ko": "밸러",
+    "en": "Valor"
+  },
+  "vampiregaze": {
+    "ko": "뱀파이어 게이즈",
+    "en": "Vampiregaze"
+  },
+  "veil of steel": {
+    "ko": "베일 오브 스틸",
+    "en": "Veil of Steel"
+  },
+  "vengeance": {
+    "ko": "벤전스",
+    "en": "Vengeance"
+  },
+  "venom": {
+    "ko": "베넘",
+    "en": "Venom"
+  },
+  "venom grip": {
+    "ko": "베넘 그립",
+    "en": "Venom Grip"
+  },
+  "venomsward": {
+    "ko": "베넘 워드",
+    "en": "Venomsward"
+  },
+  "verdugo's hearty cord": {
+    "ko": "베르던고의 하티 코드",
+    "en": "Verdugo's Hearty Cord"
+  },
+  "victors silk": {
+    "ko": "실크 오브 빅터",
+    "en": "Victors Silk"
+  },
+  "victory": {
+    "ko": "빅토리",
+    "en": "Victory"
+  },
+  "vidala's ambush": {
+    "ko": "비달라의 앰부쉬",
+    "en": "Vidala's Ambush"
+  },
+  "vidala's barb": {
+    "ko": "비달라의 바아브",
+    "en": "Vidala's Barb"
+  },
+  "vidala's fetlock": {
+    "ko": "비달라의 페트락",
+    "en": "Vidala's Fetlock"
+  },
+  "vidala's rig": {
+    "ko": "비달라 리그",
+    "en": "Vidala's Rig"
+  },
+  "vidala's snare": {
+    "ko": "비달라의 스네어",
+    "en": "Vidala's Snare"
+  },
+  "vigilance": {
+    "ko": "경계",
+    "en": "Vigilance"
+  },
+  "viperfork": {
+    "ko": "바이퍼포크",
+    "en": "Viperfork"
+  },
+  "visceratuant": {
+    "ko": "비서러턴트",
+    "en": "Visceratuant"
+  },
+  "voice": {
+    "ko": "보이스",
+    "en": "Voice"
+  },
+  "voice of reason": {
+    "ko": "이유있는 항변",
+    "en": "Voice of Reason"
+  },
+  "void": {
+    "ko": "보이드",
+    "en": "Void"
+  },
+  "wall of the eyeless": {
+    "ko": "월 오브 디 아이리스",
+    "en": "Wall of the Eyeless"
+  },
+  "war": {
+    "ko": "워",
+    "en": "War"
+  },
+  "war bonnet": {
+    "ko": "비긴즈 보넷",
+    "en": "War Bonnet"
+  },
+  "warlord's authority": {
+    "ko": "군주의 권위",
+    "en": "Warlord's Authority"
+  },
+  "warlord's conquest": {
+    "ko": "군주의 정복",
+    "en": "Warlord's Conquest"
+  },
+  "warlord's crushers": {
+    "ko": "군주의 분쇄자",
+    "en": "Warlord's Crushers"
+  },
+  "warlord's glory": {
+    "ko": "군주의 영광",
+    "en": "Warlord's Glory"
+  },
+  "warlord's lust": {
+    "ko": "군주의 욕망",
+    "en": "Warlord's Lust"
+  },
+  "warlord's mantle": {
+    "ko": "군주의 망토",
+    "en": "Warlord's Mantle"
+  },
+  "warlord's trust": {
+    "ko": "워로드의 트러스트",
+    "en": "Warlord's Trust"
+  },
+  "warpspear": {
+    "ko": "워프스피어",
+    "en": "Warpspear"
+  },
+  "warriv's warder": {
+    "ko": "와리브의 워더",
+    "en": "Warriv's Warder"
+  },
+  "warshrike": {
+    "ko": "워슈라이크",
+    "en": "Warshrike"
+  },
+  "wartraveler": {
+    "ko": "워 트래블러",
+    "en": "Wartraveler"
+  },
+  "water": {
+    "ko": "워터",
+    "en": "Water"
+  },
+  "waterwalk": {
+    "ko": "워터워크",
+    "en": "Waterwalk"
+  },
+  "wealth": {
+    "ko": "웰쓰",
+    "en": "Wealth"
+  },
+  "whichwild string": {
+    "ko": "윗치와일드 스트링",
+    "en": "Whichwild String"
+  },
+  "whisper": {
+    "ko": "휘스퍼",
+    "en": "Whisper"
+  },
+  "white": {
+    "ko": "화이트",
+    "en": "White"
+  },
+  "widowmaker": {
+    "ko": "위도우메이커",
+    "en": "Widowmaker"
+  },
+  "wihtstan's guard": {
+    "ko": "위트스탄의 가드",
+    "en": "Wihtstan's Guard"
+  },
+  "wilhelm's pride": {
+    "ko": "빌헬름의 프라이드",
+    "en": "Wilhelm's Pride"
+  },
+  "wind": {
+    "ko": "윈드",
+    "en": "Wind"
+  },
+  "windforce": {
+    "ko": "윈드포스",
+    "en": "Windforce"
+  },
+  "windhammer": {
+    "ko": "윈드해머",
+    "en": "Windhammer"
+  },
+  "wings of hope": {
+    "ko": "윙스 오브 호프",
+    "en": "Wings of Hope"
+  },
+  "wisdom": {
+    "ko": "지혜",
+    "en": "Wisdom"
+  },
+  "wisp": {
+    "ko": "위스프 프로젝터",
+    "en": "Wisp"
+  },
+  "witherstring": {
+    "ko": "위더스트링",
+    "en": "Witherstring"
+  },
+  "wizardspike": {
+    "ko": "위저드스파이크",
+    "en": "Wizardspike"
+  },
+  "wizendraw": {
+    "ko": "위즌드로우",
+    "en": "Wizendraw"
+  },
+  "woe": {
+    "ko": "우우",
+    "en": "Woe"
+  },
+  "woestave": {
+    "ko": "워스테이브",
+    "en": "Woestave"
+  },
+  "wolfhowl": {
+    "ko": "울프하울",
+    "en": "Wolfhowl"
+  },
+  "wonder": {
+    "ko": "원더",
+    "en": "Wonder"
+  },
+  "wormskull": {
+    "ko": "웜스컬",
+    "en": "Wormskull"
+  },
+  "wraithflight": {
+    "ko": "레이쓰 플라이트",
+    "en": "Wraithflight"
+  },
+  "wraithstep": {
+    "ko": "미러드 부츠",
+    "en": "Wraithstep"
+  },
+  "wrath": {
+    "ko": "래쓰",
+    "en": "Wrath"
+  },
+  "youth": {
+    "ko": "유쓰",
+    "en": "Youth"
+  },
+  "zakarum's hand": {
+    "ko": "자카럼의 핸드",
+    "en": "Zakarum's Hand"
+  },
+  "zakarum's salvation": {
+    "ko": "자카럼의 셀베이션",
+    "en": "Zakarum's Salvation"
+  },
+  "zephyr": {
+    "ko": "제퍼",
+    "en": "Zephyr"
+  }
+}

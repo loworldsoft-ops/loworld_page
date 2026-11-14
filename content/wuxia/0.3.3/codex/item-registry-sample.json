@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "baseItems": [],
+  "uniques": [
+    {
+      "id": "lw_unique_sealed_echo",
+      "name": "봉인된 메아리",
+      "baseItemId": "crystal-sword",
+      "type": "weapon",
+      "rarity": "unique",
+      "requiredLevel": 12,
+      "ilvl": 12,
+      "iconEntryId": "weapon-crystal-01",
+      "flavorText": "검날에 새겨진 문양이 비명처럼 울린다.",
+      "stats": [
+        {
+          "label": "피해",
+          "value": 18
+        },
+        {
+          "label": "마나 흡수",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "lw_unique_ash_oath_blade",
+      "name": "그을린 서약검",
+      "baseItemId": "sword-03",
+      "type": "weapon",
+      "rarity": "unique",
+      "requiredLevel": 8,
+      "iconEntryId": "weapon-sword-03",
+      "stats": [
+        {
+          "label": "피해",
+          "value": 14
+        },
+        {
+          "label": "화염 저항",
+          "value": 15
+        }
+      ]
+    }
+  ],
+  "setDefs": [
+    {
+      "id": "lw_set_ash_oath",
+      "name": "그을린 서약",
+      "pieceIds": [
+        "lw_set_ash_gloves",
+        "lw_set_ash_belt",
+        "lw_set_ash_boots"
+      ],
+      "tiers": [
+        {
+          "pieces": 2,
+          "label": "2피스",
+          "stats": [
+            {
+              "label": "화염 저항",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "pieces": 3,
+          "label": "3피스",
+          "stats": [
+            {
+              "label": "공격력",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "setPieces": [
+    {
+      "id": "lw_set_ash_gloves",
+      "setId": "lw_set_ash_oath",
+      "name": "그을린 서약 장갑",
+      "baseItemId": "gloves-01",
+      "type": "gloves",
+      "requiredLevel": 6,
+      "iconEntryId": "gloves-gauntlet-01",
+      "stats": [
+        {
+          "label": "방어",
+          "value": 8
+        },
+        {
+          "label": "힘",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "lw_set_ash_belt",
+      "setId": "lw_set_ash_oath",
+      "name": "그을린 서약 벨트",
+      "baseItemId": "belt-01",
+      "type": "belt",
+      "requiredLevel": 8,
+      "iconEntryId": "belt-sash-01",
+      "stats": [
+        {
+          "label": "활력",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "id": "lw_set_ash_boots",
+      "setId": "lw_set_ash_oath",
+      "name": "그을린 서약 장화",
+      "baseItemId": "boots-01",
+      "type": "boots",
+      "requiredLevel": 10,
+      "iconEntryId": "boots-cloth-01",
+      "stats": [
+        {
+          "label": "이동",
+          "value": 10
+        }
+      ]
+    }
+  ],
+  "affixes": [
+    {
+      "id": "lw_affix_sharp",
+      "kind": "affix_prefix",
+      "group": "sharp",
+      "name": "날카로운",
+      "requiredLevel": 4,
+      "stats": [
+        {
+          "label": "피해",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "lw_affix_of_bear",
+      "kind": "affix_suffix",
+      "group": "bear",
+      "name": "of 곰",
+      "requiredLevel": 6,
+      "stats": [
+        {
+          "label": "활력",
+          "value": 8
+        }
+      ]
+    }
+  ],
+  "runes": [
+    {
+      "id": "lw_rune_el",
+      "name": "엘 룬",
+      "code": "r01",
+      "kind": "rune",
+      "stats": [
+        {
+          "label": "무기 명중",
+          "value": 50
+        },
+        {
+          "label": "방패 방어",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "id": "lw_rune_tir",
+      "name": "티르 룬",
+      "code": "r03",
+      "kind": "rune",
+      "stats": [
+        {
+          "label": "처치 시 마나",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "gems": [
+    {
+      "id": "lw_gem_chipped_ruby",
+      "name": "최하급 루비",
+      "code": "gcr",
+      "kind": "gem",
+      "stats": [
+        {
+          "label": "무기 화염 피해",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "runewords": [
+    {
+      "id": "lw_rw_hidden_path",
+      "name": "은밀한 길",
+      "runeSequence": "TirEl",
+      "runeCodes": [
+        "r03",
+        "r01"
+      ],
+      "itemTypes": [
+        "armor",
+        "shield"
+      ],
+      "complete": true,
+      "stats": [
+        {
+          "label": "마나 회복",
+          "value": 5
+        },
+        {
+          "label": "이동 속도(%)",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "id": "lw_rw_steel_ward",
+      "name": "강철 수호",
+      "runeSequence": "ElEl",
+      "runeCodes": [
+        "r01",
+        "r01"
+      ],
+      "itemTypes": [
+        "shield"
+      ],
+      "complete": true,
+      "stats": [
+        {
+          "label": "방어",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "lw_rw_placeholder",
+      "name": "(미적용) 고대 서약",
+      "runeSequence": "???",
+      "runeCodes": [],
+      "itemTypes": [
+        "weapon"
+      ],
+      "complete": false,
+      "stats": []
+    }
+  ],
+  "cubeRecipes": [
+    {
+      "id": "salvage_to_gold",
+      "name": "분해 → 골드",
+      "summary": "일반 장비 1개를 골드로 변환 (Artifice Cube Phase 1)"
+    },
+    {
+      "id": "upgrade_magic_weapon",
+      "name": "마법 무기 승급",
+      "summary": "마법 무기 1개 → 상위 희귀도 후보 (Phase 1)"
+    }
+  ]
+}
